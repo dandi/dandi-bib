@@ -1,0 +1,231 @@
+#!/usr/bin/env python
+"""
+Generate statistics for README.md from bibliography files.
+
+This script analyzes dandi.bib and cache/results.json to extract:
+- Total number of dandisets
+- Total number of versions
+- Total number of records
+- Records with errors or missing data
+- Last update timestamp
+
+Usage:
+    ./update-readme-stats
+"""
+
+import json
+import logging
+import os
+import sys
+from collections import defaultdict
+from datetime import datetime
+from pathlib import Path
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    stream=sys.stderr,
+)
+
+lgr = logging.getLogger(__name__)
+
+
+def analyze_bibliography(repo_root: Path):
+    """Analyze bibliography files and return statistics."""
+    stats = {
+        "dandisets": 0,
+        "versions": 0,
+        "records": 0,
+        "errors": [],
+        "last_update": datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC"),
+    }
+
+    # Analyze dandi.bib
+    bibfile = repo_root / "dandi.bib"
+    if bibfile.exists():
+        lgr.info(f"Analyzing {bibfile}")
+        with open(bibfile) as f:
+            content = f.read()
+            # Count @misc entries (actual records, not comments)
+            stats["records"] = content.count("@misc{")
+            # Count DANDISET comments
+            stats["dandisets"] = content.count("# DANDISET ")
+            # Count error comments
+            for line in content.split("\n"):
+                if line.startswith("# No valid BibTeX"):
+                    stats["errors"].append(line)
+
+    # Analyze cache/results.json if available
+    results_file = repo_root / "cache" / "results.json"
+    if results_file.exists():
+        lgr.info(f"Analyzing {results_file}")
+        with open(results_file) as f:
+            data = json.load(f)
+            # Count dandisets
+            stats["dandisets"] = len(data)
+            # Count all versions (including None for "latest" entry)
+            version_count = 0
+            for dandiset_id, versions in data.items():
+                # Exclude None (the "latest" entry) from version count
+                version_count += sum(1 for v in versions.keys() if v is not None)
+            stats["versions"] = version_count
+
+    lgr.info(f"Statistics: {stats}")
+    return stats
+
+
+def generate_stats_section(stats):
+    """Generate markdown statistics section for README."""
+    section = f"""## Statistics
+
+- **Dandisets**: {stats['dandisets']}
+- **Published Versions**: {stats['versions']}
+- **Total Records**: {stats['records']} (including "latest" entries)
+- **Last Updated**: {stats['last_update']}
+
+"""
+
+    if stats["errors"]:
+        section += f"""### Known Issues
+
+{len(stats['errors'])} records failed to fetch valid BibTeX:
+
+"""
+        # Show first 10 errors
+        for error in stats["errors"][:10]:
+            section += f"- {error}\n"
+        if len(stats["errors"]) > 10:
+            section += f"\n...and {len(stats['errors']) - 10} more\n"
+        section += "\n"
+
+    return section
+
+
+def update_readme(repo_root: Path, stats_section: str):
+    """Update README.md with statistics section."""
+    readme_path = repo_root / "README.md"
+
+    if not readme_path.exists():
+        lgr.info("README.md does not exist, will be created")
+        # Create new README
+        content = f"""# DANDI Bibliography
+
+Complete bibliography for all published DANDI datasets in BibTeX and RIS formats.
+
+{stats_section}
+
+## Files
+
+- **dandi.bib**: BibTeX format bibliography
+- **dandi.ris**: RIS format bibliography
+
+## Zotero Collection
+
+This bibliography is synchronized to a public Zotero collection:
+https://www.zotero.org/groups/5774211/dandi/collections/T8I34DL3
+
+## Citation Keys
+
+Each dataset has two citation keys:
+- Versioned: `dandi.000027@0.210831.2033` (specific version)
+- Latest: `dandi.000027` (most recent published version)
+
+## Usage
+
+### LaTeX/BibTeX
+
+```latex
+\\bibliographystyle{{plain}}
+\\bibliography{{dandi}}
+
+Cite as: \\cite{{dandi.000027@0.210831.2033}}
+```
+
+### Zotero
+
+Import `dandi.bib` directly into Zotero, or access the public collection above.
+
+## Automation
+
+This bibliography is automatically updated by GitHub Actions.
+See `.github/workflows/update-bibliography.yml` for details.
+
+## Scripts
+
+Located in `code/`:
+- `get-bibliography`: Fetch bibliography from DANDI API
+- `update-zotero-collection`: Sync to Zotero collection
+- `update-readme-stats`: Update this README with statistics
+
+## License
+
+The bibliography data is derived from DANDI Archive metadata and follows the same licenses as the individual datasets.
+"""
+        with open(readme_path, "w") as f:
+            f.write(content)
+        lgr.info(f"Created {readme_path}")
+    else:
+        lgr.info(f"Updating {readme_path}")
+        with open(readme_path) as f:
+            content = f.read()
+
+        # Replace statistics section
+        # Look for ## Statistics section
+        if "## Statistics" in content:
+            # Find where statistics section starts and ends
+            start_marker = "## Statistics"
+            # Find next ## header or end of file
+            parts = content.split(start_marker)
+            before = parts[0]
+            after_stats = parts[1]
+
+            # Find next section (## something)
+            import re
+
+            next_section = re.search(r"\n## ", after_stats)
+            if next_section:
+                after = after_stats[next_section.start() :]
+            else:
+                after = ""
+
+            content = before + stats_section.rstrip() + "\n\n" + after
+        else:
+            # Insert statistics section after title
+            lines = content.split("\n")
+            # Find first empty line after title
+            insert_idx = 1
+            for i, line in enumerate(lines[1:], 1):
+                if not line.strip():
+                    insert_idx = i + 1
+                    break
+
+            lines.insert(insert_idx, stats_section.rstrip())
+            content = "\n".join(lines)
+
+        with open(readme_path, "w") as f:
+            f.write(content)
+        lgr.info(f"Updated {readme_path}")
+
+
+def main():
+    # Determine repository root (one level up from code/)
+    script_dir = Path(__file__).parent
+    repo_root = script_dir.parent
+
+    lgr.info(f"Repository root: {repo_root}")
+
+    # Analyze bibliography
+    stats = analyze_bibliography(repo_root)
+
+    # Generate statistics section
+    stats_section = generate_stats_section(stats)
+
+    # Update README
+    update_readme(repo_root, stats_section)
+
+    lgr.info("Done!")
+
+
+if __name__ == "__main__":
+    main()

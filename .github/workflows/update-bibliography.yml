@@ -1,0 +1,91 @@
+name: Update Bibliography
+
+on:
+  schedule:
+    # Run daily at 2:00 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - 'code/**'
+      - '.github/workflows/update-bibliography.yml'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for proper git operations
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests bibtexparser pyzotero
+
+      - name: Fetch bibliography from DANDI API
+        run: |
+          cd code
+          ./get-bibliography \
+            --bibtype bibtex \
+            --bibfile ../dandi.bib \
+            --results ../cache/results.json
+
+      - name: Fetch RIS bibliography from DANDI API
+        run: |
+          cd code
+          ./get-bibliography \
+            --bibtype ris \
+            --bibfile ../dandi.ris
+
+      - name: Update README statistics
+        run: |
+          cd code
+          ./update-readme-stats
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet dandi.bib dandi.ris README.md cache/results.json; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dandi.bib dandi.ris README.md cache/results.json
+          git commit -m "Update bibliography from DANDI API
+
+          Updated by automated workflow on $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+
+          🤖 Generated with GitHub Actions"
+          git push
+
+      - name: Sync to Zotero (optional)
+        if: steps.check_changes.outputs.changes == 'true' && vars.ENABLE_ZOTERO_SYNC == 'true'
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_GROUP_ID: ${{ vars.ZOTERO_GROUP_ID }}
+          ZOTERO_COLLECTION_KEY: ${{ vars.ZOTERO_COLLECTION_KEY }}
+        run: |
+          cd code
+          ./update-zotero-collection \
+            --api-key "$ZOTERO_API_KEY" \
+            --group-id "$ZOTERO_GROUP_ID" \
+            --collection-key "$ZOTERO_COLLECTION_KEY" \
+            --bib-file ../dandi.bib \
+            --cache-file ../cache/zotero_cache.json
