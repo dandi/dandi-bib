@@ -7,7 +7,6 @@ This script analyzes dandi.bib and cache/results.json to extract:
 - Total number of versions
 - Total number of records
 - Records with errors or missing data
-- Last update timestamp
 
 Usage:
     ./update-readme-stats
@@ -82,7 +81,6 @@ def generate_stats_section(stats):
 - **Dandisets**: {stats['dandisets']}
 - **Published Versions**: {stats['versions']}
 - **Total Records**: {stats['records']} (including "latest" entries)
-- **Last Updated**: {stats['last_update']}
 
 """
 
