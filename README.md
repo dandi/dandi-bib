@@ -32,7 +32,7 @@ https://www.zotero.org/groups/5774211/dandi/collections/T8I34DL3
 ## Citation Keys
 
 Each dataset has two citation keys:
-- Versioned: `dandi.000027@0.210831.2033` (specific version)
+- Versioned: `dandi.000027/0.210831.2033` (specific version)
 - Latest: `dandi.000027` (most recent published version)
 
 ## Usage
@@ -43,7 +43,7 @@ Each dataset has two citation keys:
 \bibliographystyle{plain}
 \bibliography{dandi}
 
-Cite as: \cite{dandi.000027@0.210831.2033}
+Cite as: \cite{dandi.000027/0.210831.2033}
 ```
 
 ### Zotero
