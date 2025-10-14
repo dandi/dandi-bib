@@ -59,10 +59,10 @@ def main():
     lgr.info("Connecting to Zotero API...")
     zot = zotero.Zotero(args.group_id, "group", args.api_key)
 
-    # Create a test item with a custom citation key
-    test_citation_key = "dandi.000027@0.210831.2033"
+    # Create a test item with a citation key (using / format)
+    test_bibtex_id = "dandi.000027/0.210831.2033"
     test_version = "0.210831.2033"
-    lgr.info(f"Creating test item with citation key: {test_citation_key}")
+    lgr.info(f"Creating test item with citation key: {test_bibtex_id}")
 
     # Test with dataset item type (more appropriate for DANDI datasets)
     test_item = {
@@ -73,7 +73,7 @@ def main():
         "DOI": "10.48324/TEST/1.0",  # dataset type supports DOI field directly
         "versionNumber": test_version,  # dataset supports version field
         "repository": "DANDI Archive",  # dataset supports repository field
-        "extra": f"Citation Key: {test_citation_key}\n",
+        "extra": f"Citation Key: {test_bibtex_id}\n",
         "creators": [
             {
                 "creatorType": "author",
@@ -126,18 +126,18 @@ def main():
 
         # Extract citation key from extra
         extra = retrieved["data"].get("extra", "")
-        citation_key_found = None
+        bibtex_id_found = None
         for line in extra.split("\n"):
             if line.startswith("Citation Key:"):
-                citation_key_found = line.split(":", 1)[1].strip()
+                bibtex_id_found = line.split(":", 1)[1].strip()
                 break
 
-        if citation_key_found:
-            lgr.info(f"\n✓ Citation key successfully stored: {citation_key_found}")
-            if citation_key_found == test_citation_key:
+        if bibtex_id_found:
+            lgr.info(f"\n✓ Citation key successfully stored: {bibtex_id_found}")
+            if bibtex_id_found == test_bibtex_id:
                 lgr.info("✓ Citation key matches what we set!")
             else:
-                lgr.warning(f"✗ Citation key mismatch! Expected: {test_citation_key}")
+                lgr.warning(f"✗ Citation key mismatch! Expected: {test_bibtex_id}")
         else:
             lgr.error("✗ Citation key not found in extra field!")
 
@@ -166,15 +166,15 @@ def main():
 
                 # Check if our citation key appears in the export
                 if (
-                    test_citation_key in bibtex_text
-                    or "@misc{" + test_citation_key in bibtex_text
+                    test_bibtex_id in bibtex_text
+                    or "@misc{" + test_bibtex_id in bibtex_text
                 ):
                     lgr.info(
-                        f"✓ Citation key '{test_citation_key}' appears in BibTeX export!"
+                        f"✓ Citation key '{test_bibtex_id}' appears in BibTeX export!"
                     )
                 else:
                     lgr.warning(
-                        f"✗ Citation key '{test_citation_key}' NOT found in BibTeX export"
+                        f"✗ Citation key '{test_bibtex_id}' NOT found in BibTeX export"
                     )
                     lgr.warning("Zotero might be auto-generating a different key")
             else:

@@ -160,11 +160,9 @@ def bibtex_to_zotero_item(entry: Dict) -> Dict:
 
     # Store the BibTeX key as citation key in extra field
     # Zotero uses "Citation Key: value" format in extra field for Better BibTeX compatibility
-    # Replace '/' with '@' since '/' may not be valid in citation keys
     if "ID" in entry:
         bibtex_id = entry["ID"]
-        citation_key = bibtex_id.replace("/", "@")
-        item["extra"] += f"Citation Key: {citation_key}\n"
+        item["extra"] += f"Citation Key: {bibtex_id}\n"
 
         # Add version info to extra field for BibTeX export compatibility
         # (since BibTeX doesn't have a standard version field)
@@ -175,7 +173,7 @@ def bibtex_to_zotero_item(entry: Dict) -> Dict:
                 # Check if it looks like a version (not just a dandiset ID)
                 if "." in version and len(version) > 6:
                     # For "latest" entries (no version in ID), use "Current version:"
-                    if "/" not in bibtex_id and "@" not in bibtex_id:
+                    if "/" not in bibtex_id:
                         item["extra"] += f"Current version: {version}\n"
                     else:
                         # For versioned entries, use "Version:"
@@ -187,7 +185,7 @@ def bibtex_to_zotero_item(entry: Dict) -> Dict:
 def get_existing_items(zot: zotero.Zotero, collection_key: str) -> Dict[str, Dict]:
     """
     Retrieve all existing items in the collection.
-    Returns a dict mapping citation key to item data.
+    Returns a dict mapping BibTeX ID to item data.
     """
     lgr.info(f"Fetching existing items from collection {collection_key}")
 
@@ -211,31 +209,31 @@ def get_existing_items(zot: zotero.Zotero, collection_key: str) -> Dict[str, Dic
 
     lgr.info(f"Fetched total of {len(all_items)} items from collection")
 
-    citation_key_map = {}
+    bibtex_id_map = {}
     for item in all_items:
         # Skip notes, attachments, etc.
         if item["data"].get("itemType") in ["note", "attachment"]:
             continue
 
-        # Extract citation key from extra field
-        citation_key = None
+        # Extract BibTeX ID from citation key in extra field
+        bibtex_id = None
         if "extra" in item["data"]:
             for line in item["data"]["extra"].split("\n"):
                 if line.startswith("Citation Key:"):
-                    citation_key = line.split(":", 1)[1].strip()
+                    bibtex_id = line.split(":", 1)[1].strip()
                     break
 
-        if citation_key:
-            citation_key_map[citation_key] = item
+        if bibtex_id:
+            bibtex_id_map[bibtex_id] = item
         else:
             lgr.debug(
                 f"Item {item.get('key', 'unknown')} has no citation key, skipping"
             )
 
     lgr.info(
-        f"Found {len(citation_key_map)} existing items with citation keys in collection"
+        f"Found {len(bibtex_id_map)} existing items with citation keys in collection"
     )
-    return citation_key_map
+    return bibtex_id_map
 
 
 def items_are_different(existing: Dict, new: Dict) -> bool:
@@ -243,31 +241,31 @@ def items_are_different(existing: Dict, new: Dict) -> bool:
     Compare two items to see if they're different.
     Returns True if update is needed.
 
-    For items with Citation Key in extra field, we only compare the citation key
+    For items with Citation Key in extra field, we only compare the BibTeX ID
     itself, not other metadata (like "Current version") which may change.
     """
-    # Extract citation keys from extra field if present
-    existing_citation_key = None
-    new_citation_key = None
+    # Extract BibTeX IDs from extra field if present
+    existing_bibtex_id = None
+    new_bibtex_id = None
 
     if "extra" in existing:
         for line in existing["extra"].split("\n"):
             if line.startswith("Citation Key:"):
-                existing_citation_key = line.split(":", 1)[1].strip()
+                existing_bibtex_id = line.split(":", 1)[1].strip()
                 break
 
     if "extra" in new:
         for line in new["extra"].split("\n"):
             if line.startswith("Citation Key:"):
-                new_citation_key = line.split(":", 1)[1].strip()
+                new_bibtex_id = line.split(":", 1)[1].strip()
                 break
 
-    # If both have citation keys, compare only the citation key
+    # If both have BibTeX IDs, compare only the BibTeX ID
     # (not the full extra field, since other metadata may change)
-    if existing_citation_key and new_citation_key:
-        if existing_citation_key != new_citation_key:
+    if existing_bibtex_id and new_bibtex_id:
+        if existing_bibtex_id != new_bibtex_id:
             return True
-        # For citation-key items, skip extra field comparison below
+        # For items with BibTeX IDs, skip extra field comparison below
         # Include dataset-specific fields (repository, versionNumber, DOI)
         fields_to_compare = [
             "title",
@@ -280,7 +278,7 @@ def items_are_different(existing: Dict, new: Dict) -> bool:
             "DOI",
         ]
     else:
-        # No citation keys, compare everything including extra
+        # No BibTeX IDs, compare everything including extra
         fields_to_compare = [
             "title",
             "date",
@@ -434,29 +432,27 @@ def update_zotero_collection(
     # Get existing items
     existing_items = get_existing_items(zot, collection_key)
 
-    # Build local citation key set - includes ALL entries for validation
-    # Convert BibTeX IDs to citation key format (/ -> @)
-    local_citation_keys = set()
+    # Build local BibTeX ID set - includes ALL entries for validation
+    local_bibtex_ids = set()
     for entry in bib_entries:
         bibtex_id = entry.get("ID", "")
         if bibtex_id:
-            citation_key = bibtex_id.replace("/", "@")
-            local_citation_keys.add(citation_key)
+            local_bibtex_ids.add(bibtex_id)
 
-    lgr.info(f"Local BibTeX file has {len(local_citation_keys)} unique citation keys")
+    lgr.info(f"Local BibTeX file has {len(local_bibtex_ids)} unique BibTeX IDs")
 
     # Validation: Check how many existing Zotero items are found locally
     # NOTE: This validation checks ALL items, regardless of --act-only-on filter
     # The filter only applies to actual update/add operations below
     if existing_items and not act_only_on:
         matched_count = 0
-        unmatched_keys = []
+        unmatched_ids = []
 
-        for existing_key, item in existing_items.items():
-            if existing_key in local_citation_keys:
+        for existing_id, item in existing_items.items():
+            if existing_id in local_bibtex_ids:
                 matched_count += 1
             else:
-                unmatched_keys.append(existing_key)
+                unmatched_ids.append(existing_id)
 
         match_rate = matched_count / len(existing_items)
         lgr.info(
@@ -469,16 +465,16 @@ def update_zotero_collection(
                 f"VALIDATION FAILED: Only {match_rate:.1%} of existing Zotero items "
                 f"were found in the local BibTeX file (threshold: {min_match_threshold:.1%})"
             )
-            lgr.error(f"Missing {len(unmatched_keys)} items from local BibTeX:")
-            for key in unmatched_keys[:10]:  # Show first 10
-                lgr.error(f"  - {key}")
-            if len(unmatched_keys) > 10:
-                lgr.error(f"  ... and {len(unmatched_keys) - 10} more")
+            lgr.error(f"Missing {len(unmatched_ids)} items from local BibTeX:")
+            for bibtex_id in unmatched_ids[:10]:  # Show first 10
+                lgr.error(f"  - {bibtex_id}")
+            if len(unmatched_ids) > 10:
+                lgr.error(f"  ... and {len(unmatched_ids) - 10} more")
             lgr.error(
                 "This suggests either:\n"
                 "  1. Local BibTeX file is incomplete/outdated\n"
                 "  2. Zotero collection has items not in DANDI archive\n"
-                "  3. Citation key mismatch between local and remote\n"
+                "  3. BibTeX ID mismatch between local and remote\n"
                 "Aborting to prevent data loss. Use --force to override (not yet implemented)."
             )
             sys.exit(1)
@@ -506,31 +502,29 @@ def update_zotero_collection(
 
     # Process each BibTeX entry
     for entry in bib_entries:
-        # Get the BibTeX ID and convert to citation key format (/ -> @)
+        # Get the BibTeX ID
         bibtex_id = entry.get("ID", "")
         if not bibtex_id:
             lgr.debug("Skipping entry with no ID")
             continue
-
-        citation_key = bibtex_id.replace("/", "@")
 
         # Get DOI for filtering purposes
         doi = entry.get("doi", "")
 
         # Filter by pattern if specified (applies to DOI)
         if doi_filter_pattern and doi and not doi_filter_pattern.search(doi):
-            lgr.debug(f"Skipping entry {citation_key} - doesn't match filter")
+            lgr.debug(f"Skipping entry {bibtex_id} - doesn't match filter")
             continue
 
         try:
             # Convert to Zotero format
             new_item = bibtex_to_zotero_item(entry)
 
-            if citation_key in existing_items:
+            if bibtex_id in existing_items:
                 # Item exists - check if update is needed
-                existing = existing_items[citation_key]
+                existing = existing_items[bibtex_id]
                 if items_are_different(existing["data"], new_item):
-                    lgr.info(f"Updating item: {citation_key} - {doi}")
+                    lgr.info(f"Updating item: {bibtex_id} - {doi}")
                     # Log what changed for debugging
                     lgr.debug(
                         f"  Existing extra: {existing['data'].get('extra', '')[:100]}"
@@ -543,11 +537,11 @@ def update_zotero_collection(
                         zot.update_item(new_item)
                     updated_count += 1
                 else:
-                    lgr.debug(f"Skipping unchanged item: {citation_key}")
+                    lgr.debug(f"Skipping unchanged item: {bibtex_id}")
                     skipped_count += 1
             else:
                 # New item - add it
-                lgr.info(f"Adding new item: {citation_key} - {doi}")
+                lgr.info(f"Adding new item: {bibtex_id} - {doi}")
                 if not dry_run:
                     # Create item and add to collection
                     created = zot.create_items([new_item])
@@ -556,7 +550,7 @@ def update_zotero_collection(
                 added_count += 1
 
         except Exception as e:
-            lgr.error(f"Error processing entry {citation_key}: {e}")
+            lgr.error(f"Error processing entry {bibtex_id}: {e}")
             error_count += 1
             if on_error == "exit":
                 lgr.error("Aborting due to error (--on-error exit)")

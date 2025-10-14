@@ -1,0 +1,225 @@
+#!/usr/bin/env python
+"""
+Migrate Zotero collection citation keys from @ format to / format.
+
+This script will:
+1. Fetch all items from the collection
+2. Find items with citation keys containing @ (e.g., dandi.000027@0.210831.2033)
+3. Update them to use / instead (e.g., dandi.000027/0.210831.2033)
+4. PATCH only the items that need updating
+
+Usage:
+    ./migrate-citation-keys --api-key YOUR_API_KEY --group-id 5774211 \
+        --collection-key T8I34DL3 [--dry-run]
+"""
+
+import argparse
+import logging
+import sys
+
+from pyzotero import zotero
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    stream=sys.stderr,
+)
+
+lgr = logging.getLogger(__name__)
+
+# Zotero API pagination limit
+ZOTERO_API_LIMIT = 100
+
+
+def get_all_items(zot: zotero.Zotero, collection_key: str):
+    """Fetch all items from the collection."""
+    lgr.info(f"Fetching all items from collection {collection_key}")
+
+    all_items = []
+    start = 0
+
+    while True:
+        lgr.debug(f"Fetching items starting at {start}, limit {ZOTERO_API_LIMIT}")
+        items = zot.collection_items(
+            collection_key, limit=ZOTERO_API_LIMIT, start=start
+        )
+        if not items:
+            break
+        all_items.extend(items)
+        lgr.debug(f"Fetched {len(items)} items, total so far: {len(all_items)}")
+        if len(items) < ZOTERO_API_LIMIT:
+            break
+        start += ZOTERO_API_LIMIT
+
+    lgr.info(f"Fetched {len(all_items)} total items")
+    return all_items
+
+
+def migrate_citation_keys(
+    zot: zotero.Zotero,
+    collection_key: str,
+    dry_run: bool = False,
+):
+    """
+    Migrate citation keys from @ format to / format.
+
+    Args:
+        zot: Zotero API connection
+        collection_key: Collection to migrate
+        dry_run: If True, only report what would be changed
+    """
+    # Get all items
+    all_items = get_all_items(zot, collection_key)
+
+    # Find items that need migration
+    items_to_migrate = []
+    for item in all_items:
+        # Skip notes, attachments, etc.
+        if item["data"].get("itemType") in ["note", "attachment"]:
+            continue
+
+        extra = item["data"].get("extra", "")
+        if not extra:
+            continue
+
+        # Check if citation key contains @
+        citation_key = None
+        for line in extra.split("\n"):
+            if line.startswith("Citation Key:"):
+                citation_key = line.split(":", 1)[1].strip()
+                break
+
+        if citation_key and "@" in citation_key:
+            items_to_migrate.append({
+                "item": item,
+                "old_key": citation_key,
+                "new_key": citation_key.replace("@", "/"),
+            })
+
+    lgr.info(f"Found {len(items_to_migrate)} items to migrate")
+
+    if not items_to_migrate:
+        lgr.info("No items need migration!")
+        return
+
+    # Show what will be changed
+    lgr.info("=" * 60)
+    if dry_run:
+        lgr.info("DRY RUN - Would migrate the following items:")
+    else:
+        lgr.info("Migrating the following items:")
+
+    for i, migration in enumerate(items_to_migrate[:10]):  # Show first 10
+        lgr.info(f"  {migration['old_key']} → {migration['new_key']}")
+
+    if len(items_to_migrate) > 10:
+        lgr.info(f"  ... and {len(items_to_migrate) - 10} more")
+
+    lgr.info("=" * 60)
+
+    if dry_run:
+        lgr.info(f"DRY RUN - Would update {len(items_to_migrate)} items")
+        return
+
+    # Perform migration
+    updated_count = 0
+    error_count = 0
+
+    for migration in items_to_migrate:
+        item = migration["item"]
+        old_key = migration["old_key"]
+        new_key = migration["new_key"]
+
+        try:
+            # Update the extra field
+            extra = item["data"]["extra"]
+
+            # Replace the citation key line
+            new_lines = []
+            for line in extra.split("\n"):
+                if line.startswith("Citation Key:"):
+                    new_lines.append(f"Citation Key: {new_key}")
+                else:
+                    new_lines.append(line)
+
+            new_extra = "\n".join(new_lines)
+
+            # Prepare the update
+            item["data"]["extra"] = new_extra
+
+            # Update the item
+            lgr.debug(f"Updating {old_key} → {new_key}")
+            zot.update_item(item["data"])
+            updated_count += 1
+
+            if updated_count % 10 == 0:
+                lgr.info(f"Progress: {updated_count}/{len(items_to_migrate)}")
+
+        except Exception as e:
+            lgr.error(f"Error updating {old_key}: {e}")
+            error_count += 1
+
+    # Summary
+    lgr.info("=" * 60)
+    lgr.info("Migration Summary:")
+    lgr.info(f"  Updated: {updated_count}")
+    lgr.info(f"  Errors: {error_count}")
+    lgr.info("=" * 60)
+
+    if error_count > 0:
+        lgr.warning(f"Migration completed with {error_count} errors")
+        sys.exit(1)
+    else:
+        lgr.info("Migration completed successfully!")
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Migrate Zotero citation keys from @ to / format"
+    )
+    parser.add_argument(
+        "--api-key",
+        type=str,
+        required=True,
+        help="Zotero API key",
+    )
+    parser.add_argument(
+        "--group-id",
+        type=str,
+        default="5774211",
+        help="Zotero group ID (default: 5774211)",
+    )
+    parser.add_argument(
+        "--collection-key",
+        type=str,
+        default="T8I34DL3",
+        help="Zotero collection key (default: T8I34DL3)",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Dry run mode - don't actually make changes",
+    )
+    parser.add_argument(
+        "-v",
+        "--verbose",
+        action="store_true",
+        help="Verbose logging (DEBUG level)",
+    )
+
+    args = parser.parse_args()
+
+    if args.verbose:
+        lgr.setLevel(logging.DEBUG)
+
+    # Connect to Zotero
+    lgr.info("Connecting to Zotero API...")
+    zot = zotero.Zotero(args.group_id, "group", args.api_key)
+
+    # Migrate citation keys
+    migrate_citation_keys(zot, args.collection_key, args.dry_run)
+
+
+if __name__ == "__main__":
+    main()
