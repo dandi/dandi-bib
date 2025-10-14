@@ -94,7 +94,7 @@ def generate_stats_section(stats):
 """
         # Show first 10 errors
         for error in stats["errors"][:10]:
-            section += f"- {error}\n"
+            section += f"- `{error}`\n"
         if len(stats["errors"]) > 10:
             section += f"\n...and {len(stats['errors']) - 10} more\n"
         section += "\n"
