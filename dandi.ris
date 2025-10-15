@@ -7780,3 +7780,23 @@ PY  - 2025
 PB  - DANDI Archive
 ER  - 
 
+TY  - DATA
+T1  - C. elegans whole-brain imaging datasets (NeuroPAL and timeseries)
+AU  - Dunn, Raymond
+DO  - 10.48324/DANDI.001623/0.251015.0312
+UR  - https://dandiarchive.org/dandiset/001623/0.251015.0312
+AB  - Data accompanying publication 2025 Dunn et al curr biol
+KW  - short-term memory
+KW  - decision-making
+KW  - whole-brain imaging
+KW  - C. elegans
+KW  - neural dynamics
+KW  - optogenetics
+KW  - cognition
+KW  - closed loop
+KW  - neural manifold
+KW  - brain oscillations
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
