@@ -1642,6 +1642,7 @@
   },
   "001623": {
     "0.251015.0312": "@misc{dandi.001623/0.251015.0312,\n  doi = {10.48324/DANDI.001623/0.251015.0312},\n  url = {https://dandiarchive.org/dandiset/001623/0.251015.0312},\n  author = {Dunn, Raymond},\n  keywords = {short-term memory, decision-making, whole-brain imaging, C. elegans, neural dynamics, optogenetics, cognition, closed loop, neural manifold, brain oscillations},\n  title = {C. elegans whole-brain imaging datasets (NeuroPAL and timeseries)},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
+    "null": "@misc{dandi.001623,\n  doi = {10.48324/DANDI.001623/0.251015.0312},\n  url = {https://dandiarchive.org/dandiset/001623/0.251015.0312},\n  author = {Dunn, Raymond},\n  keywords = {short-term memory, decision-making, whole-brain imaging, C. elegans, neural dynamics, optogenetics, cognition, closed loop, neural manifold, brain oscillations},\n  title = {C. elegans whole-brain imaging datasets (NeuroPAL and timeseries)},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
     "null": "@misc{dandi.001623,\n  doi = {10.48324/DANDI.001623/0.251015.0312},\n  url = {https://dandiarchive.org/dandiset/001623/0.251015.0312},\n  author = {Dunn, Raymond},\n  keywords = {short-term memory, decision-making, whole-brain imaging, C. elegans, neural dynamics, optogenetics, cognition, closed loop, neural manifold, brain oscillations},\n  title = {C. elegans whole-brain imaging datasets (NeuroPAL and timeseries)},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n"
   }
 }
