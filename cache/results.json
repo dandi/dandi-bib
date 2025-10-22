@@ -1647,6 +1647,7 @@
   },
   "001625": {
     "0.251020.1639": "@misc{dandi.001625/0.251020.1639,\n  doi = {10.48324/DANDI.001625/0.251020.1639},\n  url = {https://dandiarchive.org/dandiset/001625/0.251020.1639},\n  author = {Gonzalez, Limary},\n  keywords = {Patch-seq, human, multimodal},\n  title = {20251020_AIBS_Patchseq_human},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
+    "null": "@misc{dandi.001625,\n  doi = {10.48324/DANDI.001625/0.251020.1639},\n  url = {https://dandiarchive.org/dandiset/001625/0.251020.1639},\n  author = {Gonzalez, Limary},\n  keywords = {Patch-seq, human, multimodal},\n  title = {20251020_AIBS_Patchseq_human},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
     "null": "@misc{dandi.001625,\n  doi = {10.48324/DANDI.001625/0.251020.1639},\n  url = {https://dandiarchive.org/dandiset/001625/0.251020.1639},\n  author = {Gonzalez, Limary},\n  keywords = {Patch-seq, human, multimodal},\n  title = {20251020_AIBS_Patchseq_human},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n"
   }
 }
