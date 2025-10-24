@@ -6581,6 +6581,36 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - LINK: Long-Term Intracortical Neural Activity and Kinematics
+AU  - Temmar, Hisham
+AU  - Gill, Nina
+AU  - Wang, Yixuan
+AU  - Mellon, Nicholas B.
+AU  - Liu, Chang
+AU  - Cubillos, Luis Hernan
+AU  - Parsons, Rio I.
+AU  - Costello, Joseph T.
+AU  - Ceradini, Matteo
+AU  - Kelberman, Madison M.
+AU  - Mender, Matthew J.
+AU  - Hite, Aren I.
+AU  - Wallace, Dylan M.
+AU  - Nason-Tomaszewski, Samuel R.
+AU  - Willsey, Matthew S.
+AU  - Patil, Parag G.
+AU  - Draelos, Anne W.
+DO  - 10.48324/DANDI.001201/0.251023.2336
+UR  - https://dandiarchive.org/dandiset/001201/0.251023.2336
+AB  - This dataset contains 312 sessions of multiunit threshold crossings, spiking band power, and behavioral data from a macaque performing a self-paced finger movement task. These sessions were recorded on 303 days spanning 1,242 days (~3.5 years). The dataset will be useful in evaluating the stability of neural population recordings and BMI decoding algorithms across long time frames. On each day, we include 96 channels of neural activity from Utah microelectrode arrays implanted in the motor cortex (M1). The positions & velocities of the index finger and middle-ring-small fingers were recorded using a manipulandum, where positions were normalized between full flexion and full extension. The experimental task was to move the two finger groups to acquire targets cued on a screen. Each session has 375 trials of one of two target presentation styles, center-out (trials alternating between the targets at a non-center location and then both targets at center), or random targets (target position for each finger chosen randomly at each trial, with a maximum flexion difference between fingers of 50%). Further details on the experimental setup can be found in Nason et al. 2021, Neuron (DOI: 10.1016/j.neuron.2021.08.009) Code for this dataset can be found at (https://github.com/chesteklab/LINK_dataset).The associated paper will be published in NeurIPS 2025 (Temmar et al 
+KW  - non-human primate
+KW  - intracortical
+KW  - brain-machine interfaces
+KW  - chronic recordings
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Adaptation to visual sparsity enhances responses to isolated stimuli
 AU  - Gou, Tong
 DO  - 10.48324/DANDI.001205/0.250602.0251
