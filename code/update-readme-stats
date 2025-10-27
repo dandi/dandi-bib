@@ -111,6 +111,10 @@ def update_readme(repo_root: Path, stats_section: str):
 
 Complete bibliography for all published DANDI datasets in BibTeX and RIS formats.
 
+## Related
+
+- [NWB Data Reuse Publications](https://rly1.notion.site/nwb-data) - most of NWBs come from DANDI Archive.
+
 {stats_section}
 
 ## Files
