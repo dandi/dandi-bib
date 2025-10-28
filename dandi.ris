@@ -7811,6 +7811,23 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - A brainstem map of orofacial rhythms
+AU  - Li, Nuo
+DO  - 10.48324/DANDI.001619/0.251027.1953
+UR  - https://dandiarchive.org/dandiset/001619/0.251027.1953
+AB  - Data from "A brainstem map of orofacial rhythms." Heet Kaku, Liu D. Liu, Runbo Gao, Steven West, Song-Mao Liao, Arseny Finkelstein, David Kleinfeld, Alyse Thomas, Sri Laasya Tipparaju, Karel Svoboda, Nuo Li. BioRxiv 2025. doi: https://doi.org/10.1101/2025.01.27.635041 
+
+This dataset comprises Neuropixels electrophysiological recordings used to construct a brainstem-wide activity map in behaving mice, DeepLabCut-based tracking of orofacial features, and anatomical localization of recording sites registered to the Allen Mouse Brain Common Coordinate Framework (CCF). 
+
+The corresponding analysis code is available at: https://github.com/NuoLiLabBCM/KakuEtAl2025
+
+Sharing of this dataset was made possible by support from NIH DP1NS142432, R01NS131229, RF1NS132025, Pew Scholar Program, the McKnight Foundation, Simons Collaboration on the Global Brain.
+
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - C. elegans whole-brain imaging datasets (NeuroPAL and timeseries)
 AU  - Dunn, Raymond
 DO  - 10.48324/DANDI.001623/0.251015.0312
