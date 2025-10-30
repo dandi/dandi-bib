@@ -7828,6 +7828,21 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Transcriptional dysregulation in the spinal cord of SCA3 provides insights into disease mechanisms
+AU  - Emerson, Jacen
+DO  - 10.48324/DANDI.001620/0.251029.1644
+UR  - https://dandiarchive.org/dandiset/001620/0.251029.1644
+AB  - Raw image files of spinal cord histology from Transcriptional dysregulation in the spinal cord of SCA3 provides insights into disease mechanisms. These data were acquired using basic light microscopy.
+KW  - SCA3
+KW  - Machado-Joseph Disease
+KW  - Polyglutamine disease
+KW  - spinal cord
+KW  - ataxia
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - C. elegans whole-brain imaging datasets (NeuroPAL and timeseries)
 AU  - Dunn, Raymond
 DO  - 10.48324/DANDI.001623/0.251015.0312

@@ -1662,6 +1662,11 @@
   },
   "001626": {
     "0.251028.1747": "@misc{dandi.001626/0.251028.1747,\n  doi = {10.48324/DANDI.001626/0.251028.1747},\n  url = {https://dandiarchive.org/dandiset/001626/0.251028.1747},\n  author = {Gonzalez, Limary},\n  keywords = {Patch-seq, non-human primate, multimodal},\n  title = {20251020_AIBS_Patchseq_nhp},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
+    "null": "@misc{dandi.001626,\n  doi = {10.48324/DANDI.001626/0.251028.1747},\n  url = {https://dandiarchive.org/dandiset/001626/0.251028.1747},\n  author = {Gonzalez, Limary},\n  keywords = {Patch-seq, non-human primate, multimodal},\n  title = {20251020_AIBS_Patchseq_nhp},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
     "null": "@misc{dandi.001626,\n  doi = {10.48324/DANDI.001626/0.251028.1747},\n  url = {https://dandiarchive.org/dandiset/001626/0.251028.1747},\n  author = {Gonzalez, Limary},\n  keywords = {Patch-seq, non-human primate, multimodal},\n  title = {20251020_AIBS_Patchseq_nhp},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n"
+  },
+  "001620": {
+    "0.251029.1644": "@misc{dandi.001620/0.251029.1644,\n  doi = {10.48324/DANDI.001620/0.251029.1644},\n  url = {https://dandiarchive.org/dandiset/001620/0.251029.1644},\n  author = {Emerson, Jacen},\n  keywords = {SCA3, Machado-Joseph Disease, Polyglutamine disease, spinal cord, ataxia},\n  title = {Transcriptional dysregulation in the spinal cord of SCA3 provides insights into disease mechanisms},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
+    "null": "@misc{dandi.001620,\n  doi = {10.48324/DANDI.001620/0.251029.1644},\n  url = {https://dandiarchive.org/dandiset/001620/0.251029.1644},\n  author = {Emerson, Jacen},\n  keywords = {SCA3, Machado-Joseph Disease, Polyglutamine disease, spinal cord, ataxia},\n  title = {Transcriptional dysregulation in the spinal cord of SCA3 provides insights into disease mechanisms},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n"
   }
 }
