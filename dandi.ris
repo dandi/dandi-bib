@@ -5870,6 +5870,22 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Auditory cortex Neuropixels recordings and pupil diameter traces from mice during passive exposure to pure tones
+AU  - Papadopoulos, Lia
+AU  - Jo, Suhyun 
+AU  - Zumwalt, Kevin
+AU  - Wehr, Michael
+AU  - Jaramillo, Santiago
+AU  - McCormick, David A.
+AU  - Mazzucato, Luca
+DO  - 10.48324/DANDI.000986/0.251031.1939
+UR  - https://dandiarchive.org/dandiset/000986/0.251031.1939
+AB  - In these experiments, neural activity was recorded from auditory cortex of behaving mice during passive tone presentation and arousal state was simultaneously monitored using pupillometry. This dataset contains: (1) spike times of sorted units obtained from Neuropixels 1.0 recordings of auditory cortex of head-fixed mice; in each session, neural recordings were made during periods of silence (spontaneous activity) and during passive presentation of brief pure tones (2-32 kHz, evoked activity); (2) pre-processed and max-normalized pupil diameter traces for each recording session; (3) pre-processed running speed traces for each recording session. The dataset includes 15 sessions from 5 different mice. For more information on the data acquisition and processing, please see the preprint associated with this dataset: https://doi.org/10.1101/2024.04.04.588209.
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - The impact of voltage on CANCAN focusing of electroporation using four-electrode arrays of varying sizes
 AU  - Gudvangen, Emily
 AU  - Semenov, Iurii
@@ -7569,6 +7585,17 @@ AB  - Raw in-vivo intra-spinal recordings from 5 mice using Nano-Electric Thread
 KW  - spinal cord
 KW  - extracellular electrophysiology
 KW  - ultraflexible electrodes
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Obesity dysregulates feeding-evoked response dynamics in hypothalamic satiety neurons
+AU  - Andermann, Mark
+DO  - 10.48324/DANDI.001474/0.251031.1725
+UR  - https://dandiarchive.org/dandiset/001474/0.251031.1725
+AB  - Data from Porniece, M., Baker, J., Ausfahl, C.D. et al. "Obesity dysregulates feeding-evoked response dynamics in hypothalamic satiety neurons". Sci Rep 15, 35837 (2025). https://doi.org/10.1038/s41598-025-19800-2 Fiber photometry and linked behavioural data examining feeding-evoked response dynamics in hypothalamic satiety neurons. Food consumption-evoked responses in PVHMC4R neurons increase gradually during meal consumption to promote satiety, and disrupting this process drives massive obesity. These criticalsatiety neurons are strongly affected by a high-fat diet, yet the impact on their functional properties remains unknown. We used fiber photometry to track PVHMC4R neurons’ responses to the consumption of drops of milkshake in animals fed a chow diet or a high-fat diet (HFD), both after obesity was established and after its reversal. 
+KW  - obesity, MC4R neurons
 PY  - 2025
 PB  - DANDI Archive
 ER  - 
