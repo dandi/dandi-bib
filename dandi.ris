@@ -6952,6 +6952,21 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Electrophysiology and Morphology of Human Cortical Supragranular Pyramidal Cells in a Wide Age Range
+AU  - Szöts, Ildikó
+DO  - 10.48324/DANDI.001281/0.251110.1752
+UR  - https://dandiarchive.org/dandiset/001281/0.251110.1752
+AB  - Patch-clamp recordings of Layer 2/3 pyramidal cells in the human neocortex from various life stages. Data comes from Gabor Tamas Lab (HUN-REN-SZTE Research Group for Cortical Microcircuits; University of Szeged, Hungary).
+KW  - Human
+KW  - Layer 2/3 pyramidal cells
+KW  - Age dependence
+KW  - In vitro
+KW  - Patch-clamp
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - NG-CANCAN Remote Targeting Electroporation: Focused Cell Electroporation and Ablation in a Pseudo-3D Model
 AU  - Silkuniene, Giedre
 AU  - Silkunas, Mantas
@@ -7019,20 +7034,13 @@ PY  - 2025
 PB  - DANDI Archive
 ER  - 
 
-TY  - DATA
-T1  - Neuromodulation in neural organoids with shell MEAs
-AU  - Acha, Chris
-DO  - 10.48324/DANDI.001336/0.250729.1519
-UR  - https://dandiarchive.org/dandiset/001336/0.250729.1519
-AB  - Neural organoids (NOs) have emerged as important tissue engineering models for brain sciences and biocomputing. Establishing reliable relationships between stimulation and recording traces of electrical activity is essential to monitor the functionality of NOs, especially as it relates to realizing biocomputing paradigms such as reinforcement learning or stimulus discrimination. While researchers have demonstrated neuromodulation in NOs, they have primarily used 2D microelectrode arrays (MEAs) with limited access to the entire 3D contour of the NOs. Here, we report neuromodulation using tiny mimics of macroscale EEG caps or shell MEAs. Specifically, we observe that stimulating current within a specific range (20 to 30 µA) induced a statistically significant increase in neuron firing rate when comparing the activity five seconds before and after stimulation. We observed neuromodulatory behavior using both three- and 16-electrode shells and could generate 3D spatiotemporal maps of neuromodulatory activity around the surface of the NO. Our studies demonstrate a methodology for investigating 3D spatiotemporal neuromodulation in organoids of broad relevance to biomedical engineering and biocomputing. 
-This dataset includes recordings from 3 and 16-channel Shell MEAs from neural organoids, including baselines and in response to stimulation. 
-KW  - neural organoid
-KW  - microelectrode array
-KW  - local field potentials
-KW  - single units
-PY  - 2025
-PB  - DANDI Archive
-ER  - 
+<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+</body>
+</html>
+
 
 TY  - DATA
 T1  - Neuromodulation in neural organoids with shell MEAs
