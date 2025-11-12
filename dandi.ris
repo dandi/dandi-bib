@@ -4004,6 +4004,27 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Conjunctive Representation of Position, Direction, and Velocity in Entorhinal Cortex
+AU  - Sargolini, Francesca
+AU  - Fyhn, Marianne
+AU  - Hafting, Torkel
+AU  - McNaughton, Bruce L.
+AU  - Witter, Menno P.
+AU  - Moser, May-Britt
+AU  - Moser, Edvard I.
+DO  - 10.48324/DANDI.000582/0.251111.2151
+UR  - https://dandiarchive.org/dandiset/000582/0.251111.2151
+AB  - The dataset includes spike times for recorded grid cells from the medial entorhinal cortex (MEC) in rats that explored two-dimensional environments. The behavioral data includes position from the tracking LEDs. 
+
+This sample was published in Sargolini et al. (Science, 2006).
+
+Grid cells in the medial entorhinal cortex (MEC) are part of an environment-independent spatial coordinate system. To determine how information about location, direction, and distance is integrated in the grid-cell network, we recorded from each principal cell layer of MEC in rats that explored two-dimensional environments. Whereas layer II was predominated by grid cells, grid cells colocalized with head-direction cells and conjunctive grid x head-direction cells in the deeper layers. All cell types were modulated by running speed. The conjunction of positional, directional, and translational information in a single MEC cell type may enable grid coordinates to be updated during self-motion-based navigation.
+
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Allen Institute Openscope - Sequence Learning Project
 AU  - Berry, Michael
 DO  - 10.48324/DANDI.000617/0.250311.1615
@@ -6334,6 +6355,19 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Mesoscale Two-Photon Calcium Imaging of Population Level Odor Responses from the Mouse Olfactory Bulb
+AU  - Pfaffinger, Paul
+DO  - 10.48324/DANDI.001170/0.251111.1532
+UR  - https://dandiarchive.org/dandiset/001170/0.251111.1532
+AB  - This study explores odor-evoked activity representation in the olfactory bulb (OB) and how odor responses enable odor discrimination. Contrary to some previously cited theories that suggest a sparse representation, we hypothesize a more dense representation during odor presentation. A key question is how odors are reliably encoded in OB activity patterns, and how these patterns contribute to early odor processing. To address this problem, we recorded population level odor responses from the mouse OB with mesoscale two photon calcium imaging and applied machine learning techniques to suggest a model in which sparse coding is largely sufficient for olfaction, but redundant information may make odor coding more robust across different variables.
+KW  - odor-evoked activity
+KW  - olfactory bulb
+KW  - two photon calcium imaging
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Data for: Homeostatic capacity of L5/6 neurons in Fmr1 KO mice following unilateral whisker deprivation
 AU  - Lakhani, Alishah
 DO  - 10.48324/DANDI.001171/0.240905.2128
@@ -7034,13 +7068,20 @@ PY  - 2025
 PB  - DANDI Archive
 ER  - 
 
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
-
+TY  - DATA
+T1  - Neuromodulation in neural organoids with shell MEAs
+AU  - Acha, Chris
+DO  - 10.48324/DANDI.001336/0.250729.1519
+UR  - https://dandiarchive.org/dandiset/001336/0.250729.1519
+AB  - Neural organoids (NOs) have emerged as important tissue engineering models for brain sciences and biocomputing. Establishing reliable relationships between stimulation and recording traces of electrical activity is essential to monitor the functionality of NOs, especially as it relates to realizing biocomputing paradigms such as reinforcement learning or stimulus discrimination. While researchers have demonstrated neuromodulation in NOs, they have primarily used 2D microelectrode arrays (MEAs) with limited access to the entire 3D contour of the NOs. Here, we report neuromodulation using tiny mimics of macroscale EEG caps or shell MEAs. Specifically, we observe that stimulating current within a specific range (20 to 30 µA) induced a statistically significant increase in neuron firing rate when comparing the activity five seconds before and after stimulation. We observed neuromodulatory behavior using both three- and 16-electrode shells and could generate 3D spatiotemporal maps of neuromodulatory activity around the surface of the NO. Our studies demonstrate a methodology for investigating 3D spatiotemporal neuromodulation in organoids of broad relevance to biomedical engineering and biocomputing. 
+This dataset includes recordings from 3 and 16-channel Shell MEAs from neural organoids, including baselines and in response to stimulation. 
+KW  - neural organoid
+KW  - microelectrode array
+KW  - local field potentials
+KW  - single units
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
 
 TY  - DATA
 T1  - Neuromodulation in neural organoids with shell MEAs
@@ -7915,6 +7956,23 @@ DO  - 10.48324/DANDI.001626/0.251028.1747
 UR  - https://dandiarchive.org/dandiset/001626/0.251028.1747
 AB  - HMBA Lein PatchSeq upload (non-human primate) (Q3 2025)
 KW  - Patch-seq, non-human primate, multimodal
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Contralesional activity reflects compensation, while brainstem detour pathways support skilled motor recovery after stroke
+AU  - Panzeri, Matteo
+AU  - Wahl, Anna-Sophia
+DO  - 10.48324/DANDI.001635/0.251111.1144
+UR  - https://dandiarchive.org/dandiset/001635/0.251111.1144
+AB  - Data for the publication "Contralesional activity reflects compensation, while brainstem detour pathways support skilled motor recovery after stroke"
+
+KW  - widefield calcium imaging
+KW  - motor behavior
+KW  - stroke
+KW  - motor cortex
+KW  - chronic recording
 PY  - 2025
 PB  - DANDI Archive
 ER  - 
