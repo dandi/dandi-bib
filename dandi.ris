@@ -332,6 +332,45 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Allen Institute - Visual Coding - Neuropixels (Brain Observatory 1.1 Stimulus Set)
+AU  - Siegle, Josh
+DO  - 10.48324/DANDI.000021/0.251116.2246
+UR  - https://dandiarchive.org/dandiset/000021/0.251116.2246
+AB  - Allen Institute October 2019 Mouse extracellular electrophysiology data approximately matching two-photon brain observatory stimulus set. 
+
+For more information, see https://portal.brain-map.org/explore/circuits/visual-coding-neuropixels
+
+Data are subject to Allen Institute terms of use, available at: http://www.alleninstitute.org/legal/terms-use/
+KW  - electrophysiology
+KW  - life sciences
+KW  - machine learning
+KW  - neurobiology
+KW  - signal processing
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Allen Institute - Visual Coding - Neuropixels (Functional Connectivity Stimulus Set)
+AU  - Siegle, Josh
+DO  - 10.48324/DANDI.000022/0.251116.2247
+UR  - https://dandiarchive.org/dandiset/000022/0.251116.2247
+AB  - Allen Institute October 2019 Mouse extracellular electrophysiology data, collected under analogous conditions to the two-photon Brain Observatory imaging experiments, with mice shown a subset of stimuli with a higher number of repeats. 
+
+For more information, see https://portal.brain-map.org/explore/circuits/visual-coding-neuropixels
+
+Data are subject to Allen Institute Terms of Use policy, available at: http://www.alleninstitute.org/legal/terms-use/
+
+KW  - electrophysiology
+KW  - life sciences
+KW  - machine learning
+KW  - neurobiology
+KW  - signal processing
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Patch-seq recordings from human cortex (June 2020)
 AU  - Kalmbach, Brian
 DO  - 10.48324/DANDI.000023/0.210914.1900
