@@ -7338,6 +7338,19 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - A flexible hippocampal population code for experience relative to reward
+AU  - Sosa, Marielena
+AU  - Plitt, Mark H.
+AU  - Giocomo, Lisa M.
+DO  - 10.48324/DANDI.001361/0.251124.0550
+UR  - https://dandiarchive.org/dandiset/001361/0.251124.0550
+AB  - 2-photon imaging and behavioral data from hippocampal area CA1 during virtual reality navigation in mice. Included in Sosa, Plitt, & Giocomo (2025), "A flexible hippocampal population code for experience relative to reward," Nature Neuroscience.To reinforce rewarding behaviors, events leading up to and following rewards must be remembered. Hippocampal place cell activity spans spatial and non-spatial episodes, but whether hippocampal activity encodes entire sequences of events relative to reward is unknown. To test this, we performed two-photon imaging of hippocampal CA1 as mice navigated virtual environments with changing hidden reward locations. When the reward moved, a subpopulation of neurons updated their firing fields to the same relative position with respect to reward, constructing behavioral timescale sequences spanning the entire task. Over learning, this reward-relative representation became more robust as additional neurons were recruited, and changes in reward-relative firing often preceded behavioral adaptations following reward relocation. Concurrently, the spatial environment code was maintained through a parallel, dynamic subpopulation rather than through dedicated cell classes. These findings reveal how hippocampal ensembles flexibly encode multiple aspects of experience while amplifying behaviorally relevant information.
+KW  - hippocampus, navigation, learning, memory, 2-photon imaging, place cells
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Comparison of Approaches for Surface Vessel Diameter and Pulsatility Quantification
 AU  - Ranjan, Aditya
 AU  - Wong, Devin T.
