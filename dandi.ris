@@ -7929,6 +7929,17 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Integrator dynamics in cortico-basal ganglia loop for flexible motor timing
+AU  - Inagaki, Hidehiko
+DO  - 10.48324/DANDI.001610/0.251125.0504
+UR  - https://dandiarchive.org/dandiset/001610/0.251125.0504
+AB  - Data from "Integrator dynamics in cortico-basal ganglia loop for flexible motor timing" Yang et al 
+Example codes to plot data is at https://github.com/inagaki-lab/Yang_et_al_2024
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Dataset for Finkelstein et al. "Connectivity underlying motor cortex activity during goal-directed behavior" 2025
 AU  - Finkelstein, Arseny
 DO  - 10.48324/DANDI.001612/0.250927.1801
