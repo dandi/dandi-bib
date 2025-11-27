@@ -11,6 +11,14 @@ build/
 venv/
 .tox/
 
+# Test artifacts
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+.hypothesis/
+
 # Editor
 .vscode/
 .idea/
@@ -28,3 +36,4 @@ cache/zotero_cache.json
 # Secrets
 .env
 *.key
+.npm
