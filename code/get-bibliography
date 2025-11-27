@@ -9,6 +9,8 @@ from pathlib import Path
 import sys
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # Configure the logging
 logging.basicConfig(
@@ -20,6 +22,42 @@ logging.basicConfig(
 lgr = logging.getLogger(__name__)
 
 
+def create_session_with_retries(
+    total=5,
+    backoff_factor=1,
+    status_forcelist=(429, 500, 502, 503, 504),
+    allowed_methods=None,
+):
+    """
+    Create a requests Session with retry logic.
+
+    Args:
+        total: Total number of retries
+        backoff_factor: Factor for exponential backoff (delay = backoff_factor * (2 ** retry_count))
+        status_forcelist: HTTP status codes to retry on
+        allowed_methods: HTTP methods to retry (None means retry all methods including POST)
+
+    Returns:
+        requests.Session with retry adapter configured
+    """
+    retry_strategy = Retry(
+        total=total,
+        backoff_factor=backoff_factor,
+        status_forcelist=status_forcelist,
+        allowed_methods=allowed_methods,
+        raise_on_status=False,  # Don't raise exception, let caller handle response
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session = requests.Session()
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    lgr.info(
+        f"Created session with retries: total={total}, backoff_factor={backoff_factor}, "
+        f"status_forcelist={status_forcelist}"
+    )
+    return session
+
+
 def fetch_dandisets(me, bibliography=None, bibtype="bibtex", get_metadata=False):
     if bibliography is None:
         bibliography = {}
@@ -28,6 +66,13 @@ def fetch_dandisets(me, bibliography=None, bibtype="bibtex", get_metadata=False)
             {"bibtex": "bibtex", "ris": "research-info-systems"}[bibtype.lower()]
         )
     }
+
+    # Create session with retry logic
+    session = create_session_with_retries(
+        total=5,
+        backoff_factor=2,
+        status_forcelist=(408, 429, 500, 502, 503, 504),
+    )
 
     # Construct the query URL
     url = (
@@ -43,7 +88,7 @@ def fetch_dandisets(me, bibliography=None, bibtype="bibtex", get_metadata=False)
     while True:
         # Fetch the dandisets
         lgr.info(f"Fetching {url}")
-        response = requests.get(url, headers=headers)
+        response = session.get(url, headers=headers)
         j = response.json()
         dandisets = j["results"]
         url = j.get("next")
@@ -57,7 +102,7 @@ def fetch_dandisets(me, bibliography=None, bibtype="bibtex", get_metadata=False)
                 f"https://api.dandiarchive.org/api/dandisets/{identifier}/versions/"
                 "?page_size=1000"
             )
-            versions_response = requests.get(versions_url, headers=headers)
+            versions_response = session.get(versions_url, headers=headers)
             versions = versions_response.json()["results"]
             for version in versions:
                 version_id = version["version"]
@@ -69,7 +114,7 @@ def fetch_dandisets(me, bibliography=None, bibtype="bibtex", get_metadata=False)
                     doi_url = (
                         f"https://doi.org/10.48324/dandi.{identifier}/{version_id}"
                     )
-                    doi_response = requests.get(doi_url, headers=doi_req_headers)
+                    doi_response = session.get(doi_url, headers=doi_req_headers)
                     bibentry = doi_response.text
                     if not bibentry.strip():
                         lgr.error(
@@ -98,7 +143,7 @@ def fetch_dandisets(me, bibliography=None, bibtype="bibtex", get_metadata=False)
                         raise ValueError(bibtype)
                     if get_metadata:
                         # fetch metadata record
-                        metadata_response = requests.get(
+                        metadata_response = session.get(
                             f"https://api.dandiarchive.org/api/dandisets/"
                             f"{identifier}/versions/{version_id}/",
                             headers=headers,

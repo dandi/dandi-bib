@@ -1,3 +1,4 @@
 bibtexparser
 pyzotero
 requests
+urllib3
