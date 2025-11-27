@@ -1713,6 +1713,11 @@
   },
   "001610": {
     "0.251125.0504": "@misc{dandi.001610/0.251125.0504,\n  doi = {10.48324/DANDI.001610/0.251125.0504},\n  url = {https://dandiarchive.org/dandiset/001610/0.251125.0504},\n  author = {Inagaki, Hidehiko},\n  title = {Integrator dynamics in cortico-basal ganglia loop for flexible motor timing},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
+    "null": "@misc{dandi.001610,\n  doi = {10.48324/DANDI.001610/0.251125.0504},\n  url = {https://dandiarchive.org/dandiset/001610/0.251125.0504},\n  author = {Inagaki, Hidehiko},\n  title = {Integrator dynamics in cortico-basal ganglia loop for flexible motor timing},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
     "null": "@misc{dandi.001610,\n  doi = {10.48324/DANDI.001610/0.251125.0504},\n  url = {https://dandiarchive.org/dandiset/001610/0.251125.0504},\n  author = {Inagaki, Hidehiko},\n  title = {Integrator dynamics in cortico-basal ganglia loop for flexible motor timing},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n"
+  },
+  "001630": {
+    "0.251127.1424": "@misc{dandi.001630/0.251127.1424,\n  doi = {10.48324/DANDI.001630/0.251127.1424},\n  url = {https://dandiarchive.org/dandiset/001630/0.251127.1424},\n  author = {Collin, Armand and Reiter, Charles and Bendale, Geetanjali and Daniel, Lida and Smith, Matt and deBruler, Isabelle and Fernandes Gragnani, Mariana and Clement, Ryan and McNeice, Jules and Griffitts, Fletcher and Sonntag, Maximilian and Cohen-Adad, Julien},\n  title = {Bright-Field Images of Rabbit Nerves from Nerve Repair Study with Axon and Myelin Segmentations},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
+    "null": "@misc{dandi.001630,\n  doi = {10.48324/DANDI.001630/0.251127.1424},\n  url = {https://dandiarchive.org/dandiset/001630/0.251127.1424},\n  author = {Collin, Armand and Reiter, Charles and Bendale, Geetanjali and Daniel, Lida and Smith, Matt and deBruler, Isabelle and Fernandes Gragnani, Mariana and Clement, Ryan and McNeice, Jules and Griffitts, Fletcher and Sonntag, Maximilian and Cohen-Adad, Julien},\n  title = {Bright-Field Images of Rabbit Nerves from Nerve Repair Study with Axon and Myelin Segmentations},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n"
   }
 }

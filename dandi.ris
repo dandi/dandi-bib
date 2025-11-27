@@ -8024,6 +8024,37 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Bright-Field Images of Rabbit Nerves from Nerve Repair Study with Axon and Myelin Segmentations
+AU  - Collin, Armand
+AU  - Reiter, Charles
+AU  - Bendale, Geetanjali
+AU  - Daniel, Lida
+AU  - Smith, Matt
+AU  - deBruler, Isabelle
+AU  - Fernandes Gragnani, Mariana
+AU  - Clement, Ryan
+AU  - McNeice, Jules
+AU  - Griffitts, Fletcher
+AU  - Sonntag, Maximilian
+AU  - Cohen-Adad, Julien
+DO  - 10.48324/DANDI.001630/0.251127.1424
+UR  - https://dandiarchive.org/dandiset/001630/0.251127.1424
+AB  - - Bright-Field Optical Microscopy (BF) dataset for AxonDeepSeg (https://axondeepseg.readthedocs.io/)
+
+- Data collected from New Zealand white rabbits in experimental nerve repair study.
+
+- 14 subjects, with one sample per subject
+
+- 8 subjects have manual annotations
+
+- Corresponding axon, myelin, axonmyelin manual segmentation "labels" in derivatives.
+
+- This dataset is a subset of the full dataset used in this publication: https://pmc.ncbi.nlm.nih.gov/articles/PMC10517328/#s017
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Contralesional activity reflects compensation, while brainstem detour pathways support skilled motor recovery after stroke
 AU  - Panzeri, Matteo
 AU  - Wahl, Anna-Sophia
