@@ -83,16 +83,17 @@ omit = [
 
 [tool.coverage.report]
 # Lines to exclude from coverage reporting
+# Note: Only exclude code that truly cannot/should not be tested
 exclude_lines = [
-    "pragma: no cover",              # Explicit exclusion marker
-    "def __repr__",                  # String representations rarely need testing
-    "raise AssertionError",          # Defensive programming, should never execute
+    "pragma: no cover",              # Explicit exclusion marker for impossible-to-test code
     "raise NotImplementedError",     # Abstract methods/interface definitions
-    "if __name__ == .__main__.:",   # Script entry points (tested via integration)
-    "if TYPE_CHECKING:",             # Type checking imports only used by mypy
-    "class .*\\bProtocol\\):",       # Protocol definitions (structural types)
+    "if __name__ == .__main__.:",   # Script entry points (tested via integration tests)
+    "if TYPE_CHECKING:",             # Type-only imports for static analysis (never executed)
+    "class .*\\bProtocol\\):",       # Protocol class definitions (structural typing)
     "@(abc\\.)?abstractmethod",      # Abstract method decorators
 ]
+# Removed __repr__ - these ARE used and should be tested
+# Removed AssertionError - defensive code should be tested
 
 [tool.ruff]
 line-length = 100
