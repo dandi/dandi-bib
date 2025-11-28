@@ -57,7 +57,8 @@ class TestCreateSessionWithRetries:
         assert adapter is not None
         assert adapter.max_retries.total == 3
         assert adapter.max_retries.backoff_factor == 0.5
-        assert adapter.max_retries.status_forcelist == frozenset({500, 502})
+        # status_forcelist can be set or frozenset depending on urllib3 version
+        assert set(adapter.max_retries.status_forcelist) == {500, 502}
 
     @pytest.mark.ai_generated
     def test_session_mounts_both_protocols(self) -> None:
@@ -408,8 +409,19 @@ class TestMain:
     """Tests for main function and CLI argument parsing."""
 
     @pytest.mark.ai_generated
-    def test_main_requires_bibfile_argument(self) -> None:
-        """Test that main function requires --bibfile argument."""
-        with patch('sys.argv', ['get-bibliography']):
-            with pytest.raises(SystemExit):
+    def test_argparse_help(self) -> None:
+        """Test that argparse --help works."""
+        with patch('sys.argv', ['get-bibliography', '--help']):
+            with pytest.raises(SystemExit) as exc_info:
                 get_bibliography.main()
+            # argparse exits with code 0 for --help
+            assert exc_info.value.code == 0
+
+    @pytest.mark.ai_generated
+    def test_argparse_invalid_bibtype(self) -> None:
+        """Test that invalid bibtype is rejected by argparse."""
+        with patch('sys.argv', ['get-bibliography', '--bibtype', 'invalid']):
+            with pytest.raises(SystemExit) as exc_info:
+                get_bibliography.main()
+            # argparse exits with code 2 for invalid choice
+            assert exc_info.value.code == 2

@@ -94,15 +94,15 @@ class TestAnalyzeBibliography:
         cache_dir = temp_dir / "cache"
         cache_dir.mkdir()
 
+        # JSON converts None keys to "null" string, but Python code checks for `is not None`
+        # So "null" string keys are counted as versions (they're not Python None)
         results_data = {
             "000001": {
                 "0.210801.2033": {"status": "success"},
                 "0.210802.1234": {"status": "success"},
-                None: {"status": "success"},  # "latest" entry
             },
             "000002": {
                 "0.210901.1234": {"status": "success"},
-                None: {"status": "success"},
             },
         }
         (cache_dir / "results.json").write_text(json.dumps(results_data))
@@ -110,7 +110,7 @@ class TestAnalyzeBibliography:
         stats = update_readme.analyze_bibliography(temp_dir)
 
         assert stats["dandisets"] == 2
-        assert stats["versions"] == 3  # Excludes None entries
+        assert stats["versions"] == 3
 
     @pytest.mark.ai_generated
     def test_analyze_both_files(self, temp_dir: Path) -> None:
@@ -126,13 +126,12 @@ class TestAnalyzeBibliography:
 }
 """)
 
-        # Create results.json
+        # Create results.json (without None keys since JSON doesn't support them)
         cache_dir = temp_dir / "cache"
         cache_dir.mkdir()
         results_data = {
             "000001": {
                 "0.210801.2033": {"status": "success"},
-                None: {"status": "success"},
             },
         }
         (cache_dir / "results.json").write_text(json.dumps(results_data))

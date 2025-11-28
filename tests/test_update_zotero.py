@@ -170,10 +170,11 @@ class TestBibtexToZoteroItem:
     @pytest.mark.ai_generated
     def test_no_version_for_short_suffix(self) -> None:
         """Test that short DOI suffixes don't get treated as versions."""
+        # Version must have "." and len > 6, so use a short suffix without "."
         bibtex_entry = {
             "ENTRYTYPE": "misc",
             "title": "Test",
-            "doi": "10.48324/dandi.000027",
+            "doi": "10.48324/000027",  # No "." in last part
         }
 
         zotero_item = update_zotero.bibtex_to_zotero_item(bibtex_entry)
@@ -273,45 +274,53 @@ class TestGetExistingItems:
     def test_get_items_single_page(self) -> None:
         """Test getting items when results fit in single page."""
         mock_zot = MagicMock()
+        # Items need Citation Key in extra field to be recognized
         mock_zot.collection_items.return_value = [
-            {"key": "ITEM1", "data": {"title": "Test 1"}},
-            {"key": "ITEM2", "data": {"title": "Test 2"}},
+            {"key": "ITEM1", "data": {"title": "Test 1", "extra": "Citation Key: test1"}},
+            {"key": "ITEM2", "data": {"title": "Test 2", "extra": "Citation Key: test2"}},
         ]
-        mock_zot.num_collectionitems.return_value = 2
 
         items = update_zotero.get_existing_items(mock_zot, "COLLKEY")
 
+        # Returns dict mapping BibTeX ID to item
         assert len(items) == 2
-        assert items[0]["key"] == "ITEM1"
-        mock_zot.collection_items.assert_called_once()
+        assert "test1" in items
+        assert "test2" in items
+        assert items["test1"]["key"] == "ITEM1"
 
     @pytest.mark.ai_generated
     def test_get_items_pagination(self) -> None:
         """Test getting items with pagination."""
         mock_zot = MagicMock()
 
-        # Simulate 150 total items requiring 2 pages
-        mock_zot.num_collectionitems.return_value = 150
-        mock_zot.collection_items.side_effect = [
-            [{"key": f"ITEM{i}", "data": {"title": f"Test {i}"}} for i in range(100)],
-            [{"key": f"ITEM{i}", "data": {"title": f"Test {i}"}} for i in range(100, 150)],
+        # Simulate items requiring pagination (ZOTERO_API_LIMIT is 100)
+        page1 = [
+            {"key": f"ITEM{i}", "data": {"title": f"Test {i}", "extra": f"Citation Key: key{i}"}}
+            for i in range(100)
         ]
+        page2 = [
+            {"key": f"ITEM{i}", "data": {"title": f"Test {i}", "extra": f"Citation Key: key{i}"}}
+            for i in range(100, 150)
+        ]
+        mock_zot.collection_items.side_effect = [page1, page2]
 
         items = update_zotero.get_existing_items(mock_zot, "COLLKEY")
 
         assert len(items) == 150
+        # Page1 has 100 items (full page), so it continues
+        # Page2 has 50 items (< 100), so it stops without extra call
         assert mock_zot.collection_items.call_count == 2
 
     @pytest.mark.ai_generated
     def test_get_items_empty_collection(self) -> None:
         """Test getting items from empty collection."""
         mock_zot = MagicMock()
-        mock_zot.num_collectionitems.return_value = 0
         mock_zot.collection_items.return_value = []
 
         items = update_zotero.get_existing_items(mock_zot, "COLLKEY")
 
         assert len(items) == 0
+        assert isinstance(items, dict)
 
 
 class TestUpdateZoteroCollection:
@@ -320,47 +329,47 @@ class TestUpdateZoteroCollection:
     @pytest.mark.ai_generated
     def test_dry_run_mode(self, temp_dir: Path) -> None:
         """Test that dry run mode doesn't make actual changes."""
-        bib_file = temp_dir / "test.bib"
-        bib_file.write_text("""@misc{test,
-  author = {Doe, Jane},
-  title = {Test},
-  doi = {10.1234/test}
-}""")
+        # Create a list of BibTeX entries (as dicts, like bibtexparser returns)
+        bib_entries = [{
+            "ID": "test",
+            "ENTRYTYPE": "misc",
+            "author": "Doe, Jane",
+            "title": "Test",
+            "doi": "10.1234/test"
+        }]
 
         mock_zot = MagicMock()
-        mock_zot.num_collectionitems.return_value = 0
-        mock_zot.collection_items.return_value = []
+        mock_zot.collection_items.return_value = []  # Empty collection
 
         update_zotero.update_zotero_collection(
-            str(bib_file),
             mock_zot,
             "COLLKEY",
-            dry_run=True,
-            cache_file=None
+            bib_entries,
+            dry_run=True
         )
 
-        # Should not have called any update methods
+        # In dry run mode, should not have called create_items
         mock_zot.create_items.assert_not_called()
         mock_zot.update_item.assert_not_called()
 
     @pytest.mark.ai_generated
-    def test_skips_invalid_entries(self, temp_dir: Path) -> None:
-        """Test that invalid BibTeX entries are skipped."""
-        bib_file = temp_dir / "test.bib"
-        # Entry starting with # is invalid
-        bib_file.write_text("""# No valid BibTeX for 000001/0.210801.2033""")
+    def test_skips_entries_without_id(self, temp_dir: Path) -> None:
+        """Test that entries without ID are skipped."""
+        # Entry without ID should be skipped
+        bib_entries = [{
+            "ENTRYTYPE": "misc",
+            "title": "No ID Entry",
+        }]
 
         mock_zot = MagicMock()
-        mock_zot.num_collectionitems.return_value = 0
         mock_zot.collection_items.return_value = []
 
         update_zotero.update_zotero_collection(
-            str(bib_file),
             mock_zot,
             "COLLKEY",
-            dry_run=False,
-            cache_file=None
+            bib_entries,
+            dry_run=False
         )
 
-        # Should not attempt to create any items
+        # Should not attempt to create any items (entry had no ID)
         mock_zot.create_items.assert_not_called()
