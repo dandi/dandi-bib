@@ -1,8 +1,7 @@
 """Shared pytest fixtures and configuration for dandi-bib tests."""
 import json
-import tempfile
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any
 
 import pytest
 
@@ -14,7 +13,7 @@ def temp_dir(tmp_path: Path) -> Path:
 
 
 @pytest.fixture
-def sample_dandiset_data() -> Dict[str, Any]:
+def sample_dandiset_data() -> dict[str, Any]:
     """Provide sample dandiset data from DANDI API."""
     return {
         "identifier": "000001",
@@ -34,7 +33,7 @@ def sample_dandiset_data() -> Dict[str, Any]:
 
 
 @pytest.fixture
-def sample_version_data() -> Dict[str, Any]:
+def sample_version_data() -> dict[str, Any]:
     """Provide sample version data from DANDI API."""
     return {
         "version": "0.210801.2033",
@@ -72,7 +71,7 @@ def sample_bibtex_file(temp_dir: Path, sample_bibtex_entry: str) -> Path:
 
 
 @pytest.fixture
-def sample_zotero_item() -> Dict[str, Any]:
+def sample_zotero_item() -> dict[str, Any]:
     """Provide a sample Zotero item."""
     return {
         "key": "TESTKEY1",
@@ -101,7 +100,7 @@ def sample_results_json(temp_dir: Path) -> Path:
 
 
 @pytest.fixture
-def mock_api_response() -> Dict[str, Any]:
+def mock_api_response() -> dict[str, Any]:
     """Provide a mock API response for paginated requests."""
     return {
         "count": 2,

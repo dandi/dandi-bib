@@ -1,13 +1,12 @@
 """Unit tests for get-bibliography script."""
-import json
 import sys
 from pathlib import Path
-from typing import Any, Dict
-from unittest.mock import Mock, patch
+from unittest.mock import patch
 
 import pytest
 import responses
 from requests.adapters import HTTPAdapter
+
 
 # Find project root (where pyproject.toml is)
 def find_project_root():
@@ -25,6 +24,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "code"))
 
 # Import the module - note this is a workaround since it's an executable script
 from importlib.machinery import SourceFileLoader
+
 script_path = PROJECT_ROOT / "code" / "get-bibliography"
 if not script_path.exists():
     raise ImportError(f"Script not found: {script_path}")

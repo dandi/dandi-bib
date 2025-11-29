@@ -1,12 +1,9 @@
 """Integration tests for dandi-bib workflows."""
 import json
 import subprocess
-import sys
 from pathlib import Path
-from typing import Any, Dict
 
 import pytest
-import responses
 
 
 @pytest.mark.integration

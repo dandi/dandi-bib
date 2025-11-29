@@ -2,9 +2,9 @@
 import json
 import sys
 from pathlib import Path
-from typing import Dict, Any
 
 import pytest
+
 
 # Find project root (where pyproject.toml is)
 def find_project_root():
@@ -22,6 +22,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "code"))
 
 # Import the module
 from importlib.machinery import SourceFileLoader
+
 script_path = PROJECT_ROOT / "code" / "update-readme-stats"
 if not script_path.exists():
     raise ImportError(f"Script not found: {script_path}")

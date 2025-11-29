@@ -1,11 +1,10 @@
 """Unit tests for update-zotero-collection script."""
-import json
 import sys
 from pathlib import Path
-from typing import Any, Dict, List
-from unittest.mock import Mock, MagicMock, patch
+from unittest.mock import MagicMock
 
 import pytest
+
 
 # Find project root (where pyproject.toml is)
 def find_project_root():
@@ -23,6 +22,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "code"))
 
 # Import the module
 from importlib.machinery import SourceFileLoader
+
 script_path = PROJECT_ROOT / "code" / "update-zotero-collection"
 if not script_path.exists():
     raise ImportError(f"Script not found: {script_path}")
