@@ -165,28 +165,29 @@ def test_my_function(temp_dir: Path) -> None:
 ### Integration Test Example
 
 ```python
+import subprocess
+from pathlib import Path
 import pytest
-import responses
 
 @pytest.mark.integration
 @pytest.mark.ai_generated
-@responses.activate
-def test_full_workflow(temp_dir: Path) -> None:
-    """Test complete workflow."""
-    # Setup mocks
-    responses.add(
-        responses.GET,
-        "https://api.example.com/data",
-        json={"key": "value"},
-        status=200,
+def test_script_help(temp_dir: Path) -> None:
+    """Test script help output."""
+    script_path = Path(__file__).parent.parent / "code" / "my-script"
+
+    result = subprocess.run(
+        [str(script_path), "--help"],
+        capture_output=True,
+        text=True,
     )
 
-    # Run workflow
-    result = run_workflow()
-
-    # Verify
-    assert result.success
+    assert result.returncode == 0
+    assert "--option" in result.stdout
 ```
+
+**Note**: `@responses.activate` only mocks HTTP within the same process.
+It does NOT work for subprocess calls. For subprocess-based integration tests,
+either test CLI argument parsing or use actual HTTP endpoints.
 
 ## Continuous Integration
 
@@ -194,8 +195,8 @@ The CI is fully tox-centric: all testing is defined in `tox.ini` and GitHub Acti
 
 ### CI Workflow
 
-- **Matrix testing**: Python 3.8, 3.9, 3.10, 3.11, 3.12
-- **Python 3.11 additionally runs**:
+- **Matrix testing**: Python 3.10, 3.11, 3.12, 3.13, 3.14
+- **Python 3.12 additionally runs**:
   - `lint` - Code quality checks with ruff
   - `type` - Type checking with mypy
   - `cov` - Coverage reporting with XML output for Codecov
@@ -285,6 +286,17 @@ Ensure test files follow pytest naming conventions:
 - Classes: `Test*`
 - Functions: `test_*`
 
+## Test Timeout
+
+All tests have a **30 second timeout** configured in `pyproject.toml`:
+
+```toml
+[tool.pytest.ini_options]
+timeout = 30
+```
+
+This prevents tests from hanging indefinitely on network issues or other blocking operations.
+
 ## Best Practices
 
 1. **Isolate tests**: Each test should be independent
@@ -294,6 +306,7 @@ Ensure test files follow pytest naming conventions:
 5. **Test edge cases**: Include error conditions, empty inputs, boundary values
 6. **Keep tests fast**: Unit tests should run in milliseconds
 7. **Document intent**: Use clear docstrings explaining what is tested
+8. **Respect timeout**: Tests must complete within 30 seconds
 
 ## Dependency Management
 
