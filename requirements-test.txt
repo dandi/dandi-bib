@@ -1,21 +1,2 @@
-# Test and development dependencies
-# Version specifications are in pyproject.toml [project.optional-dependencies]
-# For pinned/frozen versions, use requirements-test.lock
-
-# Runtime dependencies
--r requirements.txt
-
-# Test dependencies
-pytest
-pytest-cov
-pytest-mock
-pytest-timeout
-responses
-
-# Development tools
-ruff
-mypy
-types-requests
-tox
-tox-uv
-tox-gh-actions
+# Test and development dependencies - install from pyproject.toml
+-e .[devel]

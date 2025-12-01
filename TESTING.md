@@ -27,22 +27,18 @@ tests/
 Install test dependencies:
 
 ```bash
-# Using pip
-pip install -r requirements-test.txt
+# Using pip (installs from pyproject.toml extras)
+pip install -e ".[devel]"
 
 # Or using uv (faster)
-uv pip install -r requirements-test.txt
+uv pip install -e ".[devel]"
 
 # Or just use tox (it installs dependencies automatically)
 pip install tox tox-uv
 tox -e py3
 ```
 
-Dependencies are specified in:
-- `pyproject.toml`: Authoritative source with version constraints
-- `requirements.txt`: Runtime dependencies only
-- `requirements-test.txt`: All test and development dependencies
-- `tox.ini`: Uses `skip_install=true` and installs deps directly
+All dependencies are defined in `pyproject.toml` as the single source of truth.
 
 ### Running with pytest
 
@@ -310,28 +306,30 @@ This prevents tests from hanging indefinitely on network issues or other blockin
 
 ## Dependency Management
 
-This project is a **script collection**, not an installable package:
+All dependencies are defined in **pyproject.toml** as the single source of truth:
 
-- **Primary source**: `pyproject.toml` defines all dependencies with minimum versions
-- **requirements.txt**: Runtime dependencies (bibtexparser, pyzotero, requests, urllib3)
-- **requirements-test.txt**: All test and development dependencies
-- **tox.ini**: Uses `skip_install=true` and installs dependencies directly (no package installation)
+- `[project].dependencies`: Runtime dependencies
+- `[project.optional-dependencies].test`: Test dependencies (pytest, responses, etc.)
+- `[project.optional-dependencies].devel`: All development tools (test + ruff, mypy, tox)
 
-### Why skip_install?
+Requirements files simply reference pyproject.toml:
+- `requirements.txt`: `-e .` (runtime deps)
+- `requirements-test.txt`: `-e .[devel]` (all dev deps)
 
-This project contains standalone scripts in `code/`, not an installable Python package. Therefore:
-- Tox uses `skip_install=true` to avoid packaging errors
-- Dependencies are installed directly via `deps` in tox.ini
-- Tests run against the scripts in place, not an installed package
+### Why skip_install in tox?
+
+This project contains standalone scripts in `code/` without `.py` extensions.
+Tox uses `skip_install=true` but still installs dependencies via `deps = .[test]`
+or `deps = .[devel]`. Tests run against the scripts in place.
 
 ### Installing dependencies
 
 ```bash
 # Runtime dependencies only
-pip install -r requirements.txt
+pip install -e .
 
 # All test and development dependencies
-pip install -r requirements-test.txt
+pip install -e ".[devel]"
 
 # Or let tox handle it automatically
 pip install tox tox-uv

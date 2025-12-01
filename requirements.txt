@@ -1,8 +1,2 @@
-# Runtime dependencies
-# For pinned/frozen versions, use requirements.lock
-# Minimal version specifications (also defined in pyproject.toml)
-
-bibtexparser
-pyzotero
-requests
-urllib3
+# Runtime dependencies - install from pyproject.toml
+-e .
