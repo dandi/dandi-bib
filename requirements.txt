@@ -1,4 +1,2 @@
-bibtexparser
-pyzotero
-requests
-urllib3
+# Runtime dependencies - install from pyproject.toml
+-e .
