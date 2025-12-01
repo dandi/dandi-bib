@@ -33,18 +33,18 @@ test = [
 ]
 devel = [
     # Include test dependencies
-    "pytest>=7.0",
-    "pytest-cov>=4.0",
-    "pytest-mock>=3.10",
-    "pytest-timeout>=2.0",
-    "responses>=0.23",
+    "dandi-bib[test]",
     # Code quality tools
     "ruff>=0.1.0",
     "mypy>=1.0",
     "types-requests",
-    # Test automation
+    # Test automation (local)
     "tox>=4.0",
     "tox-uv>=1.0",
+]
+ci = [
+    # CI extends devel with tox-gh-actions for GitHub Actions integration
+    "dandi-bib[devel]",
     "tox-gh-actions>=3.0",
 ]
 
