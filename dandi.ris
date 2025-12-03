@@ -8071,3 +8071,14 @@ PY  - 2025
 PB  - DANDI Archive
 ER  - 
 
+TY  - DATA
+T1  - Multi-electrode array recordings of rat retinal ganglion cells with LED stimulation for retinotectal cell identification via ReaChR phototagging
+AU  - Rudzite, Andra
+DO  - 10.48324/DANDI.001677/0.251202.2310
+UR  - https://dandiarchive.org/dandiset/001677/0.251202.2310
+AB  - Retinal tissue was obtained from Long-Evans rats that received stereotactic injections of AAV2retro-CAG-ReaChR-mCitrine into the superior colliculus. This retrograde viral approach resulted in expression of the red-shifted channelrhodopsin ReaChR and the fluorophore mCitrine in retinotectal RGCs.
+Ex vivo retinal recordings were performed on 512-electrode arrays following pharmacological blockade of photoreceptor-mediated responses using L-AP4, DL-AP5, and CNQX. LED flashes at 565 nm were delivered at multiple intensities and durations (10, 30, 100, and 200 ms) to selectively activate ReaChR-expressing cells. The dataset contains recordings from 6 experiments, each capturing responses from hundreds of RGCs to the LED stimulation protocol.
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
