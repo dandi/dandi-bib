@@ -1723,6 +1723,7 @@
   },
   "001677": {
     "0.251202.2310": "@misc{dandi.001677/0.251202.2310,\n  doi = {10.48324/DANDI.001677/0.251202.2310},\n  url = {https://dandiarchive.org/dandiset/001677/0.251202.2310},\n  author = {Rudzite, Andra},\n  title = {Multi-electrode array recordings of rat retinal ganglion cells with LED stimulation for retinotectal cell identification via ReaChR phototagging},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
+    "null": "@misc{dandi.001677,\n  doi = {10.48324/DANDI.001677/0.251202.2310},\n  url = {https://dandiarchive.org/dandiset/001677/0.251202.2310},\n  author = {Rudzite, Andra},\n  title = {Multi-electrode array recordings of rat retinal ganglion cells with LED stimulation for retinotectal cell identification via ReaChR phototagging},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
     "null": "@misc{dandi.001677,\n  doi = {10.48324/DANDI.001677/0.251202.2310},\n  url = {https://dandiarchive.org/dandiset/001677/0.251202.2310},\n  author = {Rudzite, Andra},\n  title = {Multi-electrode array recordings of rat retinal ganglion cells with LED stimulation for retinotectal cell identification via ReaChR phototagging},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n"
   }
 }
