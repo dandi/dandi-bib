@@ -8072,6 +8072,23 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Months-long stability of the head-direction system
+AU  - Skromne Carrasco, Sofia
+AU  - Viejo, Guillaume
+AU  - Peyrache, Adrien
+DO  - 10.48324/DANDI.001676/0.251205.2137
+UR  - https://dandiarchive.org/dandiset/001676/0.251205.2137
+AB  - This Dandiset includes longitudinal 1-photon imaging (UCLA miniscope) recordings in the Postsubiculum of freely-moving mice. All sessions are part of a longitudinal experiment: one month in a single environment, two months where the environment changes every two weeks, random visits of four environments over four weeks, and sparse explorations of two environments over five weeks.  The Dandiset also includes electrophysiological recordings from four animals exploring three enviroments in a single day.
+KW  - calcium imaging
+KW  - head-direction cells
+KW  - representational stability
+KW  - electrophysiology
+KW  - postsubiculum
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Multi-electrode array recordings of rat retinal ganglion cells with LED stimulation for retinotectal cell identification via ReaChR phototagging
 AU  - Rudzite, Andra
 DO  - 10.48324/DANDI.001677/0.251202.2310
