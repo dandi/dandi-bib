@@ -1728,6 +1728,7 @@
   },
   "001676": {
     "0.251205.2137": "@misc{dandi.001676/0.251205.2137,\n  doi = {10.48324/DANDI.001676/0.251205.2137},\n  url = {https://dandiarchive.org/dandiset/001676/0.251205.2137},\n  author = {Skromne Carrasco, Sofia and Viejo, Guillaume and Peyrache, Adrien},\n  keywords = {calcium imaging, head-direction cells, representational stability, electrophysiology, postsubiculum},\n  title = {Months-long stability of the head-direction system},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
+    "null": "@misc{dandi.001676,\n  doi = {10.48324/DANDI.001676/0.251205.2137},\n  url = {https://dandiarchive.org/dandiset/001676/0.251205.2137},\n  author = {Skromne Carrasco, Sofia and Viejo, Guillaume and Peyrache, Adrien},\n  keywords = {calcium imaging, head-direction cells, representational stability, electrophysiology, postsubiculum},\n  title = {Months-long stability of the head-direction system},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
     "null": "@misc{dandi.001676,\n  doi = {10.48324/DANDI.001676/0.251205.2137},\n  url = {https://dandiarchive.org/dandiset/001676/0.251205.2137},\n  author = {Skromne Carrasco, Sofia and Viejo, Guillaume and Peyrache, Adrien},\n  keywords = {calcium imaging, head-direction cells, representational stability, electrophysiology, postsubiculum},\n  title = {Months-long stability of the head-direction system},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n"
   }
 }
