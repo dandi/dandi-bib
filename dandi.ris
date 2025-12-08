@@ -7982,6 +7982,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Establishing Sensory Neurons as Therapeutic Targets in Peripheral Neuropathy Driven by Polyglutamine Expanded ATXN3
+AU  - McLoughlin, Hayley
+DO  - 10.48324/DANDI.001621/0.251208.0008
+UR  - https://dandiarchive.org/dandiset/001621/0.251208.0008
+AB  - Raw image files of peripheral neuropathology in SCA3 mouse models and Cre model validation studies. These data were acquired using basic light microscopy, immunofluorescence confocal microscopy, and Western Blots.
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - C. elegans whole-brain imaging datasets (NeuroPAL and timeseries)
 AU  - Dunn, Raymond
 DO  - 10.48324/DANDI.001623/0.251015.0312
