@@ -1733,6 +1733,7 @@
   },
   "001621": {
     "0.251208.0008": "@misc{dandi.001621/0.251208.0008,\n  doi = {10.48324/DANDI.001621/0.251208.0008},\n  url = {https://dandiarchive.org/dandiset/001621/0.251208.0008},\n  author = {McLoughlin, Hayley},\n  title = {Establishing Sensory Neurons as Therapeutic Targets in Peripheral Neuropathy Driven by Polyglutamine Expanded ATXN3},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
+    "null": "@misc{dandi.001621,\n  doi = {10.48324/DANDI.001621/0.251208.0008},\n  url = {https://dandiarchive.org/dandiset/001621/0.251208.0008},\n  author = {McLoughlin, Hayley},\n  title = {Establishing Sensory Neurons as Therapeutic Targets in Peripheral Neuropathy Driven by Polyglutamine Expanded ATXN3},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n",
     "null": "@misc{dandi.001621,\n  doi = {10.48324/DANDI.001621/0.251208.0008},\n  url = {https://dandiarchive.org/dandiset/001621/0.251208.0008},\n  author = {McLoughlin, Hayley},\n  title = {Establishing Sensory Neurons as Therapeutic Targets in Peripheral Neuropathy Driven by Polyglutamine Expanded ATXN3},\n  publisher = {DANDI Archive},\n  year = {2025}\n}\n"
   }
 }
