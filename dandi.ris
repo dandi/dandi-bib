@@ -1663,6 +1663,22 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Neural population dynamics during reaching
+AU  - Churchland, Mark
+AU  - Cunningham, John P.
+AU  - Kaufman, Matthew T.
+AU  - Foster, Justin D.
+AU  - Nuyujukian, Paul
+AU  - Ryu, Stephen I.
+AU  - Shenoy, Krishna V.
+DO  - 10.48324/DANDI.000070/0.251218.1714
+UR  - https://dandiarchive.org/dandiset/000070/0.251218.1714
+AB  - Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd) using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing reaching tasks with right hand.
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Patch-seq recordings from human cortex (June 2021)
 AU  - Chartrand, Thomas
 DO  - 10.48324/DANDI.000109/0.210914.1904
