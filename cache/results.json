@@ -1738,6 +1738,7 @@
   },
   "000070": {
     "0.251218.1714": "@misc{dandi.000070/0.251218.1714,\n  doi = {10.48324/DANDI.000070/0.251218.1714},\n  url = {https://dandiarchive.org/dandiset/000070/0.251218.1714},\n  author = {Churchland, Mark and Cunningham, John P. and Kaufman, Matthew T. and Foster, Justin D. and Nuyujukian, Paul and Ryu, Stephen I. and Shenoy, Krishna V.},\n  title = {Neural population dynamics during reaching},\n  publisher = {DANDI Archive},\n  year = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "null": "@misc{dandi.000070,\n  doi = {10.48324/DANDI.000070/0.251218.1714},\n  url = {https://dandiarchive.org/dandiset/000070/0.251218.1714},\n  author = {Churchland, Mark and Cunningham, John P. and Kaufman, Matthew T. and Foster, Justin D. and Nuyujukian, Paul and Ryu, Stephen I. and Shenoy, Krishna V.},\n  title = {Neural population dynamics during reaching},\n  publisher = {DANDI Archive},\n  year = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "null": "@misc{dandi.000070,\n  doi = {10.48324/DANDI.000070/0.251218.1714},\n  url = {https://dandiarchive.org/dandiset/000070/0.251218.1714},\n  author = {Churchland, Mark and Cunningham, John P. and Kaufman, Matthew T. and Foster, Justin D. and Nuyujukian, Paul and Ryu, Stephen I. and Shenoy, Krishna V.},\n  title = {Neural population dynamics during reaching},\n  publisher = {DANDI Archive},\n  year = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
   }
 }
