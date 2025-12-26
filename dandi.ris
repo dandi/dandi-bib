@@ -8125,3 +8125,13 @@ PY  - 2025
 PB  - DANDI Archive
 ER  - 
 
+TY  - DATA
+T1  - Assessing Chance in Neuro-Vascular Interactions
+AU  - Aksenov, Daniil
+DO  - 10.48324/DANDI.001689/0.251225.2239
+UR  - https://dandiarchive.org/dandiset/001689/0.251225.2239
+AB  - This Dandiset contains invasive neurophysiology and tissue oxygen recordings collected in awake, restrained rabbits during 10-minute resting-state sessions, supporting the analyses in “Assessing Chance in Neuro-Vascular Interactions.” The dataset is intended for studying neurovascular interactions/vasomotion and for reproducing the surrogate-based statistical framework used in the manuscript. This dandiset contains data from 43 resting-state experiments (10 minutes each) consisting of simultaneous brain tissue PO₂ recordings and neuronal activity measures (LFP band envelopes and/or single-unit activity). Experiments were performed in 11 pigmented Dutch-belted rabbits; see the associated manuscript for subject details and experimental context.
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
