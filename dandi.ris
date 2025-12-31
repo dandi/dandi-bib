@@ -8126,6 +8126,41 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - EMUsort Rat Datasets (Acquired): high-resolution multichannel EMG recordings with 3D motion tracking during treadmill locomotion
+AU  - O'Connell, Sean
+AU  - Wang, Runming
+DO  - 10.48324/DANDI.001688/0.251231.0329
+UR  - https://dandiarchive.org/dandiset/001688/0.251231.0329
+AB  - This Dandiset contains 3 high-resolution EMG recordings (16-channel bipolar) from rat triceps brachii along with synchronized 3D motion tracking for 10 keypoints during treadmill locomotion. The motion tracking was acquired at 125Hz using 4 BlackFly S cameras (BFS-U3-16S2M-CS) and labeled with DeepLabCut. The calibration and triangulation was performed with Anipose and this Dandiset contains the 3D points outputted in the pose-3d folder, along with the confidence values. A small proportion of these values (outliers) were interpolated by the cubic spline method if they had a confidence below 0.8 or if crossing a jump threshold of 6 pixels compared to a 7-frame median-filtered history (i.e., score_threshold=0.8, medfilt=7, offset_threshold=6, see Anipose documentation). The interpolation of a time point is represented by a NaN value for the confidence score of a given keypoint. No further filtering was performed on the 3D pose estimates. Along with these, this Dandiset also contains labels for the initial contact and initial swing times for the forelimb palm of the implanted side (left; i.e., palm_L).
+KW  - EMUsort
+KW  - motor unit
+KW  - MUAP
+KW  - MUsim
+KW  - SNEL
+KW  - Sober
+KW  - Sober Lab
+KW  - Systems Neural Engineering Lab
+KW  - rat
+KW  - EMG
+KW  - treadmill
+KW  - locomotion
+KW  - Anipose
+KW  - motion
+KW  - tracking
+KW  - synchronized
+KW  - electrophysiology
+KW  - behavior
+KW  - camera
+KW  - movement
+KW  - running
+KW  - simultaneous
+KW  - recordings
+KW  - multiple-camera setup
+PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Assessing Chance in Neuro-Vascular Interactions
 AU  - Aksenov, Daniil
 DO  - 10.48324/DANDI.001689/0.251225.2239
