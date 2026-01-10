@@ -1753,6 +1753,11 @@
   },
   "001438": {
     "0.260109.0214": "@misc{dandi.001438/0.260109.0214,\n  doi = {10.48324/DANDI.001438/0.260109.0214},\n  url = {https://dandiarchive.org/dandiset/001438/0.260109.0214},\n  author = {Sponseller, Mia},\n  title = {Old rats persistently switch between allocentric and procedural strategies across learning of the Morris watermaze},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "null": "@misc{dandi.001438,\n  doi = {10.48324/DANDI.001438/0.260109.0214},\n  url = {https://dandiarchive.org/dandiset/001438/0.260109.0214},\n  author = {Sponseller, Mia},\n  title = {Old rats persistently switch between allocentric and procedural strategies across learning of the Morris watermaze},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "null": "@misc{dandi.001438,\n  doi = {10.48324/DANDI.001438/0.260109.0214},\n  url = {https://dandiarchive.org/dandiset/001438/0.260109.0214},\n  author = {Sponseller, Mia},\n  title = {Old rats persistently switch between allocentric and procedural strategies across learning of the Morris watermaze},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
+  },
+  "001683": {
+    "0.260109.2104": "@misc{dandi.001683/0.260109.2104,\n  doi = {10.48324/DANDI.001683/0.260109.2104},\n  url = {https://dandiarchive.org/dandiset/001683/0.260109.2104},\n  author = {Frake, Annabel and Durand, Dominique M and He, Bin},\n  title = {Transcranial Focused Ultrasound Stimulation Targeting White Matter Inhibits Seizures in a Rat Model of Epilepsy},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "null": "@misc{dandi.001683,\n  doi = {10.48324/DANDI.001683/0.260109.2104},\n  url = {https://dandiarchive.org/dandiset/001683/0.260109.2104},\n  author = {Frake, Annabel and Durand, Dominique M and He, Bin},\n  title = {Transcranial Focused Ultrasound Stimulation Targeting White Matter Inhibits Seizures in a Rat Model of Epilepsy},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
   }
 }
