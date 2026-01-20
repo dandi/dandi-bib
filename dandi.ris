@@ -8192,3 +8192,21 @@ PY  - 2025
 PB  - DANDI Archive
 ER  - 
 
+TY  - DATA
+T1  - Aery Jones et al (2026) Entorhinal cortex represents task-relevant remote locations independent of CA1
+AU  - Aery Jones, Emily
+AU  - Low, Isabel
+AU  - Cho, Frances
+AU  - Giocomo, Lisa
+DO  - 10.48324/DANDI.001701/0.260120.0303
+UR  - https://dandiarchive.org/dandiset/001701/0.260120.0303
+AB  - This dataset contains Neuropixels recordings from medial entorhinal cortex and hippocampus while mice learned a spatial match-to-sample task. Data includes spike times, LFP from select channels, trial information, 2D position, and head direction.
+
+KW  - entorhinal cortex
+KW  - hippocampus
+KW  - spatial navigation
+KW  - population decoding
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
