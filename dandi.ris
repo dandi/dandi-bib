@@ -6473,6 +6473,21 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Dual-color mesoscopic imaging of both ACh and calcium across the neocortex of awake mice.
+AU  - Lohani, Sweyta
+DO  - 10.48324/DANDI.001172/0.260129.0829
+UR  - https://dandiarchive.org/dandiset/001172/0.260129.0829
+AB  - Dual-color mesoscopic imaging of both ACh and calcium across the neocortex of awake mice to investigate their relationships with behavioral variables. We find that higher arousal, categorized by different motor behaviors, is associated with spatiotemporally dynamic patterns of cholinergic modulation and enhanced large-scale network correlations. Overall, our findings demonstrate that ACh provides a highly dynamic and spatially heterogeneous signal that links fluctuations in behavior to the functional reorganization of cortical networks.
+
+KW  - calcium imaging
+KW  - ACh imaging
+KW  - Cholinergic network activity
+KW  - Dual-color mesoscopic imaging
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Calcium imaging in SMA and M1 of macaques
 AU  - Galvan, Adriana
 AU  - Martel, Anne-Caroline
