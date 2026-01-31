@@ -68,10 +68,6 @@ flowchart TD
         fetch --> ris["📄 dandi.ris<br/>(RIS)"]
         fetch --> cache["💾 cache/results.json"]
 
-        stats["📊 Update Statistics<br/><a href='code/update-readme-stats'>update-readme-stats</a>"]
-        bib --> stats
-        stats --> readme["📝 README.md"]
-
         zotero_sync["🔄 Sync to Zotero<br/><a href='code/update-zotero-collection'>update-zotero-collection</a>"]
         bib --> zotero_sync
         zotero_sync -->|"pyzotero API"| zotero_main[("📚 Zotero Group Collection<br/><a href='https://www.zotero.org/groups/5774211/dandi/collections/T8I34DL3'>T8I34DL3</a>")]
@@ -81,10 +77,16 @@ flowchart TD
         ris --> commit
         cache --> commit
         readme --> commit
+
+        stats["📊 Update Statistics<br/><a href='code/update-readme-stats'>update-readme-stats</a>"]
+        bib --> stats
+        stats --> readme["📝 README.md"]
+
+
     end
 
     %% Planned Future Additions (dashed lines)
-    subgraph planned["🔵 Planned: Citation Discovery Pipeline"]
+    subgraph planned["🔵 WiP: Citation Discovery Pipeline <a href='citations/'>(citations/)</a>"]
         direction TB
         cc_config["⚙️ Configuration<br/><a href='citations/dandi-full.yaml'>dandi-full.yaml</a>"]
 
@@ -93,10 +95,11 @@ flowchart TD
         cc_config -.-> discover
 
         sources[("🔬 Citation Sources<br/>OpenAlex | DataCite<br/>CrossRef | OpenCitations")]
-        discover -.-> sources
+        discover -->|Query on Dandiset DOI| sources
+        sources -->|Citation DOIs| discover
 
         merge["🔀 Merge Preprints<br/>(detect published versions)"]
-        sources -.-> merge
+        discover -.-> merge
 
         tsv["📊 dandi-full-citations.tsv"]
         merge -.-> tsv
@@ -115,7 +118,7 @@ flowchart TD
     end
 
     %% Connections between workflows
-    commit -.->|"Triggers on commit"| cc_config
+    commit -.->|"Manually (TODO: add to CI)"| cc_config
 
     %% Styling
     classDef implemented fill:#90EE90,stroke:#2d5016,stroke-width:2px,color:#000
