@@ -1,3 +1,4 @@
 * annex.backend=MD5E
 **/.git* annex.largefiles=nothing
 * annex.largefiles=((mimeencoding=binary)and(largerthan=0))
+*.html annex.largefiles=(largerthan=10k)
