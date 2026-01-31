@@ -22,10 +22,18 @@ Complete bibliography for all published DANDI datasets in BibTeX and RIS formats
 - **dandi.bib**: BibTeX format bibliography
 - **dandi.ris**: RIS format bibliography
 
-## Zotero Collection
+## Zotero Group
 
-This bibliography is synchronized to a public Zotero collection:
-https://www.zotero.org/groups/5774211/dandi/collections/T8I34DL3
+This bibliography is synchronized to a public Zotero group library:
+https://www.zotero.org/groups/5774211/dandi/library
+
+### Subcollections
+
+- **Dandisets**: All DANDI dandisets (synced from `dandi.bib`)
+  https://www.zotero.org/groups/5774211/dandi/collections/T8I34DL3/collection
+
+- **Dandiset-citations**: Citations to dandisets (from citations-collector, planned)
+  https://www.zotero.org/groups/5774211/dandi/collections/UHK47FKX/collection
 
 ## Citation Keys
 
@@ -70,7 +78,6 @@ flowchart TD
 
         zotero_sync["🔄 Sync to Zotero<br/><a href='code/update-zotero-collection'>update-zotero-collection</a>"]
         bib --> zotero_sync
-        zotero_sync -->|"pyzotero API"| zotero_main[("📚 Zotero Group Collection<br/><a href='https://www.zotero.org/groups/5774211/dandi/collections/T8I34DL3'>T8I34DL3</a>")]
 
         commit["✅ Git Commit & Push"]
         bib --> commit
@@ -81,8 +88,6 @@ flowchart TD
         stats["📊 Update Statistics<br/><a href='code/update-readme-stats'>update-readme-stats</a>"]
         bib --> stats
         stats --> readme["📝 README.md"]
-
-
     end
 
     %% Planned Future Additions (dashed lines)
@@ -111,11 +116,21 @@ flowchart TD
 
         zotero_citations["🔄 Sync Citations to Zotero<br/>(subcollection)"]
         tsv -.-> zotero_citations
-        zotero_citations -.->|"via citations-collector"| zotero_sub[("📚 Zotero Subcollection<br/><a href='https://www.zotero.org/groups/5774211/dandi/collections/UHK47FKX'>UHK47FKX</a>")]
 
         makefile["🛠️ Automation<br/><a href='citations/Makefile'>Makefile</a>"]
         makefile -.->|"make all"| discover
     end
+
+    %% Zotero Group (external)
+    subgraph zotero_group["📚 Zotero Group: <a href='https://www.zotero.org/groups/5774211/dandi/library'>DANDI</a>"]
+        direction TB
+        zotero_dandisets["📁 Subcollection: Dandisets<br/><a href='https://www.zotero.org/groups/5774211/dandi/collections/T8I34DL3/collection'>(T8I34DL3)</a>"]
+        zotero_citations_coll["📁 Subcollection: Dandiset-citations<br/><a href='https://www.zotero.org/groups/5774211/dandi/collections/UHK47FKX/collection'>(UHK47FKX)</a>"]
+    end
+
+    %% Connections to Zotero
+    zotero_sync -->|"pyzotero API"| zotero_dandisets
+    zotero_citations -.->|"via citations-collector"| zotero_citations_coll
 
     %% Connections between workflows
     commit -.->|"Manually (TODO: add to CI)"| cc_config
@@ -125,9 +140,9 @@ flowchart TD
     classDef planned fill:#87CEEB,stroke:#1e3a5f,stroke-width:2px,stroke-dasharray: 5 5,color:#000
     classDef external fill:#FFE4B5,stroke:#8B4513,stroke-width:2px,color:#000
 
-    class fetch,bib,ris,cache,stats,readme,zotero_sync,commit,zotero_main implemented
-    class cc_config,discover,merge,tsv,pdfs,pdf_dir,zotero_citations,zotero_sub,makefile planned
-    class api,sources external
+    class fetch,bib,ris,cache,stats,readme,zotero_sync,commit,zotero_dandisets implemented
+    class cc_config,discover,merge,tsv,pdfs,pdf_dir,zotero_citations,zotero_citations_coll,makefile planned
+    class api,sources,zotero_group external
 ```
 
 ### Workflow Details
@@ -138,7 +153,7 @@ flowchart TD
 2. **Metadata Fetch**: [`get-bibliography`](code/get-bibliography) queries [DANDI Archive API](https://dandiarchive.org) for all published dandisets
 3. **Format Generation**: Creates both [`dandi.bib`](dandi.bib) (BibTeX) and [`dandi.ris`](dandi.ris) (RIS) files
 4. **Statistics Update**: [`update-readme-stats`](code/update-readme-stats) updates this README with current counts
-5. **Zotero Sync**: [`update-zotero-collection`](code/update-zotero-collection) syncs to [public Zotero group collection](https://www.zotero.org/groups/5774211/dandi/collections/T8I34DL3)
+5. **Zotero Sync**: [`update-zotero-collection`](code/update-zotero-collection) syncs dandisets to the [Dandisets subcollection](https://www.zotero.org/groups/5774211/dandi/collections/T8I34DL3/collection) in the [public DANDI Zotero group](https://www.zotero.org/groups/5774211/dandi/library)
 6. **Git Commit**: Changes are automatically committed and pushed to the repository
 
 #### Planned: Citation Discovery Pipeline
@@ -154,7 +169,7 @@ The [`citations/`](citations/) directory contains configuration and tooling for 
 3. **Preprint Merging**: Detects and merges preprint citations with their published versions
 4. **Output**: Results saved to [`dandi-full-citations.tsv`](citations/dandi-full-citations.tsv)
 5. **PDF Fetching**: Downloads open-access PDFs to [`citations/pdfs/`](citations/pdfs/)
-6. **Zotero Subcollection**: Syncs citations to [dedicated subcollection](https://www.zotero.org/groups/5774211/dandi/collections/UHK47FKX)
+6. **Zotero Subcollection**: Syncs citations to the [Dandiset-citations subcollection](https://www.zotero.org/groups/5774211/dandi/collections/UHK47FKX/collection) in the [DANDI Zotero group](https://www.zotero.org/groups/5774211/dandi/library)
 7. **Automation**: [`Makefile`](citations/Makefile) provides targets for running the pipeline locally or via DataLad
 
 See [`citations/README.md`](citations/README.md) for detailed usage instructions.
