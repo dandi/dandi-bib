@@ -7884,6 +7884,21 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Neurovascular impulse response function (IRF) during spontaneous activity differentially reflects intrinsic neuromodulation across cortical regions
+AU  - Rauscher, Bradley
+DO  - 10.48324/DANDI.001543/0.260130.1715
+UR  - https://dandiarchive.org/dandiset/001543/0.260130.1715
+AB  - Ascending neuromodulatory projections from deep brain nuclei generate internal brain states that differentially engage specific neuronal cell types. Because neurovascular coupling is cell-type specific and neuromodulatory transmitters have vasoactive properties, we hypothesized that the impulse response function (IRF) linking spontaneous neuronal activity with hemodynamics would depend on neuromodulation. Here, we use widefield cortical imaging to observe the resting state relationship between population level neuronal Ca2+ activity, fluctuations in oxygenation and concentration of hemoglobin, and release of the vasoactive neuromodulators Norepinephrine (NE) and Acetylcholine (ACh). First, the IRF linking neuronal activity and the hemodynamic response failed to predict hemodynamic fluctuations during periods marked by higher arousal (high NE and pupil diameter). Second, hemodynamic fluctuations were well predicted by a regression model factoring in both Ca2+ activity and NE release. Third, Ca2+ and hemodynamic functional connectivity patterns diverged during periods of high arousal. Without accounting for NE neuromodulation and the associated vasoconstriction, diminished hemodynamic coherence, commonly referred to as “functional (dys)connectivity” in BOLD fMRI studies, can be falsely interpreted as neuronal desynchronizations.
+KW  - Neurovascular coupling
+KW  - Norepinephrine
+KW  - Acetylcholine
+KW  - Hemodynamics
+KW  - Functional connectivity
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Diversification of dentate gyrus granule cell subtypes is regulated by Nrg1 nuclear back-signaling
 AU  - Rajebhosale, Prithviraj
 AU  - Jiang, Li
