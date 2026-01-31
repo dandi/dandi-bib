@@ -96,29 +96,31 @@ flowchart TD
         cc_config["⚙️ Configuration<br/><a href='citations/dandi-full.yaml'>dandi-full.yaml</a>"]
 
         discover["🔍 Discover Citations<br/><a href='https://github.com/con/citations-collector'>citations-collector</a>"]
-        bib -.->|"Input:<br/>dandiset DOIs"| cc_config
-        cc_config -.-> discover
+        bib -->|"Input:<br/>dandiset DOIs"| cc_config
+        cc_config --> discover
 
         sources[("🔬 Citation Sources<br/>OpenAlex | DataCite<br/>CrossRef | OpenCitations")]
         discover -->|Query on Dandiset DOI| sources
         sources -->|Citation DOIs| discover
 
         merge["🔀 Merge Preprints<br/>(detect published versions)"]
-        discover -.-> merge
+        discover --> merge
 
         tsv["📊 dandi-full-citations.tsv"]
-        merge -.-> tsv
+        merge --> tsv
 
         pdfs["📑 Fetch PDFs<br/>(unpaywall, OA sources)"]
-        tsv -.-> pdfs
+        tsv --> pdfs
         pdf_dir["📁 citations/pdfs/"]
-        pdfs -.-> pdf_dir
+        pdfs --> pdf_dir
+        
+        pdf_dir -.->|establish reuse type| discover
 
         zotero_citations["🔄 Sync Citations to Zotero<br/>(subcollection)"]
         tsv -.-> zotero_citations
 
         makefile["🛠️ Automation<br/><a href='citations/Makefile'>Makefile</a>"]
-        makefile -.->|"make all"| discover
+        makefile -->|"make all"| discover
     end
 
     %% Zotero Group (external)
@@ -133,7 +135,7 @@ flowchart TD
     zotero_citations -.->|"via citations-collector"| zotero_citations_coll
 
     %% Connections between workflows
-    commit -.->|"Manually (TODO: add to CI)"| cc_config
+    commit -.->|"Manually (TODO: add to CI)"| makefile
 
     %% Styling
     classDef implemented fill:#90EE90,stroke:#2d5016,stroke-width:2px,color:#000
