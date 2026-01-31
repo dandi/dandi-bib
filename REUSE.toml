@@ -6,6 +6,8 @@ path = [
     ".github/**",
     ".gitignore",
     ".gitattributes",
+    ".reuseignore",
+    ".datalad/**",
     "code/**",
     "tests/**",
     "citations/**",
@@ -30,26 +32,4 @@ path = [
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "DANDI Archive"
-SPDX-License-Identifier = "CC0-1.0"
-
-# Build artifacts and dependencies (excluded from licensing)
-[[annotations]]
-path = [
-    "build/**",
-    "dist/**",
-    "*.egg-info/**",
-    ".tox/**",
-    ".venv*/**",
-    ".local/**",
-    ".mypy_cache/**",
-    ".ruff_cache/**",
-    ".pytest_cache/**",
-    "__pycache__/**",
-    ".npm/**",
-    ".cache/**",
-    ".datalad/**",
-    ".idea/**",
-]
-precedence = "aggregate"
-SPDX-FileCopyrightText = "NONE"
 SPDX-License-Identifier = "CC0-1.0"

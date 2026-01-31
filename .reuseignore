@@ -10,7 +10,7 @@
 .pytest_cache/
 .cache/
 .idea/
-.datalad/
+.datalad
 __pycache__/
 *.egg-info/
 build/
