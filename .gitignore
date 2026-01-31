@@ -37,3 +37,4 @@ cache/zotero_cache.json
 .env
 *.key
 .npm
+.local/

@@ -1,0 +1,55 @@
+version = 1
+
+# Main project files: source code, configuration, documentation
+[[annotations]]
+path = [
+    ".github/**",
+    ".gitignore",
+    ".gitattributes",
+    "code/**",
+    "tests/**",
+    "citations/**",
+    "doc/**",
+    "*.md",
+    "*.py",
+    "*.toml",
+    "*.ini",
+    "*.txt",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024-2025 DANDI Developers"
+SPDX-License-Identifier = "Apache-2.0"
+
+# Generated/derived data files from DANDI API
+# Bibliography data follows DANDI Archive metadata licenses
+[[annotations]]
+path = [
+    "dandi.bib",
+    "dandi.ris",
+    "cache/**",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "DANDI Archive"
+SPDX-License-Identifier = "CC0-1.0"
+
+# Build artifacts and dependencies (excluded from licensing)
+[[annotations]]
+path = [
+    "build/**",
+    "dist/**",
+    "*.egg-info/**",
+    ".tox/**",
+    ".venv*/**",
+    ".local/**",
+    ".mypy_cache/**",
+    ".ruff_cache/**",
+    ".pytest_cache/**",
+    "__pycache__/**",
+    ".npm/**",
+    ".cache/**",
+    ".datalad/**",
+    ".idea/**",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"
