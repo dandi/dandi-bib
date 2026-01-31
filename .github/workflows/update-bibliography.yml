@@ -28,10 +28,17 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
+      - name: Install git-annex and DataLad
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git-annex
+          pip install datalad
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install citations-collector
 
       - name: Fetch bibliography from DANDI API
         run: |
@@ -89,3 +96,17 @@ jobs:
             --collection-key "$ZOTERO_COLLECTION_KEY" \
             --bib-file ../dandi.bib \
             --cache-file ../cache/zotero_cache.json
+
+      - name: Refresh citations collection
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          cd citations
+          datalad run -m "Refresh citations" make
+
+      - name: Sync git-annex and push
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git annex sync --content
+          git push
