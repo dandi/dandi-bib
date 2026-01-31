@@ -1,14 +1,24 @@
 name: DANDI Archive Dandisets
-description: All DANDI dandisets tracked via BibTeX file maintained by dandi-citations
-  tool
+description: All DANDI dandisets tracked via BibTeX file maintained by dandi-citations tool
 homepage: https://dandiarchive.org
+
 output_tsv: dandi-full-citations.tsv
+
 source:
   type: bibtex
-  include_draft: false
   bibtex_file: ../dandi.bib
   bib_field: doi
   ref_type: doi
-  ref_regex: 10\.48324/(?P<item_id>[Dd][Aa][Nn][Dd][Ii]\.\d{6})/(?P<flavor_id>[\d.]+)
+  ref_regex: '10\.48324/(?P<item_id>[Dd][Aa][Nn][Dd][Ii]\.\d{6})/(?P<flavor_id>[\d.]+)'
+  # update_items omitted - items read from BibTeX but not saved to YAML
+
 discover:
   email: admin@dandiarchive.org
+
+pdfs:
+  output_dir: pdfs/
+  unpaywall_email: admin@dandiarchive.org
+
+zotero:
+  group_id: 5774211
+  collection_key: UHK47FKX

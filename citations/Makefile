@@ -16,7 +16,7 @@ PDF_DIR := pdfs
 # Path to citations-collector (adjust if needed)
 CC := citations-collector
 
-.PHONY: all discover merge pdfs clean help
+.PHONY: all discover merge pdfs zotero clean help
 
 all: discover merge pdfs
 
@@ -28,12 +28,16 @@ help:
 	@echo "  discover     - Discover citations from all sources"
 	@echo "  merge        - Detect and mark preprints that have published versions"
 	@echo "  pdfs         - Fetch open-access PDFs for all citations"
+	@echo "  zotero       - Sync citations to Zotero (requires ZOTERO_API_KEY)"
 	@echo "  clean        - Remove generated TSV and PDFs"
 	@echo ""
 	@echo "Files:"
 	@echo "  Input:  $(COLLECTION)"
 	@echo "  Output: $(TSV)"
 	@echo "  PDFs:   $(PDF_DIR)/"
+	@echo ""
+	@echo "Environment:"
+	@echo "  ZOTERO_API_KEY - API key for Zotero sync (required for 'make zotero')"
 
 # Discover citations from all configured sources
 discover: $(COLLECTION)
@@ -60,6 +64,19 @@ pdfs: $(TSV)
 	@echo ""
 	@echo "PDFs saved to: $(PDF_DIR)/"
 	@find $(PDF_DIR) -name "*.pdf" | wc -l | awk '{print "Total PDFs:", $$1}'
+
+# Sync to Zotero
+zotero: $(TSV)
+	@echo ""
+	@echo "=== Step 4: Syncing to Zotero ==="
+	@if [ -z "$$ZOTERO_API_KEY" ]; then \
+		echo "ERROR: ZOTERO_API_KEY environment variable not set"; \
+		echo "Usage: ZOTERO_API_KEY=your_key make zotero"; \
+		exit 1; \
+	fi
+	$(CC) sync-zotero $(COLLECTION) --api-key $$ZOTERO_API_KEY
+	@echo ""
+	@echo "Synced to: https://www.zotero.org/groups/5774211/dandi/collections/UHK47FKX"
 
 # Clean generated files
 clean:
