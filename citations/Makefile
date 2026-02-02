@@ -1,11 +1,12 @@
 # Makefile for DANDI citations collection pipeline
 #
 # Usage:
-#   make all          - Run full pipeline (discover → detect-merges → fetch-pdfs)
-#   make discover     - Discover citations only
-#   make merge        - Detect and merge preprints only
-#   make pdfs         - Fetch PDFs only
-#   make clean        - Remove generated TSV and PDFs
+#   make all             - Run full pipeline (discover → merge → pdfs → extract-contexts)
+#   make discover        - Discover citations only
+#   make merge           - Detect and merge preprints only
+#   make pdfs            - Fetch PDFs only
+#   make extract-contexts - Extract citation contexts from PDFs
+#   make clean           - Remove generated TSV and PDFs
 #
 # Designed to be run with datalad run for reproducibility
 
@@ -16,20 +17,22 @@ PDF_DIR := pdfs
 # Path to citations-collector (adjust if needed)
 CC := citations-collector
 
-.PHONY: all discover merge pdfs zotero clean help
+.PHONY: all discover merge pdfs extract-contexts zotero clean help status
 
-all: discover merge pdfs
+all: discover merge pdfs extract-contexts
 
 help:
 	@echo "DANDI Citations Collection Pipeline"
 	@echo ""
 	@echo "Targets:"
-	@echo "  all          - Run full pipeline (discover → detect-merges → fetch-pdfs)"
-	@echo "  discover     - Discover citations from all sources"
-	@echo "  merge        - Detect and mark preprints that have published versions"
-	@echo "  pdfs         - Fetch open-access PDFs for all citations"
-	@echo "  zotero       - Sync citations to Zotero (requires ZOTERO_API_KEY)"
-	@echo "  clean        - Remove generated TSV and PDFs"
+	@echo "  all             - Run full pipeline (discover → merge → pdfs → extract-contexts)"
+	@echo "  discover        - Discover citations from all sources"
+	@echo "  merge           - Detect and mark preprints that have published versions"
+	@echo "  pdfs            - Fetch open-access PDFs for all citations"
+	@echo "  extract-contexts - Extract citation contexts from PDFs/HTMLs"
+	@echo "  zotero          - Sync citations to Zotero (requires ZOTERO_API_KEY)"
+	@echo "  status          - Show current status (citations, PDFs, extracted contexts)"
+	@echo "  clean           - Remove generated TSV and PDFs"
 	@echo ""
 	@echo "Files:"
 	@echo "  Input:  $(COLLECTION)"
@@ -65,10 +68,19 @@ pdfs: $(TSV)
 	@echo "PDFs saved to: $(PDF_DIR)/"
 	@find $(PDF_DIR) -name "*.pdf" | wc -l | awk '{print "Total PDFs:", $$1}'
 
+# Extract citation contexts from PDFs/HTMLs
+extract-contexts: $(TSV)
+	@echo ""
+	@echo "=== Step 4: Extracting citation contexts ==="
+	$(CC) extract-contexts $(COLLECTION) --git-annex --overwrite
+	@echo ""
+	@echo "Contexts extracted to: $(PDF_DIR)/*/extracted_citations.json"
+	@find $(PDF_DIR) -name "extracted_citations.json" | wc -l | awk '{print "Papers with extracted contexts:", $$1}'
+
 # Sync to Zotero
 zotero: $(TSV)
 	@echo ""
-	@echo "=== Step 4: Syncing to Zotero ==="
+	@echo "=== Step 5: Syncing to Zotero ==="
 	@if [ -z "$$ZOTERO_API_KEY" ]; then \
 		echo "ERROR: ZOTERO_API_KEY environment variable not set"; \
 		echo "Usage: ZOTERO_API_KEY=your_key make zotero"; \
@@ -100,6 +112,7 @@ status:
 	@if [ -d $(PDF_DIR) ]; then \
 		echo "PDF directory: $(PDF_DIR)/"; \
 		find $(PDF_DIR) -name "*.pdf" | wc -l | awk '{print "  Total PDFs:", $$1}'; \
+		find $(PDF_DIR) -name "extracted_citations.json" | wc -l | awk '{print "  Extracted contexts:", $$1}'; \
 	else \
 		echo "PDF directory: Not found"; \
 	fi
