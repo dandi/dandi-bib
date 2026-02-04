@@ -1,0 +1,244 @@
+{
+  "backend": "dartmouth",
+  "model": "anthropic.claude-haiku-4-5-20251001",
+  "mode": "short",
+  "timestamp": "2026-02-03T22:15:18.776288",
+  "num_classifications": 47,
+  "results": {
+    "10.1038/s41597-022-01728-1|dandi.000231": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper title explicitly states 'A detailed behavioral, videographic, and neural dataset on object recognition in mice' and is published in Scientific Data, which is the premier journal for data des"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001349": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:001349 in a reference list as a data source without explicit indication of deep analysis or validation. The citation appears in a bibliography entry identifying it as a dataset f"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001354": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The dataset DANDI:001354 is listed in a reference list as a data source citation. The context shows it is cited alongside other DANDI datasets with full DOI and version information, indicating acknowl"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001433": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:001433 (Breathing rhythm and place dataset) in a reference list with full citation details (DOI, version, archive location). This appears to be a bibliographic reference acknowle"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000563": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper is published in Scientific Data journal (2025) and cites DANDI:000563 as a reference dataset in a list of neurophysiology datasets. The citation includes full DOI and version information, in"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000617": {
+      "relationship": "Uses",
+      "confidence": 0.92,
+      "reasoning": "The paper is published in Scientific Data (2025) and cites DANDI:000617 as a dataset used for analysis. The citation appears in the references section with a specific DOI pointing to the Allen Institu"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000690": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper is published in Scientific Data journal (2025) and cites DANDI:000690 as a reference dataset. The context shows a bibliographic citation to the Allen Institute Openscope - Vision2Hippocampus"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001174": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:001174 in a reference list with a DOI and version number, indicating it is acknowledging the dataset as a source. The citation appears in a bibliography context rather than in th"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001195": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper is published in Scientific Data journal (2025) and appears to be facilitating analysis of open neurophysiology data on DANDI. The context shows DANDI:001195 is cited as one of multiple datas"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001359": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The dataset DANDI:001359 is cited in a reference list with a DOI and version information, indicating it is being acknowledged as a data source. The paper is published in Scientific Data journal and ap"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001361": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The dataset (DANDI:001361) appears in a reference list as a cited data source. The context shows it is listed among other DANDI datasets with full citation information (authors, title, version, DOI). "
+    },
+    "10.1038/s41597-025-06285-x|dandi.001366": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The dataset DANDI:001366 appears in a reference list as a cited data source. The context shows it is listed among other DANDI datasets with full citation information (DOI, version, authors). The paper"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001375": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The dataset (DANDI:001375) is cited in a reference list as a data source with full citation details (DOI, version, creators). The context shows it's listed among other neurophysiology datasets from DA"
+    },
+    "10.1101/2025.07.17.663965|dandi.000617": {
+      "relationship": "Uses",
+      "confidence": 0.82,
+      "reasoning": "The paper is about 'Facilitating analysis of open neurophysiology data on the DANDI Archive using large language model tools.' The dataset DANDI:000617 (Allen Institute Openscope - Sequence Learning P"
+    },
+    "10.1101/2025.07.17.663965|dandi.001174": {
+      "relationship": "CitesForInformation",
+      "confidence": 0.72,
+      "reasoning": "The dataset DANDI:001174 (Calcium imaging in SMA and M1 of macaques) appears in a reference list or bibliography section of a paper about facilitating analysis of open neurophysiology data using LLM t"
+    },
+    "10.1101/2025.07.17.663965|dandi.001195": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:001195 in a reference list format with full dataset metadata (title, authors, version, DOI). This appears to be an acknowledgment of the dataset as a source material rather than "
+    },
+    "10.1101/2025.07.17.663965|dandi.001349": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:001349 as a data source in a reference list context. The citation appears in a bibliography or reference section listing multiple datasets from the DANDI Archive. The paper is ab"
+    },
+    "10.1101/2025.07.17.663965|dandi.001359": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:001359 (20250331_AIBS_Patchseq_human dataset) as a reference in what appears to be a bibliography or dataset listing. The citation includes the dataset DOI and metadata (version,"
+    },
+    "10.1101/2025.07.17.663965|dandi.001375": {
+      "relationship": "CitesForInformation",
+      "confidence": 0.75,
+      "reasoning": "The dataset (DANDI:001375) is cited in a reference list as an example of data available on the DANDI Archive. The paper appears to be about facilitating analysis of open neurophysiology data using LLM"
+    },
+    "10.1101/2025.07.17.663965|dandi.001433": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:001433 (Breathing rhythm and place dataset) in a reference list with a DOI, indicating it is sourced as data material. The context shows a bibliographic citation format typical o"
+    },
+    "10.1101/2025.07.17.663965|dandi.000563": {
+      "relationship": "Uses",
+      "confidence": 0.82,
+      "reasoning": "The paper is about 'Facilitating analysis of open neurophysiology data on the DANDI Archive using large language model tools.' The citation of DANDI:000563 (Allen Institute Openscope - Barcoding datas"
+    },
+    "10.1101/2025.07.17.663965|dandi.000690": {
+      "relationship": "Uses",
+      "confidence": 0.82,
+      "reasoning": "The paper is about 'Facilitating analysis of open neurophysiology data on the DANDI Archive using large language model tools' and explicitly cites DANDI:000690 (Allen Institute Openscope - Vision2Hipp"
+    },
+    "10.1101/2025.07.17.663965|dandi.001354": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:001354 as a data source in its reference list, providing a DOI link to the specific dataset (Klein, Peter 2025). The context shows this is a bibliographic citation acknowledging "
+    },
+    "10.1101/2025.07.17.663965|dandi.001366": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:001366 as a data source in a reference list context. The citation includes a DOI and version information for 'Comparison of Approaches for Surface Vessel Diameter and Pulsatility"
+    },
+    "10.1101/2025.07.17.663965|dandi.001361": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:001361 as a data source in its reference list. The citation includes a full DOI and version information (Sosa, Plitt, & Giocomo 2025), indicating the dataset is being acknowledge"
+    },
+    "10.1101/2025.10.17.682993|dandi.000167": {
+      "relationship": "Uses",
+      "confidence": 0.82,
+      "reasoning": "The paper is titled 'Improved inference of latent neural states from calcium imaging data' and cites DANDI:000167, which is a calcium imaging dataset ('Two photon calcium imaging of mice piriform cort"
+    },
+    "10.1038/s41597-025-05023-7|dandi.001044": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "This paper is published in Scientific Data, which is a dedicated data descriptor journal. The paper's title explicitly indicates it is describing a dataset ('Dataset of long-term multi-site LFP activi"
+    },
+    "10.1038/s41596-024-01120-w|dandi.000402": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.82,
+      "reasoning": "The paper cites DANDI:000402 as a reference dataset in a Nature Protocols article about standardized measurements for multiphoton microscope systems. The citation appears in a reference list format wi"
+    },
+    "10.64898/2026.01.06.697952|dandi.001688": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.92,
+      "reasoning": "The paper 'High performance sorting of motor unit action potentials with EMUsort' is directly documenting the dataset DANDI:001688 (EMUsort Rat Datasets). The citation shows O'Connell & Wang (2025) as"
+    },
+    "10.1038/s41597-025-05482-y|dandi.001425": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "This paper is published in Scientific Data, which is a journal dedicated to data descriptors. The paper's title explicitly indicates it is describing a multimodal dataset ('Multimodal dataset linking "
+    },
+    "10.1101/2023.06.02.543483|dandi.000488": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.92,
+      "reasoning": "The paper title matches the dataset title exactly ('Differential encoding of temporal context and expectation'), and the authors listed (Lecoq, Garrett, Choi, Mazzucato, Wyrick) are the dataset creato"
+    },
+    "10.1038/s41467-023-41755-z|dandi.000301": {
+      "relationship": "Uses",
+      "confidence": 0.82,
+      "reasoning": "The paper cites DANDI:000301 as a data source for extracellular electrophysiology unit recordings from mouse superior colliculus during whisker-guided virtual navigation. The citation appears in the m"
+    },
+    "10.1038/s41586-025-08790-w|dandi.000402": {
+      "relationship": "Uses",
+      "confidence": 0.82,
+      "reasoning": "The paper cites the MICrONS two-photon functional imaging dataset (DANDI:000402) in the context of describing data processing methods and thresholds applied to the dataset. The citation appears in a m"
+    },
+    "10.21105/jose.00309|dandi.000053": {
+      "relationship": "CitesForInformation",
+      "confidence": 0.75,
+      "reasoning": "The paper is an educational textbook about teaching and learning with NWB datasets. The dataset (DANDI:000053) is cited in the references section as an example of a VR Neuropixel dataset from a publis"
+    },
+    "10.1101/2024.04.28.591397|dandi.000472": {
+      "relationship": "Uses",
+      "confidence": 0.88,
+      "reasoning": "The paper cites DANDI:000472 as one of several neuroPAL volumetric imaging datasets that were unified and analyzed together. The context shows this dataset (SK2) is part of the collection of whole-bra"
+    },
+    "10.1101/2024.04.28.591397|dandi.000692": {
+      "relationship": "Compiles",
+      "confidence": 0.82,
+      "reasoning": "The paper explicitly combines and unifies multiple whole-brain imaging datasets from the DANDI archive, including dandi.000692 (KK dataset) along with several other datasets (000715, 000714, 000472, e"
+    },
+    "10.1101/2024.04.28.591397|dandi.000714": {
+      "relationship": "Compiles",
+      "confidence": 0.82,
+      "reasoning": "The paper explicitly combines and unifies multiple whole-brain imaging datasets from the DANDI archive (dandi.000714, 000715, 000692, 000472, and others) into a single integrated resource. The context"
+    },
+    "10.1101/2024.04.28.591397|dandi.000715": {
+      "relationship": "Uses",
+      "confidence": 0.92,
+      "reasoning": "The paper explicitly cites DANDI:000715 as a source dataset that was converted to NWB format, organized into BIDS-like structure, and made available through the DANDI archive for their analysis. The c"
+    },
+    "10.1038/s41597-025-06115-0|dandi.000713": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.92,
+      "reasoning": "This paper is published in Scientific Data, which is the premier journal for data descriptors. The paper title explicitly states it is a curated dataset ('Mouse Hippocampal Sharp-Wave Ripple Dataset C"
+    },
+    "10.64898/2026.01.08.698522|dandi.000020": {
+      "relationship": "Uses",
+      "confidence": 0.92,
+      "reasoning": "The paper explicitly states that 'Electrophysiological recordings were obtained from the publicly available Allen Institute for Brain Science Patch-seq dataset (Dandiset 000020)' in the Data and Code "
+    },
+    "10.1101/2025.01.26.634933|dandi.000939": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites DANDI:000939 (Large-scale recordings of head-direction cells in mouse postsubiculum) as a reference in the bibliography with a direct URL link. The citation appears in the context of d"
+    },
+    "10.1038/s41597-022-01280-y|dandi.000055": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "This paper is published in Scientific Data, which is the premier journal for data descriptors. The paper describes the AJILE12 dataset in detail, including data collection methodology, participant inf"
+    },
+    "10.1038/s41593-025-02114-x|dandi.000363": {
+      "relationship": "Uses",
+      "confidence": 0.92,
+      "reasoning": "The paper explicitly states 'The data used for this study are publicly available via the DANDI archive' and cites the dataset as a data source for their analysis. The context shows the dataset (dandi."
+    },
+    "10.1101/2025.04.04.647222|dandi.000458": {
+      "relationship": "Uses",
+      "confidence": 0.82,
+      "reasoning": "The paper cites DANDI:000458 as a source of experimental data (simultaneous EEG, extracellular electrophysiology, and cortical stimulation recordings in mice). The citation format and context indicate"
+    },
+    "10.1038/s41597-024-03029-1|dandi.000623": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "This paper is published in Scientific Data journal, which is the primary venue for data descriptors. The context shows the authors (Keles, U. et al.) are describing their own multimodal dataset (DANDI"
+    },
+    "10.1038/s41597-023-02214-y|dandi.000037": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "This paper is published in Scientific Data, which is a data descriptor journal. The paper's title indicates it describes neural recording responses from mouse visual cortex, and the context shows it i"
+    },
+    "10.1038/s41597-024-02943-8|dandi.000469": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "This paper is published in Scientific Data, which is a journal dedicated to data descriptors. The paper's title explicitly states it is a 'Dataset of human-single neuron activity during a Sternberg wo"
+    }
+  }
+}

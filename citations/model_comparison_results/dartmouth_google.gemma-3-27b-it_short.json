@@ -1,0 +1,244 @@
+{
+  "backend": "dartmouth",
+  "model": "google.gemma-3-27b-it",
+  "mode": "short",
+  "timestamp": "2026-02-03T21:51:55.912140",
+  "num_classifications": 47,
+  "results": {
+    "10.1038/s41597-022-01728-1|dandi.000231": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The title explicitly states it is a dataset on object recognition in mice, and the context excerpt confirm"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001349": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpts show the paper referencing datasets hosted on DANDI Archive, and the format strongly "
+    },
+    "10.1038/s41597-025-06285-x|dandi.001354": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The title also suggests the paper facilitates analysis *of* data on the DANDI Archive, rather than analyzi"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001433": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal dedicated to data descriptor papers. The context excerpt shows the paper referencing a dataset hosted on DANDI Archive, which is consistent with th"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000563": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpts show the paper is listing datasets and their DOIs, which is characteristic of a data "
+    },
+    "10.1038/s41597-025-06285-x|dandi.000617": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpt shows the paper describing and providing details about the dataset (dandi.000617), ind"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000690": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpt shows the paper itself is describing datasets hosted on DANDI, including dandi.000690."
+    },
+    "10.1038/s41597-025-06285-x|dandi.001174": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. This strongly indicates the paper *describes* the dataset, fulfilling the criteria for 'IsDocumentedBy'. T"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001195": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpts show the paper is describing datasets available on the DANDI Archive, including dandi"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001359": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpts show the paper is listing and providing details about datasets available on the DANDI"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001361": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. This strongly indicates the paper describes or documents the cited dataset (dandi.001361)."
+    },
+    "10.1038/s41597-025-06285-x|dandi.001366": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specializing in data descriptors. The title suggests the paper facilitates analysis *of* data on the DANDI Archive, implying it describes or docume"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001375": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptors. The context excerpts show the paper is listing and describing datasets available on the DANDI Archive, including"
+    },
+    "10.1101/2025.07.17.663965|dandi.000617": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper title indicates it facilitates analysis *of* data on the DANDI Archive. The context excerpt simply lists the dataset with its DOI, suggesting it's being cited as a source for potential analy"
+    },
+    "10.1101/2025.07.17.663965|dandi.001174": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper title indicates it facilitates *analysis of* data on the DANDI Archive. The context excerpts list the dataset as a source alongside other datasets. The paper doesn't deeply analyze this spec"
+    },
+    "10.1101/2025.07.17.663965|dandi.001195": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper explicitly mentions and provides a DOI for the dataset (dandi.001195) within a list of datasets. The context suggests the paper is referencing these datasets as sources for related work, but"
+    },
+    "10.1101/2025.07.17.663965|dandi.001349": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper title suggests it facilitates analysis *on* the DANDI Archive. The context excerpt shows the dataset is listed as a source within the paper's references, indicating it's being acknowledged a"
+    },
+    "10.1101/2025.07.17.663965|dandi.001359": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper title indicates it facilitates *analysis of* data on the DANDI Archive. The context excerpt simply lists the dataset with its metadata. This suggests the paper acknowledges the dataset as a "
+    },
+    "10.1101/2025.07.17.663965|dandi.001375": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper lists the dataset (dandi.001375) along with other datasets in a bibliography-like fashion. The context suggests the paper is about tools for analyzing data *on* the DANDI Archive, implying t"
+    },
+    "10.1101/2025.07.17.663965|dandi.001433": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper references the dataset (dandi.001433) within a list of cited works, specifically mentioning its DOI and version. The context suggests the paper is about tools for analyzing data *on* the DAN"
+    },
+    "10.1101/2025.07.17.663965|dandi.000563": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper explicitly references the dataset (dandi.000563) as a source of data within the context of facilitating analysis on the DANDI Archive. The excerpt provides the dataset's DOI and version info"
+    },
+    "10.1101/2025.07.17.663965|dandi.000690": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper explicitly references the dataset 'dandi.000690' as a source of data within a list of resources. The context excerpt primarily serves to identify the dataset and its provenance, rather than "
+    },
+    "10.1101/2025.07.17.663965|dandi.001354": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper explicitly references the dataset (dandi.001354) as a source of data within the context of facilitating analysis on the DANDI Archive. The excerpt provides the dataset's DOI and describes it"
+    },
+    "10.1101/2025.07.17.663965|dandi.001366": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper discusses facilitating analysis *on* the DANDI Archive and mentions the dataset as a source for potential analysis. The context excerpt provides citation information for the dataset, suggest"
+    },
+    "10.1101/2025.07.17.663965|dandi.001361": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper mentions the dataset as a reference within a list of related works and provides a DOI link. The context suggests the dataset is being acknowledged as a source of information for the broader "
+    },
+    "10.1101/2025.10.17.682993|dandi.000167": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The excerpt simply provides a citation to the dataset with a DOI. It acknowledges the dataset as a source without describing any specific analysis or use of the data within the paper. It's more than a"
+    },
+    "10.1038/s41597-025-05023-7|dandi.001044": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. Context 1 explicitly states the paper 'released on the DANDI Archive' and describes the dataset's contents"
+    },
+    "10.1038/s41596-024-01120-w|dandi.000402": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites the dataset as a source for standardized measurements. The context excerpt shows a standard data citation format, acknowledging the dataset's existence and providing a DOI. While the p"
+    },
+    "10.64898/2026.01.06.697952|dandi.001688": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The context excerpt primarily provides citation information for the dataset, indicating it's being referenced as a source for the data used in the study. There's no explicit mention of analysis or val"
+    },
+    "10.1038/s41597-025-05482-y|dandi.001425": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context explicitly states 'BraiDyn-BC: mouse cued-lever-pull task dataset' and provides a DOI for the "
+    },
+    "10.1101/2023.06.02.543483|dandi.000488": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The context explicitly mentions the dataset as a source: \"Allen institute openscope - differential encoding of temporal context and expectation (version 0.230602.2022) [data set]. DANDI archive, 2023."
+    },
+    "10.1038/s41467-023-41755-z|dandi.000301": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The excerpt simply lists the dataset with a DOI and version number. It's cited as a source of data but there's no indication of analysis, validation, or description within this context. It's more than"
+    },
+    "10.1038/s41586-025-08790-w|dandi.000402": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The excerpt simply provides a link to the dataset (dandi.000402) as a reference for the imaging data used, without detailing any specific analysis or validation performed *in this paper*. It's acknowl"
+    },
+    "10.21105/jose.00309|dandi.000053": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper cites the dataset as a reference to a published study. The context excerpt shows a standard citation format, acknowledging the dataset as the source of the data used in the referenced public"
+    },
+    "10.1101/2024.04.28.591397|dandi.000472": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper explicitly cites the dataset (dandi.000472) as a source of 'volumetric images'. While the context doesn't detail extensive analysis, it clearly acknowledges the dataset as the origin of the "
+    },
+    "10.1101/2024.04.28.591397|dandi.000692": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper lists the dataset (dandi.000692) as a source for 'Whole-brain spontaneous GCaMP activity with NeuroPAL cell ID information'. It's explicitly cited as a dataset available in the DANDI archive"
+    },
+    "10.1101/2024.04.28.591397|dandi.000714": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper lists the dataset (dandi.000714) as a source of 'Segmented and labeled NeuroPAL structural images' and provides a direct link to it. While there isn't explicit analysis described in the prov"
+    },
+    "10.1101/2024.04.28.591397|dandi.000715": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper explicitly cites 'dandi.000715' as the source of the NeuroPAL dataset. The context excerpts show the dataset is referenced with its DOI and version information, indicating it's being acknowl"
+    },
+    "10.1038/s41597-025-06115-0|dandi.000713": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is titled 'Mouse Hippocampal Sharp-Wave Ripple Dataset Curated From Public Neuropixels Datasets' and is published in Scientific Data, a journal specifically for data descriptor papers. This "
+    },
+    "10.64898/2026.01.08.698522|dandi.000020": {
+      "relationship": "Uses",
+      "confidence": 0.9,
+      "reasoning": "The paper explicitly states that electrophysiological recordings were 'obtained from' the Allen Institute for Brain Science Patch-seq dataset (Dandiset 000020). This indicates the paper directly utili"
+    },
+    "10.1101/2025.01.26.634933|dandi.000939": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The context excerpt simply provides a URL for the dataset (dandi.000939) as a reference. It's being cited as a source of information about head-direction cell recordings, but there's no indication of "
+    },
+    "10.1038/s41597-022-01280-y|dandi.000055": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, which specializes in data descriptor articles. The context explicitly states 'Data Records The data files are available on The DANDI Archive' and describes t"
+    },
+    "10.1038/s41593-025-02114-x|dandi.000363": {
+      "relationship": "Uses",
+      "confidence": 0.85,
+      "reasoning": "The paper explicitly states \"The data used for this study are publicly available via the DANDI archive...\" indicating direct use of the dataset in their analysis. While Context 2 provides dataset meta"
+    },
+    "10.1101/2025.04.04.647222|dandi.000458": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper explicitly provides a link to the dataset ('Available at: https://doi.org/10.48324/dandi.000458...') indicating it's being cited as a source. The context doesn't suggest in-depth analysis or"
+    },
+    "10.1038/s41597-024-03029-1|dandi.000623": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptors. The context excerpt explicitly states the paper is a 'Data for' description of the dataset (dandi.000623) and pr"
+    },
+    "10.1038/s41597-023-02214-y|dandi.000037": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpt explicitly states the paper describes data available in the DANDI archive (dandi.00003"
+    },
+    "10.1038/s41597-024-02943-8|dandi.000469": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpt explicitly states 'Dataset of human-single neuron activity during a Sternberg working "
+    }
+  }
+}

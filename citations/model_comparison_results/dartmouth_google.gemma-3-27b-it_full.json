@@ -1,0 +1,414 @@
+{
+  "backend": "dartmouth",
+  "model": "google.gemma-3-27b-it",
+  "mode": "full",
+  "timestamp": "2026-02-03T22:13:07.022673",
+  "num_classifications": 81,
+  "results": {
+    "10.7554/elife.105955|dandi.001195": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes the function of DRN dopamine projections and their roles in behavior, directly using the dandi.001195 dataset to investigate these projections. The methods section detai"
+    },
+    "10.1523/jneurosci.1009-23.2023|dandi.000037": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they are *analyzing* data obtained from the Allen Brain Observatory/OpenScope project (which includes dandi.000037). Phrases like \"we analyze those data\" and the detailed d"
+    },
+    "10.1038/s41597-022-01728-1|dandi.000231": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is explicitly described as a 'Data DeSCRIptoR' published in Scientific Data, a journal specializing in dataset descriptions. The text states 'Here, we present a large dataset...' and focuses"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000563": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The abstract states 'We are providing an unedited version of this manuscript to give early access to its f"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000617": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data and explicitly states it is 'Facilitating analysis...using large language model tools'. This strongly indicates it's a data descriptor for the dataset dandi.0"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000690": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data and explicitly describes and provides analysis tools for the dataset dandi.000690. The abstract states 'We are providing an unedited version of this manuscrip"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001174": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data and explicitly states it is 'Facilitating analysis of open neurophysiology data on the DANDI Archive'. This indicates the paper *describes* the dataset (dandi"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001195": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The abstract states 'We are providing an unedited version of this manuscript to give early access to its f"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001349": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data and explicitly states it is 'Facilitating analysis of open neurophysiology data on the DANDI Archive'. This indicates the paper *describes* the dataset (dandi"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001354": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The abstract states 'We are providing an unedited version of this manuscript to give early access to its f"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001359": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptors. The abstract states 'We are providing an unedited version of this manuscript to give early access to its finding"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001361": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The abstract states 'We are providing an unedited version of this manuscript to give early access to its f"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001366": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The abstract states 'We are providing an unedited version of this manuscript to give early access to its f"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001375": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The abstract states 'We are providing an unedited version of this manuscript to give early access to its f"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001433": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data and explicitly states it is 'Facilitating analysis...using large language model tools'. This strongly indicates it's a data descriptor for the dataset dandi.0"
+    },
+    "10.31219/osf.io/mwh2b|dandi.000053": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper discusses datasets like dandi.000053 as examples of the 'deluge of neuroscience data' and mentions accessing data from the archive. While it doesn't deeply analyze the dataset itself, it ack"
+    },
+    "10.1088/2634-4386/adba82|dandi.000128": {
+      "relationship": "Cites",
+      "confidence": 0.5,
+      "reasoning": "The provided context excerpt is a CAPTCHA challenge and does not contain any information about how the paper relates to the dataset dandi.000128. There is no indication of analysis, validation, descri"
+    },
+    "10.1101/2025.07.17.663965|dandi.000563": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyzes\" DANDI datasets and develops tools for exploring and visualizing data from them. The system is applied to 12 datasets, including dandi.000563, to generate note"
+    },
+    "10.1101/2025.07.17.663965|dandi.000617": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyzes\" DANDI datasets (dandi.000617 among others) using LLM tools. It develops a system to explore, visualize, and generate notebooks for these datasets, indicating "
+    },
+    "10.1101/2025.07.17.663965|dandi.000690": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyzes\" DANDI datasets and develops tools for exploring and visualizing data from them. The system is designed to help researchers \"get started with a reanalysis\" of "
+    },
+    "10.1101/2025.07.17.663965|dandi.001174": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyzes\" DANDI datasets and develops tools for exploring and analyzing data from the DANDI Archive. The core function of the paper is to facilitate analysis of data *w"
+    },
+    "10.1101/2025.07.17.663965|dandi.001195": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it 'analyzes' DANDI datasets and develops tools to facilitate analysis of data *from* the DANDI Archive. The system builds a chat assistant and notebook generator to explor"
+    },
+    "10.1101/2025.07.17.663965|dandi.001349": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyzes\" DANDI datasets (dandi.001349 specifically mentioned) to generate notebooks and facilitate exploration. The core function of the paper is to process and intera"
+    },
+    "10.1101/2025.07.17.663965|dandi.001354": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyzes\" DANDI datasets (dandi.001354 among others) using large language models. It develops tools to explore, visualize, and analyze data from the DANDI archive. The "
+    },
+    "10.1101/2025.07.17.663965|dandi.001359": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyzes\" DANDI datasets and develops tools for exploring and visualizing data from the DANDI Archive. The core purpose of the work is to facilitate analysis of open ne"
+    },
+    "10.1101/2025.07.17.663965|dandi.001361": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyzes\" DANDI datasets and develops tools to facilitate analysis of data *from* the DANDI Archive. It builds a system to explore, visualize, and analyze data within t"
+    },
+    "10.1101/2025.07.17.663965|dandi.001366": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyzes\" the dataset (dandi.001366) and develops tools to facilitate analysis of data from the DANDI Archive. The system generates notebooks to help researchers explor"
+    },
+    "10.1101/2025.07.17.663965|dandi.001375": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it 'analyzes' DANDI datasets and develops tools for exploring and visualizing data from them. The system is designed to 'access, visualize, and preliminary analysis' of the"
+    },
+    "10.1101/2025.07.17.663965|dandi.001433": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyzes\" DANDI datasets and develops tools for exploring and visualizing data from the archive. The system is designed to help researchers access, visualize, and analy"
+    },
+    "10.1101/2025.10.17.682993|dandi.000167": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes and develops models *for* calcium imaging data. It proposes modifications to existing latent variable models (HMM, GPFA, LFADS) to work specifically with calcium imaging"
+    },
+    "10.1038/s41597-025-05023-7|dandi.001044": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptors. The text explicitly states the paper 'provided a long-term multi-site brain electrophysiological dataset' and de"
+    },
+    "10.21105/joss.05023|dandi.000128": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it uses the dataset (dandi.000128) for training and evaluating AutoLFADS models. Phrases like \"trained with...\", \"evaluated on...\", and references to model performance on t"
+    },
+    "10.1098/rsif.2023.0288|dandi.000547": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The context excerpt simply states 'Preparing to download...', indicating the dataset was accessed as a source for the study, but doesn't provide details about how it was used or analyzed. This suggest"
+    },
+    "10.1038/s41596-024-01120-w|dandi.000402": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The paper describes procedures for characterizing multiphoton microscope systems and mentions the dataset (dandi.000402) without deeply analyzing its contents. It's used as a reference point for the s"
+    },
+    "10.1038/s41593-019-0555-4|dandi.000688": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes neural activity and population dynamics recorded from the dataset (dandi.000688) over a long period. The core of the study revolves around processing and interpreting th"
+    },
+    "10.1088/1741-2552/adbb1f|dandi.000945": {
+      "relationship": "Cites",
+      "confidence": 0.5,
+      "reasoning": "The provided context is a captcha message and does not contain any information about how the paper relates to the dataset. There is no indication of analysis, validation, description, or any other spe"
+    },
+    "10.64898/2026.01.06.697952|dandi.001688": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively describes applying EMUsort to datasets (rat and monkey) and comparing its performance to other methods. It details how the dataset was used to validate and improve the algorithm,"
+    },
+    "10.1038/s41597-025-05482-y|dandi.001425": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptors. The text explicitly states the paper 'provides an extensive, multimodal dataset' and describes its contents, for"
+    },
+    "10.1101/2023.06.02.543483|dandi.000488": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they \"measured neural responses to expected and unexpected sequences of natural scenes...using 2-photon imaging...collected through the Allen Institute Mindscope\u2019s OpenScop"
+    },
+    "10.1007/s00221-017-4997-1|dandi.000688": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper directly analyzes neural activity recorded from the dataset (dandi.000688) to investigate motor learning and adaptation. The methods section details analysis of data originating from the dat"
+    },
+    "10.7554/elife.105955.3|dandi.001195": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes the function of DRN dopamine projections and their roles in behavior, directly using the dandi.001195 dataset to investigate these projections. The methods section detai"
+    },
+    "10.7554/elife.98666|dandi.001552": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes dopamine activity in relation to the dataset (dandi.001552) in both Pavlovian and instrumental conditioning tasks. Phrases like \"We measured mesolimbic dopamine release."
+    },
+    "10.1038/s41467-023-41755-z|dandi.000301": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes neural activity in the superior colliculus while mice perform a whisker-guided virtual reality task using the dataset (dandi.000301). The excerpts detail experiments *us"
+    },
+    "10.1038/s41586-025-08790-w|dandi.000402": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively describes and analyzes data from the dandi.000402 dataset. Phrases like \"These data are co-registered...\", \"we present a dataset\", \"detailed morphological and synaptic data enabl"
+    },
+    "10.1088/1741-2552/ae0966|dandi.000458": {
+      "relationship": "Uses",
+      "confidence": 0.9,
+      "reasoning": "The paper explicitly states it \"investigated neuronal responses to cortical stimulation recorded from...\" and presents a novel approach to \"characterize neuronal responses\". This indicates the paper i"
+    },
+    "10.1126/science.adn1011|dandi.000891": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The context only states 'Preparing to download...', indicating the dataset was accessed as a source for the study but provides no information about analysis or validation. This suggests a basic sourci"
+    },
+    "10.21105/jose.00309|dandi.000053": {
+      "relationship": "Uses",
+      "confidence": 0.9,
+      "reasoning": "The paper explicitly states it enables users to \"wrangle, analyze, and visualize NWB datasets\" including the cited dataset (dandi.000053). It also mentions implementing spike sorting *on* the dataset."
+    },
+    "10.1101/2024.04.28.591397|dandi.000472": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they \"use this repository to generate a statistical atlas\" and \"mine this repository to identify factors that influence...neuron positioning\". They also describe harmonizin"
+    },
+    "10.1101/2024.04.28.591397|dandi.000541": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they \"use this repository to generate a statistical atlas\" and \"mine this repository to identify factors that influence...neuron positioning\". They also describe harmonizin"
+    },
+    "10.1101/2024.04.28.591397|dandi.000565": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they \"use\" the dataset (dandi.000565) to generate a statistical atlas, train and benchmark algorithms, and mine for biological insights. They describe harmonizing and aggre"
+    },
+    "10.1101/2024.04.28.591397|dandi.000692": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they \"use this repository to generate a statistical atlas\" and \"mine this repository to identify factors that influence...neuron positioning\". They also describe harmonizin"
+    },
+    "10.1101/2024.04.28.591397|dandi.000714": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they \"use this repository to generate a statistical atlas\" and \"mine this repository to identify factors...\", indicating direct analysis of the data within dandi.000714. Th"
+    },
+    "10.1101/2024.04.28.591397|dandi.000715": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they \"use this repository to generate a statistical atlas\" and \"mine this repository to identify factors that influence...neuron positioning\". They also describe harmonizin"
+    },
+    "10.1101/2024.04.28.591397|dandi.000776": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they \"use this repository to generate a statistical atlas\" and \"mine this repository to identify factors that influence...neuron positioning\". They also describe harmonizin"
+    },
+    "10.7554/elife.89421.3|dandi.000127": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper heavily analyzes and interprets data from the dataset (dandi.000127) to support its claims about neural geometry and decoding performance. The text describes applying MINT to the dataset, co"
+    },
+    "10.7554/elife.89421.3|dandi.000128": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper heavily analyzes and interprets data from the dataset (dandi.000128) to support its findings about neural geometry and decoding performance. The text describes detailed analyses of neural tr"
+    },
+    "10.7554/elife.89421.3|dandi.000129": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper heavily analyzes neural activity and relates it to behavior, directly using the dataset (dandi.000129) to support its findings. The text describes decoding behavior *from* spiking observatio"
+    },
+    "10.7554/elife.89421.3|dandi.000130": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper heavily analyzes and interprets data from the dataset (dandi.000130) to support its claims about neural geometry and decoding performance. The text describes applying MINT to the dataset, co"
+    },
+    "10.7554/elife.89421.3|dandi.000138": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper heavily analyzes neural activity and relates it to behavior, directly using the dataset (dandi.000138) to validate their model (MINT) and test hypotheses about neural geometry. The text desc"
+    },
+    "10.7554/elife.89421.3|dandi.000139": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper heavily analyzes neural activity and relates it to behavior, explicitly stating goals of decoding behavior *from* spiking observations. The text describes how the method processes and interp"
+    },
+    "10.7554/elife.89421.3|dandi.000140": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper heavily analyzes and interprets data from the dataset (dandi.000140) to support its claims about neural geometry and decoding performance. The text describes applying MINT to the dataset, co"
+    },
+    "10.7554/elife.85786.3|dandi.000207": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it reanalyzes the dataset (dandi.000207) and provides examples of analyses performed *on* the dataset. Phrases like \"All data used in this manuscript are publicly available"
+    },
+    "10.1038/s41597-025-06115-0|dandi.000713": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is explicitly described as a 'Data Descriptor' published in Scientific Data, a journal specializing in dataset descriptions. The abstract states 'Here we present the SWR data...', indicating"
+    },
+    "10.64898/2026.01.08.698522|dandi.000020": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states it \"analyze intracellular current-clamp recordings from mouse visual cortex obtained from the Allen Cell Types Database\" (dandi.000020). This indicates a direct analysis of"
+    },
+    "10.1101/2025.01.26.634933|dandi.000939": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes and interprets data from the dataset (dandi.000939), specifically head-direction cell recordings. Phrases like \"we analyzed recordings...\", \"we examined...\", and the det"
+    },
+    "10.1038/s41597-022-01280-y|dandi.000055": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is a 'Data Descriptor' published in Scientific Data, explicitly describing the AJILE12 dataset. The text repeatedly uses phrases like 'we describe our dataset', 'this dataset', and details t"
+    },
+    "10.1523/jneurosci.0381-24.2024|dandi.000167": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The context excerpt simply mentions 'Preparing to download...' the dataset. This suggests the paper acknowledges the dataset as a source for potential use or reference, but doesn't indicate any specif"
+    },
+    "10.1038/s41593-025-02114-x|dandi.000363": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper performs a detailed analysis of neural activity *in relation to* data from the dataset (dandi.000363). It analyzes recordings, predicts activity from the data, and dissects neural coding bas"
+    },
+    "10.7554/elife.109405.1|dandi.000167": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes and interprets data from the dataset (dandi.000167) to validate their methods and demonstrate their approach. Keywords like \"demonstrate\", \"evaluate\", and the detailed d"
+    },
+    "10.1101/2025.04.04.647222|dandi.000458": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they \"analyzed\" neuronal responses from the dataset (dandi.000458) and applied a statistical framework to it. They detail how they used the data to characterize cortical-th"
+    },
+    "10.1038/s41597-024-03029-1|dandi.000623": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "This paper is published in Scientific Data, a journal specifically for data descriptors. The text explicitly states \"Data DESCRIptOR\" and the authors \"present a multimodal dataset\". The entire paper f"
+    },
+    "10.7554/elife.109405|dandi.000167": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes and interprets calcium imaging data, referencing the dataset (dandi.000167) throughout the results section. It validates methods and demonstrates their performance *on* "
+    },
+    "10.1038/s41597-023-02214-y|dandi.000037": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is explicitly described as a 'DATA DESCRIPTOR' in the context excerpts, and the text states 'Here we present a dataset...' and 'In this report, we provide an overview of the above-described "
+    },
+    "10.1101/2025.06.30.662469|dandi.000248": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper explicitly states they \"analyzed the extracellular electrophysiology recording data from the Allen Brain Observatory\" (dandi.000248). They leveraged this dataset to perform their analysis an"
+    },
+    "10.1088/1741-2552/ad1787|dandi.000140": {
+      "relationship": "Cites",
+      "confidence": 0.5,
+      "reasoning": "The provided context excerpt is a captcha message and does not contain any information about how the paper utilizes the dataset. There's no indication of analysis, validation, description, or any othe"
+    },
+    "10.1126/science.adf0805|dandi.000630": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper heavily analyzes and describes data from the dandi.000630 dataset, focusing on transcriptomic and morpho-electric properties of neurons. Phrases like \"We leveraged this multimodal data\", \"We"
+    },
+    "10.1038/s41597-024-02943-8|dandi.000469": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is explicitly identified as a 'Data Descriptor' published in Scientific Data, a journal specifically for describing datasets. The text states 'This data descriptor accompanies a public relea"
+    },
+    "10.7554/elife.83289|dandi.000235": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes neural activity data from the dataset (dandi.000235) to develop and validate their MINE framework. The text describes applying MINE to a 'published cortical dataset' and"
+    },
+    "10.7554/elife.83289|dandi.000236": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes neural activity data and relates it to behavioral tasks. It explicitly states applying MINE to a 'published cortical dataset' and experiments designed to probe circuits,"
+    },
+    "10.7554/elife.83289|dandi.000237": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes neural activity data and relates it to behavioral tasks. The text describes applying 'MINE' to a 'published cortical dataset' and experiments designed to probe circuits,"
+    },
+    "10.7554/elife.83289|dandi.000238": {
+      "relationship": "Uses",
+      "confidence": 0.95,
+      "reasoning": "The paper extensively analyzes neural activity data from the dataset (dandi.000238) to develop and test their MINE framework. The text describes applying MINE to a 'published cortical dataset' and 'ex"
+    }
+  }
+}

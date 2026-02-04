@@ -1,0 +1,244 @@
+{
+  "backend": "dartmouth",
+  "model": "openai.gpt-oss-120b",
+  "mode": "short",
+  "timestamp": "2026-02-03T21:23:18.970841",
+  "num_classifications": 47,
+  "results": {
+    "10.1038/s41597-022-01728-1|dandi.000231": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal dedicated to data descriptors, and its title explicitly states it is a detailed dataset on object recognition in mice. This indicates the paper its"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001349": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper's title indicates it facilitates analysis of open neurophysiology data on the DANDI Archive using large language model tools, implying that it processes or analyzes data from the cited datas"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001354": {
+      "relationship": "Uses",
+      "confidence": 0.66,
+      "reasoning": "The paper, published in Scientific Data, focuses on facilitating analysis of open neurophysiology data on the DANDI Archive using large language model tools. The context lists the dataset dandi.001354"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001433": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper, published in Scientific Data, focuses on facilitating analysis of open neurophysiology data on the DANDI Archive using large language model tools. The title and context suggest the authors "
+    },
+    "10.1038/s41597-025-06285-x|dandi.000563": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper, published in Scientific Data, presents tools to facilitate analysis of open neurophysiology data on the DANDI Archive. It cites the specific dataset (dandi.000563) as a concrete example to "
+    },
+    "10.1038/s41597-025-06285-x|dandi.000617": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper, published in Scientific Data, focuses on facilitating analysis of open neurophysiology data from the DANDI Archive using large language model tools. The dataset dandi.000617 is explicitly c"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000690": {
+      "relationship": "Uses",
+      "confidence": 0.75,
+      "reasoning": "The paper, published in Scientific Data, focuses on facilitating analysis of open neurophysiology data from the DANDI Archive using large language model tools. The context shows the dataset being cite"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001174": {
+      "relationship": "Uses",
+      "confidence": 0.75,
+      "reasoning": "The paper, published in Scientific Data, focuses on facilitating analysis of open neurophysiology data on the DANDI Archive using large language model tools. The dataset dandi.001174 is cited in the c"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001195": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper, published in Scientific Data, focuses on facilitating analysis of open neurophysiology data using large language model tools. The excerpt lists the dataset (dandi.001195) among other datase"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001359": {
+      "relationship": "Uses",
+      "confidence": 0.75,
+      "reasoning": "The paper, published in Scientific Data, focuses on facilitating analysis of open neurophysiology data on the DANDI Archive using large language model tools. The excerpt lists the dataset dandi.001359"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001361": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper, published in Scientific Data, focuses on facilitating analysis of open neurophysiology data from the DANDI Archive using large language model tools. The excerpt shows the dataset dandi.0013"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001366": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper, published in Scientific Data, focuses on facilitating analysis of open neurophysiology data from the DANDI Archive using large language model tools. This indicates that the authors are empl"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001375": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper focuses on facilitating analysis of open neurophysiology data from the DANDI Archive using large language model tools. The dataset dandi.001375 is listed among other DANDI datasets, indicati"
+    },
+    "10.1101/2025.07.17.663965|dandi.000617": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper's title indicates it is about facilitating analysis of open neurophysiology data on the DANDI Archive using large language model tools. The excerpt cites a specific DANDI dataset (dandi.0006"
+    },
+    "10.1101/2025.07.17.663965|dandi.001174": {
+      "relationship": "Uses",
+      "confidence": 0.73,
+      "reasoning": "The paper's goal is to facilitate analysis of open neurophysiology data on the DANDI Archive with large language model tools. It cites the specific dataset (dandi.001174) among other DANDI datasets, i"
+    },
+    "10.1101/2025.07.17.663965|dandi.001195": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper focuses on facilitating analysis of open neurophysiology data from the DANDI Archive using large language model tools. The excerpt cites a specific DANDI dataset (dandi.001195) as a data set"
+    },
+    "10.1101/2025.07.17.663965|dandi.001349": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper's title indicates it focuses on facilitating analysis of open neurophysiology data from the DANDI Archive using large language model tools. The context cites a specific DANDI dataset (dandi."
+    },
+    "10.1101/2025.07.17.663965|dandi.001359": {
+      "relationship": "Uses",
+      "confidence": 0.75,
+      "reasoning": "The paper focuses on facilitating analysis of open neurophysiology data on the DANDI Archive using large language model tools. It cites the specific dataset (dandi.001359) alongside other DANDI datase"
+    },
+    "10.1101/2025.07.17.663965|dandi.001375": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper's goal is to facilitate analysis of open neurophysiology data on the DANDI Archive using large language model tools. The excerpt cites a specific DANDI dataset (dandi.001375) as a data sourc"
+    },
+    "10.1101/2025.07.17.663965|dandi.001433": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper's title indicates it facilitates analysis of open neurophysiology data on the DANDI Archive using large language model tools. The excerpt cites a specific DANDI dataset (dandi.001433) as a d"
+    },
+    "10.1101/2025.07.17.663965|dandi.000563": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper focuses on facilitating analysis of open neurophysiology data on the DANDI Archive with large language model tools. It cites a specific DANDI dataset (dandi.000563) and, given the paper's ai"
+    },
+    "10.1101/2025.07.17.663965|dandi.000690": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper's goal is to facilitate analysis of open neurophysiology data on the DANDI Archive using large language model tools. The excerpt cites a specific DANDI dataset (dandi.000690) as a data set t"
+    },
+    "10.1101/2025.07.17.663965|dandi.001354": {
+      "relationship": "Uses",
+      "confidence": 0.75,
+      "reasoning": "The paper's title indicates it provides tools to facilitate analysis of open neurophysiology data on the DANDI Archive, and it cites a specific dataset (dandi.001354) likely as a case study to demonst"
+    },
+    "10.1101/2025.07.17.663965|dandi.001366": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper focuses on facilitating analysis of open neurophysiology data on the DANDI Archive with large language model tools. It explicitly cites a specific DANDI dataset (dandi.001366) and, given the"
+    },
+    "10.1101/2025.07.17.663965|dandi.001361": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper focuses on facilitating analysis of open neurophysiology data from the DANDI Archive with large language model tools. The citation of the specific dataset (dandi.001361) is presented as an e"
+    },
+    "10.1101/2025.10.17.682993|dandi.000167": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.75,
+      "reasoning": "The paper presents a new method for inferring latent neural states from calcium imaging data and cites a specific two\u2011photon calcium imaging dataset (dandi.000167). The dataset is likely used to valid"
+    },
+    "10.1038/s41597-025-05023-7|dandi.001044": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data and its title explicitly states it is a dataset of LFP activity. The text describes the creation, conversion, and release of the dataset on the DANDI Archive,"
+    },
+    "10.1038/s41596-024-01120-w|dandi.000402": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.78,
+      "reasoning": "The paper cites the DANDI dataset with a standard dataset reference format, without any indication that it analyzes, benchmarks, or otherwise uses the data. This suggests the dataset is being acknowle"
+    },
+    "10.64898/2026.01.06.697952|dandi.001688": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.78,
+      "reasoning": "The paper presents a new spike sorting method (EMUsort) and cites the EMUsort Rat Datasets (DANDI:001688) as the data on which the method is validated/benchmarking. This matches the definition of Cite"
+    },
+    "10.1038/s41597-025-05482-y|dandi.001425": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal for data descriptors, and the text explicitly states that the full dataset files are available at the DANDI Archive and that the authors provide tu"
+    },
+    "10.1101/2023.06.02.543483|dandi.000488": {
+      "relationship": "Uses",
+      "confidence": 0.75,
+      "reasoning": "The paper cites the DANDI dataset that shares the same title as the study, indicating that the authors likely analyzed or processed the data from this dataset for their research. The citation appears "
+    },
+    "10.1038/s41467-023-41755-z|dandi.000301": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.68,
+      "reasoning": "The excerpt shows the paper includes a reference to the DANDI archive entry (dandi.000301) in its bibliography, indicating that the dataset was used as a source of data. There is no explicit language "
+    },
+    "10.1038/s41586-025-08790-w|dandi.000402": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The excerpt describes the authors converting and applying thresholds to data obtained from the MICrONS two\u2011photon functional imaging dataset hosted in DANDI (dandi.000402). This indicates they are dir"
+    },
+    "10.21105/jose.00309|dandi.000053": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.78,
+      "reasoning": "The paper is an online textbook that references the DANDI dataset as a source of example data for teaching. The excerpt shows a citation of the dataset without indicating any original analysis, valida"
+    },
+    "10.1101/2024.04.28.591397|dandi.000472": {
+      "relationship": "Compiles",
+      "confidence": 0.68,
+      "reasoning": "The paper aims to unify community-wide whole\u2011brain imaging datasets, and the excerpt lists the DANDI dataset (dandi.000472) among several other datasets whose URLs are provided. This indicates the aut"
+    },
+    "10.1101/2024.04.28.591397|dandi.000692": {
+      "relationship": "Compiles",
+      "confidence": 0.78,
+      "reasoning": "The paper\u2019s aim is to unify community-wide whole\u2011brain imaging datasets, and the excerpt lists dandi.000692 among several other DANDI datasets that are combined for a large\u2011scale analysis. This indica"
+    },
+    "10.1101/2024.04.28.591397|dandi.000714": {
+      "relationship": "Compiles",
+      "confidence": 0.78,
+      "reasoning": "The paper aims to unify community-wide whole\u2011brain imaging datasets and explicitly lists dandi.000714 among several other datasets it draws from. This indicates that the authors are aggregating data f"
+    },
+    "10.1101/2024.04.28.591397|dandi.000715": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper focuses on unifying whole\u2011brain imaging datasets to enable automated neuron identification. It explicitly references the NeuroPAL dataset (dandi.000715) as one of the sources that can be str"
+    },
+    "10.1038/s41597-025-06115-0|dandi.000713": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.92,
+      "reasoning": "The paper is published in Scientific Data and its title indicates it is a curated dataset ('Mouse Hippocampal Sharp-Wave Ripple Dataset Curated From Public Neuropixels Datasets'). Such papers are data"
+    },
+    "10.64898/2026.01.08.698522|dandi.000020": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1101/2025.01.26.634933|dandi.000939": {
+      "relationship": "CitesForInformation",
+      "confidence": 0.75,
+      "reasoning": "The dataset dandi.000939 is listed in the reference list as a source of large\u2011scale recordings, but the excerpt provides no indication that the authors analyzed, validated, or otherwise used the data."
+    },
+    "10.1038/s41597-022-01280-y|dandi.000055": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal for data descriptors, and the text describes the dataset's contents, format, and availability, indicating that the paper itself documents and prese"
+    },
+    "10.1038/s41593-025-02114-x|dandi.000363": {
+      "relationship": "Uses",
+      "confidence": 0.9,
+      "reasoning": "The paper states that the data used for the study are publicly available via the DANDI archive and cites the specific dataset (dandi.000363). This indicates the authors analyzed or processed the datas"
+    },
+    "10.1101/2025.04.04.647222|dandi.000458": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.66,
+      "reasoning": "The excerpt cites the dataset dandi.000458 via a DOI link in the reference list, indicating the authors acknowledge it as a source of data. No explicit language such as \"analyzed\" or \"processed\" is pr"
+    },
+    "10.1038/s41597-024-03029-1|dandi.000623": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal dedicated to data descriptors. The title and context indicate that the article presents and describes the dataset (dandi.000623) deposited in the D"
+    },
+    "10.1038/s41597-023-02214-y|dandi.000037": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal dedicated to data descriptors, and the title and citation indicate it presents and describes the dataset DANDI:000037. The context cites the DANDI "
+    },
+    "10.1038/s41597-024-02943-8|dandi.000469": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal dedicated to data descriptors, and its title explicitly states it is a dataset of human single-neuron activity. This indicates the paper itself des"
+    }
+  }
+}

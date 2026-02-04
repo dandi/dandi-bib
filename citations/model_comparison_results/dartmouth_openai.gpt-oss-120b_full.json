@@ -1,0 +1,414 @@
+{
+  "backend": "dartmouth",
+  "model": "openai.gpt-oss-120b",
+  "mode": "full",
+  "timestamp": "2026-02-03T21:49:37.999765",
+  "num_classifications": 81,
+  "results": {
+    "10.7554/elife.105955|dandi.001195": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.75,
+      "reasoning": "The eLife research article reports extensive experimental results (e.g., photostimulation, electrophysiology, behavioral assays) and provides numerous source data files. The dataset identifier dandi.0"
+    },
+    "10.1523/jneurosci.1009-23.2023|dandi.000037": {
+      "relationship": "Uses",
+      "confidence": 0.92,
+      "reasoning": "The authors explicitly state that the dataset (dandi.000037) was collected as part of the OpenScope initiative and that they \"analyze those data\" to address their research questions. This indicates th"
+    },
+    "10.1038/s41597-022-01728-1|dandi.000231": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data and explicitly states that it 'presents' a large behavioral, video, and neural dataset, describing its collection, processing, and organization. This matches "
+    },
+    "10.1038/s41597-025-06285-x|dandi.000563": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000617": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper applies its AI\u2011powered chat and notebook generation pipeline to the specific DANDI dataset dandi.000617, extracting metadata, visualizing data, and producing an instructional Jupyter noteboo"
+    },
+    "10.1038/s41597-025-06285-x|dandi.000690": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001174": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper presents an AI\u2011powered system that explores DANDI datasets and automatically generates Jupyter notebooks. It applies this pipeline to 12 specific dandisets, including dandi.001174, extractin"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001195": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001349": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001354": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001359": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001361": {
+      "relationship": "Uses",
+      "confidence": 0.92,
+      "reasoning": "The paper describes an AI\u2011driven pipeline that accesses, explores, and generates Jupyter notebooks for specific DANDI datasets, including dandi.001361. The authors run the system on this dataset to pr"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001366": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001375": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1038/s41597-025-06285-x|dandi.001433": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper describes an AI\u2011powered system that explores DANDI datasets, generates Jupyter notebooks, and visualizes data. It explicitly applies this pipeline to 12 published dandisets, including dandi."
+    },
+    "10.31219/osf.io/mwh2b|dandi.000053": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.78,
+      "reasoning": "The paper presents a cloud\u2011based interactive computing platform (Pan\u2011neuro) and discusses the DANDI archive and DANDIHub as sources of neuroscience data. The specific dataset dandi.000053 is cited in "
+    },
+    "10.1088/2634-4386/adba82|dandi.000128": {
+      "relationship": "Cites",
+      "confidence": 0.32,
+      "reasoning": "The provided excerpt contains no substantive information about how the paper interacts with the dataset dandi.000128. It appears to be unrelated website boilerplate, offering no clues about usage, val"
+    },
+    "10.1101/2025.07.17.663965|dandi.000563": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1101/2025.07.17.663965|dandi.000617": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1101/2025.07.17.663965|dandi.000690": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper develops an AI\u2011driven system that accesses, explores, and visualizes DANDI datasets to generate introductory Jupyter notebooks. It explicitly processes dataset dandi.000690 (among 12 dandise"
+    },
+    "10.1101/2025.07.17.663965|dandi.001174": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.86,
+      "reasoning": "The paper presents an AI\u2011driven pipeline that generates exploratory notebooks for DANDI datasets. It applies this pipeline to 12 recently published dandisets, including dandi.001174, to demonstrate an"
+    },
+    "10.1101/2025.07.17.663965|dandi.001195": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper presents an AI\u2011powered system that explores DANDI datasets and automatically generates Jupyter notebooks. It applies this pipeline to twelve specific dandisets, including dandi.001195, perfo"
+    },
+    "10.1101/2025.07.17.663965|dandi.001349": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1101/2025.07.17.663965|dandi.001354": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1101/2025.07.17.663965|dandi.001359": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper describes an AI\u2011powered system that explores DANDI datasets, generates Jupyter notebooks, and produces visualizations. It explicitly applies this pipeline to 12 published dandisets, includin"
+    },
+    "10.1101/2025.07.17.663965|dandi.001361": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper applies its AI\u2011powered chat and notebook generation system to the specific DANDI dataset (dandi.001361) to explore its contents, produce visualizations, and create an instructional notebook."
+    },
+    "10.1101/2025.07.17.663965|dandi.001366": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1101/2025.07.17.663965|dandi.001375": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1101/2025.07.17.663965|dandi.001433": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper applies its AI\u2011powered chat and notebook\u2011generation system to the specific DANDI dataset dandi.001433, exploring its NWB files, generating visualizations, and producing an instructional note"
+    },
+    "10.1101/2025.10.17.682993|dandi.000167": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1038/s41597-025-05023-7|dandi.001044": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.96,
+      "reasoning": "The article is published in Scientific Data, a journal dedicated to data descriptors. The text repeatedly states that the work 'provides a long\u2011term brain electrophysiological dataset', describes how "
+    },
+    "10.21105/joss.05023|dandi.000128": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.78,
+      "reasoning": "The paper reports that the MC Maze dataset (dandi.000128) was used to train and evaluate AutoLFADS models in order to demonstrate the performance of their software infrastructure. This constitutes usi"
+    },
+    "10.1098/rsif.2023.0288|dandi.000547": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.55,
+      "reasoning": "The only provided excerpt mentions 'Preparing to download ...', indicating the authors intend to obtain the dataset. There is no evidence of analysis, validation, review, or description of the dataset"
+    },
+    "10.1038/s41596-024-01120-w|dandi.000402": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: 'NoneType' object has no attribute 'choices'"
+    },
+    "10.1038/s41593-019-0555-4|dandi.000688": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.55,
+      "reasoning": "The paper presents original neural recording experiments and likely deposited the resulting data in the DANDI repository (dandi.000688). While the provided excerpts do not explicitly mention the datas"
+    },
+    "10.1088/1741-2552/adbb1f|dandi.000945": {
+      "relationship": "cites",
+      "confidence": 0.3,
+      "reasoning": "The provided context contains only a website captcha notice and does not include any scientific discussion of the dataset dandi.000945. Without evidence of how the paper uses, describes, reviews, or b"
+    },
+    "10.64898/2026.01.06.697952|dandi.001688": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.78,
+      "reasoning": "The paper presents EMUsort and evaluates its performance on real intramuscular recordings (rat and monkey) that are deposited as dataset dandi.001688. The dataset is used to benchmark and validate the"
+    },
+    "10.1038/s41597-025-05482-y|dandi.001425": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal for data descriptors, and explicitly presents, describes, and makes the dataset (dandi.001425) publicly available. The text focuses on the dataset'"
+    },
+    "10.1101/2023.06.02.543483|dandi.000488": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper reports original experiments using 2\u2011photon calcium imaging data collected through the Allen Institute OpenScope program. It states that the data are made publicly available in the DANDI arc"
+    },
+    "10.1007/s00221-017-4997-1|dandi.000688": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper reports original neural recordings from monkeys and performs extensive analysis (tuning, modeling, etc.) on these recordings. The dataset identifier dandi.000688 likely refers to the deposit"
+    },
+    "10.7554/elife.105955.3|dandi.001195": {
+      "relationship": "Cites",
+      "confidence": 0.45,
+      "reasoning": "The provided excerpts from the eLife article do not contain explicit statements indicating that the authors analyzed, validated, reviewed, or otherwise directly used the dataset dandi.001195. The text"
+    },
+    "10.7554/elife.98666|dandi.001552": {
+      "relationship": "CitesAsDataSource",
+      "confidence": 0.66,
+      "reasoning": "The paper is a primary research article (eLife, 2025) reporting new experimental results. The dataset identifier (dandi.001552) is listed separately, suggesting the authors deposited their raw recordi"
+    },
+    "10.1038/s41467-023-41755-z|dandi.000301": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper\u2019s Data Availability statement indicates that the experimental data supporting the study were deposited in the DANDI repository (accession code dandi.000301). Throughout the manuscript the au"
+    },
+    "10.1038/s41586-025-08790-w|dandi.000402": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.78,
+      "reasoning": "The paper\u2019s primary focus is to introduce and describe the MICrONS functional connectomics dataset (dandi.000402), stating that it is released as an open\u2011access resource, detailing its acquisition, pr"
+    },
+    "10.1088/1741-2552/ae0966|dandi.000458": {
+      "relationship": "Cites",
+      "confidence": 0.45,
+      "reasoning": "The provided excerpt lists the dataset identifier (dandi.000458) but does not contain explicit statements about how the paper interacts with the dataset (e.g., analyzing, describing, benchmarking, or "
+    },
+    "10.1126/science.adn1011|dandi.000891": {
+      "relationship": "Cites",
+      "confidence": 0.55,
+      "reasoning": "The provided context only shows a generic download prompt for the dataset (dandi.000891) without any explicit statement that the paper analyzes, describes, reviews, benchmarks, or otherwise uses the d"
+    },
+    "10.21105/jose.00309|dandi.000053": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1101/2024.04.28.591397|dandi.000472": {
+      "relationship": "Uses",
+      "confidence": 0.92,
+      "reasoning": "The paper aggregates and harmonizes whole\u2011brain imaging datasets stored in DANDI, including the specific dataset dandi.000472 (SK2). It processes these data to build a statistical atlas, benchmark neu"
+    },
+    "10.1101/2024.04.28.591397|dandi.000541": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.78,
+      "reasoning": "The paper introduces and describes a new, harmonized corpus of whole\u2011brain imaging data (the WormID repository) that is stored in the DANDI archive as dataset dandi.000541. It details the data format,"
+    },
+    "10.1101/2024.04.28.591397|dandi.000565": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper describes aggregating whole\u2011brain imaging recordings into a harmonized corpus stored on DANDI (dandi.000565) and then uses this corpus to train statistical atlases, benchmark neuron\u2011identifi"
+    },
+    "10.1101/2024.04.28.591397|dandi.000692": {
+      "relationship": "Compiles",
+      "confidence": 0.78,
+      "reasoning": "The paper aggregates and harmonizes 118 whole\u2011brain imaging datasets from multiple labs into a single corpus (WormID) stored on DANDI. It explicitly lists the KK dataset (dandi.000692) as one of the s"
+    },
+    "10.1101/2024.04.28.591397|dandi.000714": {
+      "relationship": "Compiles",
+      "confidence": 0.78,
+      "reasoning": "The paper aggregates and harmonizes whole\u2011brain imaging data from several labs, explicitly listing the HL dataset (dandi.000714) among the six datasets that are combined into a unified corpus stored o"
+    },
+    "10.1101/2024.04.28.591397|dandi.000715": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper aggregates the DANDI:000715 dataset (original NeuroPAL recordings) into a larger harmonized corpus, processes the data, and performs statistical analyses and algorithm benchmarking on it. Th"
+    },
+    "10.1101/2024.04.28.591397|dandi.000776": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.78,
+      "reasoning": "The paper introduces and describes the WormID repository, which stores the harmonized whole\u2011brain imaging corpus in DANDI (including dandi.000776). It details how the dataset was aggregated from multi"
+    },
+    "10.7554/elife.89421.3|dandi.000127": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.78,
+      "reasoning": "The paper reports applying the MINT decoding algorithm to a set of nine neural recording datasets, including the MC_Cycle dataset (which corresponds to dandi.000127). The dataset is used to benchmark "
+    },
+    "10.7554/elife.89421.3|dandi.000128": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.78,
+      "reasoning": "The paper presents a new decoding algorithm (MINT) and reports its performance on multiple neural recording datasets, including the DANDI dataset dandi.000128. The dataset is used to benchmark and val"
+    },
+    "10.7554/elife.89421.3|dandi.000129": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper reports applying its new decoding method (MINT) to multiple neural recording datasets, explicitly describing analyses performed on a specific dataset (e.g., MC_Cycle). This indicates the aut"
+    },
+    "10.7554/elife.89421.3|dandi.000130": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.78,
+      "reasoning": "The paper introduces a new decoding method (MINT) and evaluates its performance on several existing neural recording datasets, including dandi.000130. The dataset is used to benchmark and validate the"
+    },
+    "10.7554/elife.89421.3|dandi.000138": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.78,
+      "reasoning": "The paper introduces a new decoding algorithm (MINT) and evaluates its performance on multiple neural recording datasets, including dandi.000138. This use of the dataset is to benchmark and validate t"
+    },
+    "10.7554/elife.89421.3|dandi.000139": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper applies its new decoding method (MINT) to multiple neural recording datasets, including the dataset identified as dandi.000139. The text describes analyzing neural spiking activity, decoding"
+    },
+    "10.7554/elife.89421.3|dandi.000140": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper evaluates its new decoding method (MINT) on multiple publicly available neural recording datasets, including dandi.000140. The dataset is employed as input data for analysis and performance "
+    },
+    "10.7554/elife.85786.3|dandi.000207": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper describes the Pynapple toolbox and states that it re\u2011analyzed five openly available datasets to illustrate its functionality. The dataset dandi.000207 is listed among these datasets, indicat"
+    },
+    "10.1038/s41597-025-06115-0|dandi.000713": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data as a data descriptor and explicitly states that it presents and shares the curated SWR dataset (dandi.000713). This matches the definition of a paper that des"
+    },
+    "10.64898/2026.01.08.698522|dandi.000020": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1101/2025.01.26.634933|dandi.000939": {
+      "relationship": "Uses",
+      "confidence": 0.92,
+      "reasoning": "The paper explicitly states that it analyzed recordings of head\u2011direction cells from the postsubiculum of freely moving mice, noting that the data are publicly available (ref. [30]) and later refers t"
+    },
+    "10.1038/s41597-022-01280-y|dandi.000055": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data and explicitly states that it 'describes' the AJILE12 dataset, presenting its contents, collection methods, and validation. This matches the definition of a d"
+    },
+    "10.1523/jneurosci.0381-24.2024|dandi.000167": {
+      "relationship": "CitesForInformation",
+      "confidence": 0.55,
+      "reasoning": "The paper is a perspective on data standardization and only briefly mentions the dataset in a download preparation note, without indicating any analysis, validation, or detailed use. This suggests the"
+    },
+    "10.1038/s41593-025-02114-x|dandi.000363": {
+      "relationship": "Uses",
+      "confidence": 0.92,
+      "reasoning": "The paper explicitly states that it analyzed a publicly available dataset (dandi.000363) to perform brain-wide recordings and subsequent analyses. The authors used the dataset to compute neural activi"
+    },
+    "10.7554/elife.109405.1|dandi.000167": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.78,
+      "reasoning": "The paper applies its new calcium imaging latent\u2011state inference method to the publicly available piriform\u2011cortex calcium imaging dataset (dandi.000167) to demonstrate and validate the performance of "
+    },
+    "10.1101/2025.04.04.647222|dandi.000458": {
+      "relationship": "Uses",
+      "confidence": 0.92,
+      "reasoning": "The paper repeatedly states that the neural recordings were obtained from the DANDI archive (e.g., \"data ... can be downloaded from the DANDI archive\" and \"we analyzed the neuronal responses recorded "
+    },
+    "10.1038/s41597-024-03029-1|dandi.000623": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal for data descriptors, and the text explicitly states 'We present a multimodal dataset ... The full dataset is available on DANDI as Dandiset 000623"
+    },
+    "10.7554/elife.109405|dandi.000167": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.86,
+      "reasoning": "The paper explicitly applies its new calcium imaging latent\u2011state inference methods to the publicly available DANDI dataset (dandi.000167) to demonstrate and validate the performance of the proposed m"
+    },
+    "10.1038/s41597-023-02214-y|dandi.000037": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data, a journal dedicated to data descriptors. The text explicitly states 'Here we present a dataset...' and provides detailed Data Records, metadata, and usage no"
+    },
+    "10.1101/2025.06.30.662469|dandi.000248": {
+      "relationship": "Cites",
+      "confidence": 0.0,
+      "reasoning": "Parse error: Expecting ',' delimiter: line 3 column 20 (char 54)"
+    },
+    "10.1088/1741-2552/ad1787|dandi.000140": {
+      "relationship": "Cites",
+      "confidence": 0.4,
+      "reasoning": "The provided excerpt contains only a website captcha notice and does not include any discussion of the dataset dandi.000140. Without textual evidence of how the paper references the dataset, we cannot"
+    },
+    "10.1126/science.adf0805|dandi.000630": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper presents extensive analyses of patch\u2011seq recordings (electrophysiology, morphology, transcriptomics) that were generated by the authors and deposited as dataset dandi.000630. The manuscript "
+    },
+    "10.1038/s41597-024-02943-8|dandi.000469": {
+      "relationship": "IsDocumentedBy",
+      "confidence": 0.95,
+      "reasoning": "The paper is published in Scientific Data and explicitly states 'We present a dataset...' and 'This data descriptor accompanies a public release of this cumulative dataset'. These phrases indicate tha"
+    },
+    "10.7554/elife.83289|dandi.000235": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper applies its MINE framework to a publicly available widefield calcium imaging dataset (the mouse cortical dataset) that is identified as a DANDI dataset (dandi.000235). The authors process, a"
+    },
+    "10.7554/elife.83289|dandi.000236": {
+      "relationship": "CitesAsEvidence",
+      "confidence": 0.78,
+      "reasoning": "The paper applies its new MINE method to a publicly available widefield calcium imaging dataset (recorded in mouse cortex) to demonstrate and validate the performance of the method. This use of the da"
+    },
+    "10.7554/elife.83289|dandi.000237": {
+      "relationship": "Uses",
+      "confidence": 0.78,
+      "reasoning": "The paper applies its MINE framework to a publicly available widefield calcium imaging dataset (the mouse cortical dataset) that is identified as dandi.000237. This involves analyzing and processing t"
+    },
+    "10.7554/elife.83289|dandi.000238": {
+      "relationship": "Uses",
+      "confidence": 0.86,
+      "reasoning": "The paper applies its MINE framework to a publicly available widefield calcium imaging dataset (the cortical mouse dataset) to analyze neural activity and extract receptive fields. This constitutes di"
+    }
+  }
+}
