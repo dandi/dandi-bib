@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "dandi.000363",
+    "item_flavor": "0.230822.0128",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "Uses",
+    "confidence": 0.8,
+    "reasoning": "The paper explicitly states \"The data used for this study are publicly available via the DANDI archive...\" indicating direct use of the dataset in their analysis. While Context 2 provides dataset metadata, the primary context focuses on the data's role in the study itself.",
+    "timestamp": "2026-02-05T11:14:14.236717",
+    "mode": "short_context"
+  }
+]

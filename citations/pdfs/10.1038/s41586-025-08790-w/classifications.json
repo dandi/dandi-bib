@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "dandi.000402",
+    "item_flavor": "0.230307.2132",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The excerpt simply provides a link to the dataset (dandi.000402) as a reference for the imaging data used. It's cited as a source of data, but there's no indication of deep analysis or validation within this specific context. The phrasing 'data set' and the DOI link support this classification.",
+    "timestamp": "2026-02-05T11:14:14.236480",
+    "mode": "short_context"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "dandi.000939",
+    "item_flavor": "0.240528.1542",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The context excerpt simply provides a URL for the dataset (dandi.000939) as a reference. It's cited as a source of information about head-direction cell recordings, but there's no indication of analysis, validation, or other deeper engagement with the data itself. It's more than a generic 'Cites' because it explicitly provides the dataset identifier.",
+    "timestamp": "2026-02-05T11:14:14.237422",
+    "mode": "short_context"
+  }
+]

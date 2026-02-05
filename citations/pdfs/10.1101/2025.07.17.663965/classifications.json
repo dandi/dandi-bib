@@ -1,0 +1,134 @@
+[
+  {
+    "item_id": "dandi.000617",
+    "item_flavor": "0.250312.0130",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper title suggests it facilitates analysis *of* data on the DANDI Archive. The context excerpt simply lists the dataset with its DOI, indicating it's being cited as a source for potential analysis, but doesn't describe any specific analysis *performed* on it within this excerpt. It's more than a generic citation but lacks the strong verbs indicating 'Uses' or other more specific relationships.",
+    "timestamp": "2026-02-05T11:14:14.232785",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001174",
+    "item_flavor": "0.250331.2218",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper title indicates it facilitates *analysis of* data on the DANDI Archive. The context excerpts primarily list datasets available on DANDI, suggesting the paper acknowledges these datasets as sources for potential analysis. While the paper likely *uses* data, the provided context focuses on listing and referencing the datasets rather than detailing specific analyses performed on them. Therefore, 'CitesAsDataSource' is the most appropriate classification given the available information.",
+    "timestamp": "2026-02-05T11:14:14.232911",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001195",
+    "item_flavor": "0.250408.1733",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper title indicates a focus on facilitating analysis *on* the DANDI Archive. The context excerpt simply lists the dataset with its metadata. This suggests the dataset is being cited as a source for potential analysis, rather than being deeply analyzed within the paper itself. It's not a data descriptor, review, or validation study based on this excerpt.",
+    "timestamp": "2026-02-05T11:14:14.233031",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001349",
+    "item_flavor": "0.250604.1510",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper explicitly references the dataset (dandi.001349) as a source within a list of datasets. The context suggests the paper is discussing and referencing data available on the DANDI archive, acknowledging it as a source without detailing specific analysis performed on it within this excerpt.",
+    "timestamp": "2026-02-05T11:14:14.233390",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001359",
+    "item_flavor": "0.250401.1603",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper title indicates it facilitates *analysis of* data on the DANDI Archive. The context excerpt simply lists the dataset with its metadata. This suggests the paper acknowledges the dataset as a source for potential analysis, but doesn't deeply analyze it within this specific excerpt. It's more than a generic citation but lacks the strong verbs indicating 'Uses' or 'Reviews'.",
+    "timestamp": "2026-02-05T11:14:14.233538",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001375",
+    "item_flavor": "0.250406.1855",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper lists the dataset (dandi.001375) along with other datasets in a list of resources. The context suggests the paper is referencing these datasets as sources of data for potential analysis, but doesn't explicitly state any deep analysis or validation is performed on this specific dataset within the provided excerpt. It's more than a simple 'Cites' as it's presented as a resource.",
+    "timestamp": "2026-02-05T11:14:14.233708",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001433",
+    "item_flavor": "0.250507.2356",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper references the dataset (dandi.001433) within a list of cited works, specifically mentioning its DOI and version. The context suggests the paper is discussing tools for analyzing data *on* the DANDI Archive, and this dataset is presented as a resource within that archive. It's not deeply analyzed within the provided excerpt, but acknowledged as a source.",
+    "timestamp": "2026-02-05T11:14:14.233962",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.000563",
+    "item_flavor": "0.250311.2145",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper explicitly references the dataset (dandi.000563) as a source of data within the DANDI Archive. The context excerpt provides the dataset's DOI and version information, indicating it's being cited as a foundational resource for the work, but doesn't describe any specific analysis or validation performed *in this paper* on that dataset. It's more than a generic 'Cites' because it's explicitly identifying the data source.",
+    "timestamp": "2026-02-05T11:14:14.234359",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.000690",
+    "item_flavor": "0.250326.0015",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper explicitly references the dataset 'dandi.000690' as a source of data within a list of resources. While the paper focuses on tools for analyzing data, it acknowledges the dataset's existence and provides a link, indicating it's being cited as a data source. The context doesn't suggest deep analysis ('Uses') or validation ('CitesAsEvidence').",
+    "timestamp": "2026-02-05T11:14:14.234712",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001354",
+    "item_flavor": "0.250312.0036",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper explicitly references the dataset (dandi.001354) as a source of data within the context of facilitating analysis on the DANDI Archive. The excerpt provides the dataset's DOI and version information, indicating it's being cited as a foundational resource for the work, but doesn't describe any specific analysis *of* the data within this excerpt. It's more than a simple 'Cites' because it's presented as a specific data source.",
+    "timestamp": "2026-02-05T11:14:14.235020",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001366",
+    "item_flavor": "0.250324.1603",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper discusses facilitating analysis *on* the DANDI Archive and references the dataset as a source for potential analysis. The context excerpt provides citation information for the dataset, indicating it's being referenced as a data source. While the paper likely *uses* the data, the provided excerpt focuses on the dataset's existence and citation rather than a specific analysis performed *in* the paper.",
+    "timestamp": "2026-02-05T11:14:14.235430",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001361",
+    "item_flavor": "0.250609.2249",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper lists the dataset as a reference alongside other publications. The context suggests it's acknowledging the dataset's existence and providing its details (DOI) without detailing specific analysis *within this excerpt*. It's more than a generic 'Cites' because it provides specific data source information.",
+    "timestamp": "2026-02-05T11:14:14.236009",
+    "mode": "short_context"
+  }
+]

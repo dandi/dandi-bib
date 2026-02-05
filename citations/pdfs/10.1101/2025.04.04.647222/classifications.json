@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "dandi.000458",
+    "item_flavor": "0.230317.0039",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper explicitly provides a link to the dataset ('Available at: https://doi.org/10.48324/dandi.000458...') indicating it's being cited as a source. The context doesn't suggest in-depth analysis or validation, just a reference to where the data can be found.",
+    "timestamp": "2026-02-05T11:14:14.237050",
+    "mode": "short_context"
+  }
+]

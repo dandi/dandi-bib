@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "dandi.000167",
+    "item_flavor": "0.220928.1306",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The excerpt simply provides a citation to the dataset with a DOI and version number. It acknowledges the dataset as a source without describing any specific analysis or use of the data within the paper. It's more than a generic 'Cites' because it explicitly identifies it as a dataset.",
+    "timestamp": "2026-02-05T11:14:14.237264",
+    "mode": "short_context"
+  }
+]

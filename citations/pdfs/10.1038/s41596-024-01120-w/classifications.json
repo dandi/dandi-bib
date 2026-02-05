@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "dandi.000402",
+    "item_flavor": "0.230307.2132",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper cites the dataset as a source for standardized measurements. The context excerpt shows a standard data citation format, acknowledging the dataset's existence and providing a DOI. While the paper likely *uses* the data, the citation itself functions primarily as a data source attribution.",
+    "timestamp": "2026-02-05T11:14:14.236861",
+    "mode": "short_context"
+  }
+]

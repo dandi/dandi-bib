@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "dandi.001688",
+    "item_flavor": "0.251231.0329",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The context excerpt primarily provides citation information for the dataset, indicating it's being referenced as a source for the data used in the study. There's no explicit mention of analysis or validation within the provided excerpt, only a standard dataset citation.",
+    "timestamp": "2026-02-05T11:14:14.237336",
+    "mode": "short_context"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "dandi.000037",
+    "item_flavor": "0.230426.0054",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpt explicitly states that the paper describes data available in the DANDI archive (dandi.000037). This strongly indicates the paper *is* a documentation of the dataset.",
+    "timestamp": "2026-02-05T11:14:14.220494",
+    "mode": "short_context"
+  }
+]

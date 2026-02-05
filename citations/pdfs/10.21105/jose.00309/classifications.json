@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "dandi.000053",
+    "item_flavor": "0.210819.0345",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesForInformation",
+    "confidence": 0.75,
+    "reasoning": "The paper is an educational resource (online textbook) and cites the dataset as a reference alongside other publications. The context excerpt shows the dataset is cited as supporting a specific publication, indicating it's used as an example or for informational purposes rather than direct analysis or validation. The phrasing 'supporting' suggests it provides context for another work.",
+    "timestamp": "2026-02-05T11:14:14.237485",
+    "mode": "short_context"
+  }
+]

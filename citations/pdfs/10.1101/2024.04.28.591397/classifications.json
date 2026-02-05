@@ -1,0 +1,46 @@
+[
+  {
+    "item_id": "dandi.000472",
+    "item_flavor": "0.240625.0454",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper explicitly cites the dataset (dandi.000472) as a source of 'volumetric images'. While the context doesn't detail extensive analysis, it clearly acknowledges the dataset as the origin of the data used in the study. The citation style ('Sprague, D., ... [Data set]. DANDI archive') is typical for data source attribution.",
+    "timestamp": "2026-02-05T11:14:14.239392",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.000692",
+    "item_flavor": "0.240402.2118",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper lists the dataset (dandi.000692) as a source of data, providing a DOI link. The context indicates the dataset contains 'Whole-brain spontaneous GCaMP activity with NeuroPAL cell ID information'. While not deeply analyzed in the provided excerpts, it's explicitly cited as a data source for the study. It's not a data descriptor, review, or validation, and doesn't appear to be combined with other datasets.",
+    "timestamp": "2026-02-05T11:14:14.239469",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.000714",
+    "item_flavor": "0.240611.1954",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper lists the dataset (dandi.000714) as a source of 'Segmented and labeled NeuroPAL structural images' and provides a direct link to it. While there isn't explicit analysis mentioned in these excerpts, the paper clearly acknowledges the dataset as a source of data used in their work. It's more than just a general citation; it's identifying where specific data originates.",
+    "timestamp": "2026-02-05T11:14:14.239546",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.000715",
+    "item_flavor": "0.240614.1942",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "CitesAsDataSource",
+    "confidence": 0.75,
+    "reasoning": "The paper explicitly mentions and provides a link to the dataset (dandi.000715) as a source for the NeuroPAL atlas and associated data. While not deeply analyzed in the provided context, it's clearly acknowledged as the origin of the data used in the study. The context focuses on where to find the data rather than a detailed analysis of it.",
+    "timestamp": "2026-02-05T11:14:14.239629",
+    "mode": "short_context"
+  }
+]

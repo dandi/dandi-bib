@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "dandi.000020",
+    "item_flavor": "0.210913.1639",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "Uses",
+    "confidence": 0.9,
+    "reasoning": "The paper explicitly states that electrophysiological recordings were 'obtained from' the Allen Institute for Brain Science Patch-seq dataset (Dandiset 000020). While it doesn't detail extensive analysis, the use of the dataset for their research is clear. This aligns with the 'Uses' relationship, indicating data acquisition for the study.",
+    "timestamp": "2026-02-05T11:14:14.236553",
+    "mode": "short_context"
+  }
+]

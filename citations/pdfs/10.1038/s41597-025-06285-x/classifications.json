@@ -1,0 +1,134 @@
+[
+  {
+    "item_id": "dandi.001349",
+    "item_flavor": "0.250604.1510",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpts show the paper referencing datasets hosted on DANDI Archive, and the format strongly suggests it's describing those datasets (including version numbers). This indicates the paper is documenting the dataset.",
+    "timestamp": "2026-02-05T11:14:14.237546",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001354",
+    "item_flavor": "0.250312.0036",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The title also suggests the paper facilitates analysis *of* data on the DANDI Archive, rather than analyzing the specific dataset itself. The context excerpts show the paper is listing datasets, which is typical of a data descriptor.",
+    "timestamp": "2026-02-05T11:14:14.237627",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001433",
+    "item_flavor": "0.250507.2356",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpt shows the paper is describing and referencing datasets available on the DANDI Archive, including dandi.001433. This strongly indicates the paper *is documenting* the dataset.",
+    "timestamp": "2026-02-05T11:14:14.237737",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.000563",
+    "item_flavor": "0.250311.2145",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpt shows the paper is describing datasets available on DANDI Archive, including dandi.000563. This strongly indicates the paper *isDocumentedBy* the dataset.",
+    "timestamp": "2026-02-05T11:14:14.237841",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.000617",
+    "item_flavor": "0.250312.0130",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpt shows the paper describing and providing details about the dataset (dandi.000617). This strongly indicates the paper *isDocumentedBy* the dataset.",
+    "timestamp": "2026-02-05T11:14:14.237949",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.000690",
+    "item_flavor": "0.250326.0015",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpts show the paper describing and providing details about datasets hosted on DANDI, indicating it's a data descriptor for the cited dataset (dandi.000690).",
+    "timestamp": "2026-02-05T11:14:14.238069",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001174",
+    "item_flavor": "0.250331.2218",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. This strongly indicates the paper *describes* the dataset, fulfilling the criteria for 'IsDocumentedBy'. The context excerpts also show the paper providing metadata about the dataset.",
+    "timestamp": "2026-02-05T11:14:14.238267",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001195",
+    "item_flavor": "0.250408.1733",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. The context excerpts show the paper is presenting and describing datasets available on the DANDI Archive, including dandi.001195. This strongly indicates the paper *isDocumentedBy* the dataset.",
+    "timestamp": "2026-02-05T11:14:14.238431",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001359",
+    "item_flavor": "0.250401.1603",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptors. The context excerpts show the paper is presenting and describing datasets available on the DANDI Archive, including dandi.001359. This strongly indicates the paper *isDocumentedBy* the dataset.",
+    "timestamp": "2026-02-05T11:14:14.238606",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001361",
+    "item_flavor": "0.250609.2249",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. This strongly indicates the paper describes or documents the cited dataset (dandi.001361).",
+    "timestamp": "2026-02-05T11:14:14.238834",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001366",
+    "item_flavor": "0.250324.1603",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptor papers. This strongly indicates the paper describes or documents the cited dataset (dandi.001366).",
+    "timestamp": "2026-02-05T11:14:14.239076",
+    "mode": "short_context"
+  },
+  {
+    "item_id": "dandi.001375",
+    "item_flavor": "0.250406.1855",
+    "model": "google.gemma-3-27b-it",
+    "backend": "dartmouth",
+    "relationship_type": "IsDocumentedBy",
+    "confidence": 0.95,
+    "reasoning": "The paper is published in Scientific Data, a journal specifically for data descriptors. The context excerpts show the paper is listing and describing datasets available on the DANDI Archive, including dandi.001375. This strongly indicates the paper *is documenting* the dataset.",
+    "timestamp": "2026-02-05T11:14:14.239245",
+    "mode": "short_context"
+  }
+]
