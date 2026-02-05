@@ -8158,6 +8158,24 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Neural activities in dorsolateral, dorsomedial, and ventral striatum during fixed- and free-choice tasks in rats (Ito & Doya 2015)
+AU  - Doya, Kenji
+AU  - Ito, Makoto
+DO  - 10.48324/DANDI.001642/0.260205.0153
+UR  - https://dandiarchive.org/dandiset/001642/0.260205.0153
+AB  - This Dandiset contains Neurodata Without Borders (NWB) files with behavioral and extracellular electrophysiological recordings from seven male Long–Evans rats performing fixed-choice and free-choice nose-poke tasks with probabilistic rewards. In each trial, rats initiated a center nose-poke, received one of three cue tones (left, right, or choice), maintained the poke during the cue, and then chose the left or right port; sucrose pellets were delivered according to cue- and action-dependent reward probabilities. For left and right cues, reward probabilities were fixed at (left, right) = (50%, 0%) and (0%, 50%), respectively, whereas for the choice cue they varied blockwise across four schedules: (90%, 50%), (50%, 90%), (50%, 10%), and (10%, 50%). 
+Neural activity was recorded with movable microwire bundles implanted in dorsolateral striatum (DLS), dorsomedial striatum (DMS), and ventral striatum (VS), yielding phasically active neurons (putative medium spiny neurons) from each subregion across 86 sessions and ~78,000 trials. For each session, the NWB files provide spike times (and associated unit metadata where available) together with detailed behavioral event timestamps (tone onsets/offsets, nose-poke entries/exits, reward/no-reward tones, pellet detection), block type (single fixed-choice, double fixed-choice, free-choice, extinction), cue identity, chosen action, and reward outcome, all aligned in session time. These data were originally collected for the Journal of Neuroscience article “Distinct neural representation in the dorsolateral, dorsomedial, and ventral parts of the striatum during fixed- and free-choice tasks” (Ito & Doya, 2015, J Neurosci 35(8):3499–3514, DOI: 10.1523/JNEUROSCI.1962-14.2015), which analyzed how state value, action value, reward outcome, and action commands are differentially represented across striatal subregions. This dataset enables re-analysis of decision-making strategies, model-based and model-free value coding, and hierarchical reinforcement-learning hypotheses in cortico-basal ganglia circuits.
+KW  - striatum
+KW  - basal ganglia
+KW  - reinforcement learning
+KW  - value function
+KW  - Bayesian inference
+KW  - particle filter
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Months-long stability of the head-direction system
 AU  - Skromne Carrasco, Sofia
 AU  - Viejo, Guillaume
