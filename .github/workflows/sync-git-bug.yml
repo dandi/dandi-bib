@@ -1,16 +1,39 @@
+# One-way sync: GitHub Issues → git-bug (stored as refs/bugs/* and
+# refs/identities/* in this repo).
+#
+# Pushing local git-bug issues back to GitHub is not yet possible with
+# a single CI token -- git-bug's exporter requires the original author's
+# own token and the GitHub API does not allow creating issues on behalf
+# of another user.  See https://github.com/git-bug/git-bug/issues/1501
+#
+# Local setup (one-time, after cloning):
+#
+#   # Install git-bug: https://github.com/git-bug/git-bug/releases
+#   # Then fetch synced data and adopt your identity:
+#
+#   git fetch origin 'refs/identities/*:refs/identities/*' \
+#                     'refs/bugs/*:refs/bugs/*'
+#   git-bug user              # list available identities
+#   git-bug user adopt <ID>   # adopt yours (match by GitHub login)
+#   git-bug tui               # browse issues
 ---
-name: Sync git-bug issues
+name: Sync git-bug issues from GitHub
 
 on:
   schedule:
     # Run hourly at minute 17 (avoid top-of-hour contention)
     - cron: "17 * * * *"
+  issues:
+    types: [opened, edited, deleted, closed, reopened, labeled, unlabeled]
+  issue_comment:
+    types: [created, edited, deleted]
   workflow_dispatch:
-    inputs:
-      push-to-github:
-        description: "Push local bugs to GitHub Issues"
-        type: boolean
-        default: false
+
+# Coalesce bursts: at most one run active + one queued.  The queued run
+# picks up all changes accumulated since the active run started.
+concurrency:
+  group: sync-git-bug
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -27,25 +50,23 @@ jobs:
           # Fetch git-bug refs so we can push incremental updates
           fetch-depth: 0
 
-      - name: Configure git
+      - name: Configure git identity
         run: |
-          # Required by git-bug to have those set, otherwise would not work!
+          # Required by git-bug's go-git internals (see git-bug#1475),
+          # NOT for creating a git-bug identity.
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
 
       - name: Fetch existing git-bug refs
         run: |
-          # Fetch both bugs and identities; bug refs are unusable without
-          # their corresponding identity refs (git-bug cache build fails).
-          git fetch origin 'refs/bugs/*:refs/bugs/*' || true
+          # Fetch both bugs and identities BEFORE configuring the bridge.
+          # bridge new's FinishConfig() looks up identities by GitHub login
+          # metadata -- if identity refs are already present it reuses them
+          # instead of creating a new identity each run.
           git fetch origin 'refs/identities/*:refs/identities/*' || true
-          # If identity refs are missing, wipe fetched bug refs to avoid
-          # "identity doesn't exist" errors during cache build.
-          if [ -z "$(git for-each-ref refs/identities/)" ]; then
-            echo "No identity refs found on remote; wiping bug refs to start fresh"
-            git for-each-ref --format='%(refname)' refs/bugs/ \
-              | xargs -r -n1 git update-ref -d || true
-          fi
+          git fetch origin 'refs/bugs/*:refs/bugs/*' || true
+          # Invalidate cache so git-bug picks up freshly fetched refs
+          rm -rf .git/git-bug/cache
 
       - name: Install git-bug
         run: |
@@ -54,17 +75,15 @@ jobs:
           chmod +x /usr/local/bin/git-bug
           git-bug version
 
-      - name: Create git-bug identity
-        run: |
-          git-bug user new \
-            --name="github-actions" \
-            --email="github-actions@users.noreply.github.com" \
-            --non-interactive
-
       - name: Configure bridge
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Each CI run is a fresh clone so we must always run bridge new.
+          # On first run (after identity cleanup) this creates one
+          # "github-actions" identity.  On subsequent runs, the identity
+          # refs fetched above let FinishConfig() find and reuse it via
+          # GitHub login metadata -- no new identity is created.
           git-bug bridge new \
             --name=github \
             --target=github \
@@ -72,10 +91,6 @@ jobs:
             --project="${GITHUB_REPOSITORY#*/}" \
             --token="$GH_TOKEN" \
             --non-interactive
-
-      - name: Push local bugs to GitHub
-        if: inputs.push-to-github
-        run: git-bug bridge push github
 
       - name: Pull issues from GitHub
         run: git-bug bridge pull github
