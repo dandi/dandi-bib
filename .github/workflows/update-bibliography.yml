@@ -32,7 +32,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          uv pip install --system datalad git-annex citations-collector -r requirements.txt
+          # bibtexparser pre-release must be installed first -- using
+          # --prerelease=allow globally pulls httpx 1.0.dev3 which breaks
+          # pyzotero (missing AsyncBaseTransport).
+          uv pip install --system 'bibtexparser>=2.0.0b7'
+          uv pip install --system datalad git-annex 'citations-collector>=0.2.3' -r requirements.txt
 
       - name: Fetch bibliography from DANDI API
         run: |
