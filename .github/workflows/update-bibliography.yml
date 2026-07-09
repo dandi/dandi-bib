@@ -12,6 +12,13 @@ on:
       - 'code/**'
       - '.github/workflows/update-bibliography.yml'
 
+# Serialize runs so a manual workflow_dispatch (or a push-triggered run) cannot
+# race a cron run's git push. cancel-in-progress=false queues instead of
+# cancelling — cancelling mid-run would leave git-annex state half-written.
+concurrency:
+  group: update-bibliography
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -93,7 +100,12 @@ jobs:
       - name: Push bibliography changes
         if: steps.check_changes.outputs.changes == 'true'
         timeout-minutes: 5
-        run: git push
+        run: |
+          # Rebase on top of any remote change that landed while we were
+          # working (e.g. another run's git-annex sync push) so this push
+          # always fast-forwards.
+          git pull --rebase --autostash origin master
+          git push
 
       - name: Sync to Zotero (optional)
         if: steps.check_changes.outputs.changes == 'true' && vars.ENABLE_ZOTERO_SYNC == 'true'
@@ -131,4 +143,5 @@ jobs:
         timeout-minutes: 20
         run: |
           git annex sync --content
+          git pull --rebase --autostash origin master
           git push
