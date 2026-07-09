@@ -56,6 +56,31 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Physiological Properties and Behavioral Correlates of Hippocampal Granule Cells and Mossy Cells
+AU  - Senzai, Yuta
+AU  - Fernandez-Ruiz, Antonio
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000003/0.260218.2052
+UR  - https://dandiarchive.org/dandiset/000003/0.260218.2052
+AB  - Data from "Physiological Properties and Behavioral Correlates of Hippocampal Granule Cells and Mossy Cells" Senzai, Buzsaki, Neuron 2017. Electrophysiology recordings of hippocampus during theta maze exploration.
+KW  - cell types
+KW  - current source density
+KW  - laminar recordings
+KW  - oscillations
+KW  - mossy cells
+KW  - granule cells
+KW  - optogenetics
+KW  - electrophysiology
+KW  - local field potential
+KW  - spikes
+KW  - neural activity
+KW  - spatial navigation
+KW  - theta maze
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - A NWB-based dataset and processing pipeline of human single-neuron activity during a declarative memory task
 AU  - Chandravadia, Nand
 AU  - Liang, Dehua
@@ -630,6 +655,9 @@ ER  -
                             <div class="col"><textarea id="comments" name="comments"></textarea></div>
                         </div>
                         <div class="row">
+                            <div class="cf-turnstile" data-theme="light" data-sitekey="0x4AAAAAACiF3eA8err_tBga"></div>
+                        </div>
+                        <div class="row">
                             <div class="col"></div>
                             <div class="col"><input class="submit" type="submit" value="Submit Error Report"></div>
                         </div>
@@ -681,7 +709,7 @@ ER  -
     </div>
     <div class="row">
         <div class="col copyright">
-            <p>Copyright © 2023 DOI Foundation. <i class="fa-brands fa-fw fa-creative-commons"></i><i class="fa-brands fa-fw fa-creative-commons-by"></i> The content of this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p><p>DOI&reg;, DOI.ORG&reg;, and shortDOI&reg; are trademarks of the DOI Foundation.</p>
+            <p>Copyright © 2026 DOI Foundation. <i class="fa-brands fa-fw fa-creative-commons"></i><i class="fa-brands fa-fw fa-creative-commons-by"></i> The content of this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p><p>DOI&reg;, DOI.ORG&reg;, and shortDOI&reg; are trademarks of the DOI Foundation.</p>
         </div>
         <div class="col socials">
             <ul class="socials-footer">
@@ -696,6 +724,8 @@ ER  -
         </div>
     </div>
 </footer>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 <script type="text/javascript">
     function submitDoiNotFound(event) {
@@ -859,6 +889,9 @@ ER  -
                             <div class="col"><textarea id="comments" name="comments"></textarea></div>
                         </div>
                         <div class="row">
+                            <div class="cf-turnstile" data-theme="light" data-sitekey="0x4AAAAAACiF3eA8err_tBga"></div>
+                        </div>
+                        <div class="row">
                             <div class="col"></div>
                             <div class="col"><input class="submit" type="submit" value="Submit Error Report"></div>
                         </div>
@@ -910,7 +943,7 @@ ER  -
     </div>
     <div class="row">
         <div class="col copyright">
-            <p>Copyright © 2023 DOI Foundation. <i class="fa-brands fa-fw fa-creative-commons"></i><i class="fa-brands fa-fw fa-creative-commons-by"></i> The content of this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p><p>DOI&reg;, DOI.ORG&reg;, and shortDOI&reg; are trademarks of the DOI Foundation.</p>
+            <p>Copyright © 2026 DOI Foundation. <i class="fa-brands fa-fw fa-creative-commons"></i><i class="fa-brands fa-fw fa-creative-commons-by"></i> The content of this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p><p>DOI&reg;, DOI.ORG&reg;, and shortDOI&reg; are trademarks of the DOI Foundation.</p>
         </div>
         <div class="col socials">
             <ul class="socials-footer">
@@ -925,6 +958,8 @@ ER  -
         </div>
     </div>
 </footer>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 <script type="text/javascript">
     function submitDoiNotFound(event) {
@@ -1088,6 +1123,9 @@ ER  -
                             <div class="col"><textarea id="comments" name="comments"></textarea></div>
                         </div>
                         <div class="row">
+                            <div class="cf-turnstile" data-theme="light" data-sitekey="0x4AAAAAACiF3eA8err_tBga"></div>
+                        </div>
+                        <div class="row">
                             <div class="col"></div>
                             <div class="col"><input class="submit" type="submit" value="Submit Error Report"></div>
                         </div>
@@ -1139,7 +1177,7 @@ ER  -
     </div>
     <div class="row">
         <div class="col copyright">
-            <p>Copyright © 2023 DOI Foundation. <i class="fa-brands fa-fw fa-creative-commons"></i><i class="fa-brands fa-fw fa-creative-commons-by"></i> The content of this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p><p>DOI&reg;, DOI.ORG&reg;, and shortDOI&reg; are trademarks of the DOI Foundation.</p>
+            <p>Copyright © 2026 DOI Foundation. <i class="fa-brands fa-fw fa-creative-commons"></i><i class="fa-brands fa-fw fa-creative-commons-by"></i> The content of this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p><p>DOI&reg;, DOI.ORG&reg;, and shortDOI&reg; are trademarks of the DOI Foundation.</p>
         </div>
         <div class="col socials">
             <ul class="socials-footer">
@@ -1154,6 +1192,8 @@ ER  -
         </div>
     </div>
 </footer>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 <script type="text/javascript">
     function submitDoiNotFound(event) {
@@ -1526,6 +1566,39 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Plitt & Giocomo (2021) Experience Dependent Contextual Codes in the Hippocampus. Nat Neuro
+AU  - Plitt, Mark
+AU  - Giocomo, Lisa M.
+DO  - 10.48324/DANDI.000054/0.260408.2101
+UR  - https://dandiarchive.org/dandiset/000054/0.260408.2101
+AB  - Data included in Plitt & Giocomo (2021) Nature Neuroscience (https://doi.org/10.1038/s41593-021-00816-6). Data includes temporally aligned virtual reality linear track data and asosociated two photon calcium imaging of hippocampal region CA1. Animals were trained to run in different virtual reality tracks that could be convincingly morphed into each other. One group of mice, "Rare morph" animals (labeled 'RX' in dataset), were largely only shown tracks at the extremes of this morph axis during training but data from the full morph axis during testing. A second group of mice, "Frequent morph" animals (labeled 'FX' in dataset), were shown all of the tracks in equal probability during all sessions. A third group of mice were shown in equal probability during all sessions, but were trained to behaviorally group the tracks into two bins ("FDX" mice in dataset). See https://github.com/GiocomoLab/PlittGiocomo_2021 for replication
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Plitt & Giocomo (2021) Experience Dependent Contextual Codes in the Hippocampus. Nat Neuro
+AU  - Plitt, Mark
+AU  - Giocomo, Lisa M.
+DO  - 10.48324/DANDI.000054/0.260409.0433
+UR  - https://dandiarchive.org/dandiset/000054/0.260409.0433
+AB  - Data included in Plitt & Giocomo (2021) Nature Neuroscience (https://doi.org/10.1038/s41593-021-00816-6). Data includes temporally aligned virtual reality linear track data and asosociated two photon calcium imaging of hippocampal region CA1. Animals were trained to run in different virtual reality tracks that could be convincingly morphed into each other. One group of mice, "Rare morph" animals (labeled 'RX' in dataset), were largely only shown tracks at the extremes of this morph axis during training but data from the full morph axis during testing. A second group of mice, "Frequent morph" animals (labeled 'FX' in dataset), were shown all of the tracks in equal probability during all sessions. A third group of mice were shown in equal probability during all sessions, but were trained to behaviorally group the tracks into two bins ("FDX" mice in dataset). See https://github.com/GiocomoLab/PlittGiocomo_2021 for replication
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Plitt & Giocomo (2021) Experience Dependent Contextual Codes in the Hippocampus. Nat Neuro
+AU  - Plitt, Mark
+AU  - Giocomo, Lisa M.
+DO  - 10.48324/DANDI.000054/0.260415.1712
+UR  - https://dandiarchive.org/dandiset/000054/0.260415.1712
+AB  - Data included in Plitt & Giocomo (2021) Nature Neuroscience (https://doi.org/10.1038/s41593-021-00816-6). Data includes temporally aligned virtual reality linear track data and asosociated two photon calcium imaging of hippocampal region CA1. Animals were trained to run in different virtual reality tracks that could be convincingly morphed into each other. One group of mice, "Rare morph" animals (labeled 'RX' in dataset), were largely only shown tracks at the extremes of this morph axis during training but data from the full morph axis during testing. A second group of mice, "Frequent morph" animals (labeled 'FX' in dataset), were shown all of the tracks in equal probability during all sessions. A third group of mice were shown in equal probability during all sessions, but were trained to behaviorally group the tracks into two bins ("FDX" mice in dataset). See https://github.com/GiocomoLab/PlittGiocomo_2021 for replication
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - AJILE12: Long-term naturalistic human intracranial neural recordings and pose
 AU  - Peterson, Steven M.
 AU  - Singh, Satpreet H.
@@ -1675,6 +1748,27 @@ DO  - 10.48324/DANDI.000070/0.251218.1714
 UR  - https://dandiarchive.org/dandiset/000070/0.251218.1714
 AB  - Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd) using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing reaching tasks with right hand.
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Neural population dynamics during reaching
+AU  - Churchland, Mark
+AU  - Cunningham, John P.
+AU  - Kaufman, Matthew T.
+AU  - Foster, Justin D.
+AU  - Nuyujukian, Paul
+AU  - Ryu, Stephen I.
+AU  - Shenoy, Krishna V.
+DO  - 10.48324/DANDI.000070/0.260528.0919
+UR  - https://dandiarchive.org/dandiset/000070/0.260528.0919
+AB  - Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd) using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing reaching tasks with right hand.
+KW  - motor control
+KW  - neural dynamics
+KW  - Utah Array
+KW  - population dynamics
+KW  - reaching
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -2296,6 +2390,31 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Inferring monosynaptic connections from paired spine calcium imaging and large-scale recording of extracellular spiking
+AU  - Buccino, Alessio
+AU  - Kumar, Sreedhar Saseendran
+AU  - Hierlemann, Andreas
+AU  - Bartram, Julian
+DO  - 10.48324/DANDI.000223/0.260528.0906
+UR  - https://dandiarchive.org/dandiset/000223/0.260528.0906
+AB  - This dataset contains paired calcium imaging and high-density microelectrode array (HD-MEA) recordings from cortical embryonic cell cultures. 
+The data is used to infer monosynaptic connections using dendritic spine calcium traces and extracellular spiking.
+Each file includes:
+- raw extracellular recordings 
+- spike-sorted units
+- imaging series
+- segmentation ROIs (of the target spines and adjacent dendritic shaft)
+KW  - calcium imaging
+KW  - extracellular recordings
+KW  - HD-MEA
+KW  - spike sorting
+KW  - dendritic spines
+KW  - cortical culture
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Active Touch and Self-Motion Encoding by Merkel Cell-Associated Afferents
 AU  - Severson, Kyle
 AU  - Xu, Duo
@@ -2655,6 +2774,28 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - A multi-modal fitting approach to construct single-neuron models with patch-clamp and high-density microelectrode arrays
+AU  - Damart, Tanguy
+AU  - Bartram, Julian
+AU  - Mandge, Darshan
+AU  - Xue, Xiaohan
+AU  - Zbili, Mickael
+AU  - Gänswein, Tobias
+AU  - Jaquier, Aurelien
+AU  - Emmenegger, Vishalini
+AU  - Markram, Henry
+AU  - Hierlemann, Andreas
+AU  - Van Geit, Werner
+DO  - 10.48324/DANDI.000294/0.260528.0854
+UR  - https://dandiarchive.org/dandiset/000294/0.260528.0854
+AB  - This dataset contains simultaneous intracellular whole-cell patch clamp and extracellular high-density microelectrode array (HD-MEA) recordings.
+It includes data from two files, corresponding to two recorded neurons. Each NWB file contains several runs of 8 eCode protocols, with syncronized intracellular voltages, stimulus currents, and extracellular voltages.
+KW  - HD-MEA, patch-clamp, multimodal
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Drosophila visual neural responses to stochastic stimuli
 AU  - Gonzalez, Aneysis
 DO  - 10.48324/DANDI.000296/0.220805.1724
@@ -2672,6 +2813,31 @@ DO  - 10.48324/DANDI.000301/0.230806.0034
 UR  - https://dandiarchive.org/dandiset/000301/0.230806.0034
 AB  - Spatial awareness is often intentional, arising from deliberate actions towards a target, while at other times it emerges from unexpected motion in the scene. To navigate the environment, animals must differentiate the spatial cues generated by self-motion from object movements that originate externally. To reveal the neural basis of this ability, we examined the midbrain superior colliculus (SC), which contains multiple egocentric maps of sensorimotor space. By simulating whisker-guided navigation through a dynamic landscape, we discovered a transient neural response that selectively emerged for unexpected, externally generated tactile motion. This transient response only emerged when external motion either gained or lost contact with a whisker, arguing that sensorimotor expectations are specific to a somatotopic location. When external motion sustained contact with the same whiskers, neurons shifted their spike timing to follow the dynamics of self-generated tactile features. Thus, representations based on the timing of self-generated cues may surpass the spatial acuity of the whisker array. In conclusion, the SC contains complementary rate and temporal codes to differentiate external from self-generated tactile features.
 PY  - 2023
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Allen Institute Openscope - Dendritic Coupling project
+AU  - Richards, Blake
+DO  - 10.48324/DANDI.000336/0.260325.1802
+UR  - https://dandiarchive.org/dandiset/000336/0.260325.1802
+AB  - This dataset was collected for the Dendritic Coupling project, as part of the Allen Institute's OpenScope project.
+
+Predictive coding hypotheses posit that perception is an active process whereby brain regions predict incoming sensory inputs, against which they are compared by other neural populations. Mismatches between predictions and inputs result in error signals that can then be used to update the predictive model encoded in synaptic weights, thereby driving plasticity. Although increasing amounts of evidence are consistent with the general framework, many different algorithmic implementations have been proposed, requiring further experiments to test specific corollaries of these varied approaches. One important, testable implication distinguishing some current theories involves the coupling strength in L2/3 and L5 pyramidal neurons between distal apical dendrites, which tend to receive top-down inputs that may include sensory prediction data, and their conjoined somata, which are often driven by bottom-up inputs. In particular, error signals are computed or else collocated in apical dendrites in some implementations, resulting in a quiescent subunit when the prediction matches inputs—zero error—and, thus, reduced dendro-somatic coupling during such times. In contrast, a separate proposal implies the opposite: Since many apical dendritic voltage signals can only reach their electrotonically segregated soma when facilitated by bursting induced by concurrent somatic sensory inputs, dendro-somatic coupling would instead be strongest when top-down predictions match bottom-up signals.
+
+Our experiment seeks to test these hypotheses by near-simultaneously imaging L2/3 and L5 somata and distal apical dendrites in mouse V1, LM, PM, and AM in transgenic lines that express GCaMP6f. Imaging four distinct areas allows us to also examine the consistency of the coupling rules, further putting the notion of a cortical canonical microcircuit to the test. By habituating animals to sets of visual stimuli with spatiotemporal patterns that are subsequently violated, we can evaluate the neural responses across the visual cortical hierarchy.
+
+Data streams collected in this study include 2-photon calcium imaging of somata and dendrites, intrinsic signal imaging (ISI) mapping for area identification, eye tracking to monitor gaze and pupillary responses, and running wheel sensors to record locomotor activity during visual stimulation.
+KW  - 2-Photon Calcium Imaging
+KW  - Multiplane Imaging
+KW  - Distal Apical Dendrites
+KW  - Dendro-somatic Coupling
+KW  - Sensory Prediction
+KW  - Unsupervised Learning
+KW  - Hierarchy
+KW  - Neocortex
+KW  - Pyramidal Neurons
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -2969,6 +3135,24 @@ KW  - motor commands
 KW  - movement representations
 KW  - dynamical systems
 PY  - 2023
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - IBL - Brain Wide Map
+AU  - International Brain Laboratory
+DO  - 10.48324/DANDI.000409/0.260309.1324
+UR  - https://dandiarchive.org/dandiset/000409/0.260309.1324
+AB  - The International Brain lab (IBL) aims to understand the neural basis of decision-making in the mouse by gathering a whole-brain activity map composed of electrophysiological recordings pooled from multiple laboratories. We have systematically recorded from nearly all major brain areas with Neuropixels probes, using a grid system for unbiased sampling and replicating each recording site in at least two laboratories. These data have been used to construct a brain-wide map of activity at single-spike cellular resolution during a decision-making task. In addition to the map, this data set contains other information gathered during the task: sensory stimuli presented to the mouse; mouse decisions and response times; and mouse pose information from video recordings and DeepLabCut analysis.
+KW  - International Brain Laboratory
+KW  - multi-probe
+KW  - Neuropixels
+KW  - Allen Mouse Brain CCFv3
+KW  - Allen Mouse Brain Atlas
+KW  - head-fixed
+KW  - decision-making
+KW  - face-tracking
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -3765,6 +3949,35 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Spontaneous behaviour is structured by reinforcement without explicit reward
+AU  - Markowitz, Jeffrey E.
+AU  - Gillis, Winthrop
+AU  - Jay, Maya
+AU  - Wood, Jeffrey
+AU  - Harris, Ryley W.
+AU  - Cieszkowski, Robert
+AU  - Scott, Rebecca
+AU  - Brann, David
+AU  - Koveal, Dorothy
+AU  - Kula, Tomasz
+AU  - Weinreb, Caleb
+AU  - Osman, Mohammed Abdal Monium 
+AU  - Pinto, Sandra Romero 
+AU  - Uchida, Naoshige 
+AU  - Linderman, Scott W.
+AU  - Sabatini, Bernardo
+AU  - Datta, Sandeep Robert 
+DO  - 10.48324/DANDI.000559/0.260528.0858
+UR  - https://dandiarchive.org/dandiset/000559/0.260528.0858
+AB  - Spontaneous animal behaviour is built from action modules that are concatenated by the brain into sequences. However, the neural mechanisms that guide the composition of naturalistic, self-motivated behaviour remain unknown. Here we show that dopamine systematically fluctuates in the dorsolateral striatum (DLS) as mice spontaneously express sub-second behavioural modules, despite the absence of task structure, sensory cues or exogenous reward. Photometric recordings and calibrated closed-loop optogenetic manipulations during open field behaviour demonstrate that DLS dopamine fluctuations increase sequence variation over seconds, reinforce the use of associated behavioural modules over minutes, and modulate the vigour with which modules are expressed, without directly influencing movement initiation or moment-to-moment kinematics. Although the reinforcing effects of optogenetic DLS dopamine manipulations vary across behavioural modules and individual mice, these differences are well predicted by observed variation in the relationships between endogenous dopamine and module use. Consistent with the possibility that DLS dopamine fluctuations act as a teaching signal, mice build sequences during exploration as if to maximize dopamine. Together, these findings suggest a model in which the same circuits and computations that govern action choices in structured tasks have a key role in sculpting the content of unconstrained, high-dimensional, spontaneous behavior.
+KW  - Basal Ganglia
+KW  - Neural circuits
+KW  - Reward
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Allen Institute Openscope - Barcoding
 AU  - Reinagel, Pamela
 AU  - Lecoq, Jérôme
@@ -3906,6 +4119,20 @@ This study aims to develop an ecosystem for the purpose of neurmodulation using 
 
 Contact: For questions regarding this dataset, please contact mivalt.filip@mayo.edu or Miller.Kai@mayo.edu
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Intracranial recordings using BCI2000 and the CorTec BrainInterchange
+AU  - Lampert, Frederik
+DO  - 10.48324/DANDI.000571/0.260515.0242
+UR  - https://dandiarchive.org/dandiset/000571/0.260515.0242
+AB  - An Ecosystem of Technology and Protocols for Adaptive Neuromodulation Research in Humans
+
+This study aims to develop an ecosystem for the purpose of neurmodulation using the Cortec BCI device and BCI2000 software.
+
+Contact: For questions regarding this dataset, please contact mivalt.filip@mayo.edu or Miller.Kai@mayo.edu
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -4769,6 +4996,40 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Allen Institute Openscope - Vision2Hippocampus project
+AU  - Allen Institute
+DO  - 10.48324/DANDI.000690/0.260330.2144
+UR  - https://dandiarchive.org/dandiset/000690/0.260330.2144
+AB  - Extensive research shows that visual cortical neurons respond to specific stimuli, e.g. the primary visual cortical neurons respond to bars of light with specific orientation. In contrast, the hippocampal neurons are thought to encode not specific stimuli but instead represent abstract concepts such as space, time and events. How is this abstraction computed in the mouse brain? Specifically, how does the representation of simple visual stimuli evolve from the thalamus, which is a synapse away from the retina, through primary visual cortex, higher order visual areas and all the way to hippocampus, that is farthest removed from the retina?
+
+The current OpenScope project aims to understand how the neural representations of simple and natural stimuli evolve from the LGN through V1, and most hippocampal regions, as well as some of the frontal areas. 
+
+Stimuli presented
+Two main categories of visual stimuli were presented–
+1.	Simple visual motion, elicited by basic stimuli, like bars of light.
+2.	Complex, potentially ethologically valid visual stimuli, elicited by movies involving eagles (and squirrels).
+To parametrize the stimulus properties which might be affecting neural responses, mice were shown variants of the vertical bar of light as follows:
+A(o) – The bar of light was white, moving on a black background, 15 degrees wide, and moved at a fixed speed, covered the entire width of the screen in 2 seconds. It covered both movement directions consecutively (naso-temporal, then temporo-nasal).
+A(i) – Similar to A(o), but the bar was now thrice as wide (45o)
+A(ii) – Similar to A(o), but the bar was thrice as slow (covering the width of the screen in 6 seconds).
+A(iii) – Similar to A(o), but the contrast was flipped, i.e. a black bar of light on a white background.
+A(iv) - Similar to A(o), but instead of a simple white bar, the stimulus was striped, and each stripe changed color as the stimulus moved through the width of the screen. This was called “disco” bar of light
+A(v) – In a subset of mice, A(o) was appended by frames corresponding to the bar of light “vanishing” at either of the edges. Two vanishing protocols were attempted, the bar of light is fully absorbed by the boundary, before reemerging. Another protocol had the bar of light vanish for ~1 second in addition to smoothly being absorbed by the boundary, before reemerging.
+KW  - mouse
+KW  - neuropixel
+KW  - extracellular electrophysiology
+KW  - neocortex
+KW  - hippocampus
+KW  - Entorhinal cortex
+KW  - excitatory
+KW  - inhibitory
+KW  - vision
+KW  - movies
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Whole-brain spontaneous GCaMP activity with NeuroPAL cell ID information of semi-restricted worms
 AU  - Suzuki, Ryoga
 AU  - Wen, Chentao
@@ -5156,6 +5417,21 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Spatial and temporal propagation of spiking activity in response to electrical stimulation in visual cortex
+AU  - Denman, Daniel
+AU  - Hickman, Jordan
+DO  - 10.48324/DANDI.000774/0.260520.1753
+UR  - https://dandiarchive.org/dandiset/000774/0.260520.1753
+AB  - Three dimensional measurement of electrical activity around a point source of electrical stimulation in neocortex. Electrical stimuli are single pulses with varying  amplitude and polarity. Stimuli are delivered near the middle layers of primary visual cortex; exact positions for each stimulation site in Common Coordinate Framework (CCF) coordinates are provided. Measurements are made with three simultaneous Neuropixels 1.0 electrodes roughly orthogonally placed around the stimulation site. The crossing point is approximately hundreds of microns deeper to the stimulation site. CCF coordinated for each electrode are also provided. Sampling covers at least one millimeter in all directions around stimulation, including across cortical area boundaries and across boundaries to deeper brain structures including hippocampus. 
+KW  - electrical stimulation
+KW  - neuromodulation
+KW  - visual cortex
+KW  - Neuropixels
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Brain-wide representations of behavior spanning multiple timescales and states in C. elegans
 AU  - Wan, Flossie
 DO  - 10.48324/DANDI.000776/0.240625.0015
@@ -5185,6 +5461,45 @@ UR  - https://dandiarchive.org/dandiset/000776/0.241009.1509
 AB  - Dataset of 38 worms from 'Brain-wide representations of behavior spanning multiple timescales and states in C. elegans'. Each NWB file contains the NIR bright-field images, GCaMP images, and NeuroPAL structural images, ROI locations and IDs, labeled activity traces, and behavioral information. 
 
 PY  - 2024
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Projection-specific routing of odor information in the olfactory cortex
+AU  - Daste, Simon
+AU  - Pham, Tuan
+AU  - Fleischmann, Alexander
+DO  - 10.48324/DANDI.000785/0.260519.1753
+UR  - https://dandiarchive.org/dandiset/000785/0.260519.1753
+AB  - Calcium imaging of pyramidal neurons in the piriform cortex (PCx) under passive odor stimulation or task-relevant odor stimulation. 
+Subsets of neurons are are retrograde-labeled to indicated their projection targets (one target per animal): olfactory bulb (OB) and medial prefrontal cortex (mPFC).
+KW  - calcium imaging
+KW  - piriform cortex
+KW  - olfaction
+KW  - medial prefrontal cortex
+KW  - olfactory bulb
+KW  - go/nogo
+KW  - 2-photon
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Projection-specific routing of odor information in the olfactory cortex
+AU  - Daste, Simon
+AU  - Pham, Tuan
+AU  - Fleischmann, Alexander
+DO  - 10.48324/DANDI.000785/0.260520.1603
+UR  - https://dandiarchive.org/dandiset/000785/0.260520.1603
+AB  - Calcium imaging of neurons in mouse piriform cortex (PCx) under passive odor stimulation or task-relevant odor stimulation (Go/NoGo). Subsets of neurons are are retrogradely-labeled to indicated their projection targets (one target per animal): olfactory bulb (OB) and medial prefrontal cortex (mPFC).
+KW  - calcium imaging
+KW  - piriform cortex
+KW  - olfaction
+KW  - medial prefrontal cortex
+KW  - olfactory bulb
+KW  - go/nogo
+KW  - 2-photon
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -5562,6 +5877,70 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Large-scale recordings of head direction cells in mouse postsubiculum
+AU  - Duszkiewicz, Adrian
+DO  - 10.48324/DANDI.000939/0.260512.1611
+UR  - https://dandiarchive.org/dandiset/000939/0.260512.1611
+AB  - 64-channel linear probe recordings from mouse postsubiculum (dorsal presubiculum) - a region in which most excitatory cells are narrowly tuned to the animal's head direction.  Dataset includes one recording session per mouse (N = 31 mice, 42 - 185 units per recording). All sessions include a square open field exploration epoch and two sleep epochs. Some sessions additionally include a triangular open field epoch or an optogenetic stimulation epoch. 
+
+Each NWB file contains: timestamps of detected units, mean waveforms, LFP,  animal position and head-direction,  sleep scoring (REM/NREM), accelerometer data. 
+
+Metadata: https://docs.google.com/spreadsheets/d/1eGVMXkzyo25IOJHTyiNYFGhNO_7H4ZscUFfCBi31fYU/edit?usp=sharing
+
+Data used in Duszkiewicz et al, 2024 (DOI: 10.1038/s41593-024-01588-5). Collected by Adrian J. Duszkiewicz and Sofia Skromne Carrasco in Peyrache lab. Additional adjustment of motion tracking data by Miao Wang, Sirota lab. 
+
+Original version of the dataset used in the article (including ADN recordings) and code to reproduce figures can be found in Matlab format at:
+https://doi.org/10.6084/m9.figshare.24921252
+
+Update 12th May 2026:
+- Raw electrophysiological recordings added 
+- Unit ID added 
+- Fixed indexing of sleep scoring epochs
+
+KW  - head-direction
+KW  - postsubiculum
+KW  - electrophysiology
+KW  - freely-moving
+KW  - mouse
+KW  - probe
+KW  - extracellular
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Large-scale recordings of head direction cells in mouse postsubiculum
+AU  - Duszkiewicz, Adrian
+DO  - 10.48324/DANDI.000939/0.260512.1701
+UR  - https://dandiarchive.org/dandiset/000939/0.260512.1701
+AB  - 64-channel linear probe recordings from mouse postsubiculum (dorsal presubiculum) - a region in which most excitatory cells are narrowly tuned to the animal's head direction.  Dataset includes one recording session per mouse (N = 31 mice, 42 - 185 units per recording). All sessions include a square open field exploration epoch and two sleep epochs. Some sessions additionally include a triangular open field epoch or an optogenetic stimulation epoch. 
+
+Each NWB file contains: timestamps of detected units, mean waveforms, LFP,  animal position and head-direction,  sleep scoring (REM/NREM), accelerometer data. 
+
+Metadata: https://docs.google.com/spreadsheets/d/1eGVMXkzyo25IOJHTyiNYFGhNO_7H4ZscUFfCBi31fYU/edit?usp=sharing
+
+Data used in Duszkiewicz et al, 2024 (DOI: 10.1038/s41593-024-01588-5). Collected by Adrian J. Duszkiewicz and Sofia Skromne Carrasco in Peyrache lab. Additional adjustment of motion tracking data by Miao Wang, Sirota lab. 
+
+Original version of the dataset used in the article (including ADN recordings) and code to reproduce figures can be found in Matlab format at:
+https://doi.org/10.6084/m9.figshare.24921252
+
+Update 12th May 2026:
+- Raw electrophysiological recordings added 
+- Unit ID added 
+- Fixed indexing of sleep scoring epochs
+
+KW  - head-direction
+KW  - postsubiculum
+KW  - electrophysiology
+KW  - freely-moving
+KW  - mouse
+KW  - probe
+KW  - extracellular
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - FALCON Benchmark M1-A: primary motor cortex recordings in primate during reach-to-grasp task
 AU  - Rouse, Adam G
 AU  - Schieber, Marc H
@@ -5898,6 +6277,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Closed-loop microstimulations of the orbitofrontal cortex during real-life gaze interaction enhance dynamic social attention
+AU  - Chang, Steve
+DO  - 10.48324/DANDI.000959/0.260531.2104
+UR  - https://dandiarchive.org/dandiset/000959/0.260531.2104
+AB  - These are the raw and processed data accompanying our manuscript "Closed-loop microstimulations of the orbitofrontal cortex during real-life gaze interaction enhance dynamic social attention". In this paradigm, two animals face each-other and freely gaze at one another while their gaze positions are continuously tracked in real-time. One animal ("M1") receives a low-amplitude microstimulation to one of three brain areas (OFC, ACCg, and dmPFC) that is triggered stochastically upon looking to their partner's eye-region. These data consist of the continuous gaze positions and pupil sizes from each animal; the stimulation event times; the face and eye ROIs of each animal; and the multi-unit activity (MUA) and electrode information from the single electrode targeting the stimulated area.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
 AU  - Seiler, Jillian L.
 AU  - Cosme, Caitlin V.
@@ -5927,6 +6316,39 @@ KW  - punishment-resistant reward seeking
 KW  - fiber photometry
 KW  - optogenetics
 PY  - 2024
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
+AU  - Seiler, Jillian L.
+AU  - Cosme, Caitlin V.
+AU  - Sherathiya, Venus N.
+AU  - Schaid, Michael D.
+AU  - Bianco, Joseph M.
+AU  - Bridgemohan, Abigael S.
+AU  - Lerner, Talia N.
+DO  - 10.48324/DANDI.000971/0.260213.1851
+UR  - https://dandiarchive.org/dandiset/000971/0.260213.1851
+AB  - Compulsive behavior is a defining feature of disorders such as substance use disorders. Current evidence
+suggests that corticostriatal circuits control the expression of established compulsions, but little is known
+about the mechanisms regulating the development of compulsions. We hypothesized that dopamine, a critical modulator of striatal synaptic plasticity, could control alterations in corticostriatal circuits leading to the
+development of compulsions (defined here as continued reward seeking in the face of punishment). We used
+dual-site fiber photometry to measure dopamine axon activity in the dorsomedial striatum (DMS) and the
+dorsolateral striatum (DLS) as compulsions emerged. Individual variability in the speed with which compulsions emerged was predicted by DMS dopamine axon activity. Amplifying this dopamine signal accelerated
+animals’ transitions to compulsion, whereas inhibition delayed it. In contrast, amplifying DLS dopamine
+signaling had no effect on the emergence of compulsions. These results establish DMS dopamine signaling
+as a key controller of the development of compulsive reward seeking.
+KW  - dorsal striatum
+KW  - dopamine
+KW  - substantia nigra
+KW  - reward learning
+KW  - habit formation
+KW  - compulsive behavior
+KW  - punishment-resistant reward seeking
+KW  - fiber photometry
+KW  - optogenetics
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -6086,6 +6508,26 @@ DO  - 10.48324/DANDI.001037/0.240816.1841
 UR  - https://dandiarchive.org/dandiset/001037/0.240816.1841
 AB  - This dataset provides neural and behavioural annotation data from the paper: "Causal evidence of a line attractor encoding an affective state". Data is stored in the NWB format and contains GCaMP traces, behavioural annotation (timing of behaviour), low-dimensional latent factors from dynamical models and other metadata.
 PY  - 2024
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Causal evidence of a line attractor encoding an affective state
+AU  - Nair, Aditya
+DO  - 10.48324/DANDI.001037/0.260529.1406
+UR  - https://dandiarchive.org/dandiset/001037/0.260529.1406
+AB  - This dataset provides neural and behavioural annotation data from the paper: "Causal evidence of a line attractor encoding an affective state". Data is stored in the NWB format and contains GCaMP traces, behavioural annotation (timing of behaviour), low-dimensional latent factors from dynamical models and other metadata.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Causal evidence of a line attractor encoding an affective state
+AU  - Nair, Aditya
+DO  - 10.48324/DANDI.001037/0.260609.1402
+UR  - https://dandiarchive.org/dandiset/001037/0.260609.1402
+AB  - This dataset provides neural and behavioural annotation data from the paper: "Causal evidence of a line attractor encoding an affective state". Data is stored in the NWB format and contains GCaMP traces, behavioural annotation (timing of behaviour), low-dimensional latent factors from dynamical models and other metadata. Sample code to access and analyze this dataset has been provided: https://github.com/neuralcomputation/hypothalamic-dynamics 
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -6330,12 +6772,44 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Encoding of female mating dynamics by a hypothalamic line attractor
+AU  - Liu, Mengyu
+AU  - Nair, Aditya
+DO  - 10.48324/DANDI.001097/0.260531.0005
+UR  - https://dandiarchive.org/dandiset/001097/0.260531.0005
+AB  - This dataset provides neural and behavioural annotation data from the paper: "Encoding of female mating dynamics by a hypothalamic line attractor". Data is stored in the NWB format and contains GCaMP traces, behavioural annotation (timing of behaviour), low-dimensional latent factors from dynamical models and other metadata.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Encoding of female mating dynamics by a hypothalamic line attractor
+AU  - Liu, Mengyu
+AU  - Nair, Aditya
+DO  - 10.48324/DANDI.001097/0.260624.0330
+UR  - https://dandiarchive.org/dandiset/001097/0.260624.0330
+AB  - This dataset provides neural and behavioural annotation data from the paper: "Encoding of female mating dynamics by a hypothalamic line attractor". Data is stored in the NWB format and contains GCaMP traces, behavioural annotation (timing of behaviour), low-dimensional latent factors from dynamical models and other metadata. Sample code to access and analyze this dataset has been provided: https://github.com/neuralcomputation/hypothalamic-dynamics
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - A line attractor encoding a persistent internal state requires neuropeptide signaling
 AU  - Nair, Aditya
 DO  - 10.48324/DANDI.001131/0.240826.1647
 UR  - https://dandiarchive.org/dandiset/001131/0.240826.1647
 AB  - This dataset provides neural and behavioural annotation data from the paper: "A line attractor encoding a persistent internal state requires neuropeptide signaling". Data is stored in the NWB or HDF5 format and contains GCaMP traces, behavioural annotation (timing of behaviour) and other metadata.
 PY  - 2024
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - A line attractor encoding a persistent internal state requires neuropeptide signaling
+AU  - Nair, Aditya
+DO  - 10.48324/DANDI.001131/0.260601.1203
+UR  - https://dandiarchive.org/dandiset/001131/0.260601.1203
+AB  - This dataset provides neural and behavioural annotation data from the paper: "A line attractor encoding a persistent internal state requires neuropeptide signaling". Data is stored in the NWB or HDF5 format and contains GCaMP traces, behavioural annotation (timing of behaviour) and other metadata.
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -6443,6 +6917,24 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Mesoscale Two-Photon Calcium Imaging of Population Level Odor Responses from the Mouse Olfactory Bulb
+AU  - Pfaffinger, Paul
+DO  - 10.48324/DANDI.001170/0.260528.1016
+UR  - https://dandiarchive.org/dandiset/001170/0.260528.1016
+AB  - This study explores odor-evoked activity representation in the mouse olfactory bulb (OB) using mesoscale two-photon calcium imaging to investigate how odor responses enable discrimination. Contrary to theories suggesting purely sparse representations, we hypothesize a denser population-level representation during odor presentation. The dataset includes population-level odor responses recorded as NWB files containing TwoPhotonSeries (raw imaging data), SpatialSeries, and resulting PlaneSegmentation/ProcessingModules from calcium signal extraction. By applying machine learning techniques, we suggest a model in which sparse coding is sufficient for olfaction, but redundant, dense information makes odor coding robust across different variables. Data includes behavioral traces and surgical techniques associated with mesoscale imaging of the OB.
+KW  - odor-evoked activity
+KW  - olfactory bulb
+KW  - two photon calcium imaging
+KW  - olfactory system
+KW  - neural dynamics
+KW  - biological neural network
+KW  - sparse coding
+KW  - odor discrimination
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Data for: Homeostatic capacity of L5/6 neurons in Fmr1 KO mice following unilateral whisker deprivation
 AU  - Lakhani, Alishah
 DO  - 10.48324/DANDI.001171/0.240905.2128
@@ -6503,6 +6995,22 @@ UR  - https://dandiarchive.org/dandiset/001174/0.250331.2218
 AB  - The study of motor cortices in non-human primates is relevant to our understanding of human motor control, both in healthy conditions and in movement disorders. Calcium imaging and miniature microscopes allow the study of multiple genetically identified neurons with excellent spatial resolution. We used this method to examine activity patterns of projection neurons in deep layers of the supplementary motor (SMA) and primary motor areas (M1) in four rhesus macaques. We implanted gradient index lenses and expressed GCaMP6f to image calcium transients while the animals were at rest or engaged in an arm reaching task. We tracked the activity of SMA and M1 neurons across conditions, examined cell pairs for synchronous activity, and assessed whether SMA and M1 neuronal activation followed specific sequential activation patterns. We demonstrate the value of in vivo calcium imaging for studying patterns of activity in groups of corticofugal neurons in SMA and M1.
 KW  - One-photon calcium imaging, non-human primates, microendoscope, reaching task, neuronal coactivation, calcium sensors, GCaMP, GRIN lens
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Cortical acetylcholine dynamics are predicted by cholinergic axon activity and behavior state
+AU  - Reimer, Jacob
+AU  - Neyhart, Erin
+DO  - 10.48324/DANDI.001176/0.260610.2204
+UR  - https://dandiarchive.org/dandiset/001176/0.260610.2204
+AB  - This dataset includes simultaneous in vivo imaging data of acetylcholine (ACh) sensors and GCaMP-expressing axons in the cortex during spontaneous changes in behavioral states in awake animals. It features detailed recordings of ACh activity, axon activity, and pupil size, providing valuable insights into the spatiotemporal properties of cortical ACh release and its correlation with axonal activity.
+KW  - acetylcholine
+KW  - brain states
+KW  - two-photon-imaging
+KW  - neuromodulator
+KW  - Axon imaging
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -6625,6 +7133,21 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - A combinatorial neural code for long-term motor memory.
+AU  - Li, Nuo
+DO  - 10.48324/DANDI.001188/0.260213.1642
+UR  - https://dandiarchive.org/dandiset/001188/0.260213.1642
+AB  - Data from "A combinatorial neural code for long-term motor memory." Jae-Hyun Kim, Kayvon Daie, Nuo Li. Nature 2024
+
+Longitudinal calcium imaging of anterior lateral motor cortex in the mouse across multiple tasks, in which mice learned to perform directional licking in different task contexts. 
+
+This work was funded by the Pew Scholars Program, NIH NS112312, NS113110, NS131229, NS132025, McKnight Foundation, and Simons Collaboration on the Global Brain. 
+
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - In vivo Calcium Imaging: Genotype Data: NOR
 AU  - Fitting, Sylvia 
 DO  - 10.48324/DANDI.001190/0.241018.1634
@@ -6633,6 +7156,20 @@ AB  - Data set for Tat(-) and Tat(+) male mice comparing genotype differences wi
 Researcher: Barkha J. Yadav Samudrala and Sylvia Fitting
 KW  - In vivo calcium imaging, endocannabinoids, HIV-1, Tat
 PY  - 2024
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Allen Institute Openscope - Loop project
+AU  - Barnea, Noa
+DO  - 10.48324/DANDI.001191/0.260624.2038
+UR  - https://dandiarchive.org/dandiset/001191/0.260624.2038
+AB  -   In the natural world, sensory experience unfolds as a continuous and dynamic process where past sensory input predicts the present. The brain utilizes this sequential flow of recent sensory information to make predictions, infer causal relationships between events, and to give rise to our perceptions. Traditionally, such higher cognitive functions were attributed to the computations undertaken in associative brain regions, while sensory areas (such as V1) were thought to serve as passive feature detectors. This longstanding view is now being challenged by compelling evidence showing the capacity of these areas for plasticity and complex computations such as forming spatial expectations, temporal associations, reward prediction, and categorial learning. Importantly, it has been established that sensory processing is not solely determined by the system's current sensory inputs but also strongly influenced by preceding sensory inputs, a phenomenon known as hysteresis.This phenomenon has been characterized in detail in the visual system, with prominent examples that include adaptation, repetition suppression, prediction suppression and facilitatory history effects. However, previous work predominantly focused on the neuronal dynamics over short time scales, ranging from milliseconds to several minutes, in response to a limited set of synthetic stimuli. Moreover, much of our current knowledge relies on recordings from the primary visual cortex and on interpretations that emphasize modulation of single cells’ activity rather than analysis of population-level dynamics. Consequently, the extent to which prior experience over longer timescales shapes neuronal representations, and specifically representations of more ethologically relevant natural stimuli, remains unclear. It also remains unclear whether and to what extent the effects of prior experience on such neuronal representations differ along the visual system's hierarchical structure.
+KW  - OpenScope
+KW  - Ecephys
+KW  - Neuropixels
+KW  - Mice
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -7219,6 +7756,17 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Barrel cortex electrophysiology during tactile VR whisker-guided navigation
+AU  - Armstrong, Alex
+DO  - 10.48324/DANDI.001341/0.260414.1316
+UR  - https://dandiarchive.org/dandiset/001341/0.260414.1316
+AB  - Electrophysiology in the C2 barrel column of wS1 in mice during continuous tactile VR navigation using only the C2 whiskers. Mice are head-fixed on a suspended ball, with two walls placed either side of the mouse. The lateral movement of these walls is coupled in a closed loop real time system to the trajectory of the mouse so that when the mouse moves to the left, the walls move in from the left. This causes them to orient themselves in the middle of the virtual corridor. Mice are presented with turns to the left (contralateral stimulation to recording site) and right (ipsilateral to recording site) in the virtual environment in a completely unrewarded form of a 2AFC task. Trial structure consists of a 100cm closed loop baseline straight running trial, before an open loop 2 second turn to either the left or right. Mouse trajectories (forward and lateral distance and speed) calculated from ball tracking cameras using custom LabVIEW program.
+KW  - barrel cortex; S1; behavior; decision making; VR
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Cortical Circuits for the integration of short-latency auditory pathways: Auditory Cortex retrograde tracing
 AU  - Kato, Hiroyuki
 DO  - 10.48324/DANDI.001344/0.250521.2349
@@ -7402,6 +7950,33 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - CATNIP Analysis of light sheet imaging of whole-brain c-Fos immunostaining in constitutive PACAP-knockout and control PACAP-flox/flox mice
+AU  - Bakalar, Dana
+AU  - Gavrilova, Oksana
+AU  - Jiang, Sunny Z
+AU  - Zhang, Hai-ying
+AU  - Roy, Snehasish
+AU  - Avram, Sarah K. Williams
+AU  - Liu, Naili
+AU  - Wisser, Stephen C
+AU  - Eiden, Lee
+DO  - 10.48324/DANDI.001362/0.260701.1900
+UR  - https://dandiarchive.org/dandiset/001362/0.260701.1900
+AB  - This derivative dataset was compiled from data from a study conducted by the National Institute of Mental Health's Intramural Research Program from images acquired from the Systems Neuroscience Imaging Resource and reformatted into BIDS by the NIMH Data Science and Sharing Team. The derivative dataset contains Richardson-Lucy deconvloved and N4 intensity inhomogeneity corrected 3D image stacks and the analysis derivatives of the corrected image stacks from the CATNAP analysis pipeline, https://github.com/snehashis-roy/CATNIP. Data is from the publication "Constitutive and conditional deletion reveals distinct phenotypes driven by developmental versus neurotransmitter actions of the neuropeptide PACAP," https://doi.org/10.1111/jne.13286.
+KW  - light sheet
+KW  - microscopy
+KW  - iDISCO
+KW  - fluorescence
+KW  - c-Fos
+KW  - Immunostaining
+KW  - PACAP
+KW  - Mouse
+KW  - Mice
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Comparison of Approaches for Surface Vessel Diameter and Pulsatility Quantification
 AU  - Ranjan, Aditya
 AU  - Wong, Devin T.
@@ -7443,6 +8018,22 @@ KW  - Cortex
 KW  - Mouse
 KW  - Optical imaging
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Allen Institute OpenScope - Psycode
+AU  - Amaya, Avalon
+DO  - 10.48324/DANDI.001417/0.260626.2154
+UR  - https://dandiarchive.org/dandiset/001417/0.260626.2154
+AB  - Psycode dataset is an OpenScope project designed to investigate the effects of psilocybin on visual processing and behavior in the mouse visual cortex. The core experimental design follows a ‘pre-drug / post-drug’ structure, allowing for a within-subject comparison of neural activity and task performance. Initially, mice are trained on a visual change detection task, similar to the paradigm used in the Visual Behavior Optical Physiology and Visual Behavior Neuropixels projects. In this go/no-go task, mice are shown a continuous series of briefly presented natural images (presented for 250 ms), and they earn water rewards by correctly reporting when the identity of the image changes. Alongside this behavior, the experiment includes a battery of passive visual stimulation protocols to probe the functional properties of visual neurons.  The experimental timeline follows a structured sequence. Before psilocybin application, mice first undergo passive visual stimulation for receptive field (RF) mapping and a surround suppression paradigm, providing a baseline measurement of each neuron’s tuning properties. This is followed by the change detection task to end the pre-injection epoch. After psilocybin is administered, the same sequence of stimuli is presented in reverse: first the change detection task, followed by receptive field mapping and surround suppression. Finally, passive visual stimulation is repeated, now including an optotagging protocol at the end to identify cortical SST neurons. This symmetrical design—with both behavioral and passive protocols repeated before and after drug administration—enables a powerful within-subject analysis of how psilocybin modulates visual processing, from basic receptive field properties to complex task-dependent dynamics involving natural image perception. The dataset therefore offers a unique opportunity to link molecularly-specific cell types, natural image perception, and the state-dependent changes induced by a psychedelic compound. **Note: In this dandiset, session ecephys-752309-2025-02-12-13-53-52 had synchronization/alignment issues between stimulus and ecephys timing. Session ecephys_767926_2025-02-26_15-49-35 is missing running data because of a problem ith the sensor during recording**
+KW  - psilocybin
+KW  - openscope
+KW  - mouse
+KW  - vision
+KW  - ecephys
+KW  - neuropixels
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -7830,6 +8421,17 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Contextual gating of whisker-evoked responses by frontal cortex supports flexible decision making
+AU  - Crochet, Sylvain
+AU  - Petersen, Carl
+DO  - 10.48324/DANDI.001530/0.260605.0601
+UR  - https://dandiarchive.org/dandiset/001530/0.260605.0601
+AB  - Data related to the publication: Ghaderi et al., Nature Communications, 2026, https://doi.org/10.1038/s41467-026-73622-y. Processed data and code are available via Zenodo: https://doi.org/10.5281/zenodo.17973874 and GitHub: https://github.com/LSENS-BMI-EPFL/Ghaderi_et_al_NCOMMS_2026.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - 20250707_Patchseq_BICAN_R01_Neuromodulation_mouse
 AU  - Gonzalez, Limary
 DO  - 10.48324/DANDI.001534/0.250715.2016
@@ -7848,6 +8450,47 @@ UR  - https://dandiarchive.org/dandiset/001535/0.250714.1218
 AB  - Long-term electrocorticographic (ECoG) training data during contextual brain computer interface (BCI) control in a tetraplegic human participant. The data uploaded represent long-term recordings from a 128 channel ECoG grid over contralateral sensorimotor cortex when trying to access directions in 3D space (6 axial directions plus 1 for the origin for a total of 7 directional targets). Data from individual variable length training trials from these long-term recordings have been collated and uploaded for the development and testing of novel BCI decoding architectures. For example, these trials can be used to train proficient deep learning neural network based BCI decoders to discern directional control. The trials are collated from a multitude of BCI contexts e.g., control in a virtual environment, with a physical real-world robot, during open loop and closed loop control. The neural features are a combination of high gamma amplitude activity (70-150Hz) and low-frequency motor cortical potentials (<25Hz), down sampled from the original 1KhZ sampling rate to 100Hz. Paper describing the scientific rationale, engineering approach, signal processing, experiments, data and a baseline deep learning decoder (stacked bi-directional LSTMs) can be found here: https://www.cell.com/cell/fulltext/S0092-8674(25)00157-6   
 KW  - ECoG, Human, BCI
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Sampling representational plasticity of simple imagined movements across days enables long-term neuroprosthetic control
+AU  - Natraj, Nikhilesh
+DO  - 10.48324/DANDI.001535/0.260608.0617
+UR  - https://dandiarchive.org/dandiset/001535/0.260608.0617
+AB  - Long-term electrocorticographic (ECoG) training data during contextual brain computer interface (BCI) control in a tetraplegic human participant. The data uploaded represent long-term recordings from a 128 channel ECoG grid over contralateral sensorimotor cortex when trying to access directions in 3D space (6 axial directions plus 1 for the origin for a total of 7 directional targets). Data from individual variable length training trials from these long-term recordings have been collated and uploaded for the development and testing of novel BCI decoding architectures. For example, these trials can be used to train proficient deep learning neural network based BCI decoders to discern directional control. The trials are collated from a multitude of BCI contexts e.g., control in a virtual environment, with a physical real-world robot, during open loop and closed loop control. The neural features are a combination of high gamma amplitude activity (70-150Hz) and low-frequency motor cortical potentials (<25Hz), down sampled from the original 1KhZ sampling rate to 100Hz. Paper describing the scientific rationale, engineering approach, signal processing, experiments, data and a baseline deep learning decoder (stacked bi-directional LSTMs) can be found here: https://www.cell.com/cell/fulltext/S0092-8674(25)00157-6   
+KW  - ECoG, Human, BCI
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - State-dependent modulation of spiny projection neurons controls levodopa-induced dyskinesia in a mouse model of Parkinson’s disease
+AU  - Zhai, Shenyu
+AU  - Cui, Qiao-Ling
+AU  - Wokosin, David
+AU  - Sun, Linqing
+AU  - Tkatch, Tatiana
+AU  - Crittenden, Jill
+AU  - Graybiel, Ann
+AU  - Surmeier, D. James
+DO  - 10.48324/DANDI.001538/0.260527.1302
+UR  - https://dandiarchive.org/dandiset/001538/0.260527.1302
+AB  - This Dandiset contains all raw and primary-processed data underlying the study “State-dependent modulation of striatal spiny projection neurons controls levodopa-induced dyskinesia in a mouse model of Parkinson’s disease”
+The collection spans multimodal recordings from adult C57BL/6J mice rendered hemiparkinsonian with a unilateral 6-hydroxydopamine (6-OHDA) lesion of the medial forebrain bundle, followed by chronic levodopa dosing to provoke on-/off-state dyskinesia
+KW  - Parkinson's disease
+KW  - neurodegeneration
+KW  - dopamine depletion
+KW  - striatum
+KW  - levodopa-induced dyskinesia
+KW  - dSPNs
+KW  - iSPNs
+KW  - indirect pathway spiny projection neuron
+KW  - LID
+KW  - muscarinic M1 receptor
+KW  - CalDAG-GEFI
+KW  - cholinergic interneurons
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -8016,12 +8659,104 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Spiking data of dissociated rat cortical cultures on HD-MEAs during repeated-stimulation experiment
+AU  - Mayama, Teruki
+DO  - 10.48324/DANDI.001611/0.260611.0634
+UR  - https://dandiarchive.org/dandiset/001611/0.260611.0634
+AB  - Detected spikes in each session of each experiment. It has 100 sessions / 1 experiment × 27 experiment = 2,700 files. Each of them contains information about stimulation time, stimulation electrodes, recorded electrodes and detected spikes. See arXiv:2510.04084 (2025) for details on data collection.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Dataset for Finkelstein et al. "Connectivity underlying motor cortex activity during goal-directed behavior" 2025
 AU  - Finkelstein, Arseny
 DO  - 10.48324/DANDI.001612/0.250927.1801
 UR  - https://dandiarchive.org/dandiset/001612/0.250927.1801
 AB  - Calcium imaging and targeted optogenetic stimulation of the anterior lateral motor cortex during multi-directional tongue-reaching behavior
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - SUMMER: Dataset of human single-neuron activity during an 83-minute movie from 2,286 neurons and 29 patients
+AU  - Gerken, Franziska
+AU  - Niediek, Johannes
+AU  - Kehl, Marcel S
+AU  - Reber, Thomas P
+AU  - Liebe, Stefanie
+AU  - Nett, Laura
+AU  - Racz, Attila
+AU  - Kunz, Lukas
+AU  - Staresina, Bernhard
+AU  - Rapp, Rachel
+AU  - Gonçalves, Pedro J
+AU  - Elezi, Ismail
+AU  - Borger, Valeri
+AU  - Surges, Rainer
+AU  - Leal-Taixé, Laura
+AU  - Macke, Jakob H
+AU  - Mormann, Florian
+DO  - 10.48324/DANDI.001616/0.260519.1133
+UR  - https://dandiarchive.org/dandiset/001616/0.260519.1133
+AB  - SUMMER: Single Unit activity during a Movie in human Medial temporal lobe via Electrophysiological Recordings. This dataset contains single neurons activity recorded from the medial temporal lobe of 29 intracranially implanted epilepsy patients as each patient watched the same full-length commercial film, "500 Days of Summer" (83 min. runtime). In addition to the 29 sessions, this dataset includes 53 frame-wise annotated movie features such as character presence, location, event boundaries, and main character speech. We also provide manually-reviewed electrode localizations, spike sorting quality metrics, and waveform information for each neuron. 
+KW  - human
+KW  - single-unit activity
+KW  - single-neuron activity
+KW  - naturalistic stimulus
+KW  - 500 Days of Summer
+KW  - medial temporal lobe
+KW  - microelectrodes
+KW  - extracellular recording
+KW  - Behnke-Fried
+KW  - spike sorting
+KW  - event boundaries
+KW  - electrode localization
+KW  - machine learning
+KW  - decoding
+KW  - encoding
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - SUMMER: Dataset of human single-neuron activity during an 83-minute movie from 2,286 neurons and 29 patients
+AU  - Gerken, Franziska
+AU  - Niediek, Johannes
+AU  - Kehl, Marcel S
+AU  - Reber, Thomas P
+AU  - Liebe, Stefanie
+AU  - Nett, Laura
+AU  - Racz, Attila
+AU  - Kunz, Lukas
+AU  - Staresina, Bernhard
+AU  - Rapp, Rachel
+AU  - Gonçalves, Pedro J
+AU  - Elezi, Ismail
+AU  - Borger, Valeri
+AU  - Surges, Rainer
+AU  - Leal-Taixé, Laura
+AU  - Macke, Jakob H
+AU  - Mormann, Florian
+DO  - 10.48324/DANDI.001616/0.260702.0824
+UR  - https://dandiarchive.org/dandiset/001616/0.260702.0824
+AB  - SUMMER: Single Unit activity during a Movie in human Medial temporal lobe via Electrophysiological Recordings. This machine learning-ready dataset contains single neurons activity recorded from the medial temporal lobe of 29 intracranially implanted epilepsy patients as each patient watched the same full-length commercial film, "500 Days of Summer" (83 min. runtime). In addition to the 29 sessions, this dataset includes 53 frame-wise annotated movie features such as character presence, location, event boundaries, and main character speech. We also provide manually-reviewed electrode localizations, spike sorting quality metrics, and waveform information for each neuron. 
+KW  - human
+KW  - single-unit activity
+KW  - single-neuron activity
+KW  - naturalistic stimulus
+KW  - 500 Days of Summer
+KW  - medial temporal lobe
+KW  - microelectrodes
+KW  - extracellular recording
+KW  - Behnke-Fried
+KW  - spike sorting
+KW  - event boundaries
+KW  - electrode localization
+KW  - machine learning
+KW  - decoding
+KW  - encoding
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -8158,6 +8893,48 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Pyramidal tract and corticostriatal neuron recordings in MPTP-treated macaque performing visuomotor tasks
+AU  - Turner, Robert
+AU  - Pasquereau, Benjamin
+AU  - DeLong, Mahlon R.
+DO  - 10.48324/DANDI.001636/0.260518.1819
+UR  - https://dandiarchive.org/dandiset/001636/0.260518.1819
+AB  - Longitudinal single-unit electrophysiology recordings from the primary motor cortex of two rhesus macaque monkeys (Macaca mulatta), acquired both before and after induction of parkinsonism by systemic MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) intoxication. Recordings span two subjects (Leu, recorded in 1993; Venus, recorded between 1999 and 2000), covering both the healthy baseline state and the parkinsonian state, and support analyses of how dopaminergic lesion alters cortical motor encoding.
+
+Within primary motor cortex, two classes of cortical projection neurons are distinguished by antidromic activation from chronically implanted stimulating electrodes: pyramidal tract neurons (identified by stimulation from the cerebral peduncle) and corticostriatal neurons (identified by stimulation from the posterior putamen). Each recording site is verified as primary motor cortex by intracortical microstimulation at thresholds below 30 microamperes.
+
+The behavioral paradigm is a visuomotor step-tracking task in which the monkey produces flexion or extension elbow movements against a torque motor to align a cursor with visual targets, through a structured sequence of center hold, target presentation, movement execution, target hold, and liquid reward. A subset of trials includes unexpected torque perturbations that elicit muscle-stretch reflexes, enabling analyses of sensory feedback in the parkinsonian state.
+
+Original analyses on subsets of these data appear in three peer-reviewed papers (Pasquereau and Turner 2011, Cerebral Cortex; Pasquereau and Turner 2013, Frontiers in Systems Neuroscience; Pasquereau, DeLong, and Turner 2016, Brain), linked in the related-resources section.
+KW  - visuomotor
+KW  - Pyramidal tract neurons
+KW  - corticostriatal neurons
+KW  - MPTP
+KW  - macaque
+KW  - electrophysiology
+KW  - Parkinsonism
+KW  - primary motor cortex
+KW  - stretch reflex
+KW  - PT neurons
+KW  - IT neurons
+KW  - Extratelencephalic neurons
+KW  - Intratelencephalic neurons
+KW  - cortical projection neurons
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - mouse PPC tetrode recording
+AU  - Yang, Yang
+DO  - 10.48324/DANDI.001640/0.260210.0417
+UR  - https://dandiarchive.org/dandiset/001640/0.260210.0417
+AB  - mouse PPC tetrode recording in an auditory probabilistic decision-making task
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Neural activities in dorsolateral, dorsomedial, and ventral striatum during fixed- and free-choice tasks in rats (Ito & Doya 2015)
 AU  - Doya, Kenji
 AU  - Ito, Makoto
@@ -8204,6 +8981,37 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Data for parametrizing alternating current stimulation for neuromodulation (Bell Vila, M., et al, 2026)
+AU  - Koletar, Margaret
+AU  - Dorr, Adrienne
+AU  - Trevisiol, Andrea
+AU  - Goubran, Maged
+AU  - Sled, John G.
+AU  - Bazzigaluppi, Paolo
+AU  - Stefanovic, Bojana
+DO  - 10.48324/DANDI.001678/0.260227.1824
+UR  - https://dandiarchive.org/dandiset/001678/0.260227.1824
+AB  - Data collected using a 4x4 multielectrode array (Microprobes) in propofol anesthetized rats receiving subcutaneous alternating current stimulation.
+
+Recording electrodes had platinum iridium shanks with a tip width of 125μm, an impedance of 0.4 MOhm, and were spaced 0.5mm apart in the lateral plane. An additional shank with 10 kOhm impedance served as a reference. Electrodes were inserted ~300μm into the craniotomy exposed sensorimotor cortex (L2/3). Data was acquired with a sampling rate of 24 kHz (Tucker-Davis Technologies).
+
+Stimulation electrodes were adhered directly to the skull, medial and lateral the cranial window.
+
+
+
+There are two data files.
+
+The first contains experiments where 9 three-month old Sprague-Dawley rats received a randomized order of stimulation parameters (frequencies: 5, 10, 20, 40, and 140 Hz, amplitudes: 50, 100, 200, and 400 μA). Each dated folder contains recordings for a single rat, with subfolders for each stimulation parameter delivery (1-min baseline + 1-min sACS + 1-min baseline).
+
+The second data file contains experiments where 13 rats received a single 20-min delivery of 40 Hz, 100 μA stimulation. Each dated folder contains experiments from a single rat. Baseline activity was recorded for 20-min before stimulation onset and subsequently following sACS for 10 minutes. Additional subfolders contain further 20-min of post stimulation baseline activity, collected to an hour following stimulation offset.
+KW  - electrophysiology
+KW  - neuromodulation
+KW  - alternating current stimulation
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Transcranial Focused Ultrasound Stimulation Targeting White Matter Inhibits Seizures in a Rat Model of Epilepsy
 AU  - Frake, Annabel
 AU  - Durand, Dominique M
@@ -8211,6 +9019,42 @@ AU  - He, Bin
 DO  - 10.48324/DANDI.001683/0.260109.2104
 UR  - https://dandiarchive.org/dandiset/001683/0.260109.2104
 AB  - In this dataset, we recorded 32-channel EEG and 64-channel intracranial signals from wild-type male rats and male rats with seizures induced by repeated 4-AP injections to investigate the effects of white-matter-targeted transcranial focused ultrasound (tFUS) on seizure inhibition. The 4-AP cocktail was injected into the right S1, and intracranial recordings were obtained from the left S1. The "labeled data" include seizure onset and offset times for each seizure, which were used to compare the tFUS and sham (no tFUS) conditions for each rat. Each rat has data from 4–5 sessions, each lasting approximately one hour: BASELINE (pre-tFUS or pre-sham), condition (CC_1Hz or sham), post1 (first hour post-stimulation), post2 (second hour post-stimulation), and post3 (third hour post-stimulation).tFUS was delivered using a 128-element transducer targeting the corpus callosum (CC, predominantly white matter) with a 1 Hz pulse repetition frequency (PRF), 2% duty cycle (DC), and ~127 kPa peak pressure. The "EP data" contain evoked potentials used to verify accurate targeting of the stimulation site with 1500Hz PRF, 30% DC and 67ms ultrasound duration (UD). The "EEG data for PLV" includes the EEG data for connectivity analysis of wild-type rats. Detailed description of this dataset can be found in the following publication. Please cite the paper if you would use a portion of the dataset. H. Gao, A. Frake, D. M. Durand and B. He, "Transcranial Focused Ultrasound Stimulation Targeting White Matter Inhibits Seizures in a Rat Model of Epilepsy," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 34, pp. 251-259, 2026, doi: 10.1109/TNSRE.2025.3644273
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Data related to "Xiao, Severson, et al. (2026) Peri-Head Distance Coding in the Mouse Brainstem"
+AU  - Xiao, Wenxi
+AU  - Severson, Kyle
+AU  - Prevosto, Vincent
+AU  - Wang, Fan
+DO  - 10.48324/DANDI.001687/0.260618.1741
+UR  - https://dandiarchive.org/dandiset/001687/0.260618.1741
+AB  - This Dandiset contains in vivo extracellular recordings from second-order neurons in the mouse whisker brainstem (principal trigeminal nucleus - PrV) collected in awake animals during a naturalistic wall-passing paradigm designed to probe peri-head distance sensing.  The dataset supports analysis of two distance-coding schemes observed in the brainstem: 
+(1) a proximity code, in which firing rates increase monotonically as an object approaches the face, and 
+(2) a map code, in which neurons exhibit peak tuning at specific peri-head distances, collectively tiling peri-personal space. 
+Population-level analyses of these recordings can be used to compare decoding performance between coding schemes. In addition to baseline recordings, the dataset includes perturbation conditions intended to test circuit mechanisms underlying map-like tuning, including multi-whisker integration, local inhibition, and long-range internuclear inhibition.  
+Data are organized in NWB format and include extracellular electrophysiology and associated stimulus annotations needed to relate neural activity to peri-head distance during wall-passing (e.g., wall/object position relative to the head and temporal alignment to ephys recording).  
+Figure reproduction assets are available in the associated Github repository (https://github.com/wanglab-neuro/2026_Xiao-Severson_Peri-head-distance), under "Manuscript figures". 
+Experimental notes are available at https://www.brainstem.org/public/stem/project/1ae87b47-5c85-42fd-9341-919aa220d647/.
+KW  - peri-personal space
+KW  - distance coding
+KW  - whisker system
+KW  - trigeminal brainstem
+KW  - spinal trigeminal nucleus
+KW  - extracellular electrophysiology
+KW  - in vivo
+KW  - awake mouse
+KW  - wall-passing
+KW  - population decoding
+KW  - inhibition
+KW  - disinhibition
+KW  - multi-whisker integration
+KW  - somatosensation
+KW  - touch
+KW  - tactile sensation
+KW  - sensory computation
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
@@ -8261,6 +9105,54 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - An anatomical hotspot for striatal dopamine-acetylcholine interactions during reward and movement: multi-fiber photometry data
+AU  - Vu, Mai-Anh
+AU  - Bouabid, Safa
+AU  - Vietti-Michelina, Stefania
+AU  - Brimblecombe, Katherine
+AU  - Platt, Nicola
+AU  - Zhang, Liangzhu
+AU  - Joshi, Anil
+AU  - Cragg, Stephanie
+AU  - Howe, Mark
+DO  - 10.48324/DANDI.001692/0.260303.1724
+UR  - https://dandiarchive.org/dandiset/001692/0.260303.1724
+AB  - Dopamine (DA) and acetylcholine (ACh) are key neuromodulators that regulate striatal circuits underlying movement and reinforcement learning. Evidence suggests that DA and ACh systems interact, but where and how interactions are expressed across striatal regions in behaviorally relevant release dynamics remains unknown. We applied micro-fiber arrays to simultaneously measure striatum-wide DA and ACh in behaving mice, revealing an anatomical organization in which DA-ACh anti-correlations were concentrated in a hotspot in the anterior dorsolateral striatum (aDLS). Anti-correlations resulted from temporally coincident pairs of spontaneous and event-locked transient peak and dip events occurring in a DA-to-ACh sequence. The aDLS localized hotspot was consistently expressed within distinct signals associated with unpredicted rewards, learned and extinguished Pavlovian cues, and locomotion initiation and invigoration phases, for which we revealed novel, opposing DA-ACh dynamics. Optogenetic activation of DA neurons selectively suppressed spontaneous ACh release within the aDLS hotspot, and ex vivo recordings revealed enhanced D2-mediated ACh inhibition in aDLS relative to ventral regions, suggesting a mechanistic basis for this spatial specificity. These findings demonstrate that DA-ACh interactions during behavior are spatially organized, rather than uniformly conserved, and shape behaviorally relevant dynamics to regulate region-specific functions in learning and movement control.  
+KW  - striatum
+KW  - dopamine
+KW  - acetylcholine
+KW  - multi-fiber photometry
+KW  - locomotion
+KW  - reward
+KW  - pavlovian
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - High-density extracellular recordings (Neuropixels/SiNAPS) of Hippocampal-Cortical dynamics during spatial behavior.
+AU  - Gonzalez, Joaquin
+AU  - Voroslakos, Mihaly
+DO  - 10.48324/DANDI.001695/0.260319.2023
+UR  - https://dandiarchive.org/dandiset/001695/0.260319.2023
+AB  - Overview This dataset provides high-density, simultaneous extracellular recordings from the mouse hippocampal formation (DG, CA1, CA2, CA3) and the retrosplenial cortex (RSC). The data captures large-scale neural dynamics across homecage rest, spatial navigation, and sensory stimulation.
+
+Methodology:
+Probes: Recordings were performed using Neuropixels 2.0 (CA3, CA1, RSC) and 1024-channel SiNAPS probes (DG, CA3, CA2, CA1).
+Behavioral Paradigms: Neuropixels sessions include PRE-rest, Maze navigation (Novel or 2-maze configurations), and POST-rest homecage recordings. A subset of animals includes head-fixed odor stimulation.
+SiNAPS sessions include High-density head-fixed recordings.
+
+Data Included:
+Sorted isolated units (Spikes).
+Local Field Potentials (LFP), specifically including single-channel traces from ripple-detection sites.
+Behavioral tracking variables (position, velocity, sleep periods, sharp-wave ripple times).
+
+
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Aery Jones et al (2026) Entorhinal cortex represents task-relevant remote locations independent of CA1
 AU  - Aery Jones, Emily
 AU  - Low, Isabel
@@ -8274,6 +9166,699 @@ KW  - entorhinal cortex
 KW  - hippocampus
 KW  - spatial navigation
 KW  - population decoding
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Hippocampal CA2 Perineuronal Net Degradation and Social Memory Deficits in a 5XFAD Alzheimer’s Disease Mouse Model
+AU  - Sontheimer, Harald
+DO  - 10.48324/DANDI.001702/0.260216.2323
+UR  - https://dandiarchive.org/dandiset/001702/0.260216.2323
+AB  - This dataset contains raw and processed experimental data supporting the findings reported in Chaunsali et al. (2025), Alzheimer’s & Dementia, DOI:10.1002/alz.70813. The study investigates the disruption of perineuronal nets (PNNs) in the hippocampal CA2 region of the 5XFAD Alzheimer’s disease mouse model and its association with selective loss of social cognition memory. Included are: Immunohistochemical imaging data quantifying PNN integrity in CA2 neurons, behavioral assay results assessing social memory performance and bulk RNA-sequencing data from hippocampal CA2 tissue with associated metadata.These data provide mechanistic insights into how PNN degradation correlates with specific forms of memory loss in neurodegenerative disease models and can be reused for comparative studies of extracellular matrix remodeling, Alzheimer’s disease pathology, and memory circuits. All data have been organized in compliance with FAIR principles to support reuse in neuroscience research and NIH Data Management and Sharing Policy requirements. Transcriptomic data associated with this study are deposited separately in the Gene Expression Omnibus (GEO) under accession GSEXXXXX and are linked here as a related resource. Transcriptomic data associated with this study are deposited separately in the Gene Expression Omnibus (GEO) under accession GSE317499 and are linked here as a related resource.
+KW  - Alzheimer’s disease
+KW  - Perineuronal nets
+KW  - Social memory
+KW  - Cognitive decline
+KW  - Neurodegeneration
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Noxious stimulation and baseline recordings of ON, OFF and Neutral cells in the rat rostral ventromedial medulla
+AU  - Martenson, Melissa
+AU  - Shi, Zhigang
+AU  - De Preter, Caitlynn C
+AU  - Heinricher, Mary
+AU  - Mancini, Flavia
+DO  - 10.48324/DANDI.001708/0.260604.1023
+UR  - https://dandiarchive.org/dandiset/001708/0.260604.1023
+AB  - Dataset consisting of single-electrode recordings in lightly anesthetized Sprague-Dawley rats, during both unstimulated periods of activity lasting roughly 25 minutes, and multiple episodes of noxious hind paw stimulation with heat ramp and noxious pinch. For the accompanying preprint see https://doi.org/10.64898/2025.12.15.693905.
+KW  - Nociception
+KW  - Descending Pain Modulation
+KW  - Rostral Ventromedial Medulla
+KW  - Pain
+KW  - single-neurons
+KW  - Multi-Timescale Dynamics
+KW  - noxious stimulation
+KW  - brainstem
+KW  - ON-cells
+KW  - OFF-cells
+KW  - Medulla
+KW  - rat
+KW  - Defensive Behaviour
+KW  - reflex
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Plitt & Kaganovsky et al (2026). Hippocampal place code plasticity in CA1 requires postsynaptic membrane fusion.
+AU  - Plitt, Mark
+DO  - 10.48324/DANDI.001710/0.260212.2225
+UR  - https://dandiarchive.org/dandiset/001710/0.260212.2225
+AB  - Suite2 processed and curated two photon data and associated behavioral data included in publication (doi.org/10.1101/2023.11.20.567978). See https://github.com/GiocomoLab/Plitt_Kaganovsky_Stx3_CA1for usage details and replication of all figures. Additional data required for replication is availabe on Figshare (https://doi.org/10.6084/m9.figshare.31286365)
+KW  - hippocampus
+KW  - CA1
+KW  - virtual reality
+KW  - place cells
+KW  - synaptic plasticity
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Plitt & Kaganovsky et al (2026). Hippocampal place code plasticity in CA1 requires postsynaptic membrane fusion.
+AU  - Plitt, Mark
+DO  - 10.48324/DANDI.001710/0.260213.0329
+UR  - https://dandiarchive.org/dandiset/001710/0.260213.0329
+AB  - Suite2 processed and curated two photon data and associated behavioral data included in publication (doi.org/10.1101/2023.11.20.567978). See https://github.com/GiocomoLab/Plitt_Kaganovsky_Stx3_CA1 for usage details and replication of all figures. Additional data required for replication is availabe on Figshare (https://doi.org/10.6084/m9.figshare.31286365)
+KW  - hippocampus
+KW  - CA1
+KW  - virtual reality
+KW  - place cells
+KW  - synaptic plasticity
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - 20260213_AIBS_Patchseq_BICAN_R01_Neuromodulation_mouse
+AU  - Gonzalez, Limary
+DO  - 10.48324/DANDI.001748/0.260217.1916
+UR  - https://dandiarchive.org/dandiset/001748/0.260217.1916
+AB  - BICAN R01 Neuromodulation mouse upload (Q1 2026)
+KW  - Patch-seq, mouse
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Data supporting "Cortical ensembles orchestrate social competition through hypothalamic outputs" (Padilla-Correano, et al., Nature 2022)
+AU  - Keyes, Laurel
+AU  - Padilla-Coreano, Nancy
+AU  - Batra, Kanha
+AU  - Patarino, Makenzie
+AU  - Chen, Zexin
+AU  - Rock, Rachel
+AU  - Zhang, Ruihan
+AU  - Hausmann, Sebastien B.
+AU  - Weddington, Javier C.
+AU  - Patel, Reesha
+AU  - Zhang, Yu E.
+AU  - Fang, Hao-Shu
+AU  - Mishra, Srishti
+AU  - LeDuke, Deryn O.
+AU  - Revanna, Jasmin
+AU  - Li, Hao
+AU  - Borio, Matilde
+AU  - Pamintuan, Rachelle
+AU  - Bal, Aneesh
+AU  - Libster, Avraham
+AU  - Wichmann, Romy
+AU  - Mills, Fergil
+AU  - Taschbach, Felix H.
+AU  - Matthews, Gillian A
+AU  - Curley, James P.
+AU  - Fiete, Ila R.
+AU  - Lu, Cewu
+AU  - Tye, Kay M.
+DO  - 10.48324/DANDI.001749/0.260311.1727
+UR  - https://dandiarchive.org/dandiset/001749/0.260311.1727
+AB  - This dataset contains in vivo electrophysiological recordings and simultaneous behavioral data from male mice in NWB (Neurodata Without Borders) format.   Recordings were obtained during a reward competition task.  See the publication for protocol details:  Padilla-Coreano, N., Batra, K., Patarino, M. et al. Cortical ensembles orchestrate social competition through hypothalamic outputs. Nature 603, 667–671 (2022).  https://doi.org/10.1038/s41586-022-04507-5.   Electrophysiological neural recordings were taken in the medial prefrontal cortex (mPFC), mPFC projections to BLA, mPFC projections to LH.  The mPFC recordings contain "ephys" in filename; the mPFC to BLA contain “BLA” in file name, and mPFC to LH contain “chrimson” in the filename. Animals followed a consistent dye pattern across cages of 4 mice to identify them in behavioral videos.  Animal 1 was dyed on left side of body.  Animal 2 was dyed on right side of body.  Animal 3 was dyed with three horizontal stripes along body.  Animal 4 was dyed around the neck only.   Note that the animal id is different from animal social rank; please see subject description for social rank information. Raw behavioral videos are also included for the BLA and chrimson files.  Animal pose tracking was performed with AlphaTracker and required manual  correction of animal identities. Identity-corrected AlphaTracker pose estimates are included in this dataset.  Additionally, nine categories of  animal behavioral data, as described in Figure 1f of the reference paper, was hand scored for each trial from -2 s before tone onset to +12 seconds  after tone onset.  Note that there is an offset between the start of the neural recording and the start of the behavioral videos; this information  in contained in the video_gap variable in the behavioral events.  In the behavioral videos, the LED is on whenever the CS-tone is played and can be  used to verify the correct alignment between neural and behavioral data. Metadata includes approximate age, sex, species, strain, social rankings  of each animal and competitor (assessed with tube test), and port entries during reward competition task.  Not every subject in the dataset has  their competitor’s session included; those that do are noted in the subject description.
+KW  - social dominance
+KW  - behavioral tracking
+KW  - mPFC
+KW  - reward-competition
+KW  - in vivo ephys
+KW  - mPFC-BLA
+KW  - mPFC-LH
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - 20260220_AIBS_Patchseq_BICAN_HMBA_macaque
+AU  - Gonzalez, Limary
+DO  - 10.48324/DANDI.001753/0.260220.1838
+UR  - https://dandiarchive.org/dandiset/001753/0.260220.1838
+AB  - BICAN HMBA Lein PatchSeq upload (nonhuman primate) (Q1 2026)
+KW  - Patch-seq, nonhuman primate, macaque, multimodal
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Three-dimensional spatial selectivity of hippocampal neurons during space flight
+AU  - Knierim, James J.
+AU  - McNaughton, Bruce L.
+AU  - Poe, Gina R.
+DO  - 10.48324/DANDI.001754/0.260227.0029
+UR  - https://dandiarchive.org/dandiset/001754/0.260227.0029
+AB  - This dataset contains extracellular recordings from hippocampal place cells in three freely moving rats during the Neurolab Space Shuttle mission (STS-90) in April 1998. The experiment investigated whether the hippocampus can maintain stable spatial representations during three-dimensional navigation in microgravity. Rats were implanted with multi-electrode recording arrays and trained to traverse a three-dimensional track called the "Escher staircase," in which three 90-degree yaw turns were interleaved with three 90-degree pitch turns, creating a closed loop after only 270 degrees of total yaw rotation. This design placed the spatial information from external landmarks in conflict with the expected input from the head-direction system, which normally requires 360 degrees of yaw to signal a return to the starting direction. The dataset includes both preflight recordings on a flat rectangular track and in-flight recordings on the Escher staircase track from flight days 4 and 9. Place cells eventually demonstrated normal spatially specific firing, with spatial information content comparable to preflight levels, though initial exposures on flight day 4 showed abnormal spatial selectivity patterns. Hippocampal EEG was also recorded, showing normal theta rhythm during locomotion and normal sharp waves and ripples during quiet rest. Rats received medial forebrain bundle stimulation as a reward for traversing the track.
+KW  - hippocampus
+KW  - place cells
+KW  - tetrode
+KW  - spaceflight
+KW  - microgravity
+KW  - spatial navigation
+KW  - Neurolab
+KW  - STS-90
+KW  - head direction
+KW  - three-dimensional navigation
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Three-dimensional spatial selectivity of hippocampal neurons during space flight
+AU  - Knierim, James J.
+AU  - McNaughton, Bruce L.
+AU  - Poe, Gina R.
+DO  - 10.48324/DANDI.001754/0.260227.0031
+UR  - https://dandiarchive.org/dandiset/001754/0.260227.0031
+AB  - This dataset contains extracellular recordings from hippocampal place cells in three freely moving rats during the Neurolab Space Shuttle mission (STS-90) in April 1998. The experiment investigated whether the hippocampus can maintain stable spatial representations during three-dimensional navigation in microgravity. Rats were implanted with multi-electrode recording arrays and trained to traverse a three-dimensional track called the "Escher staircase," in which three 90-degree yaw turns were interleaved with three 90-degree pitch turns, creating a closed loop after only 270 degrees of total yaw rotation. This design placed the spatial information from external landmarks in conflict with the expected input from the head-direction system, which normally requires 360 degrees of yaw to signal a return to the starting direction. The dataset includes both preflight recordings on a flat rectangular track and in-flight recordings on the Escher staircase track from flight days 4 and 9. Place cells eventually demonstrated normal spatially specific firing, with spatial information content comparable to preflight levels, though initial exposures on flight day 4 showed abnormal spatial selectivity patterns. Hippocampal EEG was also recorded, showing normal theta rhythm during locomotion and normal sharp waves and ripples during quiet rest. Rats received medial forebrain bundle stimulation as a reward for traversing the track.
+KW  - hippocampus
+KW  - place cells
+KW  - tetrode
+KW  - spaceflight
+KW  - microgravity
+KW  - spatial navigation
+KW  - Neurolab
+KW  - STS-90
+KW  - head direction
+KW  - three-dimensional navigation
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Photometry data underlying the analyses in Chantranupong PMID: 37557915
+AU  - Sabatini, Bernardo
+DO  - 10.48324/DANDI.001767/0.260318.1448
+UR  - https://dandiarchive.org/dandiset/001767/0.260318.1448
+AB  - The photometry and associated behavioral data recorded in the striatum of mice performing a freely moving water-motivated 2-armed bandit task.  Recordings of acetylcholine, dopamine, and GCAMP.  Many simultaneous Ach and DA recordings.
+KW  - mouse, photometry, dopamine, acetylcholine, striatum
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Fujimoto et al., Nat. Neurosci. 2026, Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks
+AU  - Fujimoto, Satoka
+DO  - 10.48324/DANDI.001773/0.260412.1743
+UR  - https://dandiarchive.org/dandiset/001773/0.260412.1743
+AB  - Data and code (fMRI, DWI IF, EM, behavior)
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Fujimoto et al., Nat. Neurosci. 2026, Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks
+AU  - Fujimoto, Satoka
+DO  - 10.48324/DANDI.001773/0.260416.1939
+UR  - https://dandiarchive.org/dandiset/001773/0.260416.1939
+AB  - Data and code (fMRI, DWI IF, EM, behavior)
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Fujimoto et al., Nat. Neurosci. 2026, Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks
+AU  - Fujimoto, Satoka
+DO  - 10.48324/DANDI.001773/0.260615.1838
+UR  - https://dandiarchive.org/dandiset/001773/0.260615.1838
+AB  - DOI: https://doi.org/10.1038/s41593-026-02301-4 Data and code (fMRI, DWI IF, EM, behavior)
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Mouse hippocampal electrophysiology during spatial working memory and consummatory behavior
+AU  - Omura, Yoshiyuki
+DO  - 10.48324/DANDI.001775/0.260418.0538
+UR  - https://dandiarchive.org/dandiset/001775/0.260418.0538
+AB  - This Dandiset contains mouse hippocampal dorsal CA1 electrophysiology and behavioral data acquired during delayed non-match-to-place (DNMP), open-field, and related foraging experiments. Data include sorted spike times (using MountainSort4), LFP, position tracking, trial intervals, consummatory and other behavioral event annotations.
+KW  - Oscillations; Theta; SWRs; Atropine; Reward Cells; Mice; Spatial Working Memory
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Astrocytes mediate the dopaminergic modulation of tonic GABAergic signaling in Substanta nigra
+AU  - Simmons, DeNard
+AU  - Surmeier, James
+DO  - 10.48324/DANDI.001777/0.260521.2201
+UR  - https://dandiarchive.org/dandiset/001777/0.260521.2201
+AB  - This Dandiet hosts binary files of electrophysiology data for the titled manuscipt.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Mouse and NHP pre/post-lesion kinematic data
+AU  - Aparicio, Francisco
+DO  - 10.48324/DANDI.001782/0.260421.2247
+UR  - https://dandiarchive.org/dandiset/001782/0.260421.2247
+AB  - Kinematic data used to characterize deficits in mice and macaques after M1 lesion.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - MRI and histological data for: Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks
+AU  - Fujimoto, Satoka
+DO  - 10.48324/DANDI.001785/0.260416.1843
+UR  - https://dandiarchive.org/dandiset/001785/0.260416.1843
+AB  - MRI:
+- Diffusion-weighted imaging (DWI; FA) and T1-weighted (T1w) images acquired before and after DBS in monkeys N, T, and D
+- Functional MRI (EPI; FC) data acquired before and after DBS in monkeys N, T and D, and pre/post data in monkeys B, W, and H
+
+Histology:
+- Immunofluorescence (IF) staining for CC1 in multiple regions (MCC-CB for mk N and T, dACC-CB for mk N and T, UF-FM overlap for mk N and T, and MCC-CB for mk D) 
+- Electron microscopy (EM) data for myelin analysis for mk N and T
+
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - MRI and histological data for: Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks
+AU  - Fujimoto, Satoka
+DO  - 10.48324/DANDI.001785/0.260416.1850
+UR  - https://dandiarchive.org/dandiset/001785/0.260416.1850
+AB  - MRI:
+- Diffusion-weighted imaging (DWI; FA) and T1-weighted (T1w) images acquired before and after DBS in monkeys N, T, and D
+- Functional MRI (EPI; FC) data acquired before and after DBS in monkeys N, T and D, and pre/post data in monkeys B, W, and H
+
+Histology:
+- Immunofluorescence (IF) staining for CC1 in multiple regions (MCC-CB for mk N and T, dACC-CB for mk N and T, UF-FM overlap for mk N and T, and MCC-CB for mk D) 
+- Electron microscopy (EM) data for myelin analysis for mk N and T
+
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - MRI and histological data for: Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks
+AU  - Fujimoto, Satoka
+DO  - 10.48324/DANDI.001785/0.260416.1934
+UR  - https://dandiarchive.org/dandiset/001785/0.260416.1934
+AB  - MRI:
+- Diffusion-weighted imaging (DWI; FA) and T1-weighted (T1w) images acquired before and after DBS in monkeys N, T, and D
+- Functional MRI (EPI; FC) data acquired before and after DBS in monkeys N, T and D, and pre/post data in monkeys B, W, and H
+
+Histology:
+- Immunofluorescence (IF) staining for CC1 in multiple regions (MCC-CB for mk N and T, dACC-CB for mk N and T, UF-FM overlap for mk N and T, and MCC-CB for mk D) 
+- Electron microscopy (EM) data for myelin analysis for mk N and T
+
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - MRI and histological data for: Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks
+AU  - Fujimoto, Satoka
+DO  - 10.48324/DANDI.001785/0.260416.1945
+UR  - https://dandiarchive.org/dandiset/001785/0.260416.1945
+AB  - MRI:
+- Diffusion-weighted imaging (DWI; FA) and T1-weighted (T1w) images acquired before and after DBS in monkeys N, T, and D
+- Functional MRI (EPI; FC) data acquired before and after DBS in monkeys N, T and D, and pre/post data in monkeys B, W, and H
+
+Histology:
+- Immunofluorescence (IF) staining for CC1 in multiple regions (MCC-CB for mk N and T, dACC-CB for mk N and T, UF-FM overlap for mk N and T, and MCC-CB for mk D) 
+- Electron microscopy (EM) data for myelin analysis for mk N and T
+
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - MRI and histological data for: Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks
+AU  - Fujimoto, Satoka
+DO  - 10.48324/DANDI.001785/0.260522.2215
+UR  - https://dandiarchive.org/dandiset/001785/0.260522.2215
+AB  - MRI:
+- Diffusion-weighted imaging (DWI; FA) and T1-weighted (T1w) images acquired before and after DBS in monkeys N, T, and D
+- Functional MRI (EPI; FC) data acquired before and after DBS in monkeys N, T and D, and pre/post data in monkeys B, W, and H
+
+Histology:
+- Immunofluorescence (IF) staining for CC1 in multiple regions (MCC-CB for mk N and T, dACC-CB for mk N and T, UF-FM overlap for mk N and T, and MCC-CB for mk D) 
+- Electron microscopy (EM) data for myelin analysis for mk N and T
+
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - MRI and histological data for: Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks
+AU  - Fujimoto, Satoka
+DO  - 10.48324/DANDI.001785/0.260615.1835
+UR  - https://dandiarchive.org/dandiset/001785/0.260615.1835
+AB  - DOI: https://doi.org/10.1038/s41593-026-02301-4 MRI:- Diffusion-weighted imaging (DWI; FA) and T1-weighted (T1w) images acquired before and after DBS in monkeys N, T, and D- Functional MRI (EPI; FC) data acquired before and after DBS in monkeys N, T and D, and pre/post data in monkeys B, W, and HHistology:- Immunofluorescence (IF) staining for CC1 in multiple regions (MCC-CB for mk N and T, dACC-CB for mk N and T, UF-FM overlap for mk N and T, and MCC-CB for mk D) - Electron microscopy (EM) data for myelin analysis for mk N and T
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Adenosine modulation of synaptic transmission in olfactory bulb circuits
+AU  - Strowbridge, Ben
+DO  - 10.48324/DANDI.001789/0.260423.1609
+UR  - https://dandiarchive.org/dandiset/001789/0.260423.1609
+AB  - Dataset related to J Neuroscience paper entitled "Early and Late Phases of Sensory-Evoked Olfactory Bulb Inhibition Are Mediated by Parallel Local Circuits: Attenuation of Fast Tufted Cell Axo-dendritic Inputs to Granule Cells by Adenosine A1 Receptors"
+KW  - olfactory bulb, mitral cell, adenosine, patch clamp, voltage clamp, granule cell.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Voltage dynamics of cortical dendrites in vivo
+AU  - Wong-Campos, David
+AU  - Park, Pojeong
+AU  - Lee, Byung Hun
+AU  - Davis, Hunter
+AU  - Qi, Yitong
+AU  - Tian, He
+AU  - Itkis, Daniel
+AU  - Grimm, Jonathan
+AU  - Plutkis, Sarah
+AU  - Lavis, Luke
+DO  - 10.48324/DANDI.001791/0.260424.0313
+UR  - https://dandiarchive.org/dandiset/001791/0.260424.0313
+AB  - These datasets are described in https://doi.org/10.1101/2023.05.25.542363. Dual plane voltage imaging was performed on somas and dendrites of L2/3 neurons using Optopatch-V. Constructs were expressed with in utero and single cell electroporation. Labelled tissue was stained with JF608 dye. We used a custom one-photon microscope to perform the experiments. Datasets shared in this submission are the traces from our analysis pipeline.
+KW  - voltage imaging
+KW  - Optopatch-V
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - : Direct Delivery of Modulated Kilohertz Frequency Waveforms Enable Simultaneous Electrical Stimulation and Recording with Minimal-Artifact
+AU  - Gutekundt, Claire-Anne
+DO  - 10.48324/DANDI.001827/0.260505.1322
+UR  - https://dandiarchive.org/dandiset/001827/0.260505.1322
+AB  - This dataset contains the raw in vivo data for the manuscript in the title. Matlab code to reproduce the manuscript figures is available, contact authors to access the scripts.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Cholinergic interneuron control of intrastriatal GABAergic circuits targeting spiny projection neurons is disrupted in Parkinson's disease models
+AU  - Belal, Marziyeh
+AU  - Perez-Rosello, Tamara
+AU  - Guven, Elif B.
+AU  - Xie, Zhong
+AU  - Tkatch, Tatiana
+AU  - Dauer, William
+AU  - Assous, Maxime
+AU  - Tepper, James
+DO  - 10.48324/DANDI.001832/0.260611.2102
+UR  - https://dandiarchive.org/dandiset/001832/0.260611.2102
+AB  - This Dandiset contains all raw and primary-processed data underlying the study 'Cholinergic interneuron control of intrastriatal GABAergic circuits targeting spiny projection neurons is disrupted in Parkinson’s disease models'. Parkinson’s disease (PD) is known to alter the intrinsic properties of striatal cholinergic interneurons (ChIs). However, how PD shapes ChI control of intrastriatal GABAergic circuits regulating principal spiny projection neurons (SPNs) is unknown. To fill this gap, striatal circuits in healthy and parkinsonian mice were interrogated. In ex vivo brain slices from healthy mice, optogenetic stimulation of ChIs evoked GABAA receptor currents in both indirect and direct pathway SPNs that were attributable to nicotinic acetylcholine receptor (nAChR)-mediated activation of GABAergic interneurons. Simulations suggested that this circuit exerts a state-dependent control of SPN dendritic integration that was modulated by concomitant muscarinic receptor signaling. Surprisingly, in mouse models of prodromal and parkinsonian states, the ability of ChIs to engage this intrastriatal circuitry was disrupted because interneurons down-regulated nicotinic AChRs. Taken together, these studies suggest that impaired ChI control of GABAergic interneurons contribute to behavioral deficits in both prodromal and clinical PD states. 
+KW  - Parkinson's disease
+KW  - Striatum
+KW  - indirect pathway medium spiny neuron
+KW  - direct pathway medium spiny neuron
+KW  - cholinergic interneuron
+KW  - iGluR, ionotropic glutamate receptor
+KW  - LTSI, low-threshold spike GABAergic interneuron
+KW  - AChR, nicotinic acetylcholine receptor;
+KW  - NGFI, neurogliaform interneuron
+KW  - NMDAR, N-methyl-D-aspartate receptor
+KW  - THI, tyrosine hydroxylase interneuron
+KW  - GABAergic synaptic transmission
+KW  - GABAergic extrasynaptic transmission
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Naturalistic behavior and self-generated neural activity predictive of self-correction
+AU  - Gu, Shijie
+DO  - 10.48324/DANDI.001836/0.260526.1804
+UR  - https://dandiarchive.org/dandiset/001836/0.260526.1804
+AB  - Data for the paper "Naturalistic behavior and self-generated neural activity predictive of self-correction" by Shijie Gu, Chenyan Liu, Anna K. Gillespie, Rhino Nevers, Eric L. Denovellis, Michael E. Coulter, Kenny Kay, and Loren M. Frank Hippocampus recording during rats changing their minds. Paper abstract: Changing one’s mind –– revising a past decision and independently of external cues –– can lead to better outcomes, but its neural basis remains poorly understood. We developed a challenging spatial task for rats where the conflict between task rules and innate biases leads to abundant, spontaneous, and characteristically corrective changes-of-mind (COMs). Neural recordings reveal a striking two-stage organization underlying COMs. In hippocampus, a brain region implicated in counterfactual thinking, spatial representations bifurcated around COM onset: representations of distant alternatives emerged only after animals began to change course. These representations predicted their eventual choice, and often serially encoded trial start and end locations. Our task paradigm reveals that the brain processes underlying self-correction are dissociable and uncovers a rich repertoire of hippocampal spatial representations tied to behavior.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Global/Local Oddball project macaque monkey multi-area neurophysiology
+AU  - Xiong, Yihan Sophy
+DO  - 10.48324/DANDI.001838/0.260616.2029
+UR  - https://dandiarchive.org/dandiset/001838/0.260616.2029
+AB  - This dataset was collected for the Global Local Oddball project, in collaboration with the Allen Institute's OpenScope project. This dataset is collected from macaque monkeys. The brain rapidly adapts to unchanging environments and is most excited by surprising events. A leading model to explain this phenomenon is predictive coding. Predictive coding proposes that the brain compares incoming sensory information against a prediction signal. This prediction is based on an internal model that is generated in higher-order cortex. This model reflects the brain’s assumptions about the statistics of the environment. If an incoming sensory signal matches the prediction, the two signals cancel. Expected sensory data thus are “explained away” and leave the brain unexcited. In other words, predictive coding is subtractive. Whenever the sensory signal does not match the prediction, subtraction results in a larger value, called the prediction error. This error signal initiates excitation in the lower-order cortex that propagates feedforward up the cortical hierarchy. Prediction errors then instigate updates to the internal model to improve future predictions. Associated prediction update signals flow back down the hierarchy. Consistent with this model, optogenetic silencing of top-down inputs from frontal to visual cortex largely eliminates prediction error signals. However, the precise circuit mechanisms that generate these signals are largely unknown. Specifically, by recording from multiple laminar high-density probes across the visual cortical hierarchy, we aimed to uncover what information is carried by layer 2 and 3 spikes that feed forward vs. by layer 5 and 6 spikes that feed back, using recently established analytic tools.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Global/Local Oddball project macaque monkey multi-area neurophysiology
+AU  - Xiong, Yihan Sophy
+DO  - 10.48324/DANDI.001838/0.260617.2033
+UR  - https://dandiarchive.org/dandiset/001838/0.260617.2033
+AB  - This dataset was collected for the Global Local Oddball project, in collaboration with the Allen Institute's OpenScope project. This dataset is collected from macaque monkeys. The brain rapidly adapts to unchanging environments and is most excited by surprising events. A leading model to explain this phenomenon is predictive coding. Predictive coding proposes that the brain compares incoming sensory information against a prediction signal. This prediction is based on an internal model that is generated in higher-order cortex. This model reflects the brain’s assumptions about the statistics of the environment. If an incoming sensory signal matches the prediction, the two signals cancel. Expected sensory data thus are “explained away” and leave the brain unexcited. In other words, predictive coding is subtractive. Whenever the sensory signal does not match the prediction, subtraction results in a larger value, called the prediction error. This error signal initiates excitation in the lower-order cortex that propagates feedforward up the cortical hierarchy. Prediction errors then instigate updates to the internal model to improve future predictions. Associated prediction update signals flow back down the hierarchy. Consistent with this model, optogenetic silencing of top-down inputs from frontal to visual cortex largely eliminates prediction error signals. However, the precise circuit mechanisms that generate these signals are largely unknown. Specifically, by recording from multiple laminar high-density probes across the visual cortical hierarchy, we aimed to uncover what information is carried by layer 2 and 3 spikes that feed forward vs. by layer 5 and 6 spikes that feed back, using recently established analytic tools.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Cooperative Behavior in WT and Fmr1 Rat Dyads
+AU  - Shukla, Ashutosh 
+AU  - Jadhav, Shantanu P. 
+DO  - 10.48324/DANDI.001845/0.260519.1308
+UR  - https://dandiarchive.org/dandiset/001845/0.260519.1308
+AB  - This Dandiset contains behavioral data from wild-type and Fmr1 knockout rat dyads performing a novel spatial cooperation task designed to investigate the behavioral strategies and social mechanisms underlying cooperative behavior. In this task, rat pairs learn to coordinate visits to matching reward wells on paired spatial mazes under deterministic and probabilistic reward contingencies. The dataset includes behavioral event timestamps, reward well visit intervals, and position tracking data for both animals within each dyad across multiple sessions (N = 5 pairs per genotype group). These data support analyses of cooperative performance, leader–follower dynamics, behavioral synchrony, and adaptive coordination strategies relevant to social cognition and neurodevelopmental disorders. Related findings from this dataset are described in: Shukla A, Rivera EL, Bladon JH, Jadhav SP (2026) A novel cooperative behavior assay in rats reveals distinct social coordination strategies of increasing complexity and social reciprocity deficits in a model of Fragile-X Syndrome. Journal of Neuroscience, e0143262026. https://doi.org/10.1523/JNEUROSCI.0143-26.2026. This work was supported by the SFARI Autism Rat Models Consortium Grant SFA-AN-AR-Rat Models-00012700 to S.P.J.
+KW  - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome; Autism spectrum disorder; Social decision-making; Social cognition; Rat model; Behavioral synchrony; Cooperative learning; Leader–follower dynamics; Neurodevelopmental disorders
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Cooperative Behavior in WT and Fmr1 Rat Dyads
+AU  - Shukla, Ashutosh 
+AU  - Jadhav, Shantanu P. 
+DO  - 10.48324/DANDI.001845/0.260519.1831
+UR  - https://dandiarchive.org/dandiset/001845/0.260519.1831
+AB  - This Dandiset contains behavioral data from wild-type and Fmr1 knockout rat dyads performing a novel spatial cooperation task designed to investigate the behavioral strategies and social mechanisms underlying cooperative behavior. In this task, rat pairs learn to coordinate visits to matching reward wells on paired spatial mazes under deterministic and probabilistic reward contingencies. The dataset includes behavioral event timestamps, reward well visit intervals, and position tracking data for both animals within each dyad across multiple sessions (N = 5 pairs per genotype group). These data support analyses of cooperative performance, leader–follower dynamics, behavioral synchrony, and adaptive coordination strategies relevant to social cognition and neurodevelopmental disorders. Related findings from this dataset are described in: Shukla A, Rivera EL, Bladon JH, Jadhav SP (2026) A novel cooperative behavior assay in rats reveals distinct social coordination strategies of increasing complexity and social reciprocity deficits in a model of Fragile-X Syndrome. Journal of Neuroscience, e0143262026. https://doi.org/10.1523/JNEUROSCI.0143-26.2026. This work was supported by the SFARI Autism Rat Models Consortium Grant SFA-AN-AR-Rat Models-00012700 to S.P.J.
+KW  - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome; Autism spectrum disorder; Social decision-making; Social cognition; Rat model; Behavioral synchrony; Cooperative learning; Leader–follower dynamics; Neurodevelopmental disorders
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Cooperative Behavior in WT and Fmr1 Rat Dyads
+AU  - Shukla, Ashutosh 
+AU  - Jadhav, Shantanu P. 
+DO  - 10.48324/DANDI.001845/0.260519.2146
+UR  - https://dandiarchive.org/dandiset/001845/0.260519.2146
+AB  - This Dandiset contains behavioral data from wild-type and Fmr1 knockout rat dyads performing a novel spatial cooperation task designed to investigate the behavioral strategies and social mechanisms underlying cooperative behavior. In this task, rat pairs learn to coordinate visits to matching reward wells on paired spatial mazes under deterministic and probabilistic reward contingencies. The dataset includes behavioral event timestamps, reward well visit intervals, and position tracking data for both animals within each dyad across multiple sessions (N = 5 pairs per genotype group). These data support analyses of cooperative performance, leader–follower dynamics, behavioral synchrony, and adaptive coordination strategies relevant to social cognition and neurodevelopmental disorders. Related findings from this dataset are described in: Shukla A, Rivera EL, Bladon JH, Jadhav SP (2026) A novel cooperative behavior assay in rats reveals distinct social coordination strategies of increasing complexity and social reciprocity deficits in a model of Fragile-X Syndrome. Journal of Neuroscience, e0143262026. https://doi.org/10.1523/JNEUROSCI.0143-26.2026. This work was supported by the SFARI Autism Rat Models Consortium Grant SFA-AN-AR-Rat Models-00012700 to S.P.J.
+KW  - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome; Autism spectrum disorder; Social decision-making; Social cognition; Rat model; Behavioral synchrony; Cooperative learning; Leader–follower dynamics; Neurodevelopmental disorders
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Cooperative Behavior in WT and Fmr1 Rat Dyads
+AU  - Shukla, Ashutosh 
+AU  - Jadhav, Shantanu P. 
+DO  - 10.48324/DANDI.001845/0.260521.1541
+UR  - https://dandiarchive.org/dandiset/001845/0.260521.1541
+AB  - This Dandiset contains behavioral data from wild-type and Fmr1 knockout rat dyads performing a novel spatial cooperation task designed to investigate the behavioral strategies and social mechanisms underlying cooperative behavior. In this task, rat pairs learn to coordinate visits to matching reward wells on paired spatial mazes under deterministic and probabilistic reward contingencies. The dataset includes behavioral event timestamps, reward well visit intervals, and position tracking data for both animals within each dyad across multiple sessions (N = 5 pairs per genotype group). These data support analyses of cooperative performance, leader–follower dynamics, behavioral synchrony, and adaptive coordination strategies relevant to social cognition and neurodevelopmental disorders. Related findings from this dataset are described in: Shukla A, Rivera EL, Bladon JH, Jadhav SP (2026) A novel cooperative behavior assay in rats reveals distinct social coordination strategies of increasing complexity and social reciprocity deficits in a model of Fragile-X Syndrome. Journal of Neuroscience, e0143262026. https://doi.org/10.1523/JNEUROSCI.0143-26.2026. This work was supported by the SFARI Autism Rat Models Consortium Grant SFA-AN-AR-Rat Models-00012700 to S.P.J.
+KW  - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome; Autism spectrum disorder; Social decision-making; Social cognition; Rat model; Behavioral synchrony; Cooperative learning; Leader–follower dynamics; Neurodevelopmental disorders
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Cooperative Behavior in WT and Fmr1 Rat Dyads
+AU  - Shukla, Ashutosh 
+AU  - Jadhav, Shantanu P. 
+DO  - 10.48324/DANDI.001845/0.260522.1936
+UR  - https://dandiarchive.org/dandiset/001845/0.260522.1936
+AB  - This Dandiset contains behavioral data from wild-type and Fmr1 knockout rat dyads performing a novel spatial cooperation task designed to investigate the behavioral strategies and social mechanisms underlying cooperative behavior. In this task, rat pairs learn to coordinate visits to matching reward wells on paired spatial mazes under deterministic and probabilistic reward contingencies. The dataset includes behavioral event timestamps, reward well visit intervals, and position tracking data for both animals within each dyad across multiple sessions (N = 5 pairs per genotype group). These data support analyses of cooperative performance, leader–follower dynamics, behavioral synchrony, and adaptive coordination strategies relevant to social cognition and neurodevelopmental disorders. Related findings from this dataset are described in: Shukla A, Rivera EL, Bladon JH, Jadhav SP (2026) A novel cooperative behavior assay in rats reveals distinct social coordination strategies of increasing complexity and social reciprocity deficits in a model of Fragile-X Syndrome. Journal of Neuroscience, e0143262026. https://doi.org/10.1523/JNEUROSCI.0143-26.2026. This work was supported by the SFARI Autism Rat Models Consortium Grant SFA-AN-AR-Rat Models-00012700 to S.P.J.
+KW  - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome; Autism spectrum disorder; Social decision-making; Social cognition; Rat model; Behavioral synchrony; Cooperative learning; Leader–follower dynamics; Neurodevelopmental disorders
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Cooperative Behavior in WT and Fmr1 Rat Dyads
+AU  - Shukla, Ashutosh 
+AU  - Jadhav, Shantanu P. 
+DO  - 10.48324/DANDI.001845/0.260523.2015
+UR  - https://dandiarchive.org/dandiset/001845/0.260523.2015
+AB  - This Dandiset contains behavioral data from wild-type and Fmr1 knockout rat dyads performing a novel spatial cooperation task designed to investigate the behavioral strategies and social mechanisms underlying cooperative behavior. In this task, rat pairs learn to coordinate visits to matching reward wells on paired spatial mazes under deterministic and probabilistic reward contingencies. The dataset includes behavioral event timestamps, reward well visit intervals, and position tracking data for both animals within each dyad across multiple sessions (N = 5 pairs per genotype group). These data support analyses of cooperative performance, leader–follower dynamics, behavioral synchrony, and adaptive coordination strategies relevant to social cognition and neurodevelopmental disorders. Related findings from this dataset are described in: Shukla A, Rivera EL, Bladon JH, Jadhav SP (2026) A novel cooperative behavior assay in rats reveals distinct social coordination strategies of increasing complexity and social reciprocity deficits in a model of Fragile-X Syndrome. Journal of Neuroscience, e0143262026. https://doi.org/10.1523/JNEUROSCI.0143-26.2026. This work was supported by the SFARI Autism Rat Models Consortium Grant SFA-AN-AR-Rat Models-00012700 to S.P.J.
+KW  - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome; Autism spectrum disorder; Social decision-making; Social cognition; Rat model; Behavioral synchrony; Cooperative learning; Leader–follower dynamics; Neurodevelopmental disorders
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Cooperative Behavior in WT and Fmr1 Rat Dyads
+AU  - Shukla, Ashutosh 
+AU  - Jadhav, Shantanu P. 
+DO  - 10.48324/DANDI.001845/0.260526.1807
+UR  - https://dandiarchive.org/dandiset/001845/0.260526.1807
+AB  - This Dandiset contains behavioral data from wild-type and Fmr1 knockout rat dyads performing a novel spatial cooperation task designed to investigate the behavioral strategies and social mechanisms underlying cooperative behavior. In this task, rat pairs learn to coordinate visits to matching reward wells on paired spatial mazes under deterministic and probabilistic reward contingencies. The dataset includes behavioral event timestamps, reward well visit intervals, and position tracking data for both animals within each dyad across multiple sessions (N = 5 pairs per genotype group). These data support analyses of cooperative performance, leader–follower dynamics, behavioral synchrony, and adaptive coordination strategies relevant to social cognition and neurodevelopmental disorders. Related findings from this dataset are described in: Shukla A, Rivera EL, Bladon JH, Jadhav SP (2026) A novel cooperative behavior assay in rats reveals distinct social coordination strategies of increasing complexity and social reciprocity deficits in a model of Fragile-X Syndrome. Journal of Neuroscience, e0143262026. https://doi.org/10.1523/JNEUROSCI.0143-26.2026. This work was supported by the SFARI Autism Rat Models Consortium Grant SFA-AN-AR-Rat Models-00012700 to S.P.J.
+KW  - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome; Autism spectrum disorder; Social decision-making; Social cognition; Rat model; Behavioral synchrony; Cooperative learning; Leader–follower dynamics; Neurodevelopmental disorders
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Retrosplenial cortex enables context-dependent goal-directed sensorimotor transformation
+AU  - Bech, Pol
+AU  - Dard, Robin 
+AU  - Lebert, Jules  
+AU  - Smith, Lana 
+AU  - Bisi, Axel 
+AU  - Renard, Anthony 
+DO  - 10.48324/DANDI.001847/0.260610.1400
+UR  - https://dandiarchive.org/dandiset/001847/0.260610.1400
+AB  - Dataset related to the publication: Bech, Dard et al., eLife 2026, https://doi.org/10.7554/eLife.109717. Processed data and code are available via Zenodo: https://doi.org/10.5281/zenodo.17424306 and GitHub: https://github.com/LSENS-BMI-EPFL/Bech_Dard_process_NWB, https://github.com/LSENS-BMI-EPFL/Bech_Dard_plot_figures.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Complementary Roles of Cell-Type-Specific Plasticity in Shaping Neocortical Dynamics for Learning Action Timing
+AU  - Inagaki, Hidehiko
+DO  - 10.48324/DANDI.001848/0.260705.1606
+UR  - https://dandiarchive.org/dandiset/001848/0.260705.1606
+AB  - Data collected for/analyzed in Majumder et al (2026). See https://github.com/inagaki-lab/Majumder_et_al for an example code to plot the data.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Sample data for testing pipelines (such as AIND)
+AU  - Baker, Cody
+DO  - 10.48324/DANDI.001849/0.260520.1652
+UR  - https://dandiarchive.org/dandiset/001849/0.260520.1652
+AB  - A common source data used for testing AIND and potentially other pipelines. ATM contains a single file which corresponds to a particular run with a particular seed in a particular environment (no provenance was recorded).  Should be ignored by regular users, but would be useful for pipeline developers.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - A multi-muscular, redundant strategy for free-flight roll stability behavioral data archive
+AU  - Ludlow, Brianna
+DO  - 10.48324/DANDI.001851/0.260521.0237
+UR  - https://dandiarchive.org/dandiset/001851/0.260521.0237
+AB  - Behavioral data presented in the paper "A multi-muscular, redundant strategy for free-flight roll stability" by B. Kemper Ludlow et al
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - 20260623_AIBS_Patchseq_BICAN_R01_Neuromodulation_human
+AU  - Gonzalez, Limary
+DO  - 10.48324/DANDI.001855/0.260616.2332
+UR  - https://dandiarchive.org/dandiset/001855/0.260616.2332
+AB  - BICAN R01 Neuromodulation upload (Human) (Q2 2026)
+KW  - Patch-seq, human
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - 20260623_AIBS_Patchseq_BICAN_R01_Neuromodulation_macaque
+AU  - Gonzalez, Limary
+DO  - 10.48324/DANDI.001856/0.260616.2333
+UR  - https://dandiarchive.org/dandiset/001856/0.260616.2333
+AB  - BICAN R01 Neuromodulation upload (Nonhuman Primate) (Q2 2026)
+KW  - Patch-seq, nonhuman primate, macaque
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - 20260623_AIBS_Patchseq_BICAN_R01_Neuromodulation_mouse
+AU  - Gonzalez, Limary
+DO  - 10.48324/DANDI.001858/0.260616.2332
+UR  - https://dandiarchive.org/dandiset/001858/0.260616.2332
+AB  - BICAN R01 Neuromodulation upload (mouse) (Q2 2026)
+KW  - Patch-seq, mouse
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - 1R01NS138075-02
+AU  - Kitamura, Takashi
+DO  - 10.48324/DANDI.001861/0.260609.1800
+UR  - https://dandiarchive.org/dandiset/001861/0.260609.1800
+AB  - Neural circuit mechanisms for a mirror-induced self-directed behavior. in vivo calcium imaging from ACC neurons and animal behavior data during mirror exposure. Mirror-responding neural activity
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Inferring norepinephrine dynamics from partial observations reveals the temporal structure of elevations during arousal
+AU  - Reimer, Jacob
+AU  - NEYHART, ERIN 
+DO  - 10.48324/DANDI.001865/0.260610.2136
+UR  - https://dandiarchive.org/dandiset/001865/0.260610.2136
+AB  - This dataset includes simultaneous in vivo imaging data of norepinephrine sensors (GRAB-NE and rNE) and an inert fluorescence reporter (NE-mut) in the cortex during spontaneous changes in behavioral states in awake mice. It features detailed recordings of NE and inert reporter activity, axon activity, pupil size, locomotion speed, and NE-mut/GRAB-NE traces that were predicted from a combination of the other variables using LSTM models
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Data for fly navigational responses exploiting plume-specific odor motion and gradient cues
+AU  - Brudner, Samuel
+DO  - 10.48324/DANDI.001871/0.260630.1657
+UR  - https://dandiarchive.org/dandiset/001871/0.260630.1657
+AB  - This Dandiset contains data underlying Brudner, Zhou, et al., "Fly navigational responses exploit plume-specific odor motion and gradient cues." It includes both walking-navigation behavior NWB assets and supplemental odor-plume stimulus/figure data used in the paper. The behavioral assets contain adult Drosophila melanogaster trajectories from flies responding to two structurally distinct virtual odor plumes, a spatially smooth plume and an intermittent complex plume, delivered optogenetically (CsChrimson) in a laminar-air arena. For each fly trajectory, the behavioral NWB files provide tracked 2-D position and per-frame derived signals, plus a table of detected saccade-like turning events. Data collection and analysis methods are described in the Methods section of the associated Brudner, Zhou, et al. paper; no separate protocols.io protocol URL is available at this time.
+
+The supplemental plume data include freestream and complex-plume movie/figure assets. The derived freestream plot-input asset, sub-figs1-freestream-plumes/sub-figs1-freestream-plumes_ses-figure-s1_behavior.nwb, contains compact data used to render the Supplementary Figure 1 freestream plume panels: example frames, mean vertical-gradient maps, mean vertical odor-motion cue maps, exact plotted frequency/intermittency scatter points, panel color scales, and provenance/timing metadata for the 5, 10, and 20 cm/s freestream plumes.
+
+The Dandiset additionally includes standardized 1500-frame movie windows used by the Figure S1 workflow. Freestream image assets are provided one per plume: sub-figs1-freestream-a0001/sub-figs1-freestream-a0001_ses-figure-s1_image.nwb for the 5 cm/s freestream plume, sub-figs1-freestream-a0002/sub-figs1-freestream-a0002_ses-figure-s1_image.nwb for the 10 cm/s freestream plume, and sub-figs1-freestream-a0003/sub-figs1-freestream-a0003_ses-figure-s1_image.nwb for the 20 cm/s freestream plume. Each freestream image asset stores only the 25 s standardized window used by the analysis and figure workflow: 1500 frames at 60 Hz, axes time,y,x, pixel size 0.153 mm/px, corresponding to raw H5 time 16.0-41.0 s after skipping 240 native 15 Hz frames. The full 4-minute raw H5 plume movies are not included. The freestream plume measurements underlying these assets were collected/quantified by Connor et al. in Connor, McHugh & Crimaldi, "Quantification of airborne odor plumes using planar laser-induced fluorescence" (Experiments in Fluids 59:137, 2018, https://doi.org/10.1007/s00348-018-2591-3).
+
+The complex smoke plume movie window is provided as sub-figs1-complex-smoke-1a/sub-figs1-complex-smoke-1a_ses-figure-s1_image.nwb. This asset stores the background-subtracted/preprocessed smoke_1a_orig analysis movie: 1500 frames at 60 Hz, axes time,y,x, pixel size 0.153 mm/px, corresponding to raw AVI frames 300-1799 (5.0-30.0 s). The smoke_1a_orig complex plume was analyzed throughout the paper, not only for Supplementary Figure 1. The full 3600-frame raw smoke_1a_orig AVI is not included.
+
+The smooth plume analyzed in the paper is not duplicated in this Dandiset. It is available through the Dryad dataset from Álvarez-Salvado et al., "Data from: Elementary sensory-motor transformations underlying olfactory navigation in walking fruit flies" (https://doi.org/10.5061/dryad.g27mq71), which includes the plume measurements in air. Those smooth-plume measurements were collected/quantified by Connor et al. in Connor, McHugh & Crimaldi, "Quantification of airborne odor plumes using planar laser-induced fluorescence" (Experiments in Fluids 59:137, 2018, https://doi.org/10.1007/s00348-018-2591-3).
+KW  - Drosophila melanogaster
+KW  - olfactory navigation
+KW  - odor plume
+KW  - plume statistics
+KW  - optogenetics
+KW  - CsChrimson
+KW  - walking behavior
+KW  - odor motion
+KW  - odor gradient
+KW  - Neurodata Without Borders
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - The Statistical Analysis of Brain Organoid MEA Data
+AU  - Pignatelli, Alessio
+DO  - 10.48324/DANDI.001872/0.260630.1038
+UR  - https://dandiarchive.org/dandiset/001872/0.260630.1038
+AB  - Advances in stem cell culture and bioengineering have enabled the generation of brain organoids from induced pluripotent stem cells. These three-dimensional (3D) structures, composed of thousands to millions of cells, mimic key features of human brain organization. Brain organoids are increasingly used to study neurodevelopment, model neurological disease (e.g., schizophrenia and bipolar disorder), and explore emerging biocomputing applications. A central focus of these studies is neurophysiological electrical activity, typically recorded over several minutes using multi-electrode arrays designed for in vitro systems. Statistical analysis of these data is challenging due to substantial noise and the need to characterize spatial and temporal structure of organoid activity. Statistical methods therefore play an essential role in separating signal from noise and in identifying temporal and spatial components and their interaction. In this manuscript, we review the analysis of brain organoid electrophysiology data, from raw data acquisition through current processing and analysis pipelines, and we highlight limitations of existing methods as well as opportunities for further statistical development.
+This dataset includes recordings from a 24-well MEA chip (MaxTwo).
+KW  - brain organoid
+KW  - electrophysiology
+KW  - MEA data
+KW  - challenges
+KW  - organoid intelligence
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - SalidoLab 2024.Genes paper. WVU humans with IMPG1/2 mutations
+AU  - SALIDO, EZEQUIEL
+DO  - 10.48324/DANDI.001882/0.260701.1757
+UR  - https://dandiarchive.org/dandiset/001882/0.260701.1757
+AB  - This Dandiset contains the curated, public-domain scientific data evaluating the phenotypic, genotypic, and structural impacts of mutations in the interphotoreceptor matrix proteoglycans 1 and 2 (IMPG1 and IMPG2). The data directly supports the findings published in "Yuan M, Chatterjee S, Leys M, Odom JV, Salido EM. Prevalence of IMPG1 and IMPG2 Mutations Leading to Retinitis Pigmentosa or Vitelliform Macular Dystrophy in a Cohort of Patients with Inherited Retinal Dystrophies. Genes (Basel). 2025 Jan 1;16(1):43. doi: 10.3390/genes16010043. PMID: 39858590; PMCID: PMC11764596.", which establishes the clinical presentations and estimated prevalence of these rare variants within an inherited retinal dystrophy (IRD) patient population.
+KW  - IMPG1
+KW  - IMPG2
+KW  - humans
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
