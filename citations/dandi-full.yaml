@@ -14,6 +14,19 @@ source:
 
 discover:
   email: admin@dandiarchive.org
+  # "crossref" is intentionally omitted: it queries api.eventdata.crossref.org,
+  # which CrossRef officially sunset on 2026-04-23 (see
+  # https://www.crossref.org/blog/strengthening-support-for-data-citations-and-saying-goodbye-to-event-data/
+  # and https://www.crossref.org/deprecated/). The host still resolves but no
+  # longer accepts TCP:443, so every request times out at connect and stalls
+  # the run past the 6h CI budget (see run 28994421026 in dandi-bib).
+  # Replacement is https://api.crossref.org/beta/datacitations?object-id=<DOI>;
+  # tracked upstream at https://github.com/con/citations-collector (issue TBD).
+  # Re-add "crossref" once citations-collector migrates.
+  sources:
+    - opencitations
+    - datacite
+    - openalex
 
 pdfs:
   output_dir: pdfs/

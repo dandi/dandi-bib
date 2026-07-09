@@ -15,6 +15,10 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Cap the whole job well under GitHub's 6h default so a single wedged
+    # network call cannot burn the full budget. Individual steps below have
+    # their own tighter timeouts.
+    timeout-minutes: 240
 
     steps:
       - name: Checkout repository
@@ -31,6 +35,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
 
       - name: Install dependencies
+        timeout-minutes: 15
         run: |
           # bibtexparser pre-release must be installed first -- using
           # --prerelease=allow globally pulls httpx 1.0.dev3 which breaks
@@ -39,6 +44,7 @@ jobs:
           uv pip install --system datalad git-annex 'citations-collector>=0.2.3' -r requirements.txt
 
       - name: Fetch bibliography from DANDI API
+        timeout-minutes: 20
         run: |
           cd code
           ./get-bibliography \
@@ -47,6 +53,7 @@ jobs:
             --results ../cache/results.json
 
       - name: Fetch RIS bibliography from DANDI API
+        timeout-minutes: 20
         run: |
           cd code
           ./get-bibliography \
@@ -54,6 +61,7 @@ jobs:
             --bibfile ../dandi.ris
 
       - name: Update README statistics
+        timeout-minutes: 5
         run: |
           cd code
           ./update-readme-stats
@@ -79,8 +87,17 @@ jobs:
 
           🤖 Generated with GitHub Actions"
 
+      # Push the bibliography commit BEFORE running the (flakier) citations
+      # refresh below so bib updates always land, even if Refresh stalls or
+      # gets killed by the job timeout.
+      - name: Push bibliography changes
+        if: steps.check_changes.outputs.changes == 'true'
+        timeout-minutes: 5
+        run: git push
+
       - name: Sync to Zotero (optional)
         if: steps.check_changes.outputs.changes == 'true' && vars.ENABLE_ZOTERO_SYNC == 'true'
+        timeout-minutes: 20
         env:
           ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
           ZOTERO_GROUP_ID: ${{ vars.ZOTERO_GROUP_ID }}
@@ -94,14 +111,24 @@ jobs:
             --bib-file ../dandi.bib \
             --cache-file ../cache/zotero_cache.json
 
+      # Bounded, best-effort: citations-collector `discover` has been stalling
+      # on CrossRef Event Data queries (see citations/dandi-full.yaml comment).
+      # We now cap this step at 100 minutes and treat failure as non-fatal so
+      # it can't block bibliography updates. If it fails, subsequent
+      # `git annex sync --content && git push` becomes a no-op.
       - name: Refresh citations collection
         if: steps.check_changes.outputs.changes == 'true'
+        continue-on-error: true
+        timeout-minutes: 100
+        env:
+          PYTHONUNBUFFERED: "1"
         run: |
           cd citations
           datalad run -m "Refresh citations" make
 
-      - name: Sync git-annex and push all changes
+      - name: Sync git-annex and push citations changes
         if: steps.check_changes.outputs.changes == 'true'
+        timeout-minutes: 20
         run: |
           git annex sync --content
           git push
