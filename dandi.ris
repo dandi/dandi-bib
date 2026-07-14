@@ -9764,11 +9764,33 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - 20260623_AIBS_Patchseq_BICAN_human
+AU  - Gonzalez, Limary
+DO  - 10.48324/DANDI.001855/0.260713.1811
+UR  - https://dandiarchive.org/dandiset/001855/0.260713.1811
+AB  - BICAN upload (Human) (Q2 2026)
+KW  - Patch-seq, human
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - 20260623_AIBS_Patchseq_BICAN_R01_Neuromodulation_macaque
 AU  - Gonzalez, Limary
 DO  - 10.48324/DANDI.001856/0.260616.2333
 UR  - https://dandiarchive.org/dandiset/001856/0.260616.2333
 AB  - BICAN R01 Neuromodulation upload (Nonhuman Primate) (Q2 2026)
+KW  - Patch-seq, nonhuman primate, macaque
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - 20260623_AIBS_Patchseq_BICAN_macaque
+AU  - Gonzalez, Limary
+DO  - 10.48324/DANDI.001856/0.260713.1811
+UR  - https://dandiarchive.org/dandiset/001856/0.260713.1811
+AB  - BICAN upload (Nonhuman Primate) (Q2 2026)
 KW  - Patch-seq, nonhuman primate, macaque
 PY  - 2026
 PB  - DANDI Archive
