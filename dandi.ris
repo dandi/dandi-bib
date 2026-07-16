@@ -9829,6 +9829,36 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Chronic electrophysiology and two-photon calcium imaging of mouse primary somatosensory cortex during intracortical microstimulation learning
+AU  - Kim, Robin
+AU  - Lycke, Roy
+AU  - Zolotavin, Pavlo
+AU  - Montes, Jon
+AU  - Xie, Chong
+AU  - Luan, Lan
+DO  - 10.48324/DANDI.001868/0.260715.2016
+UR  - https://dandiarchive.org/dandiset/001868/0.260715.2016
+AB  - Processed electrophysiology and two-photon calcium imaging data from chronic recordings of mouse primary somatosensory cortex (S1, trunk region) during an intracortical microstimulation (ICMS)–cued wheel-turn detection task, acquired longitudinally across weeks of learning. ICMS was delivered through chronically implanted 32-channel ultraflexible nanoelectronic thread (NET) probes co-implanted with a cranial window in Thy1-GCaMP6s mice, enabling simultaneous sorted single-unit electrophysiology and volumetric/planar two-photon imaging.
+
+The dataset comprises 12 mice across 85 sessions: six task-trained animals with simultaneous electrophysiology and two-photon imaging, and six passive-control animals used for survey two-photon activation mapping, four of which also underwent electrophysiological recording. Depending on the experimental cohort and session, NWB files include sorted-unit spike times and mean waveforms, electrode and stimulation metadata, behavioral trials and ICMS events, wheel-encoder signals, and processed imaging data. Imaging data include ΔF/F traces and ROI segmentations for task-trained animals and per-neuron activation measurements across stimulation channels and current amplitudes for passive controls. These data support the Science Advances study by Kim et al. (2026), conducted by the Luan Laboratory at Rice University.
+KW  - intracortical microstimulation
+KW  - ICMS
+KW  - somatosensory cortex
+KW  - cortical plasticity
+KW  - learning
+KW  - two-photon calcium imaging
+KW  - electrophysiology
+KW  - ultraflexible electrode
+KW  - NET probe
+KW  - GCaMP6s
+KW  - mouse
+KW  - detection task
+KW  - longitudinal
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Data for fly navigational responses exploiting plume-specific odor motion and gradient cues
 AU  - Brudner, Samuel
 DO  - 10.48324/DANDI.001871/0.260630.1657
