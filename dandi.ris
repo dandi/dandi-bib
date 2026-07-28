@@ -9859,6 +9859,25 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Unique neural activity states predict action selection in response to visual threat
+AU  - Brezovec, Bella
+AU  - Hao, Alex
+AU  - Choi, Minseung
+AU  - Wang, Yandan
+AU  - Su, Sharon
+AU  - Clandinin, Thomas
+DO  - 10.48324/DANDI.001869/0.260727.1644
+UR  - https://dandiarchive.org/dandiset/001869/0.260727.1644
+AB  - To survive, animals must select contextually appropriate behavioral responses to threatening sensory stimuli that are shaped by both internal and locomotor state. However, how the circuits that process specific sensory stimuli might disseminate information to, and be affected by, other brain regions whose activities reflect these states is incompletely understood. To address this gap, we examined the response of fruit flies to a looming visual object, a well-studied model of visual threat. Prior work has characterized how such stimuli can activate specific neural circuits to evoke distinct behavioral responses. However, how looming stimuli might alter neural activity in other parts of the brain is incompletely understood. We examined loom-evoked changes in brain-wide neural activity using volumetric two-photon imaging in behaving flies. These studies revealed that the looming stimulus evokes a broad increase in neural activity spanning many brain regions, spanning both visual and motor areas, as well as sensory areas that process non-visual cues. Across many stimulus presentations, we identified distinct behavioral responses that could be separated by movement speed. By comparing neural signals across these behavioral categories, we discovered temporally unique patterns of neural activity in distinct anatomical regions. Moreover, we observed a quiescent state in which the animal displays a significant stimulus-evoked neural response that fails to elicit a change in behavior, thereby decoupling perception from action. Finally, we show that the neural state before the stimulus can accurately predict subsequent behavioral responses and that this accuracy depends on signals from a small set of central brain regions. Taken together, these data argue that action selection is telegraphed by differences in initial neural state expressed in specific brain regions.
+KW  - brain
+KW  - locomotion
+KW  - whole brain
+KW  - loom
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Data for fly navigational responses exploiting plume-specific odor motion and gradient cues
 AU  - Brudner, Samuel
 DO  - 10.48324/DANDI.001871/0.260630.1657
