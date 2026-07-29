@@ -9354,6 +9354,28 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Three-dimensional spatial selectivity of hippocampal neurons during space flight
+AU  - Knierim, James J.
+AU  - McNaughton, Bruce L.
+AU  - Poe, Gina R.
+DO  - 10.48324/DANDI.001754/0.260728.1352
+UR  - https://dandiarchive.org/dandiset/001754/0.260728.1352
+AB  - This dataset contains extracellular recordings from hippocampal place cells in three freely moving rats during the Neurolab Space Shuttle mission (STS-90) in April 1998. The experiment investigated whether the hippocampus can maintain stable spatial representations during three-dimensional navigation in microgravity. Rats were implanted with multi-electrode recording arrays and trained to traverse a three-dimensional track called the "Escher staircase," in which three 90-degree yaw turns were interleaved with three 90-degree pitch turns, creating a closed loop after only 270 degrees of total yaw rotation. This design placed the spatial information from external landmarks in conflict with the expected input from the head-direction system, which normally requires 360 degrees of yaw to signal a return to the starting direction. The dataset includes both preflight recordings on a flat rectangular track and in-flight recordings on the Escher staircase track from flight days 4 and 9. Place cells eventually demonstrated normal spatially specific firing, with spatial information content comparable to preflight levels, though initial exposures on flight day 4 showed abnormal spatial selectivity patterns. Hippocampal EEG was also recorded, showing normal theta rhythm during locomotion and normal sharp waves and ripples during quiet rest. Rats received medial forebrain bundle stimulation as a reward for traversing the track.
+KW  - hippocampus
+KW  - place cells
+KW  - tetrode
+KW  - spaceflight
+KW  - microgravity
+KW  - spatial navigation
+KW  - Neurolab
+KW  - STS-90
+KW  - head direction
+KW  - three-dimensional navigation
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Photometry data underlying the analyses in Chantranupong PMID: 37557915
 AU  - Sabatini, Bernardo
 DO  - 10.48324/DANDI.001767/0.260318.1448
