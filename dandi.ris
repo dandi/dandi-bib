@@ -9153,6 +9153,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Loss of oxytocin receptor function disrupts neural signatures of pair bonding and fidelity in the nucleus accumbens
+AU  - Hoglen, Nerissa
+DO  - 10.48324/DANDI.001700/0.260729.2330
+UR  - https://dandiarchive.org/dandiset/001700/0.260729.2330
+AB  - The formation of enduring relationships dramatically influences future behavior, promoting affiliation between familiar individuals. The neural mechanisms of how such attachments are encoded to elicit and reinforce specific social behaviors in distinct ethological contexts remain understudied. Signaling via the oxytocin receptor (Oxtr) in the nucleus accumbens (NAc) facilitates social reward as well as pair bond formation between mates in socially monogamous prairie voles. How Oxtr function influences activity in the NAc during pair bonding to promote affiliative behavior with partners and rejection of other potential mates has not been determined. Using in vivo fiber photometry across pair bond formation and social attachment behaviors, we demonstrate that genetic loss of Oxtr function sex-specifically disrupts pair bonding behaviors and associated activity in the NAc. In females, loss of Oxtr influences prosocial behavior in a bonding-state-dependent manner. Oxtr-null females demonstrate reduced prosocial behaviors and lower activity in the NAc during initial chemosensory investigation of novel males. Following bond formation, affiliative behavior with partners and neural activity in the NAc during these interactions increase in an Oxtr-independent manner. Conversely, males lacking Oxtr display increased prosocial investigation of novel females. Altered behavioral and neural activity patterns in Oxtr-null males during their first interactions with females predict their future preference for a partner or stranger days later. These findings reconcile prior pharmacological and genetic studies. We demonstrate that disrupting Oxtr function sex-specifically influences the early development of pair bonds by modulating prosociality and the neural processing of sensory cues and social interactions with novel individuals, unmasking underlying sex differences in the neural pathways regulating the formation of long-term relationships.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Aery Jones et al (2026) Entorhinal cortex represents task-relevant remote locations independent of CA1
 AU  - Aery Jones, Emily
 AU  - Low, Isabel
