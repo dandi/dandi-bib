@@ -2104,6 +2104,7 @@
   },
   "001700": {
     "0.260729.2330": "@misc{dandi.001700/0.260729.2330,\n  doi = {10.48324/DANDI.001700/0.260729.2330},\n  url = {https://dandiarchive.org/dandiset/001700/0.260729.2330},\n  author = {Hoglen, Nerissa},\n  title = {Loss of oxytocin receptor function disrupts neural signatures of pair bonding and fidelity in the nucleus accumbens},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "null": "@misc{dandi.001700,\n  doi = {10.48324/DANDI.001700/0.260729.2330},\n  url = {https://dandiarchive.org/dandiset/001700/0.260729.2330},\n  author = {Hoglen, Nerissa},\n  title = {Loss of oxytocin receptor function disrupts neural signatures of pair bonding and fidelity in the nucleus accumbens},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "null": "@misc{dandi.001700,\n  doi = {10.48324/DANDI.001700/0.260729.2330},\n  url = {https://dandiarchive.org/dandiset/001700/0.260729.2330},\n  author = {Hoglen, Nerissa},\n  title = {Loss of oxytocin receptor function disrupts neural signatures of pair bonding and fidelity in the nucleus accumbens},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
   }
 }
