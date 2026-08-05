@@ -6691,6 +6691,18 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Multiplexed optical recording of sensors on a micro-endoscope (MORSE)
+AU  - Kalugin, Peter N
+AU  - Lehtinen, Maria K
+AU  - Andermann, Mark L
+DO  - 10.48324/DANDI.001074/0.260804.2042
+UR  - https://dandiarchive.org/dandiset/001074/0.260804.2042
+AB  - Multiplexed neuromodulator sensor recordings
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Neural signal propagation atlas of Caenorhabditis elegans
 AU  - Randi, Francesco
 AU  - Sharma, Anuj
