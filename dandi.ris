@@ -9072,6 +9072,36 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Data related to "Xiao, Severson, et al. (2026) Peri-Head Distance Coding in the Mouse Brainstem"
+AU  - Xiao, Wenxi
+AU  - Severson, Kyle
+AU  - Prevosto, Vincent
+AU  - Wang, Fan
+DO  - 10.48324/DANDI.001687/0.260805.1529
+UR  - https://dandiarchive.org/dandiset/001687/0.260805.1529
+AB  - This Dandiset contains raw and processed data of in vivo extracellular recordings from second-order neurons in the mouse whisker brainstem (principal trigeminal nucleus - PrV), collected in awake animals during a naturalistic wall-passing paradigm, designed to probe peri-head distance sensing.  The dataset supports analysis of two distance-coding schemes observed in the brainstem: (1) a proximity code, in which firing rates increase monotonically as an object approaches the face, and (2) a map code, in which neurons exhibit peak tuning at specific peri-head distances, collectively tiling peri-personal space. Population-level analyses of these recordings can be used to compare decoding performance between coding schemes. In addition to baseline recordings, the dataset includes perturbation conditions intended to test circuit mechanisms underlying map-like tuning, including multi-whisker integration, local inhibition, and long-range internuclear inhibition.  Data are organized in NWB format and include extracellular electrophysiology and associated stimulus annotations needed to relate neural activity to peri-head distance during wall-passing (e.g., wall/object position relative to the head and temporal alignment to ephys recording).  Note that processed data (of the form "...session-X.nwb") is light-weight, while raw data (of the form "...session-X_ecephys+image.nwb") that sits next to it is much heavier. Figure reproduction assets are available in the associated Github repository (https://github.com/wanglab-neuro/2026_Xiao-Severson_Peri-head-distance), under "Manuscript figures". Experimental notes are available at https://www.brainstem.org/public/stem/project/1ae87b47-5c85-42fd-9341-919aa220d647/.
+KW  - peri-personal space
+KW  - distance coding
+KW  - whisker system
+KW  - trigeminal brainstem
+KW  - spinal trigeminal nucleus
+KW  - extracellular electrophysiology
+KW  - in vivo
+KW  - awake mouse
+KW  - wall-passing
+KW  - population decoding
+KW  - inhibition
+KW  - disinhibition
+KW  - multi-whisker integration
+KW  - somatosensation
+KW  - touch
+KW  - tactile sensation
+KW  - sensory computation
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - EMUsort Rat Datasets (Acquired): high-resolution multichannel EMG recordings with 3D motion tracking during treadmill locomotion
 AU  - O'Connell, Sean
 AU  - Wang, Runming
