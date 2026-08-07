@@ -6703,6 +6703,18 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Multiplexed optical recording of sensors on a micro-endoscope (MORSE)
+AU  - Kalugin, Peter N
+AU  - Lehtinen, Maria K
+AU  - Andermann, Mark L
+DO  - 10.48324/DANDI.001074/0.260807.0137
+UR  - https://dandiarchive.org/dandiset/001074/0.260807.0137
+AB  - Multiplexed neuromodulator sensor recordings from Kalugin PN, et al. Simultaneous, real-time tracking of many neuromodulatory signals with multiplexed optical recording of sensors on a micro-endoscope. Neuron. 2026 Aug 5:S0896-6273(26)00537-4. doi: 10.1016/j.neuron.2026.07.008. Epub ahead of print. PMID: 42556335.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Neural signal propagation atlas of Caenorhabditis elegans
 AU  - Randi, Francesco
 AU  - Sharma, Anuj
@@ -9887,6 +9899,20 @@ AU  - Kitamura, Takashi
 DO  - 10.48324/DANDI.001861/0.260609.1800
 UR  - https://dandiarchive.org/dandiset/001861/0.260609.1800
 AB  - Neural circuit mechanisms for a mirror-induced self-directed behavior. in vivo calcium imaging from ACC neurons and animal behavior data during mirror exposure. Mirror-responding neural activity
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - The impact of a psychedelic drug on olfactory search behavior by mice
+AU  - Smear, Matt
+AU  - Welch, Amanda
+AU  - Gonzales-Hess, Nate
+DO  - 10.48324/DANDI.001863/0.260806.2109
+UR  - https://dandiarchive.org/dandiset/001863/0.260806.2109
+AB  - Using an olfactory search task, we investigated the impact of the psychedelic 2,5-dimethoxy-4-iodoamphetamine (DOI) on olfactory search behavior of mice. We found that DOI decreases search accuracy, alters movement, and increases sniff rate. These findings suggest that the olfactory behaviors are altered by DOI, elucidating psychedelic-induced changes to olfactory processes.
+preprint: https://www.biorxiv.org/content/10.1101/2025.07.09.663970v1
+code: https://github.com/Smear-Lab/Olfactory-search-on-psychedelics
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
