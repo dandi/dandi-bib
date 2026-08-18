@@ -10034,3 +10034,67 @@ PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
+TY  - DATA
+T1  - Patch-seq profiling of mouse locus coeruleus norepinephrine neurons
+AU  - Su, Zhixiao
+AU  - Kosillo, Polina
+AU  - Jung, Kanghoon
+AU  - Chen, Shuonan
+AU  - Summers, Mathew T
+AU  - Piet, Alex
+AU  - Hou, Han
+AU  - Hagihara, Kenta M
+AU  - Friedmann, Drew
+AU  - Ho-Shing, Olivia
+AU  - Becker, Matthew I
+AU  - Chartrand, Thomas
+AU  - Grotz, Peter
+AU  - Hilton-VanOsdall, Ella
+AU  - Lee, Margaret
+AU  - Javeri, Rajvi
+AU  - Tuggle, Samantha L
+AU  - Ouellette, Naveen
+AU  - Myers, Holly
+AU  - Laiton, Camilo
+AU  - Wulf, Kaelin
+AU  - Rohde, John
+AU  - Buccino, Alessio
+AU  - Arshadi, Cameron
+AU  - Wang, Di
+AU  - Seshamani, Sharmishtaa
+AU  - Vasquez, Sonya
+AU  - Eng, Carolyn M
+AU  - Ollerenshaw, Douglas R
+AU  - Dee, Nick
+AU  - Casper, Tamara
+AU  - Ho, Windy
+AU  - Jungert, Matthew
+AU  - Jordan, Atlas
+AU  - Phillips, Elliot
+AU  - Chakka, Anish Bhaswanth
+AU  - Nasirova, Kamiliam
+AU  - Blake, Krista
+AU  - McCutcheon, Audrey
+AU  - Koch, Megan
+AU  - Vergara, Maria Camila
+AU  - Smith, Kimberly A
+AU  - Jarsky, Tim
+AU  - Lusk, Nicholas
+AU  - Rue, Mara
+AU  - Chen, Xiaoyin
+AU  - Siegle, Joshua H
+AU  - Glaser, Adam K
+AU  - Lee, Brian R
+AU  - Svoboda, Karel
+AU  - Isogai, Yoh
+AU  - Chandrashekar, Jayaram V
+AU  - Cohen, Jeremiah Y
+DO  - 10.48324/DANDI.001893/0.260817.1647
+UR  - https://dandiarchive.org/dandiset/001893/0.260817.1647
+AB  - This dataset contains electrophysiological recordings for the Patch-seq analysis of Mus musculus locus coeruleus norepinephrine neurons using SMART-seq V4 sequencing of locus coeruleus (LC) norepinephrine neurons. These data are included in the publication 'Topographic structure and function of locus coeruleus norepinephrine neurons' by Su et al (2026): https://www.biorxiv.org/content/10.64898/2026.04.10.717727. Processing code is available at https://github.com/AllenNeuralDynamics/LCNE-patchseq-figures and https://github.com/AllenNeuralDynamics/LCNE-patchseq-analysis/
+KW  - Patch-seq
+KW  - mouse
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
