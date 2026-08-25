@@ -2817,6 +2817,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Habenular neurophysiology
+AU  - Jo, YoungJu
+DO  - 10.48324/DANDI.000302/0.260825.0031
+UR  - https://dandiarchive.org/dandiset/000302/0.260825.0031
+AB  - Habenular neurophysiology data associated with Sylwestrak*, Jo*, Vesuna* et al. Cell (2022).
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Allen Institute Openscope - Dendritic Coupling project
 AU  - Richards, Blake
 DO  - 10.48324/DANDI.000336/0.260325.1802
@@ -9338,6 +9348,23 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Electrophysiological Dataset of Patch-seq Recording in non-Human Primate Anterior Insular Cortex
+AU  - Liu, Rui-Feng
+AU  - Shen, Yuhui
+AU  - Huang, Mengyao
+AU  - Shao, Mingting
+DO  - 10.48324/DANDI.001746/0.260825.0222
+UR  - https://dandiarchive.org/dandiset/001746/0.260825.0222
+AB  - This dataset contains intracellular recordings from neurons in the macaque anterior insular cortex. Using Patch-seq, we integrated electrophysiological, morphological, and transcriptomic profiling at the single-cell level in acute brain slices. The dataset primarily comprises electrophysiological recordings annotated with transcriptomic cell types as metadata.
+KW  - Anterior insular cortex
+KW  - Patch-seq
+KW  - Monkey
+KW  - Von Economo Neuron
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - 20260213_AIBS_Patchseq_BICAN_R01_Neuromodulation_mouse
 AU  - Gonzalez, Limary
 DO  - 10.48324/DANDI.001748/0.260217.1916
@@ -9388,6 +9415,47 @@ KW  - reward-competition
 KW  - in vivo ephys
 KW  - mPFC-BLA
 KW  - mPFC-LH
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Electrophysiological Dataset of Somatic Sodium Channel Current Using Outside-out Recording in the Primate Anterior Insular Cortex
+AU  - Liu, Rui-Feng
+DO  - 10.48324/DANDI.001750/0.260825.0222
+UR  - https://dandiarchive.org/dandiset/001750/0.260825.0222
+AB  - This dataset includes intracellular recordings from neurons in the anterior insular cortex of macaque monkeys. Somatic sodium channel currents were recorded using the outside-out patch-clamp configuration in neurons from crab-eating monkeys.
+KW  - Sodium channel
+KW  - Outside-out recording
+KW  - Patch-clamp recording
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Electrophysiological Dataset of Local Neuronal Microcircuits in the Primate Anterior Insular Cortex
+AU  - Jing, Junzhan
+DO  - 10.48324/DANDI.001751/0.260825.0222
+UR  - https://dandiarchive.org/dandiset/001751/0.260825.0222
+AB  - This dataset includes intracellular recordings from neurons in the anterior insular cortex of macaque monkeys. Neuronal connectivity was assessed using simultaneous multi–patch-clamp recordings in crab-eating monkeys.
+KW  - Anterior insular cortex
+KW  - Monkey
+KW  - neuronal connection
+KW  - Von Economo Neuron
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Electrophysiological Dataset of Neuronal Post-Synaptic Currents in the Primate Anterior Insular Cortex
+AU  - Jing, Junzhan
+DO  - 10.48324/DANDI.001752/0.260825.0222
+UR  - https://dandiarchive.org/dandiset/001752/0.260825.0222
+AB  - This dataset includes intracellular recordings from neurons in the anterior insular cortex of macaque monkeys. Postsynaptic currents were measured, comprising miniature and spontaneous excitatory and inhibitory postsynaptic currents (E/IPSCs) recorded from von Economo neurons (VENs) and pyramidal cells (PCs).
+KW  - Post-synaptic current
+KW  - Monkey
+KW  - von Economo neuron
+KW  - Anterior insular cortex
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
