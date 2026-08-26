@@ -2731,6 +2731,18 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - 20220630_AIBS_Patchseq_human
+AU  - Mei, Nicholas
+DO  - 10.48324/DANDI.000288/0.260825.1705
+UR  - https://dandiarchive.org/dandiset/000288/0.260825.1705
+AB  - U01 Lein PatchSeq upload June 2022
+KW  - Patch-seq
+KW  - human
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Two-photon calcium imaging of EPG cells in Drosophila Melanogaster presented with cues of varying reliability
 AU  - Basnak, Melanie Ailin
 AU  - Wilson, Rachel
@@ -5346,6 +5358,43 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Offline ensemble co-reactivation links memories across days
+AU  - Zaki, Yosif
+AU  - Pennington, Zachary T.
+AU  - Morales-Rodriguez, Denisse
+AU  - Bacon, Madeline E.
+AU  - Ko, BumJin
+AU  - Francisco, Taylor R.
+AU  - LaBanca, Alexa R.
+AU  - Sompolpong, Patlapa
+AU  - Dong, Zhe
+AU  - Lamsifer, Sophia
+AU  - Chen, Hung-Tu
+AU  - Carrillo Segura, Simón
+AU  - Christenson Wick, Zoé
+AU  - Silva, Alcino J.
+AU  - Rajan, Kanaka
+AU  - van der Meer, Matthijs
+AU  - Fenton, André
+AU  - Shuman, Tristan
+AU  - Cai, Denise J.
+DO  - 10.48324/DANDI.000718/0.260825.1902
+UR  - https://dandiarchive.org/dandiset/000718/0.260825.1902
+AB  - Memories are encoded in neural ensembles during learning and are stabilized by post-learning reactivation. Integrating recent experiences into existing memories ensures that memories contain the most recently available information, but how the brain accomplishes this critical process remains unclear. Here we show that in mice, a strong aversive experience drives offline ensemble reactivation of not only the recent aversive memory but also a neutral memory formed 2 days before, linking fear of the recent aversive memory to the previous neutral memory. Fear specifically links retrospectively, but not prospectively, to neutral memories across days. Consistent with previous studies, we find that the recent aversive memory ensemble is reactivated during the offline period after learning. However, a strong aversive experience also increases co-reactivation of the aversive and neutral memory ensembles during the offline period. Ensemble co-reactivation occurs more during wake than during sleep. Finally, the expression of fear in the neutral context is associated with reactivation of the shared ensemble between the aversive and neutral memories. Collectively, these results demonstrate that offline ensemble co-reactivation is a neural mechanism by which memories are integrated across days.
+KW  - hippocampus
+KW  - learning
+KW  - memory
+KW  - memory-linking
+KW  - aversive
+KW  - ensemble
+KW  - co-activity
+KW  - reactivation
+KW  - offline
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - VR-SASE Virtual Reality Dendritic Spine Analysis
 AU  - Reimer, Marike
 DO  - 10.48324/DANDI.000723/0.240716.1414
@@ -6646,6 +6695,26 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Large-scale Neuropixels recordings through SHIELD implant during visual change detection task with dynamic gating of engagement
+AU  - Bennett, Corbett
+DO  - 10.48324/DANDI.001051/0.260825.2232
+UR  - https://dandiarchive.org/dandiset/001051/0.260825.2232
+AB  - This dataset was collected at the Allen Institute. It includes data from 99 electrophysiology sessions featuring multi-Neuropixel recordings throughout the left hemisphere while mice performed a visual change detection task. This dataset is closely related to the Allen Institute Visual Behavior Neuropixels (VBN) dataset, but differs in two important ways: 
+First, whereas the VBN recordings were focused on visual cortical areas and underlying subcortical regions, this dataset features recordings from throughout the left hemisphere, including frontal and medial cortical areas and the striatum. 
+Second, we have modified the behavioral task for this dataset to experimentally manipulate task engagement. During the VBN recordings, an hour of active behavior was followed by a passive behavior block during which the lick spout was retracted and mice were presented with the same visual stimuli but now with no opportunity to lick for reward. In practice, mice often satiated before the passive block. For this dataset, we interposed a 'no-reward' block in the middle of active behavior. During this new epoch, the lick spout remained extended but licks for visual changes no longer triggered reward. At the end of the no-reward block, auto-rewards were given to indicate that rewards were once again available, and many mice resumed licking for changes.
+
+To better understand how to access and analyze this dataset, we encourage potential users to refer to the resources below. The data in DANDI is structured as follows: each subject has session NWBs identified by date of acquisition. Then, there are LFP NWBs for up to 6 probes for each session, identified by a probe id. For the LFP, each session NWB has a probes table that has the probe ids for the LFP data associated with that session. Use this table to get the probe ids and corresponding LFP NWBs. Examples  of opening a NWB file and accessing the probes table can be seen at the GitHub below under tutorials. In addition, there is a dynamic gating sessions metadata table at the GitHub repository below that has an acquisition date column, which can be used to map to a session id (the session column in the metadata tables). This will be useful for parsing the metadata tables for multi-session analysis.
+
+1) This repository includes a quick-start tutorial notebook as well as metadata tables for the sessions, probes, channels and units included in this dataset: https://github.com/AllenInstitute/SHIELD_Dynamic_Gating_Analysis
+2) To learn more about the basic visual change detection task as well as the general structure of the nwb files, consult the documentation available for the Allen Observatory Visual Behavior Neuropixels dataset here: https://portal.brain-map.org/circuits-behavior/visual-behavior-neuropixels
+
+This dataset was used in the following preprint: 
+SHIELD: Skull-shaped hemispheric implants enabling large-scale-electrophysiology datasets in the mouse brain [https://doi.org/10.1101/2023.11.12.566771]
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Acute Random and FixedBurst stim in MFB and mPFC using Neuropixels in NAc
 AU  - Cowen, Stephen
 DO  - 10.48324/DANDI.001052/0.240610.1814
@@ -6934,6 +7003,24 @@ KW  - responsive neuromodulation
 KW  - AAV
 KW  - gene therapy
 PY  - 2024
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Distinct value computations support rapid sequential decisions
+AU  - Mah, Andrew
+AU  - Schiereck, Shannon S.
+AU  - Bossio, Veronica
+AU  - Constantinople, Christine M.
+DO  - 10.48324/DANDI.001169/0.260825.1909
+UR  - https://dandiarchive.org/dandiset/001169/0.260825.1909
+AB  - The value of the environment determines animals’ motivational states and sets expectations for error-based learning. How are values computed? Reinforcement learning systems can store or cache values of states or actions that are learned from experience, or they can compute values using a model of the environment to simulate possible futures. These value computations have distinct trade-offs, and a central question is how neural systems decide which computations to use or whether/how to combine them. Here we show that rats use distinct value computations for sequential decisions within single trials. We used high-throughput training to collect statistically powerful datasets from 291 rats performing a temporal wagering task with hidden reward states. Rats adjusted how quickly they initiated trials and how long they waited for rewards across states, balancing effort and time costs against expected rewards. Statistical modeling revealed that animals computed the value of the environment differently when initiating trials versus when deciding how long to wait for rewards, even though these decisions were only seconds apart. Moreover, value estimates interacted via a dynamic learning rate. Our results reveal how distinct value computations interact on rapid timescales, and demonstrate the power of using high-throughput training to understand rich, cognitive behaviors.
+KW  - value-based decision making
+KW  - reinforcement learning
+KW  - temporal wagering task
+KW  - sequential decisions
+KW  - behavioral modeling
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -10192,6 +10279,45 @@ UR  - https://dandiarchive.org/dandiset/001893/0.260817.1647
 AB  - This dataset contains electrophysiological recordings for the Patch-seq analysis of Mus musculus locus coeruleus norepinephrine neurons using SMART-seq V4 sequencing of locus coeruleus (LC) norepinephrine neurons. These data are included in the publication 'Topographic structure and function of locus coeruleus norepinephrine neurons' by Su et al (2026): https://www.biorxiv.org/content/10.64898/2026.04.10.717727. Processing code is available at https://github.com/AllenNeuralDynamics/LCNE-patchseq-figures and https://github.com/AllenNeuralDynamics/LCNE-patchseq-analysis/
 KW  - Patch-seq
 KW  - mouse
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Leucine-rich repeat kinase 2 impairs the release sites of Parkinson’s disease vulnerable dopamine axons
+AU  - Chen, Chuyu
+AU  - He, Qianzi
+AU  - Tombesi, Giulia
+AU  - Napier, Eve
+AU  - Jaconelli, Matthew
+AU  - Moreno-Ramos, Oscar Andrés
+AU  - Serio, Hannah
+AU  - Naaldijk, Yahaira
+AU  - Promes, Vanessa
+AU  - Schneeweis, Amanda
+AU  - Quinn, Kaitlyn
+AU  - Nasios, Christopher
+AU  - Greggio, Elisa
+AU  - Kozorovitskiy, Yevgenia
+AU  - Arango, Daniel
+AU  - Khan, Amir R.
+AU  - Alessi, Dario R.
+AU  - Dombeck, Daniel A.
+AU  - Hilfiker, Sabine
+AU  - Awatramani, Rajeshwar
+AU  - Parisiadou, Loukia
+DO  - 10.48324/DANDI.001933/0.260825.1457
+UR  - https://dandiarchive.org/dandiset/001933/0.260825.1457
+AB  - Parkinson’s disease (PD) is defined pathologically by loss of dopamine-producing neurons in the substantia nigra pars compacta (SNc). Yet synaptic dysfunction emerges much earlier, making it essential to define the mechanisms that drive early nigrostriatal deregulation. In the SNc, molecularly distinct dopamine neuron subtypes show differential susceptibility to PD. In vivo fiber photometry of striatal dopamine release in awake, head-fixed mice expressing the dopamine sensor GRAB-DA3m. Two intersectional mouse lines targeting distinct dopamine neuron subtypes were studied: Anxa1-iCre mice (Anxa1+, vulnerable subtype) with fiber photometry in the dorsal lateral striatum (DLS), and Calb1-Cre mice (Calb1+, resilient subtype) with fiber photometry in the dorsal medial striatum (DMS). In each session, optogenetic activation of subtype-specific dopamine neuron cell bodies in the substantia nigra pars compacta (SNc) was achieved via Cre-dependent ChRmine expression and red-light (635 nm) stimulation. The experiment compares dopamine release between wild-type (LRRK2-WT) and LRRK2-G2019S knockin mice to investigate how pathogenic LRRK2 kinase activity affects dopamine synaptic function in a subtype-specific manner.
+KW  - fiber photometry
+KW  - dopamine
+KW  - GRAB-DA
+KW  - optogenetics
+KW  - ChRmine
+KW  - Parkinson's disease
+KW  - substantia nigra
+KW  - striatum
+KW  - dopamine subtype
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
