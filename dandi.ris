@@ -2340,6 +2340,17 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Two photon calcium imaging in the CA1 region of the hippocampus in neonatal mice.
+AU  - Dard, Robin
+DO  - 10.48324/DANDI.000219/0.260826.1155
+UR  - https://dandiarchive.org/dandiset/000219/0.260826.1155
+AB  - We performed in vivo 2-photon calcium imaging in the CA1 region of the hippocampus in awake mouse pups aged between 5 and 12 days postnatal. We used GCaMP6s calcium indicator in WT mice or GCaMP6s and flex-tdTomato in GadCre mice to record calcium dynamics from both pyramidal cells and interneurons. The imaging data set was acquired at 8 Hz, in field of view of 400x400 µm. Simultaneously with imaging, we record the spontaneous motor behavior of the mouse pups.
+KW  - Hippocampus, Development, 2-photon
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - A midbrain-thalamus-cortex circuit reorganizes cortical dynamics to initiate movement
 AU  - Inagaki, Hidehiko
 DO  - 10.48324/DANDI.000221/0.220303.1653
@@ -8098,6 +8109,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Neural Spiking Data in the Rat Somatosensory Cortex Using a Flexible Electrode Responding to Transcranial Focused Ultrasound
+AU  - Ramachandran, Sandhya
+DO  - 10.48324/DANDI.001363/0.260826.1943
+UR  - https://dandiarchive.org/dandiset/001363/0.260826.1943
+AB  - In this study, we investigate the neuronal response to transcranial focused ultrasound stimulation (tFUS) on the somatosensory cortex using a 128-element array transducer and a chronically implanted ultraflexible nanoelectric thread electrode. This flexible electrode allows us to study higher intensities of tFUS which are impossible with a rigid electrode due to the vibration artifacts that are created. Here we test 5 different levels of in situ ultrasound pressure including 100, 400, 700, 1000, and 1300 kPa. We then tested the effect of varying duty cycle while keeping the pulse repetition frequency (PRF) constant while using the highest peak-peak pressure (1300 kPa), testing duty cycles of 0.6%, 6%, 30%, 60%, and 90% while holding PRF at 1500 Hz. Finally we tested the effect of varying PRF while holding duty cycle constant, testing PRFs of 30, 300, 1500, 3000, and 4500 Hz with a duty cycle of 30%. In each of these, the fundamental frequency of ultrasound was 1500 kHz, and the ultrasound duration was 67 ms, with trials performed every 2 seconds, with a jitter of 10%. Each recording has 505 trials.  If you would use part of this dataset, please cite the following publication.  Sandhya Ramachandran, Huan Gao, Keunhyung Lee, Pavlo Zolotavin, Katherine Bray, Chih-Yu Yeh, Siyi Wang, Lan Luan, Chong Xie, Kai Yu, and Bin He: "High Pressure Transcranial Focused Ultrasound Stimulation Induces Parameter-Dependent Cell-Type Specific Effects,” Microsystems & Nanoengineering, 2026
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Comparison of Approaches for Surface Vessel Diameter and Pulsatility Quantification
 AU  - Ranjan, Aditya
 AU  - Wong, Devin T.
@@ -8993,6 +9014,16 @@ AB  - - Bright-Field Optical Microscopy (BF) dataset for AxonDeepSeg (https://ax
 
 - This dataset is a subset of the full dataset used in this publication: https://pmc.ncbi.nlm.nih.gov/articles/PMC10517328/#s017
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Disruption of theta-timescale spiking impairs learning but spares hippocampal replay
+AU  - Bray, Samuel
+DO  - 10.48324/DANDI.001634/0.260826.2320
+UR  - https://dandiarchive.org/dandiset/001634/0.260826.2320
+AB  - Rats transfected with a viral strategy to express a light-activated channel (ChR2) in PV+ neurons within the MS of PV-Cre transgenic rats. We also implanted an optic fiber targeting the MS as well as either silicon electrodes or multi-tetrode arrays targeting the hippocampus. Each of these animals received optical stimulation restricted to periods of locomotion on either a lineartrack, a W-shaped track, or both. The stimulation pattern was governed by a protocol that either activated MS PV neurons at a wide range of requested frequencies (“rhythmic stimulation”) or at specific phases of the ongoing theta rhythm (“phase-specific stimulation”) recorded in the hippocampus. Released in conjunction with the publication "Disruption of theta-timescale spiking impairs learning but spares hippocampal replay".
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
