@@ -5063,6 +5063,20 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - An optical design enabling lightweight and large field-of-view head-mounted microscopes
+AU  - Scherrer, Joseph R.
+AU  - Lynch, Galen F.
+AU  - Zhang, Jie J.
+AU  - Fee, Michale S.
+DO  - 10.48324/DANDI.000691/0.260827.1358
+UR  - https://dandiarchive.org/dandiset/000691/0.260827.1358
+AB  - Here we present a fluorescence microscope light path that enables imaging, during free behavior, of thousands of neurons in mice and hundreds of neurons in juvenile songbirds. The light path eliminates traditional illumination optics, allowing for head-mounted microscopes that have both a lower weight and a larger field of view (FOV) than previously possible. Using this light path, we designed two microscopes: one optimized for FOV (~4 mm FOV; 1.4 g), and the other optimized for weight (1.0 mm FOV; 1.0 g). 
+This dataset includes the calcium imaging data from our microscope optimized for weight. For this experiment, we stereotactically located a region of the mouse brain at coordinates associatied with primary visual and somatosensory regions, performed approximately 20 viral injections of GCaMP7f across a 4-mm-diameter region of cortex, and then implanted a 4-mm-diameter glass window in the skull. After letting each mouse recover, we installed our head-mounted microscope and allowed it to freely explore a circular maze while recording calcium activity for several minutes.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Whole-brain spontaneous GCaMP activity with NeuroPAL cell ID information of semi-restricted worms
 AU  - Suzuki, Ryoga
 AU  - Wen, Chentao
@@ -7784,6 +7798,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Neuropixels pulsation datasets
+AU  - Windolf, Charlie
+DO  - 10.48324/DANDI.001290/0.260827.1449
+UR  - https://dandiarchive.org/dandiset/001290/0.260827.1449
+AB  - Neuropixels datasets recorded in non-human primates by RT Raghavan in the Movshon lab at NYU. Studied in Supp. Fig. 3 of Windolf et al., "DREDge: robust motion correction for high-density extracellular recordings across species", to appear in Nature Methods.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Brain-wide mouse electrophysiology during aversive stimuli and ketamine
 AU  - Richman, Ethan
 AU  - Kauvar, Isaac
@@ -8679,6 +8703,21 @@ KW  - Norepinephrine
 KW  - Acetylcholine
 KW  - Hemodynamics
 KW  - Functional connectivity
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Distinct subpopulations of ventral pallidal cholinergic projection neurons encode valence of olfactory stimuli
+AU  - Kim, Ronald
+AU  - Ananth, Mala
+AU  - Desai, Niraj
+AU  - Role, Lorna
+AU  - Talmage, David
+DO  - 10.48324/DANDI.001544/0.260827.1410
+UR  - https://dandiarchive.org/dandiset/001544/0.260827.1410
+AB  - The electrophysiological data included in Kim et al., Cell Reports 43(4), 114009 (2024).
+KW  - ventral pallidum, cholinergic, odor
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
