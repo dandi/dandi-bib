@@ -2949,6 +2949,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Jeong et al (2022) Mesolimbic dopamine release conveys causal associations
+AU  - Jeong, Huijeong
+DO  - 10.48324/DANDI.000351/0.260828.1905
+UR  - https://dandiarchive.org/dandiset/000351/0.260828.1905
+AB  - This dataset includes fiber photometry (NAcc) and behavioral data from Jeong et al., 2022: "Mesolimbic dopamine release conveys causal associations". Animals names and session numbers used for each figure can be found from 'Subject and session information' in Related resource.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Mesoscale Activity Map Dataset
 AU  - Chen, Susu
 DO  - 10.48324/DANDI.000363/0.221127.2345
@@ -10426,6 +10436,21 @@ AB  - The MEA data testing how nanocrystals are used for optogenetic neuromodula
 KW  - optogenetic neuromodulation
 KW  - mea
 KW  - Mechanoluminescence
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Electrophysiology and fiber photometry of VTA-pontine circuits during backward locomotion
+AU  - Gonzalez-Cabrera, Cristian
+DO  - 10.48324/DANDI.001955/0.260828.0749
+UR  - https://dandiarchive.org/dandiset/001955/0.260828.0749
+AB  - Electrophysiology and fiber photometry datasets investigating ventral tegmental area (VTA) projections to pontine regions involved in locomotor control. The dataset includes extracellular electrophysiology, optogenetic stimulation, and fiber photometry recordings acquired in mice during experiments examining backward locomotion and VTA-pontine circuit function.
+KW  - ventral tegmental area
+KW  - pons
+KW  - oral pontine reticular nucleus
+KW  - backward locomotion
+KW  - GABAergic
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
