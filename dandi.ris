@@ -2441,6 +2441,19 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - 20220330_AIBS_Patchseq_human
+AU  - Chartrand, Thomas
+DO  - 10.48324/DANDI.000228/0.260829.2040
+UR  - https://dandiarchive.org/dandiset/000228/0.260829.2040
+AB  - U01 Lein PatchSeq upload March 2022
+KW  - Patch-seq
+KW  - human
+KW  - neocortical
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Jacobsen 2022
 AU  - Jacobsen, Ragnhild Irene
 AU  - Nair, Rajeevkumar
@@ -10451,6 +10464,24 @@ KW  - pons
 KW  - oral pontine reticular nucleus
 KW  - backward locomotion
 KW  - GABAergic
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Lee V1–CA1 project
+AU  - Lee, Kyu Hyun
+DO  - 10.48324/DANDI.001958/0.260829.0404
+UR  - https://dandiarchive.org/dandiset/001958/0.260829.0404
+AB  - Data for "A cognitive representation in primary visual cortex modulated by vision" by Kyu Hyun Lee, Philip Adenekan, Fan Gao, Jenny Zhou, Jose Hernandez, Allison Yorita, Razi Haque, Kenneth Kay, Massimo Scanziani, Loren M. Frank.
+KW  - rat
+KW  - v1
+KW  - ca1
+KW  - visual cortex
+KW  - hippocampus
+KW  - electrophysiology
+KW  - freely moving
+KW  - ephys
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
