@@ -8182,6 +8182,25 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - New information triggers prospective codes to adapt for flexible navigation
+AU  - Prince, Stephanie
+AU  - Cushing, Danielle Sarah
+AU  - Yassine, Teema
+AU  - Katragadda, Navya
+AU  - Roberts, Tyler
+AU  - Singer, Annabelle
+DO  - 10.48324/DANDI.001371/0.260831.0201
+UR  - https://dandiarchive.org/dandiset/001371/0.260831.0201
+AB  - This dataset includes the electrophysiological and behavioral data from hippocampal CA1 and medial prefrontal cortex in mice performing a virtual reality spatial navigation task. Data are described in Prince et al., 2025, “New information triggers prospective codes to adapt for flexible navigation”, Nature Communications. Head-fixed mice were trained to perform a memory-based decision-making task in virtual reality (the 'update task'). In this y-maze task, animals were required to navigate between two possible paths using visual cues. On most trials, the first original cue indicated the final reward location and was followed by a delay period during which mice had to maintain the memory of the correct goal arm. However on a subset of trials, a second visual cue appeared when mice reached a specific location after a shortened delay period. During the second cue, the visual patterns appeared on the opposite wall from the original cue indicating that the reward location switched from the initial arm, and animals must switch from their initial decision maintained in memory to the opposite choice. After several phases of behavioral training, electrophysiological data was recorded from hippocampal CA1 and medial prefrontal cortex (mPFC) during the task.
+KW  - hippocampus
+KW  - prefrontal cortex
+KW  - electrophysiology
+KW  - navigation
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Septum GABA disruption with DREADDs
 AU  - McNaughton, Bruce
 AU  - Ferbinteanu, Janina
