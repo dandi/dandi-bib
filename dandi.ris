@@ -6511,6 +6511,40 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Freely moving mouse retrosplenial cortex recordings
+AU  - Mehrotra, Dhruv 
+DO  - 10.48324/DANDI.000987/0.260831.1616
+UR  - https://dandiarchive.org/dandiset/000987/0.260831.1616
+AB  - Data used in "Hyperpolarization-activated currents drive neuronal activation sequences in sleep", available at https://doi.org/10.1016/j.cub.2024.05.048. Dataset includes 14 recordings from 3 mice, with a total of 570 isolated units (31-71 units per recording). Collected by Sofia Skromne Carrasco in the Peyrache lab. Specifically, this data was used to generate Figure 5F.All sessions include sleep epochs and open field exploration epochs. See the file metadata for more detailed information regarding each recording.Each NWB file contains: timestamps of detected units, LFP, animal position, head-direction, sleep scoring (REM/NREM) data as well as detected UP and DOWN states as used in the study.Code to reproduce figures in the article can be found at: https://github.com/PeyracheLab/MehrotraLevenstein_2023
+KW  - retrosplenial
+KW  - electrophysiology
+KW  - freely-moving
+KW  - mouse
+KW  - probe
+KW  - extracellular
+KW  - sleep
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Freely moving mouse retrosplenial cortex recordings
+AU  - Mehrotra, Dhruv 
+DO  - 10.48324/DANDI.000987/0.260831.1620
+UR  - https://dandiarchive.org/dandiset/000987/0.260831.1620
+AB  - Data used in "Hyperpolarization-activated currents drive neuronal activation sequences in sleep", available at https://doi.org/10.1016/j.cub.2024.05.048. Dataset includes 14 recordings from 3 mice, with a total of 570 isolated units (31-71 units per recording). Collected by Sofia Skromne Carrasco in the Peyrache lab. Specifically, this data was used to generate Figure 5F. All sessions include sleep epochs and open field exploration epochs. See the file metadata for more detailed information regarding each recording. Each NWB file contains: timestamps of detected units, LFP, animal position, head-direction, sleep scoring (REM/NREM) data as well as detected UP and DOWN states as used in the study. Code to reproduce figures in the article can be found at: https://github.com/PeyracheLab/MehrotraLevenstein_2023
+KW  - retrosplenial
+KW  - electrophysiology
+KW  - freely-moving
+KW  - mouse
+KW  - probe
+KW  - extracellular
+KW  - sleep
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - The impact of voltage on CANCAN focusing of electroporation using four-electrode arrays of varying sizes
 AU  - Gudvangen, Emily
 AU  - Semenov, Iurii
