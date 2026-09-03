@@ -10366,6 +10366,17 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Transformations in prefrontal ensemble activity underlying rapid threat avoidance learning
+AU  - UCLA, DeNardo Lab
+DO  - 10.48324/DANDI.001887/0.260902.1724
+UR  - https://dandiarchive.org/dandiset/001887/0.260902.1724
+AB  - Data collected for/analyzed in Gabriel et al (2025). See DOI: https://doi.org/10.1016/j.cub.2025.01.010
+
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Patch-seq profiling of mouse locus coeruleus norepinephrine neurons
 AU  - Su, Zhixiao
 AU  - Kosillo, Polina
