@@ -2249,6 +2249,7 @@
   },
   "001887": {
     "0.260902.1724": "@misc{dandi.001887/0.260902.1724,\n  doi = {10.48324/DANDI.001887/0.260902.1724},\n  url = {https://dandiarchive.org/dandiset/001887/0.260902.1724},\n  author = {UCLA, DeNardo Lab},\n  title = {Transformations in prefrontal ensemble activity underlying rapid threat avoidance learning},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "null": "@misc{dandi.001887,\n  doi = {10.48324/DANDI.001887/0.260902.1724},\n  url = {https://dandiarchive.org/dandiset/001887/0.260902.1724},\n  author = {UCLA, DeNardo Lab},\n  title = {Transformations in prefrontal ensemble activity underlying rapid threat avoidance learning},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "null": "@misc{dandi.001887,\n  doi = {10.48324/DANDI.001887/0.260902.1724},\n  url = {https://dandiarchive.org/dandiset/001887/0.260902.1724},\n  author = {UCLA, DeNardo Lab},\n  title = {Transformations in prefrontal ensemble activity underlying rapid threat avoidance learning},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
   }
 }
