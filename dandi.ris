@@ -2642,6 +2642,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - One photon mesoscale calcium imaging of multiple cell types
+AU  - O'Connor, Dave
+DO  - 10.48324/DANDI.000244/0.260909.1523
+UR  - https://dandiarchive.org/dandiset/000244/0.260909.1523
+AB  - One photon dual wavelength mesoscale calcium imaging of mouse isocortex. Includes data from awake and anesthetized subjects with excitatory neuron sensitive GECIs, and data from awake subjects with GECIs sensitive to three different inhibitory interneuron cell types (PV, SOM and VIP).
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Allen Institute Openscope - Illusion project
 AU  - Shin, Hyeyoung
 AU  - Adesnik, Hillel
@@ -10475,6 +10485,17 @@ KW  - Parkinson's disease
 KW  - substantia nigra
 KW  - striatum
 KW  - dopamine subtype
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - 2026_AIBS_Patcheq_HiMC_mouse
+AU  - Gonzalez, Limary
+DO  - 10.48324/DANDI.001938/0.260909.1659
+UR  - https://dandiarchive.org/dandiset/001938/0.260909.1659
+AB  - Mouse HiMC single-cell Patch-seq data upload
+KW  - patch-seq, mouse, multimodal
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
