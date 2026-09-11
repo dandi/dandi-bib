@@ -6505,6 +6505,27 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Whole-brain chemosensory responses of both C. elegans sexes
+AU  - Seyedolmohadesin, Maedeh
+AU  - Fu, Xingyang
+AU  - Torkashvand, Mahdi
+AU  - Rasouli, Sina
+AU  - Lang, Samuel
+AU  - Li, Liangzi
+AU  - Kalinski, Cristine
+AU  - Cook, Steven
+AU  - Schroeder, Frank
+AU  - Yemini, Eviatar
+AU  - Venkatachalam, Vivek
+DO  - 10.48324/DANDI.000981/0.260910.1747
+UR  - https://dandiarchive.org/dandiset/000981/0.260910.1747
+AB  - Datasets for the Current Biology paper: https://doi.org/10.1016/j.cub.2026.08.040
+KW  - NeuroPAL, whole-brain imaging, C. elegans, neural activity, sex, hermaphrodite, male
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Auditory cortex Neuropixels recordings and pupil diameter traces from mice during passive exposure to pure tones
 AU  - Papadopoulos, Lia
 AU  - Jo, Suhyun 
