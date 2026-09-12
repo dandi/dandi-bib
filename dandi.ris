@@ -8521,6 +8521,44 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Data supporting "Social isolation recruits amygdala–medial prefrontal cortex projections to escalate alcohol drinking in male mice"
+AU  - Patel, Reesha R
+AU  - Kim, Kelly
+AU  - Patarino, Makenzie
+AU  - Paminuan, Rachelle
+AU  - Taschbach, Felix H.
+AU  - Li, Hao
+AU  - Lee, Christopher R.
+AU  - van Hoek, Aniek
+AU  - Cazares, Christian
+AU  - Miranda, Raymundo L.
+AU  - Jia, Caroline
+AU  - Delahanty, Jeremy
+AU  - Batra, Kanha
+AU  - Keyes, Laurel R
+AU  - Libster, Avraham
+AU  - Wichmann, Romy
+AU  - Pereira, Talmo D
+AU  - Benna, Marcus K
+AU  - Tye, Kay M
+DO  - 10.48324/DANDI.001454/0.260911.2319
+UR  - https://dandiarchive.org/dandiset/001454/0.260911.2319
+AB  - This dandiset contains data used in the publication: Patel, R.R., Kim, K.N., Patarino, M. et al. Social isolation recruits amygdala–medial prefrontal cortex projections to escalate alcohol drinking in male mice. Nat Neurosci (2026). https://doi.org/10.1038/s41593-026-02413-x.  This dandiset includes in vivo calcium imaging of the basolateral amygdala-medial prefrontal cortex circuit in mice during two different behavioral paradigms, as well as behavioral videos with pose tracking, and histological images. It also includes the raw whole-cell current clamp recordings highlighted in the journal article.  An earlier version of this paper was published under Patel RR, Patarino M, Kim K, Pamintuan R, Taschbach FH, Li H, Lee CR, van Hoek A, Castro R, Cazares C, Miranda RL, Jia C, Delahanty J, Batra K, Keyes LR, Libster A, Wichmann R, Pereira TD, Benna MK, Tye KM. "Social isolation recruits amygdala-cortical circuitry to escalate alcohol drinking." bioRxiv: 2023 Nov 10 doi: https://doi.org/10.1101/2023.11.09.566421.  
+KW  - mouse model
+KW  - BLA-mPFC Circuit 
+KW  - social isolation
+KW  - social rank
+KW  - Alcohol Use Disorder (AUD) Susceptibility 
+KW  - alcohol drinking
+KW  - Basolateral Amygdala (BLA)
+KW  - Medial Prefrontal Cortex (mPFC)
+KW  - calcium imaging
+KW  - optogenetics
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - 20250630_AIBS_Patchseq_Mouse
 AU  - Gonzalez, Limary
 DO  - 10.48324/DANDI.001455/0.250625.2239
