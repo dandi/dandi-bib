@@ -313,6 +313,28 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Excitatory and inhibitory subnetworks are equally selective during decision-making and emerge simultaneously during learning
+AU  - Najafi, Farzaneh
+AU  - Elsayed, Gamaleldin F.
+AU  - Cao, Robin
+AU  - Pnevmatikakis, Eftychios A.
+AU  - Latham, Peter E.
+AU  - Cunningham, John P.
+AU  - Churchland, Anne K.
+DO  - 10.48324/DANDI.000016/0.260915.2309
+UR  - https://dandiarchive.org/dandiset/000016/0.260915.2309
+AB  - This package contains data, in NWB (Neurodata Without Borders) format, from the 4 mice included in "Najafi, Farzaneh, Gamaleldin F. Elsayed, Robin Cao, Eftychios Pnevmatikakis, Peter E. Latham, John P. Cunningham, and Anne K. Churchland. "Excitatory and inhibitory subnetworks are equally selective during decision-making and emerge simultaneously during learning." Neuron 105, no. 1 (2020): 165-179.” Each NWB file represents the data and metadata associated with one recording session. In each NWB file, the metadata related to the session (mouse name, session date/time, lab/institution name, etc.) can be found under "general". Information related to ROI-segmentation such as ROI mask, ROI type (excitatory or inhibitory), poor or good quality, etc. can be found under "modules/Image-Segmentation/pln-seg". Trial information (e.g. start, end times, trial types, trial outcomes, etc.) can be found under "trials". Recorded trial-segmented neuronal responses aligned to different time event (e.g. stimulus start, animal choice, etc.) can be found under "modules/ Trial-based-Segmentation". A jupyter notebook presenting in detail how to work with NWB files is provided at https://github.com/ttngu207/najafi-2018-nwb/blob/master/notebooks/Najafi-2018_example.ipynb.
+KW  - decision-making
+KW  - learning
+KW  - calcium imaging
+KW  - excitatory neurons
+KW  - inhibitory neurons
+KW  - posterior parietal cortex
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Distributed coding of choice, action and engagement across the mouse brain
 AU  - Steinmetz, Nicholas
 AU  - Zatka-Haas, Peter
@@ -3218,6 +3240,16 @@ KW  - Allen Mouse Brain Atlas
 KW  - head-fixed
 KW  - decision-making
 KW  - face-tracking
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Joshi et al (2023) Dynamic Synchronization between Hippocampal Spatial Representations and the Stepping Rhythm
+AU  - Joshi, Abhilasha
+DO  - 10.48324/DANDI.000410/0.260915.1202
+UR  - https://dandiarchive.org/dandiset/000410/0.260915.1202
+AB  - This dateset includes electrophysiological data from from dorsal CA1 of rats running on a linear or w-shaped track. Please contact Abhilasha Joshi or Loren Frank for more information about this data. 
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
@@ -8277,6 +8309,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Calcium imaging of motor cortex during arm reaching tasks
+AU  - Galvan, Adriana
+DO  - 10.48324/DANDI.001413/0.260916.0158
+UR  - https://dandiarchive.org/dandiset/001413/0.260916.0158
+AB  - This dandiset includes calcium imaging data of cortical neurons (SMA & M1) recorded in macaque monkeys during simple arm reaching task performance.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Cerebral Blood Flow is Modulated by Astrocytic cAMP Elevation Independently of IP3R2-Mediated Ca2+ Signaling in Mice
 AU  - Vittani, Marta
 DO  - 10.48324/DANDI.001414/0.250603.1324
@@ -8675,6 +8717,29 @@ KW  - representational stability
 KW  - aging
 KW  - calcium imaging
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Whole-Cell Patch-Clamp and Fluorescence Imaging of SuM Neurons in Mouse Brain Slices
+AU  - Glassburn, Lauren
+AU  - Krook-Magnuson, Esther
+DO  - 10.48324/DANDI.001510/0.260915.2135
+UR  - https://dandiarchive.org/dandiset/001510/0.260915.2135
+AB  - This dandiset contains whole-cell patch-clamp recordings and confocal fluorescence images from the supramammillary nucleus (SuM) in acute mouse brain slices. Whole-cell recordings were made from fluorescently identified SuM neurons (including SuM cells projecting to the hippocampus) and comprise both current-clamp firing-property measurements and voltage-clamp light-evoked synaptic responses under optogenetic stimulation. Confocal z-stacks (Nikon A1Rsi, 60× oil objective, DAPI and EGFP) were acquired to quantify hippocampal SypEGFP+ synaptic terminals (puncta) across ipsilateral, medial, and contralateral SuM. Electrophysiology and imaging are provided as NWB files (one per recording session / image); the complete source spreadsheets are included verbatim under sourcedata/. Data span 65 mice (male and female, >P45).
+KW  - supramammillary nucleus
+KW  - SuM
+KW  - hippocampus
+KW  - whole-cell patch-clamp
+KW  - slice electrophysiology
+KW  - optogenetics
+KW  - GABAergic transmission
+KW  - synaptic terminals
+KW  - puncta quantification
+KW  - confocal microscopy
+KW  - SypEGFP
+KW  - mouse
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
