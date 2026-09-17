@@ -7476,6 +7476,57 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Allen Institute OpenScope - Vismo
+AU  - Ahmed, Saif
+AU  - Amaya, Avalon
+AU  - Bawany, Ahad
+AU  - Caldejon, Shiella
+AU  - Groblewski, Peter
+AU  - Johnson, Tye
+AU  - Kenney, Jaimie
+AU  - Lecoq, Jérôme A.
+AU  - Naidoo, Robyn
+AU  - Nguyen, Katrina
+AU  - Oran, Yael
+AU  - Ouellette, Ben
+AU  - Park, Jimin
+AU  - Peene, R. Carter
+AU  - Pereira Da Silva, Sofia
+AU  - Sprekeler, Henning
+AU  - Stearns, Alex
+AU  - Suarez, Lucas
+AU  - Swapp, Jackie
+AU  - Tom, Madeline
+AU  - Veit, Julia
+AU  - Weber, Julie
+AU  - Wilkes, Josh
+AU  - Williford, Allison
+DO  - 10.48324/DANDI.001196/0.260916.2225
+UR  - https://dandiarchive.org/dandiset/001196/0.260916.2225
+AB  - It is essential for animals to detect the presence of predators or prey, even while they move themselves. Relative motion between a visual figure (e.g., predator or prey) and the background is therefore a highly relevant stimulus in the visual domain. Much less is known about the neural basis of cortical motion processing in mice and about figure-ground interactions in particular, although they offer much better access to studies of the underlying cortical circuits.
+
+For grating stimuli, recent studies in mice have highlighted the role of interneurons in shaping center-surround interactions in the primary visual cortex (V1). Somatostatin cells (SSTs) mediate suppressive surrounds of pyramidal cells (PCs), with this suppression being reduced or abolished by changes in the orientation of the surround relative to the center. VIP interneurons (VIPs), targeting SSTs, play a role in this modulation. The balance between SSTs and VIPs determines whether the surround has a suppressive or reinforcing effect in V1.
+
+In primates, higher visual areas (MT and MST) exhibit selectivity for motion direction, motion coherence, and strong center-surround interactions. V1 is necessary to discriminate different motion directions, but specific higher visual areas are particularly informative about visual motion and sensitive to coherent motion stimuli, pointing at reinforcing surrounds (integration), whereas V1 is often suppressed by these spatially extensive displays.
+
+This dataset characterizes the tuning of six different visual cortical regions (VISp, VISl, VISal, VISrl, VISam, and VISpm) and four different cell types (PCs, PV, SST, and VIP) to random-dot kinematograms (RDKs) of different directions, different coherence levels, and different offsets between local/center and global/surround motion. A stimulus was developed to explore motion processing using RDKs for isolating motion selectivity without confounds through orientation selectivity. The main stimulus set consisted of white RDKs on a black background with a fixed density, size, speed, and infinite lifetime of dots. A central area of ~25° is defined as the "center" and the rest of the screen is the "surround". The stimulus set includes variations of 8 center directions, 4 surround directions, their relative offset angle, and RDK-coherence level. The display is on for 1 s with an intertrial interval of 0.5 s.
+
+The dataset also includes receptive field mapping with 20° Gabors to be able to determine units with receptive fields in the center region, as well as a set of drifting gratings at 8 directions for comparison. A period of a blank, isoluminant gray screen is also included for determining spontaneous activity levels.
+KW  - OpenScope
+KW  - Mesoscope
+KW  - 2-Photon
+KW  - Ophys
+KW  - Optical Physiology
+KW  - Motion
+KW  - Mouse
+KW  - Visual Cortex
+KW  - VIP
+KW  - SST
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Neural Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial Focused Ultrasound Stimulation
 AU  - He, Bin
 AU  - Ramachandran, Sandhya
@@ -7890,6 +7941,16 @@ KW  - Age dependence
 KW  - In vitro
 KW  - Patch-clamp
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Neuropixels 1.0-NHP insertion datasets
+AU  - Windolf, Charlie
+DO  - 10.48324/DANDI.001282/0.260916.2113
+UR  - https://dandiarchive.org/dandiset/001282/0.260916.2113
+AB  - These are Neuropixels recordings made in non-human primates during deep probe insertions, collected by Eric Trautmann with guidance from Mike Shadlen and Mark Churchland. They are analyzed in Figure 4 and Supplementary Figure 5 of Windolf et al., "DREDge: robust motion correction for high-density extracellular recordings across species", to appear in Nature Methods. Detailed methodological information about methods used to create these recordings is available in that reference or the preprint (https://www.biorxiv.org/content/10.1101/2023.10.24.563768v1) under Datasets. See also Trautmann et al., "Large-scale brain-wide neural recording in nonhuman primates" (https://www.biorxiv.org/content/10.1101/2023.02.01.526664v1).
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -8947,6 +9008,23 @@ UR  - https://dandiarchive.org/dandiset/001545/0.250809.1653
 AB  - The electrophysiological data of Rajebhosale et al., Life Science Alliance (2025). DOI: 10.26508/lsa.202403169.
 KW  - neuregulin, dentrate gyrus, granule cell, semilunar
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Individual variability of neural computations underlying flexible decisions
+AU  - Pagan, Marino
+AU  - Tang, Vincent D.
+AU  - Aoi, Mikio C.
+AU  - Pillow, Jonathan W.
+AU  - Mante, Valerio
+AU  - Sussillo, David
+AU  - Brody, Carlos D.
+DO  - 10.48324/DANDI.001550/0.260916.0811
+UR  - https://dandiarchive.org/dandiset/001550/0.260916.0811
+AB  - In this study rats were trained to perform a task requiring context-dependent selection and accumulation of sensory evidence. The task was performed in a behavioural box consisting of three straight walls and one curved wall with three nose ports. Each nose port was equipped with an LED to deliver visual stimuli, and with an infrared beam to detect the rat's nose when entering the port. In addition, above the two side ports there were speakers to deliver sound stimuli, and water cannulas to deliver a water reward. At the beginning of each trial, rats were presented with an audiovisual cue indicating the context of the current trial, either prevalent location (LOC) context or prevalent frequency (FRQ) context. The context cues consisted of 1-s-long, clearly distinguishable frequency modulated sounds, and in addition the LOC context was signalled by turning on the LEDs of all three ports, whereas in the FRQ context only the centre LED was turned on. After the end of the context cue, the rats were required to place their nose into the centre port. While maintaining fixation in the centre port, rats were presented with a 1.3-s-long train of randomly timed auditory pulses. Each pulse was played either from the speaker to the rat's left or from the speaker to their right, and each pulse a 5-ms pure tone with either low frequency (6.5 kHz) or high frequency (14 kHz). The pulse trains were generated by Poisson processes with different underlying rates. The strength of the location evidence was manipulated by varying the relative rate of right versus left pulses, and the strength of the frequency evidence was manipulated by varying the relative rate of high versus low pulses. The overall pulse rate was kept constant at 40 Hz. In the LOC context, rats were rewarded if they turned, at the end of the stimulus, towards the side that had played the greater total number of pulses, ignoring the frequency of the pulses. In blocks of frequency trials, rats were rewarded for orienting left if the total number of low-frequency pulses was higher than the total number of high-frequency pulses, and orienting right otherwise, ignoring the location of the pulses. The context was kept constant in blocks of trials, and block switches occurred after a minimum of 30 trials per block, and when a local estimate of performance reached a threshold of 80% correct.
+KW  - context-dependent decision-making
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
