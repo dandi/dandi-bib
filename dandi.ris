@@ -2920,6 +2920,19 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - 20220917_AIBS_Patchseq_human
+AU  - Chartrand, Thomas
+DO  - 10.48324/DANDI.000337/0.260917.2218
+UR  - https://dandiarchive.org/dandiset/000337/0.260917.2218
+AB  - Patch-seq (whole-cell patch-clamp recordings with subsequent RNA extraction and sequencing) data from human neocortical neurons, collected in the Mansvelder lab as part of the U01 Lein PatchSeq project. The dataset contains current-clamp and voltage-clamp electrophysiological recordings from 12 human subjects.
+KW  - Patch-seq
+KW  - human
+KW  - neocortical
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Temporal disparity of action potentials triggered in axon initial segments and distal axons in the neocortex
 AU  - Tóth, Martin
 DO  - 10.48324/DANDI.000341/0.241220.1312
@@ -9687,6 +9700,42 @@ Local Field Potentials (LFP), specifically including single-channel traces from 
 Behavioral tracking variables (position, velocity, sleep periods, sharp-wave ripple times).
 
 
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Age-dependent alterations in the head-direction signal in a rat model of Fragile X Syndrome
+AU  - Moore, Noah
+AU  - Duszkiewicz, Adrian
+AU  - Asiminas, Antonis
+AU  - Dudchenko, Paul
+AU  - Peyrache, Adrian
+AU  - Wood, Emma
+DO  - 10.48324/DANDI.001699/0.260917.2313
+UR  - https://dandiarchive.org/dandiset/001699/0.260917.2313
+AB  - Fragile X Syndrome (FXS) is a common monogenic cause of autism spectrum disorder and intellectual disability (ASD/ID), but the neural mechanisms underlying its symptoms remain unclear. Here, we investigate the development of the head-direction (HD) system in a rat model of FXS (Fmr1-/y rats). Using high-density silicon probes, we recorded neuronal activity in the postsubiculum (PoSub), a cortical hub of the HD system, during exploration and sleep in juvenile and adult Fmr1-/y and wild-type (WT) rats. Juvenile Fmr1-/y rats exhibited enhanced HD tuning characterized by sharper directional tuning curves and improved stability of the HD signal in relation to the external environment. This enhancement was intrinsic to the HD circuit and persisted across behavioral and sleep states. However, by adulthood, HD tuning in Fmr1-/y rats became unstable, with increased drift in the allocentric reference frame despite intact intrinsic HD dynamics. These findings reveal a transient enhancement of spatial coding in the HD system of juvenile Fmr1-/y rats, followed by a degradation in adulthood, providing insights into network-level dysfunctions in FXS and their developmental trajectories. Overall, our work establishes the HD system as a valuable and tractable model for studying neurodevelopmental disorders.
+KW  - postsubiculum
+KW  - autism spectrum disorder
+KW  - spatial navigation
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Altered developmental profile of the head-direction signal in a rat model of fragile X syndrome
+AU  - Moore, Noah
+AU  - Duszkiewicz, Adrian
+AU  - Asiminas, Antonis
+AU  - Dudchenko, Paul
+AU  - Peyrache, Adrian
+AU  - Wood, Emma
+DO  - 10.48324/DANDI.001699/0.260917.2322
+UR  - https://dandiarchive.org/dandiset/001699/0.260917.2322
+AB  - Fragile X Syndrome (FXS) is a common cause of autism spectrum disorder and intellectual disability (ASD/ID), but the altered neural mechanisms underlying it remain unclear. Here, we investigate the development of the head-direction (HD) system in a rat model of FXS  (Fmr1-/y rats) through electrophysiological recordings in the postsubiculum during exploration and sleep. Surprisingly, juvenile Fmr1-/y rats exhibited sharper HD tuning and increased stability of the HD signal in relation to the external environment.  Increase in intrinsic HD tuning persisted across behavioral and sleep states. In contrast, in adult Fmr1-/y rats, HD tuning was less stable than in WT rats despite normal intrinsic HD tuning. These findings suggest an apparent transient sharpening of HD coding in juvenile Fmr1-/y rats, followed by a degradation in adulthood, mirroring the developmental regression often observed in ASD/ID. Overall, our work reveals network-level dysfunctions in FXS and their developmental trajectories. 
+KW  - postsubiculum
+KW  - autism spectrum disorder
+KW  - spatial navigation
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
