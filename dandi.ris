@@ -8702,6 +8702,24 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Allen Institute OpenScope - Texture
+AU  - Amaya, Avalon
+DO  - 10.48324/DANDI.001461/0.260918.1833
+UR  - https://dandiarchive.org/dandiset/001461/0.260918.1833
+AB  - How do mice internally represent complex visual stimuli, and how do they use this information to guide behavior during decision making? In this project, we focused on visual textures: images composed of repeated patterns that obey translational, rotational, or scale symmetries. These textures are common in the natural world and provide important cues for identifying objects and their properties.  The Texture Dataset consists of 2 animal cohorts. A naive one, in which mice were shown the same set of visual textures across multiple sessions (16 different textures families, with 28 images per family, also called exemplars). And a trained one, in which mice were first trained in a visually-guided discrimination task involving textures. Mice were initially trained following the standard change-detect Visual Behavior optical Physiology protocol. After the training stage with gratings was completed, mice were switched toa a new task involving the texture images instead. This task (orange) mimicked the original “familiar images” task protocol, but instead used a new set of texture images (8 families, 1 exemplar per family). So 8 different images in total. After learning this stage, ,mice were switched to the final task (in green) where they had to visually discriminate between image families (rather than just images). To that end, what would typically be a set of consecutive trials with the same image (no-go trials) was replaced by a set of different images from the same family (exemplars). That is, mice had to visually discriminate between texture families (e.g., images of rocks vs images of leaves), rather than just different stimulii. After 4-5 sessions in this task, the mice were switched to the same passive viewing protocol (blue) as the naive mice.
+KW  - openscope
+KW  - ophys
+KW  - mesoscope
+KW  - 2-photon
+KW  - fluorescence
+KW  - calcium imaging
+KW  - mouse
+KW  - textures
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - 1R01NS138075-01
 AU  - Kitamura, Takashi
 DO  - 10.48324/DANDI.001462/0.250602.1536
