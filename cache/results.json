@@ -2326,6 +2326,7 @@
   },
   "001461": {
     "0.260918.1833": "@misc{dandi.001461/0.260918.1833,\n  doi = {10.48324/DANDI.001461/0.260918.1833},\n  url = {https://dandiarchive.org/dandiset/001461/0.260918.1833},\n  author = {Amaya, Avalon},\n  keywords = {openscope, ophys, mesoscope, 2-photon, fluorescence, calcium imaging, mouse, textures},\n  title = {Allen Institute OpenScope - Texture},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "null": "@misc{dandi.001461,\n  doi = {10.48324/DANDI.001461/0.260918.1833},\n  url = {https://dandiarchive.org/dandiset/001461/0.260918.1833},\n  author = {Amaya, Avalon},\n  keywords = {openscope, ophys, mesoscope, 2-photon, fluorescence, calcium imaging, mouse, textures},\n  title = {Allen Institute OpenScope - Texture},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "null": "@misc{dandi.001461,\n  doi = {10.48324/DANDI.001461/0.260918.1833},\n  url = {https://dandiarchive.org/dandiset/001461/0.260918.1833},\n  author = {Amaya, Avalon},\n  keywords = {openscope, ophys, mesoscope, 2-photon, fluorescence, calcium imaging, mouse, textures},\n  title = {Allen Institute OpenScope - Texture},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
   }
 }
