@@ -8933,6 +8933,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Capillaries susceptible to frequent stall dynamics revealed by comparing OCT and Bessel-2PM measurements
+AU  - Tang, Rockwell
+DO  - 10.48324/DANDI.001537/0.260921.1805
+UR  - https://dandiarchive.org/dandiset/001537/0.260921.1805
+AB  - Transient stoppages of red blood cell (RBC) flow through capillaries—termed capillary stalls—occur persistently in neurological disorders such as Alzheimer’s disease and ischemic stroke and can interrupt oxygen delivery and exacerbate neurological damage. Effective imaging tools and analyses are necessary to understand the nature, role, and prevention of stalls. In this study, we dissect differences in stalls measured by two-photon Bessel beam microscopy (Bessel-2PM) and optical coherence tomography (OCT) to gain insight into the temporal dynamics of stalls. Twenty-minute series of volumetric angiograms were obtained separately with Bessel-2PM and OCT on the same day in awake, head-fixed mice. The temporal dynamics of stalling in both methods revealed a minority population of susceptible capillaries that exhibited frequent stalls and a large majority of capillaries with infrequent stalls. Differences between OCT and Bessel-2PM in the repeatability and dynamics of stalls are explained by differences in their sensitivity to short or infrequent stalls based on scanning speed and detection off-time. Finally, stroke caused a shift toward the frequently stalling capillary subpopulation, lasting 1 week post-stroke. Dynamic stall analysis therefore enables examination of physiological and methodological contributions to the stalls measured in disease models and across studies.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - State-dependent modulation of spiny projection neurons controls levodopa-induced dyskinesia in a mouse model of Parkinson’s disease
 AU  - Zhai, Shenyu
 AU  - Cui, Qiao-Ling
@@ -8991,6 +9001,20 @@ KW  - Olfactory bulb
 KW  - Odor-place association
 KW  - Beta rhythm
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Mapping of blood flow and slow speckle tissue dynamics using laser speckle contrast imaging
+AU  - Liu, Bingxue
+DO  - 10.48324/DANDI.001541/0.260921.1805
+UR  - https://dandiarchive.org/dandiset/001541/0.260921.1805
+AB  - Laser speckle contrast imaging (LSCI) is a wide-field optical technique commonly used to monitor cerebral blood flow (CBF). Recently, we have discovered that besides the fast-decorrelating signals from blood flow, LSCI can also detect slow-decorrelating signals associated with cellular activity. The ability to image these signals has significant implications for various research areas such as ischemic stroke, as it enables longitudinal monitoring of both vascular and cellular dynamics, offering new biomarkers for tissue viability, injury progression, and therapeutic response. Here, we demonstrated that epi-illumination LSCI enables the mapping of both slow speckle dynamics (SSD) for evaluating cellular dynamics and traditional fast speckle dynamics (FSD) for evaluating CBF. We found that SSD signals are much more evident with epi-illumination than with conventional oblique illumination LSCI. Using mouse models of ischemic stroke, including both permanent and transient occlusion of the distal middle cerebral artery (dMCA), we demonstrated the system’s ability to track stroke progression from minutes to days post-stroke. This study establishes a powerful, label-free imaging tool for investigating both cellular and vascular health during stroke core evolution.
+KW  - laser speckle
+KW  - stroke
+KW  - blood flow
+KW  - tissue dynamics
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -10218,12 +10242,38 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Synchrony within Abeta mechanoreceptor subtypes governs signal propagation to primary somatosensory cortex
+AU  - Liu, Wanyi
+AU  - Worthy, Andrew E
+AU  - Emanuel, Alan J
+DO  - 10.48324/DANDI.001788/0.260921.1942
+UR  - https://dandiarchive.org/dandiset/001788/0.260921.1942
+AB  - Primary somatosensory cortex and sensory neuron multielectrode array recordings of responses to optogenetic activation of CatCh-expressing Abeta LTMRs.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Adenosine modulation of synaptic transmission in olfactory bulb circuits
 AU  - Strowbridge, Ben
 DO  - 10.48324/DANDI.001789/0.260423.1609
 UR  - https://dandiarchive.org/dandiset/001789/0.260423.1609
 AB  - Dataset related to J Neuroscience paper entitled "Early and Late Phases of Sensory-Evoked Olfactory Bulb Inhibition Are Mediated by Parallel Local Circuits: Attenuation of Fast Tufted Cell Axo-dendritic Inputs to Granule Cells by Adenosine A1 Receptors"
 KW  - olfactory bulb, mitral cell, adenosine, patch clamp, voltage clamp, granule cell.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Visual gamma stimulation causes prolonged enhancement of low-frequency blood flow oscillations across superficial cortical regions in mice
+AU  - Tang, Rockwell
+DO  - 10.48324/DANDI.001790/0.260921.2038
+UR  - https://dandiarchive.org/dandiset/001790/0.260921.2038
+AB  - Gamma entrainment using sensory stimuli (GENUS) uses 40Hz-pulsed sensory stimuli to entrain neural activity in the gamma band (30-150Hz). However, the effect of GENUS on low-frequency vascular oscillations has not been fully explored. The objective of this study is to elucidate the effect of GENUS on vasomotion in healthy mice and potential confounds for future application in disease studies. Head-fixed, awake C57Bl/6 mice (n=18; 9M 9F) aged between 18 to 60 weeks were subjected to white light of either 40Hz visual flicker (GENUS), or constant stimulus (control). Blood flow was imaged using laser speckle contrast imaging (LSCI) before, during, immediately after 1 hour of stimulus, and 30min after the stimulus termination. A linear mixed-effects model showed that GENUS enhanced the magnitude of 0.2-0.4Hz blood flow oscillations by 38% during stimulation and by 30% at 30 minutes after stimulation compared to control when controlled for age, sex, and other factors. The effect on vasomotion was distributed across many cortical regions not limited to visual areas and lasted beyond 24 hours post-stimulus. These results support the exploration of GENUS for increasing vasomotion in therapeutic contexts.
+KW  - gamma stimulation
+KW  - vasomotion
+KW  - vascular oscillations
+KW  - mice
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
