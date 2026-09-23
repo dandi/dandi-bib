@@ -6873,6 +6873,31 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Large-scale Neuropixels recordings through SHIELD implant during visual change detection task with dynamic gating of engagement
+AU  - Bennett, Corbett
+AU  - Sridhar, Arjun
+DO  - 10.48324/DANDI.001051/0.260922.1827
+UR  - https://dandiarchive.org/dandiset/001051/0.260922.1827
+AB  - This dataset was collected at the Allen Institute. It includes data from 99 electrophysiology sessions featuring multi-Neuropixel recordings throughout the left hemisphere while mice performed a visual change detection task. This dataset is closely related to the Allen Institute Visual Behavior Neuropixels (VBN) dataset, but differs in two important ways: 
+First, whereas the VBN recordings were focused on visual cortical areas and underlying subcortical regions, this dataset features recordings from throughout the left hemisphere, including frontal and medial cortical areas and the striatum. 
+Second, we have modified the behavioral task for this dataset to experimentally manipulate task engagement. During the VBN recordings, an hour of active behavior was followed by a passive behavior block during which the lick spout was retracted and mice were presented with the same visual stimuli but now with no opportunity to lick for reward. In practice, mice often satiated before the passive block. For this dataset, we interposed a 'no-reward' block in the middle of active behavior. During this new epoch, the lick spout remained extended but licks for visual changes no longer triggered reward. At the end of the no-reward block, auto-rewards were given to indicate that rewards were once again available, and many mice resumed licking for changes.
+
+To better understand how to access and analyze this dataset, we encourage potential users to refer to the resources below. The data in DANDI is structured as follows: each subject has session NWBs identified by date of acquisition. Then, there are LFP NWBs for up to 6 probes for each session, identified by a probe id. For the LFP, each session NWB has a probes table that has the probe ids for the LFP data associated with that session. Use this table to get the probe ids and corresponding LFP NWBs. Examples  of opening a NWB file and accessing the probes table can be seen at the GitHub below under tutorials. In addition, there is a dynamic gating sessions metadata table at the GitHub repository below that has an acquisition date column, which can be used to map to a session id (the session column in the metadata tables). This will be useful for parsing the metadata tables for multi-session analysis.
+
+1) This repository includes a quick-start tutorial notebook as well as metadata tables for the sessions, probes, channels and units included in this dataset: https://github.com/AllenInstitute/SHIELD_Dynamic_Gating_Analysis
+2) To learn more about the basic visual change detection task as well as the general structure of the nwb files, consult the documentation available for the Allen Observatory Visual Behavior Neuropixels dataset here: https://portal.brain-map.org/circuits-behavior/visual-behavior-neuropixels
+
+This dataset was used in the following preprint: 
+SHIELD: Skull-shaped hemispheric implants enabling large-scale-electrophysiology datasets in the mouse brain [https://doi.org/10.1101/2023.11.12.566771]
+KW  - Neuropixels
+KW  - visual change detection
+KW  - task engagement
+KW  - SHIELD implant
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Acute Random and FixedBurst stim in MFB and mPFC using Neuropixels in NAc
 AU  - Cowen, Stephen
 DO  - 10.48324/DANDI.001052/0.240610.1814
@@ -9464,6 +9489,18 @@ AU  - Yang, Yang
 DO  - 10.48324/DANDI.001640/0.260210.0417
 UR  - https://dandiarchive.org/dandiset/001640/0.260210.0417
 AB  - mouse PPC tetrode recording in an auditory probabilistic decision-making task
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Neural activity in rat nucleus accumbens and ventral pallidum during probabilistic free-choice decision-making (Ito & Doya 2009)
+AU  - Doya, Kenji
+DO  - 10.48324/DANDI.001641/0.260922.0719
+UR  - https://dandiarchive.org/dandiset/001641/0.260922.0719
+AB  - This Dandiset contains NWB files with behavioral and extracellular electrophysiological recordings from six male Long-Evans rats performing a conditional free-choice task with probabilistic rewards. In the task, rats maintained a center nose-poke during an auditory cue and then chose left or right nose-pokes; reward probabilities for each action switched across blocks according to four (left, right) schedules: (90,50), (50,90), (50,10), and (10,50) percent. Single-unit activity was recorded using movable microwire bundles implanted in the nucleus accumbens and ventral pallidum across 70 sessions (≈60,000 trials in total). For each trial, the dataset includes spike times, trial type (choice vs no-choice), selected action, reward outcome, and key event timestamps (tones, nose-pokes, pellet retrieval), all aligned within session time. These data were originally collected for Ito & Doya, J Neurosci 2009 (DOI: 10.1523/JNEUROSCI.6157-08.2009), which compared reinforcement-learning models of behavior and analyzed how action values, trial type, and reward outcome are represented in ventral basal ganglia. This dataset is suitable for re-analysis of decision-making strategies, model-based neural coding, and computational studies of cortico-basal ganglia circuits.
+KW  - decision making
+KW  - reinforcement learning
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
