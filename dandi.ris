@@ -8352,6 +8352,33 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - CATNIP Analysis of light sheet imaging of whole-brain c-Fos immunostaining in constitutive PACAP-knockout and control PACAP-flox/flox mice
+AU  - Bakalar, Dana
+AU  - Gavrilova, Oksana
+AU  - Jiang, Sunny Z
+AU  - Zhang, Hai-ying
+AU  - Roy, Snehasish
+AU  - Avram, Sarah K. Williams
+AU  - Liu, Naili
+AU  - Wisser, Stephen C
+AU  - Eiden, Lee
+DO  - 10.48324/DANDI.001362/0.260923.2152
+UR  - https://dandiarchive.org/dandiset/001362/0.260923.2152
+AB  - This derivative dataset was compiled from data from a study conducted by the National Institute of Mental Health's Intramural Research Program from images acquired from the Systems Neuroscience Imaging Resource and reformatted into BIDS by the NIMH Data Science and Sharing Team. The derivative dataset contains Richardson-Lucy deconvloved and N4 intensity inhomogeneity corrected 3D image stacks and the analysis derivatives of the corrected image stacks from the CATNAP analysis pipeline, https://github.com/snehashis-roy/CATNIP. Data is from the publication "Constitutive and conditional deletion reveals distinct phenotypes driven by developmental versus neurotransmitter actions of the neuropeptide PACAP," https://doi.org/10.1111/jne.13286.
+KW  - light sheet
+KW  - microscopy
+KW  - iDISCO
+KW  - fluorescence
+KW  - c-Fos
+KW  - Immunostaining
+KW  - PACAP
+KW  - Mouse
+KW  - Mice
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Neural Spiking Data in the Rat Somatosensory Cortex Using a Flexible Electrode Responding to Transcranial Focused Ultrasound
 AU  - Ramachandran, Sandhya
 DO  - 10.48324/DANDI.001363/0.260826.1943
@@ -9165,6 +9192,19 @@ UR  - https://dandiarchive.org/dandiset/001565/0.250901.0248
 AB  - Calcium imaging of putative members of the pathway that relays visual and mechanosensory information to the compass neurons in the central complex
 KW  - flight, central complex, mechanosensation, GLNO, calcium imaging
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Preconfigured neuronal firing sequences in human brain organoids
+AU  - van der Molen, Tjitse
+DO  - 10.48324/DANDI.001603/0.260923.0623
+UR  - https://dandiarchive.org/dandiset/001603/0.260923.0623
+AB  - This Dandiset contains all data used for "Preconfigured neuronal firing sequences in human brain organoids" from Van der Molen et al. 2025 Nat. Neu. For recorded datasets, both raw and spikesorted data is included. For sourced datasets, spikesorted data is included. Sourced data came from: Sharf et al. 2022 Nat. Comm. (HO1-4), Alam El Din et al. 2025 Comm. Bio. (HO5-8), Yuan et al. 2020 Nat. Comm. (Pr1-4), Bartram et al. 2024 eLife (Pr5-8). Newly recorded data: Murine organoids (MO) and Murine neonatal slices (MS)
+KW  - Brain organoids
+KW  - Neural circuit development
+KW  - HD-MEA
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
