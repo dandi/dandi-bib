@@ -43,9 +43,10 @@ jobs:
     # Only run in the upstream repo, not in forks
     if: ${{ !github.event.repository.fork }}
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # Fetch git-bug refs so we can push incremental updates
           fetch-depth: 0
@@ -69,10 +70,15 @@ jobs:
           rm -rf .git/git-bug/cache
 
       - name: Install git-bug
+        env:
+          GIT_BUG_VERSION: v0.10.1
+          GIT_BUG_SHA256: 3ba2f8b41e526fef1b6e825d5030823be65bb6521a287b1139bd609fed0d54a1
         run: |
-          curl -sL -o /usr/local/bin/git-bug \
-            https://github.com/git-bug/git-bug/releases/download/v0.10.1/git-bug_linux_amd64
-          chmod +x /usr/local/bin/git-bug
+          curl -fsSL --retry 5 --retry-all-errors --retry-delay 10 \
+            -o /tmp/git-bug \
+            "https://github.com/git-bug/git-bug/releases/download/${GIT_BUG_VERSION}/git-bug_linux_amd64"
+          echo "${GIT_BUG_SHA256}  /tmp/git-bug" | sha256sum -c -
+          install -m 0755 /tmp/git-bug /usr/local/bin/git-bug
           git-bug version
 
       - name: Configure bridge
@@ -84,13 +90,44 @@ jobs:
           # "github-actions" identity.  On subsequent runs, the identity
           # refs fetched above let FinishConfig() find and reuse it via
           # GitHub login metadata -- no new identity is created.
-          git-bug bridge new \
-            --name=github \
-            --target=github \
-            --owner="${GITHUB_REPOSITORY_OWNER}" \
-            --project="${GITHUB_REPOSITORY#*/}" \
-            --token="$GH_TOKEN" \
-            --non-interactive
+          #
+          # `bridge new` validates --owner via an *unauthenticated*
+          # GET https://api.github.com/users/<owner> (git-bug ignores
+          # --token for that call).  Shared runner IPs regularly exhaust
+          # the 60 req/h anonymous quota, and git-bug then fails with the
+          # misleading "invalid parameter owner: " (empty owner).  Retry,
+          # waiting for the anonymous quota to reset (capped) in between.
+          # Nothing is persisted when that check fails, so retrying is safe.
+          for attempt in 1 2 3 4 5; do
+            if git-bug bridge new \
+                --name=github \
+                --target=github \
+                --owner="${GITHUB_REPOSITORY_OWNER}" \
+                --project="${GITHUB_REPOSITORY#*/}" \
+                --token="$GH_TOKEN" \
+                --non-interactive; then
+              exit 0
+            fi
+            [ "$attempt" -lt 5 ] || break
+            # /rate_limit itself does not count against the quota.
+            read -r remaining reset < <(
+              curl -fsS https://api.github.com/rate_limit \
+                | jq -r '.resources.core | "\(.remaining) \(.reset)"'
+            ) || { remaining=unknown; reset=0; }
+            wait=$(( 30 * attempt ))
+            if [ "$remaining" = 0 ]; then
+              # Quota exhausted: wait for its reset, capped at 5 min.
+              wait=$(( reset - $(date +%s) + 5 ))
+              if [ "$wait" -lt 30 ]; then wait=30; fi
+              if [ "$wait" -gt 300 ]; then wait=300; fi
+            fi
+            echo "::warning::git-bug bridge new failed (attempt $attempt;" \
+              "anonymous API quota remaining: $remaining); retrying in ${wait}s"
+            sleep "$wait"
+          done
+          echo "::error::git-bug bridge new kept failing; likely anonymous" \
+            "GitHub API rate limiting of this runner's IP"
+          exit 1
 
       - name: Pull issues from GitHub
         run: git-bug bridge pull github
