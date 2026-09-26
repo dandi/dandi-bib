@@ -1537,6 +1537,20 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Allen Institute - Run Tuning in the Mouse Visual Cortex
+AU  - Allen Institute
+DO  - 10.48324/DANDI.000050/0.260925.2301
+UR  - https://dandiarchive.org/dandiset/000050/0.260925.2301
+AB  - 2-photon calcium imaging in the mouse primary visual cortex using drifting gratings stimulus. Excitatory neurons in either layer 2/3 or layer 5 are imaged. The mouse is awake and on a running disc. The goal is to have an increased number of stationary and running trials in order to make more rigorous comparison of the influence of locomotion on visual responses. This data was collected as part of the Allen Brain Observatory Visual Coding project and is related to those datasets.
+KW  - mouse
+KW  - visual cortex
+KW  - calcium imaging
+KW  - running
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Recordings from medial entorhinal cortex during linear track and open exploration
 AU  - Mallory, Caitlin S.
 AU  - Hardcastle, Kiah
