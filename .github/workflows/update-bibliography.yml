@@ -48,7 +48,9 @@ jobs:
           # --prerelease=allow globally pulls httpx 1.0.dev3 which breaks
           # pyzotero (missing AsyncBaseTransport).
           uv pip install --system 'bibtexparser>=2.0.0b7'
-          uv pip install --system datalad git-annex 'citations-collector>=0.2.3' -r requirements.txt
+          # [extraction] provides pdfplumber/beautifulsoup4 for extract-contexts,
+          # [llm] the OpenAI-compatible client used by classify.
+          uv pip install --system datalad git-annex 'citations-collector[extraction,llm]>=0.2.3' -r requirements.txt
 
       - name: Fetch bibliography from DANDI API
         timeout-minutes: 20
@@ -134,6 +136,8 @@ jobs:
         timeout-minutes: 100
         env:
           PYTHONUNBUFFERED: "1"
+          # classify is skipped (not failed) by the Makefile when unset
+          DARTMOUTH_API_TOKEN: ${{ secrets.DARTMOUTH_API_TOKEN }}
         run: |
           cd citations
           datalad run -m "Refresh citations" make
@@ -142,6 +146,10 @@ jobs:
         if: steps.check_changes.outputs.changes == 'true'
         timeout-minutes: 20
         run: |
-          git annex sync --content
+          # If `datalad run` failed or was killed, its changes are still
+          # uncommitted -- commit them with a descriptive message rather than
+          # git-annex's generic "git-annex in runner@..." one.
+          git annex sync --content \
+            --message "Refresh citations (partial: datalad run failed or timed out, see ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
           git pull --rebase --autostash origin master
           git push
