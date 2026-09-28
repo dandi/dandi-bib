@@ -6991,6 +6991,22 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Multiplexed optical recording of sensors on a micro-endoscope (MORSE)
+AU  - Kalugin, Peter N
+AU  - Lehtinen, Maria K
+AU  - Andermann, Mark L
+DO  - 10.48324/DANDI.001074/0.260928.0807
+UR  - https://dandiarchive.org/dandiset/001074/0.260928.0807
+AB  - Multiplexed neuromodulator sensor recordings from Kalugin PN, et al. Simultaneous, real-time tracking of many neuromodulatory signals with multiplexed optical recording of sensors on a micro-endoscope. Neuron. 2026 Aug 5:S0896-6273(26)00537-4. doi: 10.1016/j.neuron.2026.07.008. Epub ahead of print. PMID: 42556335.
+KW  - neuromodulators
+KW  - multiplexed imaging
+KW  - micro-endoscope
+KW  - genetically encoded sensors
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Neural signal propagation atlas of Caenorhabditis elegans
 AU  - Randi, Francesco
 AU  - Sharma, Anuj
@@ -11017,6 +11033,17 @@ KW  - electrophysiology
 KW  - optogenetics
 KW  - L-DOPA
 KW  - olfactory learning
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Locus coeruleus activation transforms cortical taste representations
+AU  - Fan, Will
+AU  - To, Paula
+DO  - 10.48324/DANDI.002009/0.260928.1442
+UR  - https://dandiarchive.org/dandiset/002009/0.260928.1442
+AB  - This Dandiset contains processed, trial-aligned single-cell calcium activity recorded from mouse gustatory cortex during intraoral tastant delivery and optogenetic activation of locus coeruleus axons. It includes ChrimsonR and tdTomato control animals across phasic and tonic stimulation experiments using palatability, sucrose-NaCl mixture, and sucrose concentration stimulus sets. Neural activity consists of CNMFe-derived deltaF/noise traces.
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
