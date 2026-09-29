@@ -4,9 +4,9 @@ Complete bibliography for all published DANDI datasets in BibTeX and RIS formats
 
 ## Statistics
 
-- **Dandisets**: 435
-- **Published Versions**: 1068
-- **Total Records**: 1499 (including "latest" entries)
+- **Dandisets**: 436
+- **Published Versions**: 1070
+- **Total Records**: 1502 (including "latest" entries)
 
 ### Known Issues
 

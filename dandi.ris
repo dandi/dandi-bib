@@ -10965,6 +10965,71 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Allen Institute - Locus coeruleus norepinephrine activity during dynamic foraging - Electrophysiology and fiber photometry
+AU  - Su, Zhixiao
+AU  - Kosillo, Polina
+AU  - Jung, Kanghoon
+AU  - Chen, Shuonan
+AU  - Summers, Mathew T
+AU  - Piet, Alex
+AU  - Hou, Han
+AU  - Hagihara, Kenta M
+AU  - Friedmann, Drew
+AU  - Ho-Shing, Olivia
+AU  - Becker, Matthew I
+AU  - Chartrand, Thomas
+AU  - Grotz, Peter
+AU  - Hilton-VanOsdall, Ella
+AU  - Lee, Margaret
+AU  - Javeri, Rajvi
+AU  - Tuggle, Samantha L
+AU  - Ouellette, Naveen
+AU  - Myers, Holly
+AU  - Laiton, Camilo
+AU  - Wulf, Kaelin
+AU  - Rohde, John
+AU  - Buccino, Alessio
+AU  - Arshadi, Cameron
+AU  - Wang, Di
+AU  - Seshamani, Sharmishtaa
+AU  - Vasquez, Sonya
+AU  - Eng, Carolyn M
+AU  - Ollerenshaw, Douglas R
+AU  - Dee, Nick
+AU  - Casper, Tamara
+AU  - Ho, Windy
+AU  - Jungert, Matthew
+AU  - Jordan, Atlas
+AU  - Phillips, Elliot
+AU  - Chakka, Anish Bhaswanth
+AU  - Nasirova, Kamiliam
+AU  - Blake, Krista
+AU  - McCutcheon, Audrey
+AU  - Koch, Megan
+AU  - Vergara, Maria Camila
+AU  - Smith, Kimberly A
+AU  - Jarsky, Tim
+AU  - Lusk, Nicholas
+AU  - Rue, Mara
+AU  - Chen, Xiaoyin
+AU  - Siegle, Joshua H
+AU  - Glaser, Adam K
+AU  - Lee, Brian R
+AU  - Svoboda, Karel
+AU  - Isogai, Yoh
+AU  - Chandrashekar, Jayaram V
+AU  - Cohen, Jeremiah Y
+DO  - 10.48324/DANDI.001950/0.260928.2230
+UR  - https://dandiarchive.org/dandiset/001950/0.260928.2230
+AB  - This Dandiset contains electrophysiology and fiber photometry recordings of the locus coeruleus norepinephrine (LC-NE) system in mice performing a dynamic foraging task. Electrophysiology sessions contain single-neuron recordings from the LC and optogenetic tagging to identify norepinephrine neurons. Some electrophysiology session include antidromic stimulation to identify LC neurons projecting to the cortex. Some sessions additionally include video recordings of tongue movements and pupil, whose tracking results are shared. Fiber photometry sessions contain recordings of LC-NE axonal activity in downstream target regions, including prelimbic cortex (PL), thalamus (TH), and cerebellum (CB), during the same dynamic foraging task.The dataset was collected for the study *Topographic structure and function of locus coeruleus noradrenaline neurons neurons*. Analysis code, including examples of how the data are loaded, processed, and used for analyses in the manuscript, is available in the associated GitHub repository. (https://github.com/AllenNeuralDynamics/LC-beh-physiology-analysis/tree/main)
+KW  - norepinephrine 
+KW  - Locus coeruleus
+KW  - decision-making
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Electrophysiology and fiber photometry of VTA-pontine circuits during backward locomotion
 AU  - Gonzalez-Cabrera, Cristian
 DO  - 10.48324/DANDI.001955/0.260828.0749
