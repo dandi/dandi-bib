@@ -93,10 +93,17 @@ extract-contexts: $(TSV)
 # Classify citation relationships using LLM
 # Only processes citations where classification_method is empty
 # Requires API keys in environment (OPENAI_API_KEY or DARTMOUTH_API_TOKEN)
+# Skipped (not failed) without an API key, so `datalad run make` still
+# records the results of the preceding steps.
 classify: $(TSV)
 	@echo ""
 	@echo "=== Step 5: Classifying citation relationships ==="
-	@echo "Backend: $(BACKEND), Model: $(MODEL), Threshold: $(THRESHOLD)"
+	@if [ "$(BACKEND)" != "ollama" ] && [ -z "$$DARTMOUTH_API_TOKEN$$OPENAI_API_KEY$$OPENROUTER_API_KEY" ]; then \
+		echo "SKIPPING: no DARTMOUTH_API_TOKEN/OPENAI_API_KEY/OPENROUTER_API_KEY set for backend $(BACKEND)"; \
+		exit 0; \
+	fi; \
+	echo "Backend: $(BACKEND), Model: $(MODEL), Threshold: $(THRESHOLD)"; \
+	set -x; \
 	$(CC) classify $(COLLECTION) --backend $(BACKEND) --model $(MODEL) --confidence-threshold $(THRESHOLD)
 	@echo ""
 	@echo "Classifications saved to: $(PDF_DIR)/*/classifications.json"
