@@ -312,8 +312,8 @@ All dependencies are defined in **pyproject.toml** as the single source of truth
 - `[project.optional-dependencies].test`: Test dependencies (pytest, responses, etc.)
 - `[project.optional-dependencies].devel`: All development tools (test + ruff, mypy, tox)
 
-Requirements files simply reference pyproject.toml:
-- `requirements.txt`: `-e .` (runtime deps)
+Requirements files reference pyproject.toml:
+- `requirements.txt`: `-e .` plus the extra tools used by the update-bibliography workflow
 - `requirements-test.txt`: `-e .[devel]` (all dev deps)
 
 ### Why skip_install in tox?

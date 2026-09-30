@@ -1,2 +1,9 @@
-# Runtime dependencies - install from pyproject.toml
+# Runtime deps (pyproject.toml) plus what the update-bibliography workflow needs
 -e .
+# 2.x API; not required by pyproject.toml
+bibtexparser>=2.0.0b7
+# [extraction]: pdfplumber/beautifulsoup4 for extract-contexts; [llm]: classify
+citations-collector[extraction,llm]>=0.2.3
+# --on-cmd-failure
+datalad>=1.6.4
+git-annex

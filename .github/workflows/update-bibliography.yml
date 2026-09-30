@@ -44,13 +44,7 @@ jobs:
       - name: Install dependencies
         timeout-minutes: 15
         run: |
-          # bibtexparser pre-release must be installed first -- using
-          # --prerelease=allow globally pulls httpx 1.0.dev3 which breaks
-          # pyzotero (missing AsyncBaseTransport).
-          uv pip install --system 'bibtexparser>=2.0.0b7'
-          # [extraction] provides pdfplumber/beautifulsoup4 for extract-contexts,
-          # [llm] the OpenAI-compatible client used by classify.
-          uv pip install --system datalad git-annex 'citations-collector[extraction,llm]>=0.2.3' -r requirements.txt
+          uv pip install --system -r requirements.txt
 
       - name: Fetch bibliography from DANDI API
         timeout-minutes: 20
@@ -128,8 +122,9 @@ jobs:
       # Bounded, best-effort: citations-collector `discover` has been stalling
       # on CrossRef Event Data queries (see citations/dandi-full.yaml comment).
       # We now cap this step at 100 minutes and treat failure as non-fatal so
-      # it can't block bibliography updates. If it fails, subsequent
-      # `git annex sync --content && git push` becomes a no-op.
+      # it can't block bibliography updates. If `make` fails, the partial
+      # results are still saved (--on-cmd-failure all) but the step is marked
+      # failed.
       - name: Refresh citations collection
         if: steps.check_changes.outputs.changes == 'true'
         continue-on-error: true
@@ -140,16 +135,15 @@ jobs:
           DARTMOUTH_API_TOKEN: ${{ secrets.DARTMOUTH_API_TOKEN }}
         run: |
           cd citations
-          datalad run -m "Refresh citations" make
+          datalad run --on-cmd-failure all -m "Refresh citations" make
 
       - name: Sync git-annex and push citations changes
         if: steps.check_changes.outputs.changes == 'true'
         timeout-minutes: 20
         run: |
-          # If `datalad run` failed or was killed, its changes are still
-          # uncommitted -- commit them with a descriptive message rather than
-          # git-annex's generic "git-annex in runner@..." one.
+          # Commit leftovers of a killed (e.g. timed out) `datalad run` with a
+          # descriptive message instead of git-annex's generic one.
           git annex sync --content \
-            --message "Refresh citations (partial: datalad run failed or timed out, see ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+            --message "Refresh citations (partial: datalad run killed, see ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
           git pull --rebase --autostash origin master
           git push
