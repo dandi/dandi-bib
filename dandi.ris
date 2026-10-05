@@ -3436,6 +3436,54 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Sparse and stereotyped encoding implicates a core glomerulus for ant alarm behavior
+AU  - Hart, Taylor
+AU  - Frank, Dominic D.
+AU  - Lopes, Lindsey E.
+AU  - Olivos-Cisneros, Leonora
+AU  - Lacy, Kip D.
+AU  - Trible, Waring
+AU  - Ritger, Amelia L.
+AU  - Valdés-Rodríguez, Stephany
+AU  - Kronauer, Daniel J. C.
+DO  - 10.48324/DANDI.000467/0.261004.1655
+UR  - https://dandiarchive.org/dandiset/000467/0.261004.1655
+AB  - In these experiments, we recorded odor-evoked calcium responses in the antennal lobe of the clonal raider ant (Ooceraea biroi). Transgenic ants expressed GCaMP6s in olfactory sensory neurons, and the right antennal lobe was imaged using a two-photon microscope. A piezo device and resonant scanning galvanometer were used to image whole-antennal lobe volumes at a rate of 0.83 volumes per second. 33 z-planes were imaged at 5 micrometer intervals. In each recording, odor stimulus commenced after 3s and lasted for 5s. Negative control: paraffin oil. General odorant stimuli: isopropanol, ethylpyrazine, ethanol, 3-hexanone, propionic acid. Ant alarm pheromones: 4-methyl-3-heptanone, 4-methyl-3-heptanol, 4-methyl-3-hexanol, 6-methyl-5-hepten-2-one.
+
+Experiment key:
+General odorant experiment subjects:
+sub-ant1-m10-d6-y2022
+sub-ant3-m10-d6-y2022
+sub-ant1-m10-d11-y2022
+sub-ant2-m10-d11-y2022
+sub-ant3-m10-d11-y2022
+sub-ant5-m10-d11-y2022
+
+Bilateral antennal lobe imaging experiment subjects:
+sub-ant2-m2-d10-y2023
+sub-ant3-m2-d10-y2023
+sub-ant4-m2-d10-y2023
+
+Unilateral alarm pheromone imaging experiment subjects:
+sub-ant2-m4-d20-y2022
+sub-ant4-m4-d20-y2022
+sub-ant1-m4-d21-y2022
+sub-ant2-m4-d21-y2022
+sub-ant3-m4-d21-y2022
+sub-ant1-m4-d26-y2022
+sub-ant2-m4-d26-y2022
+sub-ant3-m4-d26-y2022
+sub-ant4-m4-d26-y2022
+sub-ant5-m4-d26-y2022
+sub-ant1-m4-d27-y2022
+sub-ant2-m4-d27-y2022
+sub-ant3-m4-d27-y2022
+KW  - antennal lobe; calcium imaging; chemosensation; clonal raider ant; communication; GCaMP; odor coding; olfaction; Ooceraea biroi; pheromone
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Dataset of human-single neuron activity during a Sternberg working memory task.
 AU  - Kyzar, Michael
 AU  - Brzezicka, Aneta
@@ -5589,6 +5637,45 @@ KW  - Patch-seq
 KW  - human
 KW  - multimodal
 PY  - 2023
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Age affects odor-evoked calcium responses in the ant antennal lobe
+AU  - Hart, Taylor
+AU  - Kronauer, Daniel J. C.
+AU  - Frank, Dominic D.
+DO  - 10.48324/DANDI.000773/0.261004.1511
+UR  - https://dandiarchive.org/dandiset/000773/0.261004.1511
+AB  - Calcium imaging experiments were performed on the clonal raider ant antennal lobe to determine whether odor coding is modulated during aging. Ants were either two weeks old or two months old, corresponding to nurse-like and forager-like behavioral patterns. Ants are clonal line B with transgene insert [ie-DsRed, ObirOrco-QF2, 15xQUAS-GCaMP6s]. GCaMP6s labels all Orco-positive antennal lobe glomeruli and allows recording odor responses throughout the antennal lobe using volumetric imaging.
+
+Associated with Hart et al. 2024. Pheromone representation in the ant antennal lobe changes with age. Current Biology 34. https://doi.org/10.1016/j.cub.2024.05.031
+
+Ants were stimulated with 5 general odorants (3-hexanone, isopropanol, ethanol, propionic acid, ethylpyrazine) and 2 alarm pheromones (4-methyl-3-heptanone and 4-methyl-3-heptanol) all at either 3% or 48% concentration (volume/volume in paraffin oil). Experiments had a 3s lag time and a 5s stimulus time, total recording time 48s, 0.83 volumes/second. 33 Z-planes were imaged in each volume.
+
+Ants were imaged on different days, and the following outline describes experiment conditions for the dataset.
+
+Two weeks old experiment days:
+1-18-2023 - 48% odor conc.
+1-20-2023 - 48% odor conc. 
+2-24-2023 - 48% odor conc.
+1-17-2023 - 3% odor conc.
+
+Two months old experiment days:
+1-10-2023 - 48% odor conc.
+4-6-2023 - 48% odor conc.
+1-11-2023 - 3% odor conc. 
+
+KW  - antennal lobe
+KW  - alarm pheromone
+KW  - odor coding
+KW  - aging
+KW  - Ooceraea biroi
+KW  - GCaMP6s
+KW  - Orco
+KW  - volumetric calcium imaging
+KW  - nurse and forager
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -11126,6 +11213,26 @@ AU  - To, Paula
 DO  - 10.48324/DANDI.002009/0.260928.1442
 UR  - https://dandiarchive.org/dandiset/002009/0.260928.1442
 AB  - This Dandiset contains processed, trial-aligned single-cell calcium activity recorded from mouse gustatory cortex during intraoral tastant delivery and optogenetic activation of locus coeruleus axons. It includes ChrimsonR and tdTomato control animals across phasic and tonic stimulation experiments using palatability, sucrose-NaCl mixture, and sucrose concentration stimulus sets. Neural activity consists of CNMFe-derived deltaF/noise traces.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - High-density MEA recordings of spontaneous activity in developing rat cortical cultures
+AU  - Nakamuta, Asahi
+AU  - Akita, Dai
+AU  - Zhang, He
+AU  - Kawahara, Yuta
+AU  - Takahashi, Hirokazu
+AU  - Teramae, Jun-nosuke
+DO  - 10.48324/DANDI.002020/0.261004.1410
+UR  - https://dandiarchive.org/dandiset/002020/0.261004.1410
+AB  - This Dandiset contains spontaneous neural activity data from seven dissociated rat cortical cultures recorded during network development using high-density multielectrode arrays (HD-MEAs; MaxOne, MaxWell Biosystems). Cultures were prepared from embryonic day 18 (E18) rat cortices. Daily recordings captured 30 minutes of spontaneous extracellular spiking activity from up to 1,024 electrodes, selected from 26,400 electrodes based on the highest mean spike amplitudes.
+These data were analyzed in the study “Self-organization of high-dimensional geometry of neural activity in culture” to investigate how high-dimensional population activity emerges during neuronal network development. Analyses examined power-law scaling of principal component variance spectra, the spatial organization of principal components, and the emergence of neuronal avalanches.
+KW  - neuronal culture
+KW  - high-density microelectrode array
+KW  - spontaneous activity
+KW  - neural development
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
