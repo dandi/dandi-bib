@@ -1497,6 +1497,23 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Diversity in neural firing dynamics supports both rigid and learned hippocampal sequences
+AU  - Grosmark, Andres D.
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000044/0.261005.2101
+UR  - https://dandiarchive.org/dandiset/000044/0.261005.2101
+AB  - This data set is composed of eight bilateral silicon-probe multi-cellular electrophysiological recordings performed on four male Long-Evans rats in the Buzsáki lab at NYU. These recordings were performed to assess the effect of novel spatial learning on hippocampal CA1 neural firing and LFP patterns in naïve animals. Each session consisted of a long (~4 hour) PRE rest/sleep epoch home-cage recordings performed in a familiar room, followed by a Novel MAZE running epoch (~45 minutes) in which the animals were transferred to a novel room, and water-rewarded to run on a novel maze. These mazes were either A) a wooden 1.6m linear platform, B) a wooden 1m diameter circular platform or C) a 2m metal linear platform. Animals were rewarded either at both ends of the linear platform, or at a predetermined location on the circular platform. The animal was gently encouraged to run unidirectionally on the circular platform. After the MAZE epochs the animals were transferred back to their home-cage in the familiar room where a long (~4 hour) POST rest/sleep was recorded. All eight sessions were concatenated from the PRE, MAZE, and POST recording epochs. In addition to hippocampal electrophysiological recordings, neck EMG and head-mounted accelerometer signals were recorded, and the animal’s position during MAZE running epochs was tracked via head-mounted LEDs.
+KW  - Place cell
+KW  - Memory consolidation
+KW  - Pyramidal cell
+KW  - Long-Evans rat
+KW  - Spatial learning
+KW  - Sharp wave ripples
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - IBL behavioral data
 AU  - International Brain Laboratory
 DO  - 10.48324/DANDI.000045/0.211209.1412
