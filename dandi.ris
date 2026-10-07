@@ -8422,6 +8422,20 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - High-Density Recording Reveals Sparse Clusters (But Not Columns) for Shape and Texture Encoding in Macaque V4
+AU  - Namima, Tomoyuki
+AU  - Pasupathy, Anitha
+DO  - 10.48324/DANDI.001357/0.261006.2007
+UR  - https://dandiarchive.org/dandiset/001357/0.261006.2007
+AB  - We used high-density Neuropixels probes in two awake monkeys (one female and one male) to characterize the shape and texture tuning of dozens of neurons simultaneously. The shape set included 15 simple geometric shapes each presented at eight different rotations in 45° increments, resulting in a total of 120 shape stimuli. Shapes were filled with a uniform color, either darker or brighter than the background luminance. The texture stimulus set was composed of 40 naturalistic grayscale textures. Each texture image was presented in three versions: original, contrast-reversed, or spectrally-matched noise
+
+More detailed information associated with this dataset is described in https://doi.org/10.1523/JNEUROSCI.1893-23.2024 
+KW  - functional archietecture, monkey, neuropixels, object recognition, shape perception
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - 20250331_AIBS_Patchseq_human
 AU  - Gonzalez, Limary
 DO  - 10.48324/DANDI.001359/0.250401.1603
@@ -9002,6 +9016,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - NHP patch-seq
+AU  - Dong, Qiping
+DO  - 10.48324/DANDI.001475/0.261006.2257
+UR  - https://dandiarchive.org/dandiset/001475/0.261006.2257
+AB  - NHP patch-seq
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Data for: R01 NS121918
 AU  - Loizidou, Panagiota
 DO  - 10.48324/DANDI.001509/0.250630.1940
@@ -9088,6 +9112,76 @@ DO  - 10.48324/DANDI.001514/0.250712.1457
 UR  - https://dandiarchive.org/dandiset/001514/0.250712.1457
 AB  - The basolateral amygdala (BLA) projects to many brain regions through which it influences multiple functions. However, there is disagreement regarding the extent to which BLA axons collateralize. Using viral tracing, we found that distinct groups of BLA neurons send axon collaterals to different subsets of targets. A first group of BLA neurons projects to a hitherto underestimated combination of cortical and subcortical regions that regulate habitual or motivated behaviors, attention control, energy homeostasis, and olfactory processing. A second group of BLA neurons targets subcortical structures implicated in the genesis of defensive behaviors. By contrast, BLA neurons targeting cortical areas that support memory (hippocampus, rhinal cortices) collateralize sparingly. Overall, these results indicate that the BLA contains different clusters of neurons that contribute branching axons to distinct arrays of largely non-overlapping targets. These results impose a revision of how we conceptualize the BLA’s coordination with, and influence over, its targets.
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Plasma Membrane Polarization Dynamics of CHO Cells During 1 us Pulses: Effects of Cell Size and Electric Field Strength
+AU  - Silkuniene, Giedre
+DO  - 10.48324/DANDI.001515/0.261006.1841
+UR  - https://dandiarchive.org/dandiset/001515/0.261006.1841
+AB  - This experimental series investigated the plasma membrane polarization dynamics—specifically charging and discharging behavior—of CHO cells exposed to 1 us electric pulses, with a focus on how these dynamics vary with cell size and electric field strength.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Plasma Membrane Recovery of Cells Following 1 us Electroporation Pulse
+AU  - Silkuniene, Giedre
+DO  - 10.48324/DANDI.001516/0.261006.1833
+UR  - https://dandiarchive.org/dandiset/001516/0.261006.1833
+AB  - This experiment focused on visualizing and characterizing the recovery dynamics of the plasma membrane in CHO cells following electroporation induced by a 1-us electric pulse. Each cell underwent a sequence of 60 exposures: 20 sham exposures with no pulse applied and 40 exposures with one or two 1-us pulses of varying amplitudes and interval between pulses.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Evaluation of Di-8-ANEPPS Compatibility with Strobe Fluorescence Microscopy for Membrane Voltage Imaging
+AU  - Silkuniene, Giedre
+DO  - 10.48324/DANDI.001517/0.261006.1856
+UR  - https://dandiarchive.org/dandiset/001517/0.261006.1856
+AB  - This experiment aimed to assess whether the voltage-sensitive dye Di-8-ANEPPS can be effectively used with a strobe fluorescence microscopy system. CHO cells were loaded with 5 µM Di-8-ANEPPS for 30 minutes at room temperature in the dark, replacing FluoVolt.  
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Comparison of FluoVolt and Di-8-ANEPPS Responses to Plasma Membrane Polarization at Varying Electric Field Strengths
+AU  - Silkuniene, Giedre
+DO  - 10.48324/DANDI.001518/0.261006.1957
+UR  - https://dandiarchive.org/dandiset/001518/0.261006.1957
+AB  - This experiment compared the responses of FluoVolt and Di-8-ANEPPS voltage-sensitive dyes to CHO cell plasma membrane polarization under different electric field strengths. 
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Threshold Characterization of Ca2+ Uptake in CHO Cells Following 1-µs Electroporation Pulses
+AU  - Silkuniene, Giedre
+DO  - 10.48324/DANDI.001521/0.261006.1845
+UR  - https://dandiarchive.org/dandiset/001521/0.261006.1845
+AB  - This experiment aimed to determine the threshold for calcium uptake in CHO cells subjected to 1-µs electric pulses. Cells were loaded with 2.5 µM Fluo-4, a Ca2+-sensitive dye, for 30 minutes in the dark. Fluo-4 fluorescence was excited using a FITC cube and a CoolLED illumination system. Time-lapse imaging was conducted at 1 frame per second for 5 minutes, with a single 1-µs pulse of varying amplitude applied 1 minute after the start of recording.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Characterization of Plasma Membrane Recovery in Cells After 1-µs Electroporation Using Strobe Fluorescence Microscopy
+AU  - Silkuniene, Giedre
+DO  - 10.48324/DANDI.001525/0.261006.1856
+UR  - https://dandiarchive.org/dandiset/001525/0.261006.1856
+AB  - This experiment aimed to visualize and characterize plasma membrane recovery in CHO cells following electroporation induced by a 1-µs electric pulse. Strobe fluorescence microscopy was employed to capture membrane recovery dynamics.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Assessment of Post-Electroporation Suitability of CHO Cells for Polarization Studies Using Strobe Fluorescence Microscopy
+AU  - Silkuniene, Giedre
+DO  - 10.48324/DANDI.001526/0.261006.1851
+UR  - https://dandiarchive.org/dandiset/001526/0.261006.1851
+AB  - This experiment investigated whether CHO cells remain suitable for membrane polarization studies with strobe fluorescence microscopy after undergoing electroporation. All recordings were performed using the voltage-sensitive dye Di-8-ANEPPS.
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
