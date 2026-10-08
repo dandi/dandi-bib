@@ -10448,6 +10448,22 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Intracellular Recordings for "Single neuron diversity supports area functional specialization along the visual cortical pathways"
+AU  - Feyerabend, Michael
+AU  - Pommer, Stefan
+DO  - 10.48324/DANDI.001776/0.261007.1914
+UR  - https://dandiarchive.org/dandiset/001776/0.261007.1914
+AB  - This dandiset includes intracellular patch-clamp electrophysiology recordings supporting the paper "Single neuron diversity supports area functional specialization along the visual cortical pathways". When utilizing the data please cite the primary paper: <TBD> The recordings were performed across multiple regions and layers in the NHP cortex.Some files contain post-hoc reconstruction data under the heading "processing/morphology/SWC". Histological information (layer, etc.) is found under "processing/misc/histology"
+KW  - Non-human primate
+KW  - intracellular electrophysiology
+KW  - patch-clamp electrophysiology
+KW  - cortex
+KW  - marmoset
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Astrocytes mediate the dopaminergic modulation of tonic GABAergic signaling in Substanta nigra
 AU  - Simmons, DeNard
 AU  - Surmeier, James
@@ -11004,6 +11020,16 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - CA1 and CA3 electrophysiological dataset in mice performing a spatial memory task
+AU  - Huszar, Roman
+DO  - 10.48324/DANDI.001880/0.261007.1849
+UR  - https://dandiarchive.org/dandiset/001880/0.261007.1849
+AB  - Simultaneous electrophysiological recordings of CA1 and CA3 neurons in mice (n=8) performing a place-reward association task.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - SalidoLab 2024.Genes paper. WVU humans with IMPG1/2 mutations
 AU  - SALIDO, EZEQUIEL
 DO  - 10.48324/DANDI.001882/0.260701.1757
@@ -11344,6 +11370,16 @@ KW  - neuronal culture
 KW  - high-density microelectrode array
 KW  - spontaneous activity
 KW  - neural development
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Electrophysiology recording in free moving rat with AMPH/Saline Injection
+AU  - Fang, Hui
+DO  - 10.48324/DANDI.002023/0.261007.1925
+UR  - https://dandiarchive.org/dandiset/002023/0.261007.1925
+AB  - We are sharing electrophysiology datasets from 4 rats' brains, with the injection of Amphetamine (AMPH) or Saline (control group). We found evoked responses in both local field potentials and single-unit spike activity after drug administration. This dataset is used for our publication (Stabilized Carbon Coating for Scalable and Interoperable Neurotransmitter Sensing) in Nature Communications. Data were recorded with Intan RHD recorder.
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
