@@ -4327,6 +4327,17 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Intracranial recordings using BCI2000 and the CorTec BrainInterchange
+AU  - Lampert, Frederik
+DO  - 10.48324/DANDI.000571/0.261011.0232
+UR  - https://dandiarchive.org/dandiset/000571/0.261011.0232
+AB  - An Ecosystem of Technology and Protocols for Adaptive Neuromodulation Research in HumansThis study aims to develop an ecosystem for the purpose of neuromodulation using the CorTec BIC device and BCI2000 software.Contact: For questions regarding this dataset, please contact mivalt.filip@mayo.edu or Miller.Kai@mayo.edu
+KW  - Adaptive neuromodulation, Implantable brain-computer interfaces, technical characterization of implantable neuromodulation systems, CorTec Brain Interchange, BCI2000
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Activity map of a cortico-cerebellar loop underlying motor planning
 AU  - li, nuo
 DO  - 10.48324/DANDI.000572/0.230826.0140
@@ -5864,6 +5875,24 @@ DO  - 10.48324/DANDI.000931/0.240305.0945
 UR  - https://dandiarchive.org/dandiset/000931/0.240305.0945
 AB  - Dataset for "A mechanosensory feedback that uncouples external and self-generated sensory responses in the olfactory cortex", by A. Dehaquani, Michelon, et al., 2024 
 PY  - 2024
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - A mechanosensory feedback that uncouples external and self-generated sensory responses in the olfactory cortex
+AU  - A. Dehaqani, Alireza
+AU  - Michelon, Filippo
+AU  - Patella, Paola
+AU  - Petrucco, Luigi
+AU  - Piasini, Eugenio
+AU  - Iurilli, Giuliano
+DO  - 10.48324/DANDI.000931/0.261011.1559
+UR  - https://dandiarchive.org/dandiset/000931/0.261011.1559
+AB  - Dataset for "A mechanosensory feedback that uncouples external and self-generated sensory responses in the olfactory cortex", by A. Dehaquani, Michelon, et al., 2024 
+KW  - mechanosensory feedback
+KW  - olfactory cortex
+KW  - self-generated sensory responses
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
