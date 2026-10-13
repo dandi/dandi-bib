@@ -6250,6 +6250,42 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Large-scale recordings of head direction cells in mouse postsubiculum
+AU  - Duszkiewicz, Adrian
+AU  - Skromne Carrasco, Sofia
+AU  - Peyrache, Adrien
+DO  - 10.48324/DANDI.000939/0.261012.1330
+UR  - https://dandiarchive.org/dandiset/000939/0.261012.1330
+AB  - 64-channel linear probe recordings from mouse postsubiculum (dorsal presubiculum) - a region in which most excitatory cells are narrowly tuned to the animal's head direction.  Dataset includes one recording session per mouse (N =  ́31 mice,  ́42 -  ́185 units per recording). All sessions include a square open field exploration epoch and two sleep epochs. Some sessions additionally include a triangular open field epoch or an optogenetic stimulation epoch. 
+
+There are two versions of each session file, with and without raw electrophysiological data. Otherwise the two files are the same. 
+
+Each NWB file contains: timestamps of detected units, mean waveforms, LFP,  animal positionand head-direction,  sleep scoring(REM/NREM), accelerometer data. 
+
+Metadata: https://docs.google.com/spreadsheets/d/1eGVMXkzyo25IOJHTyiNYFGhNO_7H4ZscUFfCBi31fYU/edit?usp=sharing
+
+Data used in Duszkiewicz et al, 2024 (DOI:  ́10.1038/s41593-024-01588-5). Collected by Adrian J. Duszkiewicz and Sofia Skromne Carrascoin Peyrache lab. Additional adjustment of motion tracking data by Miao Wang, Sirota lab. 
+
+Original version of the dataset used in the article (including ADN recordings)and code to reproduce figures can be found in Matlab format at:
+https://doi.org/10.6084/m9.figshare.24921252
+
+Update 12th May 2026:
+- Raw electrophysiological recordings added 
+- Unit ID added 
+- Fixed indexing of sleep scoring epochs
+
+KW  - head-direction
+KW  - postsubiculum
+KW  - electrophysiology
+KW  - freely-moving
+KW  - mouse
+KW  - probe
+KW  - extracellular
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - FALCON Benchmark M1-A: primary motor cortex recordings in primate during reach-to-grasp task
 AU  - Rouse, Adam G
 AU  - Schieber, Marc H
@@ -11379,6 +11415,48 @@ AU  - To, Paula
 DO  - 10.48324/DANDI.002009/0.260928.1442
 UR  - https://dandiarchive.org/dandiset/002009/0.260928.1442
 AB  - This Dandiset contains processed, trial-aligned single-cell calcium activity recorded from mouse gustatory cortex during intraoral tastant delivery and optogenetic activation of locus coeruleus axons. It includes ChrimsonR and tdTomato control animals across phasic and tonic stimulation experiments using palatability, sucrose-NaCl mixture, and sucrose concentration stimulus sets. Neural activity consists of CNMFe-derived deltaF/noise traces.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Microinvasive Probes for Monitoring Electrical and Chemical Neural Activity in Nonhuman Primates
+AU  - Schwerdt, Helen N.
+AU  - Amjad, Usamma
+AU  - Mahajan, Shreya
+AU  - Choi, Jiwon
+AU  - Shrivastav, Ritesh
+AU  - Murray, Raymond
+AU  - Somich, Abby
+AU  - Coyne, Olivia
+DO  - 10.48324/DANDI.002013/0.261012.0921
+UR  - https://dandiarchive.org/dandiset/002013/0.261012.0921
+AB  - This dataset contains chronic neurochemical and electrophysiological recordings from the striatum of two adult female rhesus monkeys (Macaca mulatta; Monkey P and Monkey T), obtained with shaft-assisted micro-invasive probes (s-µIPs) and collected by the Schwerdt Lab at the University of Pittsburgh. It includes the processed data published on Zenodo (https://doi.org/10.5281/zenodo.14826579) together with the raw recordings from which they were derived. Recordings were made while the monkeys performed reward-biased eye movement tasks, in which the animal fixates a central cue, is shown a value cue signaling a large or small reward, and makes a saccade to a left or right target to obtain reward; trials include forced and free-choice conditions. Electrophysiology was acquired with a Neuralynx Digital Lynx SX system through a unity-gain headstage (HS-36, ±1 mV input range) at 30 kHz (Monkey P) or 32 kHz (Monkey T), bandpass filtered 0.1–7500 Hz. FSCV was performed with a triangular waveform (−0.35 to 1.34 V, 400 V/s) applied at 10 Hz, with current sampled at 25 kHz. For Monkey P (session 08/13/2018), the dataset includes raw broadband electrophysiology from striatal site cl3, spike-sorted units from Plexon Offline Sorter, and threshold-detected spikes with 48-sample waveforms. For Monkey T, session 09/13/2024 includes raw FSCV current and applied voltage from site c8dg together with trial-aligned, PCA-extracted dopamine, pH, motion, and oxidation current (at 0.6 V) time series (10 Hz, 60 s per trial); session 09/26/2024 includes raw broadband electrophysiology from sites c3bs and c3a and a bipolar beta-band LFP (c3bs referenced to c3a, 1 kHz, 60 s per trial centered on initial cue onset). Behavioral data are stored as a trials table with trial types and an annotated events table of task events (e.g., fixation onset, value cue onset, reward delivery, and error types) decoded from 8-bit Neuralynx event codes. The Neuralynx and FSCV systems were synchronized using shared trial-start event codes sent to both systems, and all data are expressed relative to the start of the Neuralynx recording.
+KW  - fast scan cyclic voltammetry
+KW  - electrophysiology
+KW  - dopamine
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Aseptic, semi-sealed cranial chamber implants for chronic multi-channel neurochemical and electrophysiological neural recording in nonhuman primates
+AU  - Choi, Jiwon
+AU  - Amjad, Usamma
+AU  - Murray, Raymond
+AU  - Shrivastav, Ritesh
+AU  - Teichert, Tobias
+AU  - Goodell, Baldwin
+AU  - Olson, Matthew
+AU  - Schaeffer, David J.
+AU  - Oluoch, Julia K.
+AU  - Schwerdt, Helen N.
+DO  - 10.48324/DANDI.002014/0.261012.0921
+UR  - https://dandiarchive.org/dandiset/002014/0.261012.0921
+AB  - This dataset contains chronic neurochemical and electrophysiological recordings from the striatum of an adult female rhesus monkey (Macaca mulatta; Monkey T) implanted with an aseptic, semi-sealed cranial chamber, collected by the Schwerdt Lab at the University of Pittsburgh. It includes the processed data published on Zenodo (https://doi.org/10.5281/zenodo.14825992) together with the raw recordings from which they were derived. Recordings were made while the monkey performed a reward-biased eye movement task, in which the animal fixates a central cue, is shown a value cue signaling a large or small reward, and makes a saccade to a left or right target to obtain reward. Electrophysiology was acquired with a Neuralynx Digital Lynx SX system through a unity-gain headstage (HS-36, ±1 mV input range) at 32 kHz, bandpass filtered 0.1–7500 Hz. FSCV was performed with a triangular waveform applied at 10 Hz, with current sampled at 25 kHz. The session (09/27/2024) includes raw broadband electrophysiology from sites c7b, c5c and c5d; a bipolar beta-band LFP (c7b referenced to c5c, 1 kHz, 60 s per trial centered on initial cue onset); threshold-detected spikes with 48-sample waveforms and spike-sorted units (Plexon Offline Sorter) from site c5d; and raw FSCV current and applied voltage from site c8ds together with trial-aligned, PCA-extracted dopamine, pH, motion, and oxidation current (at 0.6 V) time series (10 Hz, 60 s per trial). Behavioral data are stored as a trials table with trial types and an annotated events table of task events (e.g., fixation onset, value cue onset, reward delivery, and error types) decoded from 8-bit Neuralynx event codes. The Neuralynx and FSCV systems were synchronized using shared trial-start event codes, and all data are expressed relative to the start of the Neuralynx recording.
+KW  - fast scan cyclic voltammetry
+KW  - electrophysiology
+KW  - dopamine
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
