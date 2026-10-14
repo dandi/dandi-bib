@@ -4,23 +4,26 @@ Complete bibliography for all published DANDI datasets in BibTeX and RIS formats
 
 ## Statistics
 
-- **Dandisets**: 453
-- **Published Versions**: 1109
-- **Total Records**: 1551 (including "latest" entries)
+- **Dandisets**: 459
+- **Published Versions**: 1122
+- **Total Records**: 1563 (including "latest" entries)
 
 ### Known Issues
 
-9 records failed to fetch valid BibTeX:
+12 records failed to fetch valid BibTeX:
 
 - `# No valid BibTeX for 000029/0.230317.1553. Starts with <!DOCTYPE html>`
 - `# No valid BibTeX for 000029/0.231017.1955. Starts with <!DOCTYPE html>`
 - `# No valid BibTeX for 000029/0.231017.1959. Starts with <!DOCTYPE html>`
 - `# No valid BibTeX for 000939/0.261012.1330. Starts with The resource you are`
 - `# No valid BibTeX for 000939/0.261012.1330. Starts with The resource you are`
+- `# No valid BibTeX for 000939/0.261012.1330. Starts with The resource you are`
+- `# No valid BibTeX for 002013/0.261012.0921. Starts with The resource you are`
 - `# No valid BibTeX for 002013/0.261012.0921. Starts with The resource you are`
 - `# No valid BibTeX for 002013/0.261012.0921. Starts with The resource you are`
 - `# No valid BibTeX for 002014/0.261012.0921. Starts with The resource you are`
-- `# No valid BibTeX for 002014/0.261012.0921. Starts with The resource you are`
+
+...and 2 more
 
 
 ## Files

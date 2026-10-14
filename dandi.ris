@@ -6698,6 +6698,39 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
+AU  - Seiler, Jillian L.
+AU  - Cosme, Caitlin V.
+AU  - Sherathiya, Venus N.
+AU  - Schaid, Michael D.
+AU  - Bianco, Joseph M.
+AU  - Bridgemohan, Abigael S.
+AU  - Lerner, Talia N.
+DO  - 10.48324/DANDI.000971/0.261013.1707
+UR  - https://dandiarchive.org/dandiset/000971/0.261013.1707
+AB  - Compulsive behavior is a defining feature of disorders such as substance use disorders. Current evidence
+suggests that corticostriatal circuits control the expression of established compulsions, but little is known
+about the mechanisms regulating the development of compulsions. We hypothesized that dopamine, a critical modulator of striatal synaptic plasticity, could control alterations in corticostriatal circuits leading to the
+development of compulsions (defined here as continued reward seeking in the face of punishment). We used
+dual-site fiber photometry to measure dopamine axon activity in the dorsomedial striatum (DMS) and the
+dorsolateral striatum (DLS) as compulsions emerged. Individual variability in the speed with which compulsions emerged was predicted by DMS dopamine axon activity. Amplifying this dopamine signal accelerated
+animals’ transitions to compulsion, whereas inhibition delayed it. In contrast, amplifying DLS dopamine
+signaling had no effect on the emergence of compulsions. These results establish DMS dopamine signaling
+as a key controller of the development of compulsive reward seeking.
+KW  - dorsal striatum
+KW  - dopamine
+KW  - substantia nigra
+KW  - reward learning
+KW  - habit formation
+KW  - compulsive behavior
+KW  - punishment-resistant reward seeking
+KW  - fiber photometry
+KW  - optogenetics
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Single Day W-Track Learning
 AU  - Shin, Justin
 DO  - 10.48324/DANDI.000978/0.240511.0247
@@ -7961,6 +7994,21 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - A shared cortical manifold links sensory error to motor planning
+AU  - Zempolich, Grant
+AU  - Schneider, David
+DO  - 10.48324/DANDI.001259/0.261013.2200
+UR  - https://dandiarchive.org/dandiset/001259/0.261013.2200
+AB  - The ability to detect and correct errors is central to learning and executing skilled behaviors such as speech and musical performance. Accordingly, sensory and motor regions of the brain must communicate and coordinate their activity in order to both detect errors and adapt in response to them. However, the neural mechanisms by which sensory feedback is transformed into updated motor plans across distributed cortical circuits remain unclear. Here, we identify how the mouse brain encodes error signals during a skilled acoustic task and how these signals guide motor adaptation. We developed a novel, sound-dependent behavior in which mice use real-time auditory feedback to adjust ongoing forelimb movements. Task performance critically depends on auditory cortex, where neurons encode error-related feedback that predicts both within-trial and across-trial behavioral adaptations. Acoustic error feedback alters secondary motor cortex (M2) dynamics, selectively pushing activity along dimensions that encode planning signals for upcoming movements. Notably, auditory cortex and M2 share a low-dimensional manifold that emerges only after learning the skilled behavior. This shared geometry is not engaged during simpler forelimb tasks, suggesting that it reflects a learned, context-dependent solution for coordinating distributed cortical activity. In trained mice, silencing auditory cortex disrupts M2 dynamics, consistent with a model of continuously coupled cortical interactions during skilled performance. Together, these findings identify a learned coordinate transformation that maps sensory error onto corrective motor plans. More broadly, they point to a candidate general principle for how learning can establish a shared cortical manifold that links distant brain regions, enabling sensory feedback to selectively reshape future actions and support flexible, goal-directed control. 
+KW  - auditory cortex
+KW  - predictive coding
+KW  - optogenetics
+KW  - motor dynamics
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - A Prefrontal Cortex Map based on Single Neuron Activity
 AU  - Le Merre, Pierre
 AU  - Heining, Katharina
@@ -8771,6 +8819,16 @@ KW  - head fixation
 KW  - pupil tracking
 KW  - transcranial optical imaging
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Behavioral Fever and Celebrex 20-30 C
+AU  - Cutler, Bradley
+DO  - 10.48324/DANDI.001426/0.261013.1839
+UR  - https://dandiarchive.org/dandiset/001426/0.261013.1839
+AB  - Gradient navigation behavior of larval zebrafish after poly(I:C) or control injections in the presence/absence of Celebrex
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -11369,6 +11427,21 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Data for "Large-scale electrophysiological mapping relates intrinsic properties to network dynamics in vivo"
+AU  - Qi, Yitong
+AU  - Parot, Vicente
+AU  - Wu, Xiang
+AU  - Plutkis, Sarah
+AU  - Lavis, Luke
+AU  - Cohen, Adam
+DO  - 10.48324/DANDI.001960/0.261013.2016
+UR  - https://dandiarchive.org/dandiset/001960/0.261013.2016
+AB  - Simultaneous voltage imaging of ~320 layer 1 interneurons in barrel cortex of awake, head-fixed mice running freely on a treadmill.  Two NDNF-cre::NPY-GFP mice expressing DIO-Voltron-ST-p2a-CheRiff-ST in barrel cortex were imaged at 787 Hz (1.27 ms exposure) while blue light was used to stimulate sparse, trial-varying subsets of the same cells. Voltron reports membrane voltage; the co-expressed CheRiff provides optogenetic drive, making each session an all-optical electrophysiology experiment. GFP independently labels the NPY-positive subset, so cell identity is available alongside activity.  Each mouse contributed three sessions:  - Spontaneous activity (10 trials), with no stimulation. - Intrinsic excitability mapping (300 trials): four 500 ms steps and one 5 s   ramp delivered to sparse cell subsets, yielding per-cell rheobase, maximum   firing rate, adaptation, after-depolarization and membrane time constant. - Connectivity mapping (640 trials): brief pulses for synaptic connectivity,   with every fourth trial using dense, temporally uncorrelated stimulation   designed for gap-junction mapping.  Every session file contains spike-height-normalized voltage traces, the spike-removed subthreshold component, inferred spike times, per-cell coordinates and intrinsic properties, treadmill running speed, a whisking trace and face movie, and trial and stimulus tables.  A seventh asset provides the raw, unregistered camera movie for four acquisition blocks (24 minutes) of one spontaneous session, together with the motion-correction, demixing and spike-finding products needed to run the full pipeline on it from scratch.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Early dopamine disruption in the entorhinal cortex of a knock-in model of Alzheimer’s disease
 AU  - Igarashi, Kei M.
 DO  - 10.48324/DANDI.001968/0.260913.1518
@@ -11487,6 +11560,36 @@ AU  - Fang, Hui
 DO  - 10.48324/DANDI.002023/0.261007.1925
 UR  - https://dandiarchive.org/dandiset/002023/0.261007.1925
 AB  - We are sharing electrophysiology datasets from 4 rats' brains, with the injection of Amphetamine (AMPH) or Saline (control group). We found evoked responses in both local field potentials and single-unit spike activity after drug administration. This dataset is used for our publication (Stabilized Carbon Coating for Scalable and Interoperable Neurotransmitter Sensing) in Nature Communications. Data were recorded with Intan RHD recorder.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Behavioral Fever 20-30 C
+AU  - Haesemeyer, Martin
+DO  - 10.48324/DANDI.002025/0.261013.1838
+UR  - https://dandiarchive.org/dandiset/002025/0.261013.1838
+AB  - Behavioral fever experiments after injection of PBS (Controls) and High-molecular-weight poly(I:C)
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Behavioral fever 20-30 C ZfPV
+AU  - Haesemeyer, Martin
+DO  - 10.48324/DANDI.002026/0.261013.1841
+UR  - https://dandiarchive.org/dandiset/002026/0.261013.1841
+AB  - Behavioral fever experiments on germ free larvae in DMSO (controls), after infection with ZfPV in DMSO, and in DMSO with Celebrex after infection with ZfPV
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Behavioral Fever and Compound 3 20-30 C
+AU  - Haesemeyer, Martin
+DO  - 10.48324/DANDI.002027/0.261013.1840
+UR  - https://dandiarchive.org/dandiset/002027/0.261013.1840
+AB  - Gradient navigation behavior of larval zebrafish after poly(I:C) or control injections in the presence/absence of specific mPGES-1 inhibitor Compound 3
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
