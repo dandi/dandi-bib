@@ -4574,6 +4574,26 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Multi-object working memory in macaque frontal cortex (N. Watters, J. Gabel, J. Tenenbaum, M. Jazayeri)
+AU  - Watters, Nick
+AU  - Gabel, John
+AU  - Jazayeri, Mehrdad
+DO  - 10.48324/DANDI.000620/0.261014.1424
+UR  - https://dandiarchive.org/dandiset/000620/0.261014.1424
+AB  - Dataset for macaque multi-object working memory task with frontal cortex neurophysiology recordings.
+KW  - macaque
+KW  - primate
+KW  - electrophysiology
+KW  - neuropixels
+KW  - working memory
+KW  - frontal cortex
+KW  - FEF
+KW  - DMFC
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Data for: Multimodal brain responses during movie watching: single-neuron, intracranial EEG, and fMRI in human patients
 AU  - Keles, Umit
 AU  - Dubois, Julien
@@ -6274,6 +6294,80 @@ Update 12th May 2026:
 - Unit ID added 
 - Fixed indexing of sleep scoring epochs
 
+KW  - head-direction
+KW  - postsubiculum
+KW  - electrophysiology
+KW  - freely-moving
+KW  - mouse
+KW  - probe
+KW  - extracellular
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Large-scale recordings of head direction cells in mouse postsubiculum
+AU  - Duszkiewicz, Adrian
+AU  - Skromne Carrasco, Sofia
+AU  - Peyrache, Adrien
+DO  - 10.48324/DANDI.000939/0.261014.1846
+UR  - https://dandiarchive.org/dandiset/000939/0.261014.1846
+AB  - Electrophysiological recordings from mouse postsubiculum (dorsal presubiculum) - a region in which most excitatory cells are narrowly tuned to the animal's head direction. Data collected using 64-channel linear probes (Cambridge Neurotech).
+
+Dataset includes one recording session per mouse (N = 31 mice, 42 - 185 units per recording). All sessions include a square open field exploration epoch and two sleep epochs. Some sessions additionally include a triangular open field epoch or an optogenetic stimulation epoch. 
+
+There are two versions of each session file, with and without raw electrophysiological data. Otherwise the two files are the same. 
+
+Each NWB file contains: timestamps of detected units, mean waveforms, LFP,  animal positionand head-direction,  sleep scoring(REM/NREM), accelerometer data. 
+
+Metadata: https://docs.google.com/spreadsheets/d/1eGVMXkzyo25IOJHTyiNYFGhNO_7H4ZscUFfCBi31fYU/edit?usp=sharing
+
+Data used in Duszkiewicz et al, 2024 (DOI:  ́10.1038/s41593-024-01588-5). Collected by Adrian J. Duszkiewicz and Sofia Skromne Carrascoin Peyrache lab. Additional adjustment of motion tracking data by Miao Wang, Sirota lab. 
+
+Original version of the dataset used in the article (including ADN recordings)and code to reproduce figures can be found in Matlab format at:
+https://doi.org/10.6084/m9.figshare.24921252
+
+Update 12th May 2026:
+- Raw electrophysiological recordings added 
+- Unit ID added 
+- Fixed indexing of sleep scoring epochs
+KW  - head-direction
+KW  - postsubiculum
+KW  - electrophysiology
+KW  - freely-moving
+KW  - mouse
+KW  - probe
+KW  - extracellular
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Large-scale recordings of head direction cells in mouse postsubiculum
+AU  - Duszkiewicz, Adrian
+AU  - Skromne Carrasco, Sofia
+AU  - Peyrache, Adrien
+DO  - 10.48324/DANDI.000939/0.261014.1850
+UR  - https://dandiarchive.org/dandiset/000939/0.261014.1850
+AB  - Electrophysiological recordings from mouse postsubiculum (dorsal presubiculum) - a cortical region in which most excitatory cells are head-direction cells. Data collected using 64-channel linear probes (H5, Cambridge Neurotech).
+
+Dataset includes one recording session per mouse (N = 31 mice, 42 - 185 units per recording). All sessions include a square open field exploration epoch and two sleep epochs. Some sessions additionally include a triangular open field epoch or an optogenetic stimulation epoch. 
+
+There are two versions of each session file, with and without raw electrophysiological data. Otherwise the two files are the same. 
+
+Each NWB file contains: timestamps of detected units, mean waveforms, LFP,  animal positionand head-direction,  sleep scoring(REM/NREM), accelerometer data. 
+
+Metadata: https://docs.google.com/spreadsheets/d/1eGVMXkzyo25IOJHTyiNYFGhNO_7H4ZscUFfCBi31fYU/edit?usp=sharing
+
+Data used in Duszkiewicz et al, 2024 (DOI:  ́10.1038/s41593-024-01588-5). Collected by Adrian J. Duszkiewicz and Sofia Skromne Carrascoin Peyrache lab. Additional adjustment of motion tracking data by Miao Wang, Sirota lab. 
+
+Original version of the dataset used in the article (including ADN recordings)and code to reproduce figures can be found in Matlab format at:
+https://doi.org/10.6084/m9.figshare.24921252
+
+Update 12th May 2026:
+- Raw electrophysiological recordings added 
+- Unit ID added 
+- Fixed indexing of sleep scoring epochs
 KW  - head-direction
 KW  - postsubiculum
 KW  - electrophysiology
@@ -11138,6 +11232,17 @@ KW  - electrophysiology
 KW  - MEA data
 KW  - challenges
 KW  - organoid intelligence
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Mesoscale two-photon voltage imaging of single  Layer 5 somata and their corresponding apical dendrites in mouse visual cortex
+AU  - Reimer, Jacob
+AU  - Galdamez, Mario
+DO  - 10.48324/DANDI.001876/0.261014.0414
+UR  - https://dandiarchive.org/dandiset/001876/0.261014.0414
+AB  - We are exporting the 12 dendritic recordings spanning lengths and imaging sampling rates from 4 mice expressing the voltage sensor JEDI3hyp. This dataset contains two-photon mesoscope recordings spanning multiple focal planes traversing one to two Layer 5 soma and their corresponding apical dendrites in addition to aligned locomotion and pupil data.
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
