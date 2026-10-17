@@ -6380,6 +6380,41 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Large-scale recordings of head direction cells in mouse postsubiculum
+AU  - Duszkiewicz, Adrian
+AU  - Skromne Carrasco, Sofia
+AU  - Peyrache, Adrien
+DO  - 10.48324/DANDI.000939/0.261016.2310
+UR  - https://dandiarchive.org/dandiset/000939/0.261016.2310
+AB  - Electrophysiological recordings from mouse postsubiculum (dorsal presubiculum) - a cortical region in which most excitatory cells are head-direction cells. Data collected using 64-channel linear probes (H5, Cambridge Neurotech).
+
+Dataset includes one recording session per mouse (N = 31 mice, 42 - 185 units per recording). All sessions include a square open field exploration epoch and two sleep epochs. Some sessions additionally include a triangular open field epoch or an optogenetic stimulation epoch. 
+
+Each NWB file contains: raw electrophysiological recording, downsampled LFP,  timestamps of spike-sorted units, mean waveforms, animal position and head-direction, sleep scoring(Wake/REM/NREM), accelerometer data. 
+
+Metadata: https://docs.google.com/spreadsheets/d/1eGVMXkzyo25IOJHTyiNYFGhNO_7H4ZscUFfCBi31fYU/edit?usp=sharing
+
+Data used in Duszkiewicz et al, 2024 (DOI:  ́10.1038/s41593-024-01588-5). Collected by Adrian J. Duszkiewicz and Sofia Skromne Carrascoin Peyrache lab. Additional adjustment of motion tracking data by Miao Wang, Sirota lab. 
+
+Original version of the dataset used in the article (including ADN recordings)and code to reproduce figures can be found in Matlab format at:
+https://doi.org/10.6084/m9.figshare.24921252
+
+Update 12th May 2026:
+- Raw electrophysiological recordings added 
+- Unit ID added 
+- Fixed indexing of sleep scoring epochs
+KW  - head-direction
+KW  - postsubiculum
+KW  - electrophysiology
+KW  - freely-moving
+KW  - mouse
+KW  - probe
+KW  - extracellular
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - FALCON Benchmark M1-A: primary motor cortex recordings in primate during reach-to-grasp task
 AU  - Rouse, Adam G
 AU  - Schieber, Marc H
@@ -11725,6 +11760,41 @@ AU  - Haesemeyer, Martin
 DO  - 10.48324/DANDI.002027/0.261013.1840
 UR  - https://dandiarchive.org/dandiset/002027/0.261013.1840
 AB  - Gradient navigation behavior of larval zebrafish after poly(I:C) or control injections in the presence/absence of specific mPGES-1 inhibitor Compound 3
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - One-photon calcium imaging of dorsal CA1 with synchronized behaviour in mice freely exploring a circular open field
+AU  - Pospelov, Nikita
+AU  - Plusnin, Viktor
+AU  - Rogozhnikova, Olga
+AU  - Ivanova, Anna
+AU  - Sotskov, Vladimir
+AU  - Orobets, Margarita
+AU  - Toropova, Ksenia
+AU  - Ivashkina, Olga
+AU  - Avetisov, Vladik
+AU  - Anokhin, Konstantin
+DO  - 10.48324/DANDI.002030/0.261016.1321
+UR  - https://dandiarchive.org/dandiset/002030/0.261016.1321
+AB  - Calcium imaging of dorsal hippocampal CA1 in 13 adult C57BL/6J mice (5 female, 8 male) freely exploring a circular open-field arena (96 cm in diameter) with visual cues on the walls. Each mouse was recorded once a day on three consecutive days, about 12 minutes per session: 39 sessions, 26-695 neurons per session, 14,533 neuron-sessions in total. Neurons expressed GCaMP6s (AAV/DJ-CAG-GCaMP6s) and were imaged through a GRIN lens with a Miniscope V4.4; a camera above the arena filmed the animal.
+
+Each NWB file is one session. It holds dF/F traces of the neurons kept after motion correction (NoRMCorre), source extraction (CNMF-E) and visual inspection, and behavioural variables on the time base of the imaging frames (nominal 30 frames per second): position, speed, body and head direction, rest, walk and run, freezing, rearing, and the zone of the arena the animal is in.
+
+Not included: raw videos and the spatial footprints of the neurons.
+
+The dataset accompanies the DRIADA paper. Scripts that reproduce its figures from these files are in the DRIADA repository (publications/elife).
+KW  - hippocampus
+KW  - CA1
+KW  - calcium imaging
+KW  - one-photon miniscope
+KW  - GCaMP6s
+KW  - open field
+KW  - spatial navigation
+KW  - place cells
+KW  - head direction
+KW  - behavior
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
