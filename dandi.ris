@@ -4594,6 +4594,26 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Multi-object working memory in macaque frontal cortex (N. Watters, J. Gabel, J. Tenenbaum, M. Jazayeri)
+AU  - Watters, Nick
+AU  - Gabel, John
+AU  - Jazayeri, Mehrdad
+DO  - 10.48324/DANDI.000620/0.261019.2000
+UR  - https://dandiarchive.org/dandiset/000620/0.261019.2000
+AB  - Dataset for macaque multi-object working memory task with frontal cortex neurophysiology recordings.
+KW  - macaque
+KW  - primate
+KW  - electrophysiology
+KW  - neuropixels
+KW  - working memory
+KW  - frontal cortex
+KW  - FEF
+KW  - DMFC
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Data for: Multimodal brain responses during movie watching: single-neuron, intracranial EEG, and fMRI in human patients
 AU  - Keles, Umit
 AU  - Dubois, Julien
@@ -5117,6 +5137,28 @@ DO  - 10.48324/DANDI.000678/0.231004.2146
 UR  - https://dandiarchive.org/dandiset/000678/0.231004.2146
 AB  - Pupil diameter, face motion energy, and locomotion speed measures recorded during sensory discrimination behavior of head-fixed mice. Subjects classify the frequency of an auditory tone cloud stimulus, or the angle of a drifting Gabor patch, at right or left lick ports. Data include 391 behavioral sessions from 13 subjects. For more information see the preprint at https://www.biorxiv.org/content/10.1101/2023.03.02.530651v2.
 PY  - 2023
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Pupil and movement measurements during mouse auditory and visual discrimination
+AU  - Hulsey, Daniel
+AU  - Zumwalt, Kevin
+AU  - Mazzucato, Luca
+AU  - McCormick, David A.
+AU  - Jaramillo, Santiago
+DO  - 10.48324/DANDI.000678/0.261020.0029
+UR  - https://dandiarchive.org/dandiset/000678/0.261020.0029
+AB  - Pupil diameter, face motion energy, and locomotion speed measures recorded during sensory discrimination behavior of head-fixed mice. Subjects classify the frequency of an auditory tone cloud stimulus, or the angle of a drifting Gabor patch, at right or left lick ports. Data include 391 behavioral sessions from 13 subjects. For more information see the preprint at https://www.biorxiv.org/content/10.1101/2023.03.02.530651v2.
+KW  - pupillometry
+KW  - arousal
+KW  - uninstructed movements
+KW  - face motion energy
+KW  - locomotion
+KW  - auditory discrimination
+KW  - visual discrimination
+KW  - head-fixed behavior
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -6761,6 +6803,28 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Closed-loop microstimulations of the orbitofrontal cortex during real-life gaze interaction enhance dynamic social attention
+AU  - Chang, Steve
+AU  - Fan, Siqi
+AU  - Dal Monte, Olga
+AU  - Nair, Amrita R.
+AU  - Fagan, Nicholas
+DO  - 10.48324/DANDI.000959/0.261020.0242
+UR  - https://dandiarchive.org/dandiset/000959/0.261020.0242
+AB  - These are the raw and processed data accompanying our manuscript "Closed-loop microstimulations of the orbitofrontal cortex during real-life gaze interaction enhance dynamic social attention". In this paradigm, two animals face each-other and freely gaze at one another while their gaze positions are continuously tracked in real-time. One animal ("M1") receives a low-amplitude microstimulation to one of three prefrontal areas (OFC, ACCg, and dmPFC) that is triggered contingently by specific gaze events, such as looking at the other animal's ("M2") eyes. These data consist of the continuous gaze positions and pupil sizes from each animal; the stimulation event times; and multiple gaze ROIs of each animal.
+KW  - closed-loop microstimulation
+KW  - social gaze interaction
+KW  - social attention
+KW  - eye tracking
+KW  - prefrontal cortex
+KW  - orbitofrontal cortex
+KW  - dorsomedial prefrontal cortex
+KW  - anterior cingulate gyrus
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
 AU  - Seiler, Jillian L.
 AU  - Cosme, Caitlin V.
@@ -6928,6 +6992,31 @@ DO  - 10.48324/DANDI.000986/0.251031.1939
 UR  - https://dandiarchive.org/dandiset/000986/0.251031.1939
 AB  - In these experiments, neural activity was recorded from auditory cortex of behaving mice during passive tone presentation and arousal state was simultaneously monitored using pupillometry. This dataset contains: (1) spike times of sorted units obtained from Neuropixels 1.0 recordings of auditory cortex of head-fixed mice; in each session, neural recordings were made during periods of silence (spontaneous activity) and during passive presentation of brief pure tones (2-32 kHz, evoked activity); (2) pre-processed and max-normalized pupil diameter traces for each recording session; (3) pre-processed running speed traces for each recording session. The dataset includes 15 sessions from 5 different mice. For more information on the data acquisition and processing, please see the preprint associated with this dataset: https://doi.org/10.1101/2024.04.04.588209.
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Auditory cortex Neuropixels recordings and pupil diameter traces from mice during passive exposure to pure tones
+AU  - Papadopoulos, Lia
+AU  - Jo, Suhyun 
+AU  - Zumwalt, Kevin
+AU  - Wehr, Michael
+AU  - Jaramillo, Santiago
+AU  - McCormick, David A.
+AU  - Mazzucato, Luca
+DO  - 10.48324/DANDI.000986/0.261020.0031
+UR  - https://dandiarchive.org/dandiset/000986/0.261020.0031
+AB  - In these experiments, neural activity was recorded from auditory cortex of behaving mice during passive tone presentation and arousal state was simultaneously monitored using pupillometry. This dataset contains: (1) spike times of sorted units obtained from Neuropixels 1.0 recordings of auditory cortex of head-fixed mice; in each session, neural recordings were made during periods of silence (spontaneous activity) and during passive presentation of brief pure tones (2-32 kHz, evoked activity); (2) pre-processed and max-normalized pupil diameter traces for each recording session; (3) pre-processed running speed traces for each recording session. The dataset includes 15 sessions from 5 different mice. For more information on the data acquisition and processing, please see the preprint associated with this dataset: https://doi.org/10.1101/2024.04.04.588209.
+KW  - Neuropixels
+KW  - pupillometry
+KW  - arousal state
+KW  - passive tone presentation
+KW  - spontaneous activity
+KW  - running speed
+KW  - tone discriminability
+KW  - metastable dynamics
+KW  - head-fixed
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -11795,6 +11884,20 @@ KW  - spatial navigation
 KW  - place cells
 KW  - head direction
 KW  - behavior
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Locus coeruleus and pupil data supporting Thompson et al., 202
+AU  - Thompson, Lowell
+AU  - Joshi, Siddhartha
+AU  - Gold, Joshua I.
+DO  - 10.48324/DANDI.002034/0.261019.2146
+UR  - https://dandiarchive.org/dandiset/002034/0.261019.2146
+AB  - Cleaned, trial-delimited data for Thompson et al 2026 figure and stats regeneration.
+KW  - locus coeruleus
+KW  - pupil
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
