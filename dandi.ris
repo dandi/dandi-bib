@@ -11019,6 +11019,37 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Anxa1+ dopamine neuron vulnerability defines prodromal Parkinson's disease-like bradykinesia and procedural motor learning impairment
+AU  - Mantas, Ioannis
+AU  - Contestabile, Alessandro
+AU  - Skara, Vasiliki
+AU  - Loiseau, Camille
+AU  - Rubino, Eleonora
+AU  - Santos, Ines A.
+AU  - Cramb, Kaitlyn M. L.
+AU  - Filograna, Roberta
+AU  - Wade-Martins, Richard
+AU  - Magill, Peter J.
+AU  - Meletis, Konstantinos
+DO  - 10.48324/DANDI.001828/0.261020.1002
+UR  - https://dandiarchive.org/dandiset/001828/0.261020.1002
+AB  - Progressive degeneration of dopamine neurons (DANs) defines Parkinson’s disease (PD). However, the identity and function of the most vulnerable DAN populations in prodromal PD remain undefined. Here, we identify substantia nigra DANs with Annexin A1 (Anxa1) expression as selectively vulnerable across multiple prodromal PD mouse models and in PD patient samples. We found that Anxa1+ DANs have a unique functional profile, as they do not signal reward or reinforce actions, and they are not necessary for motivated behavior. Instead, activity of Anxa1+ DAN axons correlates with vigorous movements during self-paced exploration, yet their silencing only disrupts a subset of action sequences that mirror a bradykinesia profile. Importantly, Anxa1+ DANs are necessary for procedural learning in a maze task and for improving dexterous motor actions. These findings establish the early vulnerability of Anxa1+ DANs in PD, whose function can explain prodromal PD bradykinesia and impairments in procedural motor learning.
+KW  - dopamine neurons
+KW  - Anxa1
+KW  - optogenetics
+KW  - fiber photometry
+KW  - motor learning
+KW  - procedural memory
+KW  - bradykinesia
+KW  - DeepLabCut
+KW  - VAME
+KW  - dLight1.3b
+KW  - GCaMP8m
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Cholinergic interneuron control of intrastriatal GABAergic circuits targeting spiny projection neurons is disrupted in Parkinson's disease models
 AU  - Belal, Marziyeh
 AU  - Perez-Rosello, Tamara
