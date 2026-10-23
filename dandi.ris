@@ -11933,3 +11933,13 @@ PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
+TY  - DATA
+T1  - Amyloid Pathology in the Central Auditory Pathway of 5XFAD Mice Appears First in Auditory Cortex
+AU  - Weible, Aldis P
+DO  - 10.48324/DANDI.002035/0.261022.1829
+UR  - https://dandiarchive.org/dandiset/002035/0.261022.1829
+AB  - Raw widefield fluorescence images supporting: Weible AP, Wehr M (2022) Amyloid Pathology in the Central Auditory Pathway of 5XFAD Mice Appears First in Auditory Cortex. J Alzheimers Dis 89(4):1385-1402. doi:10.3233/JAD-220538. PMCID: PMC10097438.  Hemizygous 5XFAD mice (JAX 006554, B6SJL hybrid background) were perfused at P14-P150; brains were cut in 30 um coronal sections and labeled with anti-Abeta42 (Invitrogen 700254; Alexa Fluor 488 secondary) and DAPI. Images were acquired on a Zeiss Axio Imager A2 with an AxioCam MRm3 camera in ZEN 3.1, one channel per image. Wild-type controls showed no detectable label and were not imaged.  FILE FORMAT. Images are single-channel OME-TIFF. Where the original .czi survives intact they hold the 12-bit raw data (uint16). For a minority of images the .czi was missing or corrupted (including all images of mice 0245, 0242 and 0393); these were converted from ZEN's 8-bit .jpg export (display-scaled, signal channel only) and are marked SourceFormat / source_format = jpg.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
