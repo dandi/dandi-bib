@@ -7799,6 +7799,22 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Striatal Adaptations to Chronic Levodopa Treatment in a Mouse Model of Parkinson’s Disease
+AU  - Paz, Rodrigo
+AU  - Marcott, Pamela
+AU  - Ryan, Michael
+AU  - Girasole, Allison
+AU  - Sridhar, Sadhana
+AU  - Duong, Vincent
+AU  - Nelson, Alexandra B.
+DO  - 10.48324/DANDI.001180/0.261024.0010
+UR  - https://dandiarchive.org/dandiset/001180/0.261024.0010
+AB  - In this project, we studied how the responses to levodopa change over time in a mouse model of Parkinson’s Disease. We compared the behavioral response to levodopa over 4 weeks of treatment, including the severity and duration of levodopa-induced dyskinesia. In parallel, we recorded the activity of striatal projection neurons using single-unit electrophysiology. We implanted 6-OHDA-treated mice with multi-electrode arrays in the dorsolateral striatum (DLS). We monitored movement of the mouse in the open field with video tracking, performed manual dyskinesia scoring with the Abnormal Involuntary Movement Score (AIMS), and recorded extracellular voltage from each of the multi-electrode array channels. Each session contained a baseline period, where the mouse was in the parkinsonian (OFF) state, followed by intraperitoneal injection of levodopa (5 mg/kg, with benserazide), which induced both therapeutic and dyskinetic responses, and eventually wore off, towards the end of each 2-3 hour recording. After the recordings, we performed automated spike sorting (Kilosort) with manual curation to ensure the quality of single units, and aligned spiking of each single unit with behavioral data.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Stimulus-specific hypothalamic encoding of a persistent defensive state
 AU  - Kennedy, Ann
 DO  - 10.48324/DANDI.001182/0.240827.1656
