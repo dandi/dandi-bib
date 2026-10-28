@@ -4453,6 +4453,20 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Neural correlates of individual facial recognition in a social wasp
+AU  - Jernigan, Christopher M
+AU  - Mammen, Lorenz Carl Christian
+AU  - Freiwald, Winrich
+AU  - Sheehan, Michael J
+DO  - 10.48324/DANDI.000578/0.261027.1550
+UR  - https://dandiarchive.org/dandiset/000578/0.261027.1550
+AB  - Raw electrophysiological dataset using 64-channel silicon probes and affiliated meta data: animal information, raw voltage data, stimulus set video and images, presentation order, and meta.
+KW  - Polistes fuscatus, wasp cell, face cell, social processing, lateral protocerebrum
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Two-photon calcium imaging of mouse posterior cortical areas during dynamic navigation decisions (Tseng et al., 2022, Neuron)
 AU  - Tseng, Shih-Yi
 AU  - Chettih, Selmaan
