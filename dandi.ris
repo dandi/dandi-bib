@@ -12003,3 +12003,14 @@ PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
+TY  - DATA
+T1  - One photon calcium imaging videos to record motor cortical acitvity in a progressive mouse model of nigrostriatal degeneration
+AU  - Chu, Hong-Yuan
+DO  - 10.48324/DANDI.002042/0.261028.2212
+UR  - https://dandiarchive.org/dandiset/002042/0.261028.2212
+AB  - this dandiset contains the calcium imaging videos recorded as follows: we used a progressive mouse model of nigrostriatal degeneration (i.e., MitoPark mice) to conduct longitudinal one-photon calcium imaging of neural activity in the M1 in freely moving animals during gradually worsening striatal DA depletion. To record calcium activity from cortical excitatory neurons, AAV9-CaMKII-GCaMP6f (Addgene #100834-AAV9, RRID: Addgene_100834-AAV9; volume = 300 nl, titer = 1 × 1013 GC/ml) was injected in M1 contralateral to the dominant paw [from bregma in mm, anteroposterior (AP) = +0.3 and +0.8, mediolateral (ML) = 1.25, dorsoventral (DV) = −1.0 from dura]. A prism GRIN lens attached to a baseplate (Cat # 1050-004419, Inscopix) was inserted in M1 at the AAV injection site centered at (in mm) AP = +0.5, ML = 1.0, DV = −0.5, so that the imaging plane would be parallel to the midline and faces M1 medially. In vivo calcium imaging was performed using nVue 1.0 (Inscopix, Cat # 1000-005735) and nVue 2.0 (Inscopix, Cat # 1000-006810) systems. GCaMP6f signal was recorded continuously at 20 Hz using the Inscopix Data Acquisition System by setting LED power at 0.2 -0.4 mW/mm2, exposure time at 50 ms, and sensor gain of 2 to 4. Paper can be found at https://doi.org/10.64898/2026.05.29.728524
+KW  - motor cortex, parkinson's disease, mitopark, calcium imaging
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
