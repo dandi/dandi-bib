@@ -11150,6 +11150,23 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Naturalistic behavior and self-generated neural activity predictive of self-correction
+AU  - Gu, Shijie
+AU  - Liu, Cheng
+AU  - Frank, Loren
+DO  - 10.48324/DANDI.001836/0.261030.0428
+UR  - https://dandiarchive.org/dandiset/001836/0.261030.0428
+AB  - Data for the paper "Naturalistic behavior and self-generated neural activity predictive of self-correction" by Shijie Gu, Chenyan Liu, Anna K. Gillespie, Rhino Nevers, Eric L. Denovellis, Michael E. Coulter, Kenny Kay, and Loren M. Frank Hippocampus recording during rats changing their minds. Paper abstract: Changing one’s mind –– revising a past decision and independently of external cues –– can lead to better outcomes, but its neural basis remains poorly understood. We developed a challenging spatial task for rats where the conflict between task rules and innate biases leads to abundant, spontaneous, and characteristically corrective changes-of-mind (COMs). Neural recordings reveal a striking two-stage organization underlying COMs. In hippocampus, a brain region implicated in counterfactual thinking, spatial representations bifurcated around COM onset: representations of distant alternatives emerged only after animals began to change course. These representations predicted their eventual choice, and often serially encoded trial start and end locations. Our task paradigm reveals that the brain processes underlying self-correction are dissociable and uncovers a rich repertoire of hippocampal spatial representations tied to behavior.
+KW  - change of mind
+KW  - self-correction
+KW  - counterfactual thinking
+KW  - hippocampal spatial representations
+KW  - spatial choice task
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Global/Local Oddball project macaque monkey multi-area neurophysiology
 AU  - Xiong, Yihan Sophy
 DO  - 10.48324/DANDI.001838/0.260616.2029
