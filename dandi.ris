@@ -3767,6 +3767,40 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Esr1+ hypothalamic-habenula neurons shape aversive states.
+AU  - Calvigioni, Daniela
+AU  - Fuzik, Janos
+AU  - Le Merre, Pierre
+AU  - Slashcheva, Marina
+AU  - Jung, Felix
+AU  - Ortiz, Cantin
+AU  - Lentini, Antonio
+AU  - Csillag, Veronika
+AU  - Graziano, Marta
+AU  - Nikolakopoulou, Ifigeneia
+AU  - Weglage, Moritz
+AU  - Lazaridis, Iakovos
+AU  - Kim, Hoseok
+AU  - Lenzi, Irene
+AU  - Park, Hyunsoo
+AU  - Reinius, Björn
+AU  - Carlén, Marie
+AU  - Meletis, Konstantinos
+DO  - 10.48324/DANDI.000473/0.261102.1657
+UR  - https://dandiarchive.org/dandiset/000473/0.261102.1657
+AB  - Prefrontal cortex (PFC) high-density extracellular recordings (Neuropixels) in head-fixed mice during an aversive-conditioning task. Neuronal responses to internally generated (i.e. pathway-specific optogenetic activation, see the main article for details) and externally derived (i.e. air puffs) aversive signals have been recorded.
+KW  - Neuropixels
+KW  - Mouse
+KW  - Head-fixed
+KW  - Lateral Hypothalamus
+KW  - Lateral Habenula
+KW  - Prefrontal cortex
+KW  - Aversion
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - State-dependent processing in visual cortex
 AU  - Bereshpolova, Yulia
 DO  - 10.48324/DANDI.000481/0.230417.2148
@@ -11957,6 +11991,32 @@ AU  - Haesemeyer, Martin
 DO  - 10.48324/DANDI.002027/0.261013.1840
 UR  - https://dandiarchive.org/dandiset/002027/0.261013.1840
 AB  - Gradient navigation behavior of larval zebrafish after poly(I:C) or control injections in the presence/absence of specific mPGES-1 inhibitor Compound 3
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Extracellular recordings from the anesthetized lateral geniculate nucleus: natural and noise stimuli across contrast levels
+AU  - Lesica, Nicholas A
+AU  - Yeh, Chun-I
+AU  - Jin, Jianzhong
+AU  - Stanley, Garrett B
+AU  - Alonso, Jose-Manuel
+DO  - 10.48324/DANDI.002028/0.261102.1631
+UR  - https://dandiarchive.org/dandiset/002028/0.261102.1631
+AB  - Recordings from the lateral geniculate nucleus (LGN) during the presentation of a range of visual stimuli: natural movies, white-noise patterns and full-field flicker, each presented at two or more contrast levels, both as long non-repeating sequences and as many repetitions of short clips. This combination of stimulus types, contrasts and repeated presentations makes the dataset useful for both information-theoretic analyses and statistical modeling. This dataset supported four published studies, which examined the timescales and temporal precision of spike trains during natural vision, the organization of LGN spike trains into episodic spiking events, adaptation to stimulus contrast and spatiotemporal statistics, and how excitation and suppression shape spike timing in models of LGN processing (Lesica et al. 2007; Butts et al. 2007, 2010, 2011). Repeated presentations allow response reliability and information rates to be measured directly, while long unique sequences allow receptive fields and encoding models to be fit and tested on held-out data.<p>&nbsp;</p>'**Organization notes.** The composition of each experiment (and in some cases each penetration) is variable, and we include a searchable table to locate desired conditions across the dataset. We use a single shared stimulus library (included in Expt1) and must be used with all specific penetration data. Python tools and a juptyer notebook to demonstrate how to search for and load different types of data is available in the DataProcessing directory at https://github.com/NeuroTheoryUMD/LGNcoding.git.
+KW  - lateral geniculate nucleus
+KW  - LGN
+KW  - thalamus
+KW  - vision
+KW  - electrophysiology
+KW  - natural scenes
+KW  - white noise
+KW  - contrast adaptation
+KW  - spike timing
+KW  - neural coding
+KW  - information theory
+KW  - encoding models
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
