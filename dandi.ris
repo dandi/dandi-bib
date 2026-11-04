@@ -556,708 +556,6 @@ PY  - 2023
 PB  - DANDI Archive
 ER  - 
 
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Error: DOI Not Found</title>
-
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous">
-    <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous">
-    </script>
-
-    <script src="https://kit.fontawesome.com/731b8140c4.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="/static/css/style.css" integrity="">
-
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&display=swap");
-    </style>
-
-    <link rel="icon" sizes="48x48" href="/static/images/favicons/favicon.ico">
-    <link rel="icon" sizes="32x32" href="/static/images/favicons/favicon-32x32.png">
-    <link rel="icon" sizes="16x16" href="/static/images/favicons/favicon-16x16.png">
-    <link rel="apple-touch-icon-precomposed" href="/static/images/favicons/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="/static/images/favicons/android-chrome-192x192.png">
-    <link rel="apple-touch-icon-precomposed" sizes="512x512" href="/static/images/favicons/android-chrome-512x512.png">
-
-</head>
-<body class="generic-page">
-<header>
-    <div class="row">
-        <div class="col logo">
-            <a href="https://www.doi.org"><img class="header-logo" src="/static/images/logos/header_logo_cropped.svg" /></a>
-        </div>
-        <div class="col home-link">
-            <div class="link-alt">
-                <a href="https://www.doi.org">
-                    <span>VISIT DOI.ORG</span>
-                    <i class="fa-solid fa-arrow-right-long hover-move-right"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-
-</header>
-
-
-<main aria-role="main">
-    <header class="homepage-header">
-    </header>
-    <div class="homepage-content">
-
-        <section class="single-top">
-            <div class="row short"></div>
-        </section>
-
-        <div class="page-content">
-            <article>
-                <div>
-                    <h2>DOI Not Found</h2>
-
-                    
-
-                    <h3>10.48324/dandi.000029/0.230317.1553</h3>
-
-                    
-                    
-                    
-                    <p>This DOI cannot be found in the DOI System.  Possible reasons are:</p>
-                    
-
-                    <ul>
-                        <li style="padding-bottom: .5em;">The DOI is incorrect in your source. Search for the item by name, title, or other metadata using a search engine.</li>
-                        <li style="padding-bottom: .5em;">The DOI was copied incorrectly. Check to see that the string includes all the characters before and after the slash and no sentence punctuation marks.</li>
-                        <li style="padding-bottom: .5em;">The DOI has not been activated yet. Please try again later, and report the problem if the error continues.</li>
-                    </ul>
-                    
-                    
-                </div>
-            </article>
-        </div>
-
-        <section class="home-infos">
-            <div class="row">
-                <div class="col ">
-                    <h2 class="title">WHAT CAN I DO NEXT?</h2>
-                    <ul>
-                        <li>If you believe this DOI is valid, you may <strong>report this error</strong> to the responsible DOI Registration Agency using the form here.</li>
-                        <li>If your organization is the steward of this DOI prefix, please make sure you have completed registration of this DOI with your Registration Agency.</li>
-                        <li>You can try to search again from <a href="https://www.doi.org">DOI.ORG homepage</a></li>
-                    </ul>
-                </div>
-                <div class="col form">
-                    <h2 class="title"><img src="/static/images/exclamation.svg">REPORT AN ERROR</h2>
-                    <form action="/notfound" method="post" enctype="application/x-www-form-urlencoded" name="notFoundForm" onsubmit="return submitDoiNotFound(event);">
-                        <div class="row">
-                            <div class="col"><label for="missingHandle">DOI:</label></div>
-                            <div class="col"><input id="missingHandle" name="missingHandle" value="10.48324/dandi.000029/0.230317.1553" type="text" readonly="readonly"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"><label for="referringPage">URL of Web Page Listing the DOI:</label></div>
-                            <div class="col"><input id="referringPage" name="referringPage" type="text" ></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"><label for="userEmailAddress">Your Email Address:</label></div>
-                            <div class="col"><input id="userEmailAddress" name="userEmailAddress" type="text" /></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"><label for="comments">Additional Information About the Error:</label></div>
-                            <div class="col"><textarea id="comments" name="comments"></textarea></div>
-                        </div>
-                        <div class="row">
-                            <div class="cf-turnstile" data-theme="light" data-sitekey="0x4AAAAAACiF3eA8err_tBga"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col"><input class="submit" type="submit" value="Submit Error Report"></div>
-                        </div>
-                        <div class="row">
-                            <p id="invalidDoi" style="display: none; background:#F5B7B1; border-radius: 5px;">The DOI entered is not a valid DOI: it should start with 10 followed by a dot, and contain a slash with no preceding whitespace.</p>
-                            <p id="invalidEmail" style="display: none; background:#F5B7B1; border-radius: 5px;">The email address entered is invalid.</p>
-                            <p id="fallback" style="display: none;">Please <a href="mailto:doi-help@doi.org?subject=DOI%20Not%20Found">contact us</a> if you wish to report this anyway.</p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-        </section>
-    </div>
-    
-    
-</main>
-
-<footer>
-    <div class="row">
-        <div class="col footer-left">
-            <a href="https://www.doi.org"><img class="footer-logo" src="/static/images/logos/footer_logo_cropped.svg" /></a>
-        </div>
-        <div class="col footer-right">
-            <div class="row more-info-heading">
-                <div class="col">
-                    <h2>More information on DOI resolution:</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <ul>
-                        <li><a href="https://www.doi.org/the-identifier/resources/factsheets/doi-resolution-documentation">DOI Resolution Factsheet</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><a href="https://www.doi.org/the-identifier/resources/handbook">The DOI Handbook</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><a href="https://www.doi.org/privacy-policy/">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="row">
-        <div class="col copyright">
-            <p>Copyright © 2026 DOI Foundation. <i class="fa-brands fa-fw fa-creative-commons"></i><i class="fa-brands fa-fw fa-creative-commons-by"></i> The content of this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p><p>DOI&reg;, DOI.ORG&reg;, and shortDOI&reg; are trademarks of the DOI Foundation.</p>
-        </div>
-        <div class="col socials">
-            <ul class="socials-footer">
-
-                <li><a href="https://twitter.com/DOI_Foundation"><i class="fa-brands fa-fw fa-twitter"></i></a></li>
-
-                <li><a href="https://www.linkedin.com/company/doi-foundation-inc/"><i class="fa-brands fa-fw fa-linkedin"></i></a></li>
-
-                <li><a href="mailto:info@doi.org"><i class="fa-solid fa-fw fa-envelope"></i></a></li>
-
-            </ul>
-        </div>
-    </div>
-</footer>
-
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-
-<script type="text/javascript">
-    function submitDoiNotFound(event) {
-        try {
-            document.getElementById("invalidEmail").style.display = "none";
-            document.getElementById("invalidDoi").style.display = "none";
-            document.getElementById("fallback").style.display = "none";
-
-            const missingHandle = document.getElementById('missingHandle').value.trim();
-            const userEmailAddress = document.getElementById('userEmailAddress').value.trim();
-
-            if (!validateDoi(missingHandle)) {
-                event.preventDefault();
-                document.getElementById("invalidDoi").style.display = "block";
-                document.getElementById("fallback").style.display = "block";
-                return false;
-            }
-            if (!validateEmail(userEmailAddress)) {
-                event.preventDefault();
-                document.getElementById("invalidEmail").style.display = "block";
-                return false;
-            }
-        } catch (error) {
-            // ignore
-        }
-    }
-
-    function validateEmail(email) {
-        const regEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return regEx.test(email);
-    }
-
-    function validateDoi(doi) {
-        const regEx = /^10(?:\.[^\s\/]+)?\//;
-        return regEx.test(doi);
-    }
-</script>
-
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Error: DOI Not Found</title>
-
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous">
-    <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous">
-    </script>
-
-    <script src="https://kit.fontawesome.com/731b8140c4.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="/static/css/style.css" integrity="">
-
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&display=swap");
-    </style>
-
-    <link rel="icon" sizes="48x48" href="/static/images/favicons/favicon.ico">
-    <link rel="icon" sizes="32x32" href="/static/images/favicons/favicon-32x32.png">
-    <link rel="icon" sizes="16x16" href="/static/images/favicons/favicon-16x16.png">
-    <link rel="apple-touch-icon-precomposed" href="/static/images/favicons/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="/static/images/favicons/android-chrome-192x192.png">
-    <link rel="apple-touch-icon-precomposed" sizes="512x512" href="/static/images/favicons/android-chrome-512x512.png">
-
-</head>
-<body class="generic-page">
-<header>
-    <div class="row">
-        <div class="col logo">
-            <a href="https://www.doi.org"><img class="header-logo" src="/static/images/logos/header_logo_cropped.svg" /></a>
-        </div>
-        <div class="col home-link">
-            <div class="link-alt">
-                <a href="https://www.doi.org">
-                    <span>VISIT DOI.ORG</span>
-                    <i class="fa-solid fa-arrow-right-long hover-move-right"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-
-</header>
-
-
-<main aria-role="main">
-    <header class="homepage-header">
-    </header>
-    <div class="homepage-content">
-
-        <section class="single-top">
-            <div class="row short"></div>
-        </section>
-
-        <div class="page-content">
-            <article>
-                <div>
-                    <h2>DOI Not Found</h2>
-
-                    
-
-                    <h3>10.48324/dandi.000029/0.231017.1955</h3>
-
-                    
-                    
-                    
-                    <p>This DOI cannot be found in the DOI System.  Possible reasons are:</p>
-                    
-
-                    <ul>
-                        <li style="padding-bottom: .5em;">The DOI is incorrect in your source. Search for the item by name, title, or other metadata using a search engine.</li>
-                        <li style="padding-bottom: .5em;">The DOI was copied incorrectly. Check to see that the string includes all the characters before and after the slash and no sentence punctuation marks.</li>
-                        <li style="padding-bottom: .5em;">The DOI has not been activated yet. Please try again later, and report the problem if the error continues.</li>
-                    </ul>
-                    
-                    
-                </div>
-            </article>
-        </div>
-
-        <section class="home-infos">
-            <div class="row">
-                <div class="col ">
-                    <h2 class="title">WHAT CAN I DO NEXT?</h2>
-                    <ul>
-                        <li>If you believe this DOI is valid, you may <strong>report this error</strong> to the responsible DOI Registration Agency using the form here.</li>
-                        <li>If your organization is the steward of this DOI prefix, please make sure you have completed registration of this DOI with your Registration Agency.</li>
-                        <li>You can try to search again from <a href="https://www.doi.org">DOI.ORG homepage</a></li>
-                    </ul>
-                </div>
-                <div class="col form">
-                    <h2 class="title"><img src="/static/images/exclamation.svg">REPORT AN ERROR</h2>
-                    <form action="/notfound" method="post" enctype="application/x-www-form-urlencoded" name="notFoundForm" onsubmit="return submitDoiNotFound(event);">
-                        <div class="row">
-                            <div class="col"><label for="missingHandle">DOI:</label></div>
-                            <div class="col"><input id="missingHandle" name="missingHandle" value="10.48324/dandi.000029/0.231017.1955" type="text" readonly="readonly"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"><label for="referringPage">URL of Web Page Listing the DOI:</label></div>
-                            <div class="col"><input id="referringPage" name="referringPage" type="text" ></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"><label for="userEmailAddress">Your Email Address:</label></div>
-                            <div class="col"><input id="userEmailAddress" name="userEmailAddress" type="text" /></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"><label for="comments">Additional Information About the Error:</label></div>
-                            <div class="col"><textarea id="comments" name="comments"></textarea></div>
-                        </div>
-                        <div class="row">
-                            <div class="cf-turnstile" data-theme="light" data-sitekey="0x4AAAAAACiF3eA8err_tBga"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col"><input class="submit" type="submit" value="Submit Error Report"></div>
-                        </div>
-                        <div class="row">
-                            <p id="invalidDoi" style="display: none; background:#F5B7B1; border-radius: 5px;">The DOI entered is not a valid DOI: it should start with 10 followed by a dot, and contain a slash with no preceding whitespace.</p>
-                            <p id="invalidEmail" style="display: none; background:#F5B7B1; border-radius: 5px;">The email address entered is invalid.</p>
-                            <p id="fallback" style="display: none;">Please <a href="mailto:doi-help@doi.org?subject=DOI%20Not%20Found">contact us</a> if you wish to report this anyway.</p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-        </section>
-    </div>
-    
-    
-</main>
-
-<footer>
-    <div class="row">
-        <div class="col footer-left">
-            <a href="https://www.doi.org"><img class="footer-logo" src="/static/images/logos/footer_logo_cropped.svg" /></a>
-        </div>
-        <div class="col footer-right">
-            <div class="row more-info-heading">
-                <div class="col">
-                    <h2>More information on DOI resolution:</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <ul>
-                        <li><a href="https://www.doi.org/the-identifier/resources/factsheets/doi-resolution-documentation">DOI Resolution Factsheet</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><a href="https://www.doi.org/the-identifier/resources/handbook">The DOI Handbook</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><a href="https://www.doi.org/privacy-policy/">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="row">
-        <div class="col copyright">
-            <p>Copyright © 2026 DOI Foundation. <i class="fa-brands fa-fw fa-creative-commons"></i><i class="fa-brands fa-fw fa-creative-commons-by"></i> The content of this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p><p>DOI&reg;, DOI.ORG&reg;, and shortDOI&reg; are trademarks of the DOI Foundation.</p>
-        </div>
-        <div class="col socials">
-            <ul class="socials-footer">
-
-                <li><a href="https://twitter.com/DOI_Foundation"><i class="fa-brands fa-fw fa-twitter"></i></a></li>
-
-                <li><a href="https://www.linkedin.com/company/doi-foundation-inc/"><i class="fa-brands fa-fw fa-linkedin"></i></a></li>
-
-                <li><a href="mailto:info@doi.org"><i class="fa-solid fa-fw fa-envelope"></i></a></li>
-
-            </ul>
-        </div>
-    </div>
-</footer>
-
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-
-<script type="text/javascript">
-    function submitDoiNotFound(event) {
-        try {
-            document.getElementById("invalidEmail").style.display = "none";
-            document.getElementById("invalidDoi").style.display = "none";
-            document.getElementById("fallback").style.display = "none";
-
-            const missingHandle = document.getElementById('missingHandle').value.trim();
-            const userEmailAddress = document.getElementById('userEmailAddress').value.trim();
-
-            if (!validateDoi(missingHandle)) {
-                event.preventDefault();
-                document.getElementById("invalidDoi").style.display = "block";
-                document.getElementById("fallback").style.display = "block";
-                return false;
-            }
-            if (!validateEmail(userEmailAddress)) {
-                event.preventDefault();
-                document.getElementById("invalidEmail").style.display = "block";
-                return false;
-            }
-        } catch (error) {
-            // ignore
-        }
-    }
-
-    function validateEmail(email) {
-        const regEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return regEx.test(email);
-    }
-
-    function validateDoi(doi) {
-        const regEx = /^10(?:\.[^\s\/]+)?\//;
-        return regEx.test(doi);
-    }
-</script>
-
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Error: DOI Not Found</title>
-
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous">
-    <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous">
-    </script>
-
-    <script src="https://kit.fontawesome.com/731b8140c4.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="/static/css/style.css" integrity="">
-
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&display=swap");
-    </style>
-
-    <link rel="icon" sizes="48x48" href="/static/images/favicons/favicon.ico">
-    <link rel="icon" sizes="32x32" href="/static/images/favicons/favicon-32x32.png">
-    <link rel="icon" sizes="16x16" href="/static/images/favicons/favicon-16x16.png">
-    <link rel="apple-touch-icon-precomposed" href="/static/images/favicons/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="/static/images/favicons/android-chrome-192x192.png">
-    <link rel="apple-touch-icon-precomposed" sizes="512x512" href="/static/images/favicons/android-chrome-512x512.png">
-
-</head>
-<body class="generic-page">
-<header>
-    <div class="row">
-        <div class="col logo">
-            <a href="https://www.doi.org"><img class="header-logo" src="/static/images/logos/header_logo_cropped.svg" /></a>
-        </div>
-        <div class="col home-link">
-            <div class="link-alt">
-                <a href="https://www.doi.org">
-                    <span>VISIT DOI.ORG</span>
-                    <i class="fa-solid fa-arrow-right-long hover-move-right"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-
-</header>
-
-
-<main aria-role="main">
-    <header class="homepage-header">
-    </header>
-    <div class="homepage-content">
-
-        <section class="single-top">
-            <div class="row short"></div>
-        </section>
-
-        <div class="page-content">
-            <article>
-                <div>
-                    <h2>DOI Not Found</h2>
-
-                    
-
-                    <h3>10.48324/dandi.000029/0.231017.1959</h3>
-
-                    
-                    
-                    
-                    <p>This DOI cannot be found in the DOI System.  Possible reasons are:</p>
-                    
-
-                    <ul>
-                        <li style="padding-bottom: .5em;">The DOI is incorrect in your source. Search for the item by name, title, or other metadata using a search engine.</li>
-                        <li style="padding-bottom: .5em;">The DOI was copied incorrectly. Check to see that the string includes all the characters before and after the slash and no sentence punctuation marks.</li>
-                        <li style="padding-bottom: .5em;">The DOI has not been activated yet. Please try again later, and report the problem if the error continues.</li>
-                    </ul>
-                    
-                    
-                </div>
-            </article>
-        </div>
-
-        <section class="home-infos">
-            <div class="row">
-                <div class="col ">
-                    <h2 class="title">WHAT CAN I DO NEXT?</h2>
-                    <ul>
-                        <li>If you believe this DOI is valid, you may <strong>report this error</strong> to the responsible DOI Registration Agency using the form here.</li>
-                        <li>If your organization is the steward of this DOI prefix, please make sure you have completed registration of this DOI with your Registration Agency.</li>
-                        <li>You can try to search again from <a href="https://www.doi.org">DOI.ORG homepage</a></li>
-                    </ul>
-                </div>
-                <div class="col form">
-                    <h2 class="title"><img src="/static/images/exclamation.svg">REPORT AN ERROR</h2>
-                    <form action="/notfound" method="post" enctype="application/x-www-form-urlencoded" name="notFoundForm" onsubmit="return submitDoiNotFound(event);">
-                        <div class="row">
-                            <div class="col"><label for="missingHandle">DOI:</label></div>
-                            <div class="col"><input id="missingHandle" name="missingHandle" value="10.48324/dandi.000029/0.231017.1959" type="text" readonly="readonly"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"><label for="referringPage">URL of Web Page Listing the DOI:</label></div>
-                            <div class="col"><input id="referringPage" name="referringPage" type="text" ></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"><label for="userEmailAddress">Your Email Address:</label></div>
-                            <div class="col"><input id="userEmailAddress" name="userEmailAddress" type="text" /></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"><label for="comments">Additional Information About the Error:</label></div>
-                            <div class="col"><textarea id="comments" name="comments"></textarea></div>
-                        </div>
-                        <div class="row">
-                            <div class="cf-turnstile" data-theme="light" data-sitekey="0x4AAAAAACiF3eA8err_tBga"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col"><input class="submit" type="submit" value="Submit Error Report"></div>
-                        </div>
-                        <div class="row">
-                            <p id="invalidDoi" style="display: none; background:#F5B7B1; border-radius: 5px;">The DOI entered is not a valid DOI: it should start with 10 followed by a dot, and contain a slash with no preceding whitespace.</p>
-                            <p id="invalidEmail" style="display: none; background:#F5B7B1; border-radius: 5px;">The email address entered is invalid.</p>
-                            <p id="fallback" style="display: none;">Please <a href="mailto:doi-help@doi.org?subject=DOI%20Not%20Found">contact us</a> if you wish to report this anyway.</p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-        </section>
-    </div>
-    
-    
-</main>
-
-<footer>
-    <div class="row">
-        <div class="col footer-left">
-            <a href="https://www.doi.org"><img class="footer-logo" src="/static/images/logos/footer_logo_cropped.svg" /></a>
-        </div>
-        <div class="col footer-right">
-            <div class="row more-info-heading">
-                <div class="col">
-                    <h2>More information on DOI resolution:</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <ul>
-                        <li><a href="https://www.doi.org/the-identifier/resources/factsheets/doi-resolution-documentation">DOI Resolution Factsheet</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><a href="https://www.doi.org/the-identifier/resources/handbook">The DOI Handbook</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><a href="https://www.doi.org/privacy-policy/">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="row">
-        <div class="col copyright">
-            <p>Copyright © 2026 DOI Foundation. <i class="fa-brands fa-fw fa-creative-commons"></i><i class="fa-brands fa-fw fa-creative-commons-by"></i> The content of this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p><p>DOI&reg;, DOI.ORG&reg;, and shortDOI&reg; are trademarks of the DOI Foundation.</p>
-        </div>
-        <div class="col socials">
-            <ul class="socials-footer">
-
-                <li><a href="https://twitter.com/DOI_Foundation"><i class="fa-brands fa-fw fa-twitter"></i></a></li>
-
-                <li><a href="https://www.linkedin.com/company/doi-foundation-inc/"><i class="fa-brands fa-fw fa-linkedin"></i></a></li>
-
-                <li><a href="mailto:info@doi.org"><i class="fa-solid fa-fw fa-envelope"></i></a></li>
-
-            </ul>
-        </div>
-    </div>
-</footer>
-
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-
-<script type="text/javascript">
-    function submitDoiNotFound(event) {
-        try {
-            document.getElementById("invalidEmail").style.display = "none";
-            document.getElementById("invalidDoi").style.display = "none";
-            document.getElementById("fallback").style.display = "none";
-
-            const missingHandle = document.getElementById('missingHandle').value.trim();
-            const userEmailAddress = document.getElementById('userEmailAddress').value.trim();
-
-            if (!validateDoi(missingHandle)) {
-                event.preventDefault();
-                document.getElementById("invalidDoi").style.display = "block";
-                document.getElementById("fallback").style.display = "block";
-                return false;
-            }
-            if (!validateEmail(userEmailAddress)) {
-                event.preventDefault();
-                document.getElementById("invalidEmail").style.display = "block";
-                return false;
-            }
-        } catch (error) {
-            // ignore
-        }
-    }
-
-    function validateEmail(email) {
-        const regEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return regEx.test(email);
-    }
-
-    function validateDoi(doi) {
-        const regEx = /^10(?:\.[^\s\/]+)?\//;
-        return regEx.test(doi);
-    }
-</script>
-
-</body>
-</html>
-
-
 TY  - DATA
 T1  - Test dataset for development purposes
 AU  - Last, First
@@ -1471,6 +769,29 @@ KW  - Sleep/awake states
 KW  - Sleep stages
 KW  - Homeostasis
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Network Homeostasis and State Dynamics of Neocortical Sleep
+AU  - Watson, Brendon O.
+AU  - Levenstein, Daniel
+AU  - Greene, J. Palmer
+AU  - Gelinas, Jennifer N.
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000041/0.261104.0300
+UR  - https://dandiarchive.org/dandiset/000041/0.261104.0300
+AB  - Data was recorded using silicon probe electrodes in the frontal cortices of male Long Evans rats between 4-7 months of age. The design was to have no specific behavior, task or stimulus, rather the animal was left alone in it’s home cage (which it lives in at all
+times). Data includes both local field potentials (LFP) and spikes. 11 total animals, 27 recording sessions, 1360 total units recorded, 1121 units considered stable, 995 putative excitatory units and 126 putative inhibitory units. Only recordings including a “WAKE-SLEEP” episode wherein at least 7 minutes of wake are followed by 20 minutes of sleep. On average 2 such WAKE-SLEEP episodes per recording session. 
+KW  - Firing patterns
+KW  - Sleep/awake states
+KW  - Sleep stages
+KW  - Homeostasis
+KW  - extracellular electrophysiology
+KW  - silicon probes
+KW  - LFP
+KW  - spike sorting
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -8234,6 +7555,43 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Data supporting "Amygdalostriatal transition zone neurons encode sustained cue responses to guide defensive behaviors" (Mills, et al, 2026)
+AU  - Mills, Fergil
+AU  - Lee, Christopher R.
+AU  - Howe, James R. 
+AU  - Li, Hao
+AU  - Shao, Shan
+AU  - Keisler, Maria N
+AU  - Taschbach, Felix H.
+AU  - Lemieux, Mackenzie E.
+AU  - Borio, Matilde
+AU  - Chen, Hannah S.
+AU  - Gross, Alexa L.
+AU  - Patel, Reesha R.
+AU  - Delahanty, Jeremy
+AU  - Cazares, Christian
+AU  - Maree, Liezl
+AU  - Wichmann, Romy
+AU  - Pereira, Talmo D
+AU  - Benna, Marcus K.
+AU  - Root, Cory M.
+DO  - 10.48324/DANDI.001203/0.261103.1719
+UR  - https://dandiarchive.org/dandiset/001203/0.261103.1719
+AB  - This dandiset includes electrophysiology data from Open Ephys and Neuropixels, as well as calcium imaging recordings collected with Miniscopes in the Amygdalostrial transition zone (ASt) in freely-moving mice during a Pavlovian discrimination task; simultaneous behavioral recordings using a single camera (top-down view) and the SLEAP-tracked pose estimation outputs are also included with each file. An additional calcium imaging session collected during the Contextual Fear Conditioning task contains Miniscope recordings, behavioral video, and SLEAP-tracked poses. Data was used in the publication Mills, et al., Amygdalostriatal transition zone neurons encode sustained cue responses to guide defensive behaviors, Neuron (2026), https://doi.org/10.1016/j.neuron.2026.08.012  Please refer to Methods Section in that paper for additional experimental details. Animal ages are approximated in all files.
+KW  - dopamine receptor 1
+KW  - dopamine receptor 2
+KW  - amygdalostriatal transition zone (ASt)
+KW  - mouse
+KW  - valence encoding
+KW  - Pavlovian discrimination
+KW  - animal behavior
+KW  - in vivo electrophysiology
+KW  - in vivo calcium imaging
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Adaptation to visual sparsity enhances responses to isolated stimuli
 AU  - Gou, Tong
 DO  - 10.48324/DANDI.001205/0.250602.0251
@@ -11805,6 +11163,21 @@ KW  - pons
 KW  - oral pontine reticular nucleus
 KW  - backward locomotion
 KW  - GABAergic
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Electrophysiology and fiber photometry of VTA-pontine circuits during backward locomotion
+AU  - Gonzalez-Cabrera, Cristian
+DO  - 10.48324/DANDI.001955/0.261103.0758
+UR  - https://dandiarchive.org/dandiset/001955/0.261103.0758
+AB  - Electrophysiology and fiber photometry datasets investigating ventral tegmental area (VTA) projections to pontine regions involved in locomotor control. This Dandiset supports the study “A VTA-pontine GABA pathway biases locomotor direction via local and distal inhibition.”  Dataset overview  This Dandiset contains neurophysiology datasets provided in Neurodata Without Borders (NWB) format and comprises three main experimental groups:  1. Acute extracellular electrophysiology  These files contain acute VTA silicon-probe recordings performed during optogenetic identification and pathway-stimulation experiments. Recordings include extracellular electrophysiology, optogenetic stimulation timing, electrode metadata, and subject/session information.  2. Chronic extracellular electrophysiology  These files contain chronic VTA recordings acquired during controlled forward and reverse locomotion. Animals were positioned on a custom rotarod used to impose the direction and timing of locomotion while neural activity was recorded.  The study does not report rotarod performance as a separate behavioral outcome. Therefore, no independent “rotarod performance” dataset exists. The relevant dataset consists of the chronic electrophysiological recordings together with synchronized information describing rotation onset, direction, timing, and experimental condition.  3. Fiber photometry  These files contain VTA dopaminergic fiber-photometry recordings from experimental and control animals during optogenetic stimulation of the VTA-PnO pathway. Experimental conditions include 5 Hz, 10 Hz, 20 Hz, and continuous stimulation. NWB files contain calcium-dependent and isosbestic signals, timestamps, stimulation intervals, and relevant subject/session metadata.  Associated processed data and resources  Figure-level source data, derived quantitative analyses, microscopy-related data, behavioral source data, the Key Resource Table, and associated supporting files are available through Zenodo:  https://doi.org/10.5281/zenodo.21390830  Analysis code is available at:  https://github.com/CGonzC/VTAPnO_Locomotion_Analysis  Detailed experimental protocols are available at:  https://doi.org/10.17504/protocols.io.bp2l6epmrgqe.v1
+KW  - ventral tegmental area
+KW  - pons
+KW  - oral pontine reticular nucleus
+KW  - backward locomotion
+KW  - GABAergic 
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
