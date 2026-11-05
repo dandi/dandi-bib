@@ -7728,6 +7728,32 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - A Prefrontal Cortex Map based on Single Neuron Activity
+AU  - Le Merre, Pierre
+AU  - Heining, Katharina
+AU  - Slashcheva, Marina
+AU  - Jung, Felix
+AU  - Moysiadou, Eleni
+AU  - Guyon, Nicolas
+AU  - Yahya, Ram
+AU  - Park, Hyunsoo
+AU  - Wernstal, Fredrik
+AU  - Carlén, Marie
+DO  - 10.48324/DANDI.001260/0.261104.0831
+UR  - https://dandiarchive.org/dandiset/001260/0.261104.0831
+AB  - Brain-wide high-density extracellular recordings (Neuropixels) in head-fixed mice during distinct passive listening and auditory behavioral tasks. About half of the recordings are in the prefrontal cortex (PFC) and half from other brain regions (3 cortical and 10 subcortical). In PFC we include 11 subregions: secondary motor area (MOs), anterior cingulate area – dorsal and ventral part (ACAd, ACAv), prelimbic area (PL), infralimbic area (ILA), orbital area – medial, lateral, and ventrolateral part (ORBm, ORBvl, ORBl), agranular insular area – dorsal and ventral part (AId, AIv), and frontal pole (FRP). 
+KW  - Neuropixels
+KW  - prefrontal subregions
+KW  - single-unit activity
+KW  - brain-wide recordings
+KW  - passive listening
+KW  - auditory task
+KW  - head-fixed mice
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - BLA-projecting NBM/SI neurons in mouse and macaque
 AU  - Desai, Niraj
 DO  - 10.48324/DANDI.001261/0.250917.2023
