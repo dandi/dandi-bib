@@ -835,6 +835,23 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Diversity in neural firing dynamics supports both rigid and learned hippocampal sequences
+AU  - Grosmark, Andres D.
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000044/0.261106.0236
+UR  - https://dandiarchive.org/dandiset/000044/0.261106.0236
+AB  - This data set is composed of eight bilateral silicon-probe multi-cellular electrophysiological recordings performed on four male Long-Evans rats in the Buzsáki lab at NYU. These recordings were performed to assess the effect of novel spatial learning on hippocampal CA1 neural firing and LFP patterns in naïve animals. Each session consisted of a long (~4 hour) PRE rest/sleep epoch home-cage recordings performed in a familiar room, followed by a Novel MAZE running epoch (~45 minutes) in which the animals were transferred to a novel room, and water-rewarded to run on a novel maze. These mazes were either A) a wooden 1.6m linear platform, B) a wooden 1m diameter circular platform or C) a 2m metal linear platform. Animals were rewarded either at both ends of the linear platform, or at a predetermined location on the circular platform. The animal was gently encouraged to run unidirectionally on the circular platform. After the MAZE epochs the animals were transferred back to their home-cage in the familiar room where a long (~4 hour) POST rest/sleep was recorded. All eight sessions were concatenated from the PRE, MAZE, and POST recording epochs. In addition to hippocampal electrophysiological recordings, neck EMG and head-mounted accelerometer signals were recorded, and the animal’s position during MAZE running epochs was tracked via head-mounted LEDs.
+KW  - Place cell
+KW  - Memory consolidation
+KW  - Pyramidal cell
+KW  - Long-Evans rat
+KW  - Spatial learning
+KW  - Sharp wave ripples
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - IBL behavioral data
 AU  - International Brain Laboratory
 DO  - 10.48324/DANDI.000045/0.211209.1412
@@ -1106,6 +1123,25 @@ DO  - 10.48324/DANDI.000067/0.250624.0419
 UR  - https://dandiarchive.org/dandiset/000067/0.250624.0419
 AB  - Although short-term plasticity is believed to play a fundamental role in cortical computation, empirical evidence bearing on its role during behavior is scarce. Here we looked for the signature of short-term plasticity in the fine-timescale spiking relationships of a simultaneously recorded population of physiologically identified pyramidal cells and interneurons, in the medial prefrontal cortex of the rat, in a working memory task. On broader timescales, sequentially organized and transiently active neurons reliably differentiated between different trajectories of the rat in the maze. On finer timescales, putative monosynaptic interactions reflected short-term plasticity in their dynamic and predictable modulation across various aspects of the task, beyond a statistical accounting for the effect of the neurons' co-varying firing rates. Seeking potential mechanisms for such effects, we found evidence for both firing pattern–dependent facilitation and depression, as well as for a supralinear effect of presynaptic coincidence on the firing of postsynaptic targets.
 PY  - 2025
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Behavior-dependent short-term assembly dynamics in the medial prefrontal cortex
+AU  - Fujisawa, Shigeyoshi
+AU  - Amarasingham, Asohan
+AU  - Harrison, Matthew
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000067/0.261106.0244
+UR  - https://dandiarchive.org/dandiset/000067/0.261106.0244
+AB  - Although short-term plasticity is believed to play a fundamental role in cortical computation, empirical evidence bearing on its role during behavior is scarce. Here we looked for the signature of short-term plasticity in the fine-timescale spiking relationships of a simultaneously recorded population of physiologically identified pyramidal cells and interneurons, in the medial prefrontal cortex of the rat, in a working memory task. On broader timescales, sequentially organized and transiently active neurons reliably differentiated between different trajectories of the rat in the maze. On finer timescales, putative monosynaptic interactions reflected short-term plasticity in their dynamic and predictable modulation across various aspects of the task, beyond a statistical accounting for the effect of the neurons' co-varying firing rates. Seeking potential mechanisms for such effects, we found evidence for both firing pattern–dependent facilitation and depression, as well as for a supralinear effect of presynaptic coincidence on the firing of postsynaptic targets.
+KW  - working memory
+KW  - short-term plasticity
+KW  - pyramidal cells
+KW  - interneurons
+KW  - assembly dynamics
+KW  - medial prefrontal cortex
+PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
@@ -11486,6 +11522,35 @@ DO  - 10.48324/DANDI.002042/0.261028.2212
 UR  - https://dandiarchive.org/dandiset/002042/0.261028.2212
 AB  - this dandiset contains the calcium imaging videos recorded as follows: we used a progressive mouse model of nigrostriatal degeneration (i.e., MitoPark mice) to conduct longitudinal one-photon calcium imaging of neural activity in the M1 in freely moving animals during gradually worsening striatal DA depletion. To record calcium activity from cortical excitatory neurons, AAV9-CaMKII-GCaMP6f (Addgene #100834-AAV9, RRID: Addgene_100834-AAV9; volume = 300 nl, titer = 1 × 1013 GC/ml) was injected in M1 contralateral to the dominant paw [from bregma in mm, anteroposterior (AP) = +0.3 and +0.8, mediolateral (ML) = 1.25, dorsoventral (DV) = −1.0 from dura]. A prism GRIN lens attached to a baseplate (Cat # 1050-004419, Inscopix) was inserted in M1 at the AAV injection site centered at (in mm) AP = +0.5, ML = 1.0, DV = −0.5, so that the imaging plane would be parallel to the midline and faces M1 medially. In vivo calcium imaging was performed using nVue 1.0 (Inscopix, Cat # 1000-005735) and nVue 2.0 (Inscopix, Cat # 1000-006810) systems. GCaMP6f signal was recorded continuously at 20 Hz using the Inscopix Data Acquisition System by setting LED power at 0.2 -0.4 mW/mm2, exposure time at 50 ms, and sensor gain of 2 to 4. Paper can be found at https://doi.org/10.64898/2026.05.29.728524
 KW  - motor cortex, parkinson's disease, mitopark, calcium imaging
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Separating and combining motor memories with training order
+AU  - Li, Nuo
+DO  - 10.48324/DANDI.002045/0.261105.1508
+UR  - https://dandiarchive.org/dandiset/002045/0.261105.1508
+AB  - Data from "Separating and combining motor memories with training order." Jae-Hyun Kim, Wei Nora Zhang, Nuo Li. Nat Neurosci 2026  Electrophysiology data from anterior lateral motor cortex in the mouse across two tasks. Mice performed directional tongue movements (lick left or lick right) under two distinct task contexts. In the tactile context, lick direction was instructed by the position of a pole stimulus delivered to the whiskers (anterior for lick left; posterior for lick right). In the auditory context, lick direction was instructed by the frequency of a pure tone (2 kHz for lick left; 10 kHz for lick right). Data from two cohorts of mice were trained to perform these two tasks with different currculum - blocked versus interleaved.  This work was funded by NIH NS131229, NS132025, NS142432, Simons Collaboration on the Global Brain, and PEW Innovation Fund. 
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Shared and task-specific choice codes coexist across cortical populations
+AU  - Bandi, Akhil
+DO  - 10.48324/DANDI.002050/0.261105.1344
+UR  - https://dandiarchive.org/dandiset/002050/0.261105.1344
+AB  - Two-photon calcium imaging of mouse parietal cortex during performance of multiple decision-making tasks in the same session (visual, audio, multisensory). 39  imaging sessions (GCaMP6s, CaMKII-tTA x GCaMP6s mice, 7 mice) from posterior parietal cortex at 150–350 µm depth, imaged at 15.1 Hz while mice ran through a virtual-reality T-maze. In blocks of trials, mice turned left or right according to a visual cue (Gabor patch at 0° or 90°), an auditory cue (sound from the left or right speaker), or both cues together (congruent). Each NWB file holds suite2p ROIs, raw and neuropil fluorescence, dF/F and deconvolved activity, per-frame VR position, velocity and view angle, a trial table with cue, choice, outcome and context, and context blocks as epochs. Raw imaging movies are not included.
+KW  - two-photon calcium imaging; 
+KW  - GCaMP6s 
+KW  - posterior parietal cortex
+KW  - virtual reality
+KW  - T-maze
+KW  - visual discrimination
+KW  - auditory discrimination
+KW  - multisensory
+KW  - context-dependent decision making
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
