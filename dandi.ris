@@ -1032,6 +1032,25 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Internally organized mechanisms of the head direction sense
+AU  - Peyrache, Adrien
+AU  - Lacroix, Marie M
+AU  - Petersen, Peter
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000056/0.261106.1949
+UR  - https://dandiarchive.org/dandiset/000056/0.261106.1949
+AB  - The head-direction (HD) system functions as a compass, with member neurons robustly increasing their firing rates when the animal's head points in a specific direction. HD neurons may be driven by peripheral sensors or, as computational models postulate, internally generated (attractor) mechanisms. We addressed the contributions of stimulus-driven and internally generated activity by recording ensembles of HD neurons in the antero-dorsal thalamic nucleus and the post-subiculum of mice by comparing their activity in various brain states. The temporal correlation structure of HD neurons was preserved during sleep, characterized by a 60°-wide correlated neuronal firing (activity packet), both within and across these two brain structures. During rapid eye movement sleep, the spontaneous drift of the activity packet was similar to that observed during waking and accelerated tenfold during slow-wave sleep. These findings demonstrate that peripheral inputs impinge on an internally organized network, which provides amplification and enhanced precision of the HD signal.
+KW  - Head direction cells
+KW  - Attractor network
+KW  - Thalamocortical circuit
+KW  - Sleep
+KW  - Anterodorsal thalamic nucleus
+KW  - Spatial Navigation
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Cooling of Medial Septum Reveals Theta Phase Lag Coordination of Hippocampal Cell Assemblies
 AU  - Petersen, Peter
 AU  - Buzsáki, György
@@ -1134,6 +1153,25 @@ AU  - Harrison, Matthew
 AU  - Buzsáki, György
 DO  - 10.48324/DANDI.000067/0.261106.0244
 UR  - https://dandiarchive.org/dandiset/000067/0.261106.0244
+AB  - Although short-term plasticity is believed to play a fundamental role in cortical computation, empirical evidence bearing on its role during behavior is scarce. Here we looked for the signature of short-term plasticity in the fine-timescale spiking relationships of a simultaneously recorded population of physiologically identified pyramidal cells and interneurons, in the medial prefrontal cortex of the rat, in a working memory task. On broader timescales, sequentially organized and transiently active neurons reliably differentiated between different trajectories of the rat in the maze. On finer timescales, putative monosynaptic interactions reflected short-term plasticity in their dynamic and predictable modulation across various aspects of the task, beyond a statistical accounting for the effect of the neurons' co-varying firing rates. Seeking potential mechanisms for such effects, we found evidence for both firing pattern–dependent facilitation and depression, as well as for a supralinear effect of presynaptic coincidence on the firing of postsynaptic targets.
+KW  - working memory
+KW  - short-term plasticity
+KW  - pyramidal cells
+KW  - interneurons
+KW  - assembly dynamics
+KW  - medial prefrontal cortex
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Behavior-dependent short-term assembly dynamics in the medial prefrontal cortex
+AU  - Fujisawa, Shigeyoshi
+AU  - Amarasingham, Asohan
+AU  - Harrison, Matthew
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000067/0.261106.2004
+UR  - https://dandiarchive.org/dandiset/000067/0.261106.2004
 AB  - Although short-term plasticity is believed to play a fundamental role in cortical computation, empirical evidence bearing on its role during behavior is scarce. Here we looked for the signature of short-term plasticity in the fine-timescale spiking relationships of a simultaneously recorded population of physiologically identified pyramidal cells and interneurons, in the medial prefrontal cortex of the rat, in a working memory task. On broader timescales, sequentially organized and transiently active neurons reliably differentiated between different trajectories of the rat in the maze. On finer timescales, putative monosynaptic interactions reflected short-term plasticity in their dynamic and predictable modulation across various aspects of the task, beyond a statistical accounting for the effect of the neurons' co-varying firing rates. Seeking potential mechanisms for such effects, we found evidence for both firing pattern–dependent facilitation and depression, as well as for a supralinear effect of presynaptic coincidence on the firing of postsynaptic targets.
 KW  - working memory
 KW  - short-term plasticity
@@ -11532,6 +11570,34 @@ AU  - Li, Nuo
 DO  - 10.48324/DANDI.002045/0.261105.1508
 UR  - https://dandiarchive.org/dandiset/002045/0.261105.1508
 AB  - Data from "Separating and combining motor memories with training order." Jae-Hyun Kim, Wei Nora Zhang, Nuo Li. Nat Neurosci 2026  Electrophysiology data from anterior lateral motor cortex in the mouse across two tasks. Mice performed directional tongue movements (lick left or lick right) under two distinct task contexts. In the tactile context, lick direction was instructed by the position of a pole stimulus delivered to the whiskers (anterior for lick left; posterior for lick right). In the auditory context, lick direction was instructed by the frequency of a pure tone (2 kHz for lick left; 10 kHz for lick right). Data from two cohorts of mice were trained to perform these two tasks with different currculum - blocked versus interleaved.  This work was funded by NIH NS131229, NS132025, NS142432, Simons Collaboration on the Global Brain, and PEW Innovation Fund. 
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Hippocampal CA1 one-photon calcium imaging and pose-tracked behavior in wild-type and 5xFAD mice across four behavioral paradigms
+AU  - Plusnin, Viktor
+AU  - Pospelov, Nikita
+DO  - 10.48324/DANDI.002047/0.261106.0903
+UR  - https://dandiarchive.org/dandiset/002047/0.261106.0903
+AB  - We present a one-photon miniscope calcium-imaging dataset from dorsal hippocampal CA1 of mice (GCaMP6s, GRIN lens, UCLA Miniscope V4.4), comprising approximately 27,700 unique neurons recorded in 201 sessions from 47 mice during open field free exploration and contextual fear learning. It covers three open-field paradigms — a standard open field, an open field with marked floor patterns and an open field enriched with objects, and a context pre-exposure facilitation effect (CPFE) task, with 12 to 25 mice in each. In the standard open field and the CPFE task, wild-type and 5xFAD mice received saline or the NMDA-receptor antagonist MK-801. All sessions were recorded with the same imaging system and processed with the same pipeline. Every session includes synchronized behavioral video, DeepLabCut pose estimates and annotated behavioral variables: spatial occupancy and locomotor state in all paradigms, and rearing, freezing and object interaction where applicable. The dataset holds each stage of processing in NWB format: raw miniscope movies, source-extraction parameters, spatial footprints and traces of retained and rejected components, curation decisions, detected calcium events, cross-session neuronal matches and INTENSE mutual-information selectivity results.
+KW  - hippocampus
+KW  - CA1
+KW  - one-photon calcium imaging
+KW  - miniscope
+KW  - GCaMP6s
+KW  - place cells
+KW  - open field
+KW  - contextual fear conditioning
+KW  - context pre-exposure facilitation effect
+KW  - 5xFAD
+KW  - Alzheimer's disease model
+KW  - MK-801
+KW  - NMDA receptor
+KW  - DeepLabCut
+KW  - pose estimation
+KW  - cross-session cell tracking
+KW  - NWB
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
