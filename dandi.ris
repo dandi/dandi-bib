@@ -7750,6 +7750,43 @@ SN  - https://github.com/steevelaquitaine/spikebias
 ER  - 
 
 TY  - DATA
+T1  - Spike sorting biases and information loss in a detailed cortical model
+AU  - Laquitaine, Steeve
+AU  - Imbeni, Milo
+AU  - Tharayil, Joseph
+AU  - Isbister, James
+AU  - Reimann, Michael
+DO  - 10.48324/DANDI.001250/0.261108.1908
+UR  - https://dandiarchive.org/dandiset/001250/0.261108.1908
+AB  - Dataset for the publication: "Spike sorting biases and information loss in a detailed cortical model" containing:
+- 1) Biophysical simulations of high-density extracellular recordings of an entire cortical microcircuit activity with virtual reconstructions of the Neuropixels 1.0 probe and the Horvath dense probe  Spontaneous and stimulus-evoked regime of activity were simulated for the Neuropixels probe. 
+
+- 2) The ground truth spike timestamps of neurons within 50 microns of the electrodes (about 1000 neurons).
+
+KW  - spike sorting quality
+KW  -  Neuropixels
+KW  -  biophysical model
+KW  - neocortex
+KW  - neural manifold
+KW  -  information geometry 
+KW  - population analysis
+KW  - Mean- Field Theoretic Manifold Analysis
+KW  - Wavemap
+KW  - CEBRA
+KW  - spike sorting curation
+KW  - hybrid synthetic model
+KW  - synthetic model
+KW  - large-scale extracellular recording
+KW  - rat
+KW  - dense electrode arrays
+KW  - power spectral analysis
+KW  - machine learning
+PY  - 2026
+PB  - DANDI Archive
+SN  - https://github.com/spikebias/spikebias-paper
+ER  - 
+
+TY  - DATA
 T1  - Cortical zinc dependent pupil changes to sound contrast
 AU  - Kumar, Manoj
 DO  - 10.48324/DANDI.001256/0.241120.2150
