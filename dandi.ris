@@ -1737,6 +1737,20 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Transformation of a Spatial Map across the Hippocampal-Lateral Septal Circuit
+AU  - Tingley, David
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000213/0.261109.2219
+UR  - https://dandiarchive.org/dandiset/000213/0.261109.2219
+AB  - The hippocampus constructs a map of the environment. How this “cognitive map” is utilized by other brain regions to guide behavior remains unexplored. To examine how neuronal firing patterns in the hippocampus are transmitted and transformed, we recorded neurons in its principal subcortical target, the lateral septum (LS). We observed that LS neurons carry reliable spatial information in the phase of action potentials, relative to hippocampal theta oscillations, while the firing rates of LS neurons remained uninformative. Furthermore, this spatial phase code had an anatomical microstructure within the LS and was bound to the hippocampal spatial code by synchronous gamma frequency cell assemblies. Using a data-driven model, we show that rate-independent spatial tuning arises through the dynamic weighting of CA1 and CA3 cell assemblies. Our findings demonstrate that transformation of the hippocampal spatial map depends on higher-order theta-dependent neuronal sequences.
+KW  - hippocampus
+KW  - lateral septum
+KW  - electrophysiology
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Sniff-synchronized, gradient-guided olfactory search by freely moving mice -- Behavioral Dataset
 AU  - Findley, Teresa
 AU  - Wyrick, David G
