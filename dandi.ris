@@ -1802,6 +1802,20 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Routing of Hippocampal Ripples to Subcortical Structures via the Lateral Septum
+AU  - Tingley, David
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000218/0.261110.1911
+UR  - https://dandiarchive.org/dandiset/000218/0.261110.1911
+AB  - The mnemonic functions of hippocampal sharp wave ripples (SPW-Rs) have been studied extensively. Because hippocampal outputs affect not only cortical but also subcortical targets, we examined the impact of SPW-Rs on the firing patterns of lateral septal (LS) neurons in behaving rats. A large fraction of SPW-Rs were temporally locked to high-frequency oscillations (HFOs) (120–180 Hz) in LS, with strongest coupling during non-rapid eye movement (NREM) sleep, followed by waking immobility. However, coherence and spike-local field potential (LFP) coupling between the two structures were low, suggesting that HFOs are generated locally within the LS GABAergic population. This hypothesis was supported by optogenetic induction of HFOs in LS. Spiking of LS neurons was largely independent of the sequential order of spiking in SPW-Rs but instead correlated with the magnitude of excitatory synchrony of the hippocampal output. Thus, LS is strongly activated by SPW-Rs and may convey hippocampal population events to its hypothalamic and brainstem targets.
+KW  - hippocampus
+KW  - lateral septum
+KW  - electrophysiology
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Two photon calcium imaging in the CA1 region of the hippocampus in neonatal mice.
 AU  - Dard, Robin
 DO  - 10.48324/DANDI.000219/0.260826.1155
@@ -10809,6 +10823,29 @@ DO  - 10.48324/DANDI.001845/0.260526.1807
 UR  - https://dandiarchive.org/dandiset/001845/0.260526.1807
 AB  - This Dandiset contains behavioral data from wild-type and Fmr1 knockout rat dyads performing a novel spatial cooperation task designed to investigate the behavioral strategies and social mechanisms underlying cooperative behavior. In this task, rat pairs learn to coordinate visits to matching reward wells on paired spatial mazes under deterministic and probabilistic reward contingencies. The dataset includes behavioral event timestamps, reward well visit intervals, and position tracking data for both animals within each dyad across multiple sessions (N = 5 pairs per genotype group). These data support analyses of cooperative performance, leader–follower dynamics, behavioral synchrony, and adaptive coordination strategies relevant to social cognition and neurodevelopmental disorders. Related findings from this dataset are described in: Shukla A, Rivera EL, Bladon JH, Jadhav SP (2026) A novel cooperative behavior assay in rats reveals distinct social coordination strategies of increasing complexity and social reciprocity deficits in a model of Fragile-X Syndrome. Journal of Neuroscience, e0143262026. https://doi.org/10.1523/JNEUROSCI.0143-26.2026. This work was supported by the SFARI Autism Rat Models Consortium Grant SFA-AN-AR-Rat Models-00012700 to S.P.J.
 KW  - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome; Autism spectrum disorder; Social decision-making; Social cognition; Rat model; Behavioral synchrony; Cooperative learning; Leader–follower dynamics; Neurodevelopmental disorders
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Cooperative Behavior in WT and Fmr1 Rat Dyads
+AU  - Shukla, Ashutosh 
+AU  - Jadhav, Shantanu P. 
+AU  - Bladon, John H.
+DO  - 10.48324/DANDI.001845/0.261110.2025
+UR  - https://dandiarchive.org/dandiset/001845/0.261110.2025
+AB  - This Dandiset contains behavioral data from wild-type and Fmr1 knockout rat dyads performing a novel spatial cooperation task designed to investigate the behavioral strategies and social mechanisms underlying cooperative behavior. In this task, rat pairs learn to coordinate visits to matching reward wells on paired spatial mazes under deterministic and probabilistic reward contingencies. The dataset includes behavioral event timestamps, reward well visit intervals, and position tracking data for both animals within each dyad across multiple sessions (N = 5 pairs per genotype group). These data support analyses of cooperative performance, leader–follower dynamics, behavioral synchrony, and adaptive coordination strategies relevant to social cognition and neurodevelopmental disorders. Related findings from this dataset are described in: Shukla A, Rivera EL, Bladon JH, Jadhav SP (2026) A novel cooperative behavior assay in rats reveals distinct social coordination strategies of increasing complexity and social reciprocity deficits in a model of Fragile-X Syndrome. Journal of Neuroscience, e0143262026. https://doi.org/10.1523/JNEUROSCI.0143-26.2026. This work was supported by the SFARI Autism Rat Models Consortium Grant SFA-AN-AR-Rat Models-00012700 to S.P.J.
+KW  - Cooperative behavior; Social coordination; Social reciprocity; Fragile X syndrome; Autism spectrum disorder; Social decision-making; Social cognition; Rat model; Behavioral synchrony; Cooperative learning; Leader–follower dynamics; Neurodevelopmental disorders
+KW  - cooperative behavior
+KW  - social coordination
+KW  - social reciprocity
+KW  - Fragile X syndrome
+KW  - Fmr1 knockout
+KW  - autism spectrum disorder
+KW  - social decision-making
+KW  - behavioral synchrony
+KW  - cooperative learning
+KW  - leader-follower dynamics
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
