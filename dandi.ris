@@ -3554,6 +3554,24 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Preconfigured dynamics in the hippocampus are guided by embryonic birthdate and rate of neurogenesis
+AU  - Huszár, Roman
+AU  - Zhang, Yunchang
+AU  - Blockus, Heike
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000552/0.261113.1035
+UR  - https://dandiarchive.org/dandiset/000552/0.261113.1035
+AB  - The incorporation of novel information into the hippocampal network is likely be constrained by its innate architecture and internally generated activity patterns. However, the origin, organization, and consequences of such patterns remain poorly understood. Here, we show that hippocampal network dynamics are affected by sequential neurogenesis. We birthdated CA1 pyramidal neurons with in-utero electroporation over 4 embryonic days encompassing the peak of hippocampal neurogenesis, and compared their functional features in freely moving, adult mice. Neurons of the same birthdate displayed distinct connectivity, coactivity across brain states, and assembly dynamics. Same birthdate hippocampal neurons were topographically organized, in that anatomically clustered (<500µm) neurons exhibited overlapping spatial representations. Overall, the wiring and functional features of CA1 pyramidal neurons reflected a combination of birthdate and the rate of neurogenesis. These observations demonstrate that sequential neurogenesis in embryonic development shapes the preconfigured forms of adult network dynamics. The paper's single-cell, pair, connection and assembly analyses use 96 sessions of 15 mice; the sessions of mice e15-13f1 and e16-3m2 enter only the novel-environment analyses of Figure 6.
+KW  - Hippocampus
+KW  - Neural circuits
+KW  - Development of the nervous system
+KW  - CA1 pyramidal neurons
+KW  - In-utero electroporation
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Human brain mapping with multithousand-channel PtNRGrids resolves spatiotemporal dynamics
 AU  - Tchoe, Youngbin
 DO  - 10.48324/DANDI.000554/0.230531.1237
@@ -3616,6 +3634,35 @@ AU  - Sabatini, Bernardo
 AU  - Datta, Sandeep Robert 
 DO  - 10.48324/DANDI.000559/0.260528.0858
 UR  - https://dandiarchive.org/dandiset/000559/0.260528.0858
+AB  - Spontaneous animal behaviour is built from action modules that are concatenated by the brain into sequences. However, the neural mechanisms that guide the composition of naturalistic, self-motivated behaviour remain unknown. Here we show that dopamine systematically fluctuates in the dorsolateral striatum (DLS) as mice spontaneously express sub-second behavioural modules, despite the absence of task structure, sensory cues or exogenous reward. Photometric recordings and calibrated closed-loop optogenetic manipulations during open field behaviour demonstrate that DLS dopamine fluctuations increase sequence variation over seconds, reinforce the use of associated behavioural modules over minutes, and modulate the vigour with which modules are expressed, without directly influencing movement initiation or moment-to-moment kinematics. Although the reinforcing effects of optogenetic DLS dopamine manipulations vary across behavioural modules and individual mice, these differences are well predicted by observed variation in the relationships between endogenous dopamine and module use. Consistent with the possibility that DLS dopamine fluctuations act as a teaching signal, mice build sequences during exploration as if to maximize dopamine. Together, these findings suggest a model in which the same circuits and computations that govern action choices in structured tasks have a key role in sculpting the content of unconstrained, high-dimensional, spontaneous behavior.
+KW  - Basal Ganglia
+KW  - Neural circuits
+KW  - Reward
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Spontaneous behaviour is structured by reinforcement without explicit reward
+AU  - Markowitz, Jeffrey E.
+AU  - Gillis, Winthrop
+AU  - Jay, Maya
+AU  - Wood, Jeffrey
+AU  - Harris, Ryley W.
+AU  - Cieszkowski, Robert
+AU  - Scott, Rebecca
+AU  - Brann, David
+AU  - Koveal, Dorothy
+AU  - Kula, Tomasz
+AU  - Weinreb, Caleb
+AU  - Osman, Mohammed Abdal Monium 
+AU  - Pinto, Sandra Romero 
+AU  - Uchida, Naoshige 
+AU  - Linderman, Scott W.
+AU  - Sabatini, Bernardo
+AU  - Datta, Sandeep Robert 
+DO  - 10.48324/DANDI.000559/0.261113.1911
+UR  - https://dandiarchive.org/dandiset/000559/0.261113.1911
 AB  - Spontaneous animal behaviour is built from action modules that are concatenated by the brain into sequences. However, the neural mechanisms that guide the composition of naturalistic, self-motivated behaviour remain unknown. Here we show that dopamine systematically fluctuates in the dorsolateral striatum (DLS) as mice spontaneously express sub-second behavioural modules, despite the absence of task structure, sensory cues or exogenous reward. Photometric recordings and calibrated closed-loop optogenetic manipulations during open field behaviour demonstrate that DLS dopamine fluctuations increase sequence variation over seconds, reinforce the use of associated behavioural modules over minutes, and modulate the vigour with which modules are expressed, without directly influencing movement initiation or moment-to-moment kinematics. Although the reinforcing effects of optogenetic DLS dopamine manipulations vary across behavioural modules and individual mice, these differences are well predicted by observed variation in the relationships between endogenous dopamine and module use. Consistent with the possibility that DLS dopamine fluctuations act as a teaching signal, mice build sequences during exploration as if to maximize dopamine. Together, these findings suggest a model in which the same circuits and computations that govern action choices in structured tasks have a key role in sculpting the content of unconstrained, high-dimensional, spontaneous behavior.
 KW  - Basal Ganglia
 KW  - Neural circuits
@@ -11705,6 +11752,23 @@ KW  - visual discrimination
 KW  - auditory discrimination
 KW  - multisensory
 KW  - context-dependent decision making
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Calcium imaging of pyramidal cells and LFP recordings in layer 5 of mouse primary motor cortex
+AU  - Malfatti, Thawann
+AU  - Velica, Anna
+AU  - Winne, Jessica
+AU  - Ciralli, Barbara
+AU  - Henriksson, Katharina
+AU  - Nascimento, George
+AU  - Leão, Richardson
+AU  - Kullander, Klas
+DO  - 10.48324/DANDI.002056/0.261113.1541
+UR  - https://dandiarchive.org/dandiset/002056/0.261113.1541
+AB  - This dataset contains 1-photon calcium imaging (UCLA miniscope, GCaMP6f) and local field potential recordings, both from layer 5 of the primary motor cortex (MOp5). Additionally, it contains DeepLabCut-tracked behavior (per-bodypart tracking data with likelihood values) from mice trained on a prehension task, with timestamps aligned across modalities within each session. It accompanies the study "Increased layer 5 Martinotti cell excitation reduces pyramidal cell population plasticity and improves learned motor execution". Chrna2 Martinotti cells were chemogenetically activated during training in Cre+ animals to examine their role in pyramidal cell tuning, assembly reconfiguration, LFP activity, and consolidation of learned motor skills.
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
