@@ -1084,6 +1084,24 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Cooling of Medial Septum Reveals Theta Phase Lag Coordination of Hippocampal Cell Assemblies
+AU  - Petersen, Peter
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000059/0.261115.0311
+UR  - https://dandiarchive.org/dandiset/000059/0.261115.0311
+AB  - Hippocampal theta oscillations coordinate neuronal firing to support memory and spatial navigation. The medial septum (MS) is critical in theta generation by two possible mechanisms: either a unitary “pacemaker” timing signal is imposed on the hippocampal system, or it may assist in organizing target subcircuits within the phase space of theta oscillations. We used temperature manipulation of the MS to test these models. Cooling of the MS reduced both theta frequency and power and was associated with an enhanced incidence of errors in a spatial navigation task, but it did not affect spatial correlates of neurons. MS cooling decreased theta frequency oscillations of place cells and reduced distance-time compression but preserved distance-phase compression of place field sequences within the theta cycle. Thus, the septum is critical for sustaining precise theta phase coordination of cell assemblies in the hippocampal system, a mechanism needed for spatial memory.
+KW  - Theta oscillations
+KW  - Medial septum
+KW  - Place cells
+KW  - Hippocampus
+KW  - Spatial navigation
+KW  - Cell assemblies
+KW  - Phase-at-theta-lag coordination
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Reactivations of emotional memory in the hippocampus–amygdala system during sleep
 AU  - Girardeau, Gabrielle
 AU  - Inema, Ingrid
