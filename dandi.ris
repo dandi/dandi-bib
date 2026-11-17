@@ -11775,6 +11775,21 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Data for 'Associative coding of conditioned fear in the thalamic nucleus reuniens in rodents and humans' research paper
+AU  - Tuna, Tugce
+DO  - 10.48324/DANDI.002052/0.261116.2107
+UR  - https://dandiarchive.org/dandiset/002052/0.261116.2107
+AB  - Fiber photometric and single-unit electrophysiological recording data from the thalamic nucleus reuniens in male and female Long-Evans rats. Recordings spanned multiple days, including habituation, auditory fear conditioning, conditioning context extinction and retrieval, and cued extinction and retrieval. This Dandiset contains raw recordings. For processed data underlying each figure panel in the paper, please refer to: https://static-content.springer.com/esm/art%3A10.1038%2Fs42003-025-08580-0/MediaObjects/42003_2025_8580_MOESM3_ESM.xlsx.
+KW  - nucleus reuniens
+KW  - fear conditioning
+KW  - extinction
+KW  - fiber photometry
+KW  - single-unit recordings
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Calcium imaging of pyramidal cells and LFP recordings in layer 5 of mouse primary motor cortex
 AU  - Malfatti, Thawann
 AU  - Velica, Anna
