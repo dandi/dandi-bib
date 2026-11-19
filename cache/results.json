@@ -2601,6 +2601,7 @@
   },
   "002018": {
     "0.261117.2218": "@misc{dandi.002018/0.261117.2218,\n  doi = {10.48324/DANDI.002018/0.261117.2218},\n  url = {https://dandiarchive.org/dandiset/002018/0.261117.2218},\n  author = {Lee, Brian},\n  keywords = {human, patch-seq, multimodal, neocortex, glutamatergic neurons},\n  title = {Human Neocortical Glutamatergic Neurons Revealed Through Multimodal Profiling},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "null": "@misc{dandi.002018,\n  doi = {10.48324/DANDI.002018/0.261117.2218},\n  url = {https://dandiarchive.org/dandiset/002018/0.261117.2218},\n  author = {Lee, Brian},\n  keywords = {human, patch-seq, multimodal, neocortex, glutamatergic neurons},\n  title = {Human Neocortical Glutamatergic Neurons Revealed Through Multimodal Profiling},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "null": "@misc{dandi.002018,\n  doi = {10.48324/DANDI.002018/0.261117.2218},\n  url = {https://dandiarchive.org/dandiset/002018/0.261117.2218},\n  author = {Lee, Brian},\n  keywords = {human, patch-seq, multimodal, neocortex, glutamatergic neurons},\n  title = {Human Neocortical Glutamatergic Neurons Revealed Through Multimodal Profiling},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
   }
 }
