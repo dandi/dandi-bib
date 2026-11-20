@@ -11189,6 +11189,33 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - EEG recordings from a Grin2b+/- rat model of GRIN2B neurodevelopmental disorder: absence seizures and sleep-wake abnormalities
+AU  - Hristova, Katerina
+AU  - Fasol, Melissa C. M.
+AU  - McLaughlin, Niamh
+AU  - Nawaz, Mohammad Sarfaraz
+AU  - Taskiran, Mehmet
+AU  - Buller-Peralta, Ingrid
+AU  - Harris, Anjanette P.
+AU  - Sutherland, Andrew
+AU  - Bassi, Alejandro
+AU  - Ocampo-Garces, Adrian
+AU  - Escudero, Javier
+AU  - Kind, Peter C.
+AU  - Gonzalez-Sulser, Alfredo
+DO  - 10.48324/DANDI.001888/0.261119.1736
+UR  - https://dandiarchive.org/dandiset/001888/0.261119.1736
+AB  - Chronic wireless EEG and EMG recordings from freely behaving Long-Evans rats carrying a heterozygous knockout of Grin2b (Grin2b+/-), the gene encoding the GluN2B subunit of N-methyl-D-aspartate receptors (NMDARs), and their wild-type littermates. Grin2b+/- rats display spike-and-wave discharges (SWDs, the electrographic correlate of absence seizures) at higher incidence and duration than wild-type littermates, alongside reduced REM sleep and altered NREM/wake distributions.  The Dandiset contains 23 of the 24 animals analysed in Hristova et al., Epilepsia 2025: 14 Grin2b+/- and 9 wild-type rats, one NWB file per animal.  Recordings lasted 72 to 100 h and were acquired at 250.4 Hz with the TaiNi wireless recording system (Tainitec, UK), using 14 skull-surface EEG electrodes and bilateral neck EMG electrodes. Each file holds the raw 16-channel recording and the lab's analysis of two consecutive 24-h baseline windows (BL1, BL2): - sleep states (Wake, NREM, REM) scored automatically in 5-s epochs from one EEG channel and one EMG channel, which are recorded per baseline in the epochs table - SWD events and per-epoch SWD labels from the automated SWD detector - hourly SWD counts by zeitgeber time - power spectra per sleep state  Notes on this version:  - Animal 424 (Grin2b+/-), included in the published analysis, will be added in a later version of this Dandiset. - Electrode location labels are being reviewed and may be updated in a later version.
+KW  - autism
+KW  - EEG
+KW  - epilepsy
+KW  - NMDAR
+KW  - SWD
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Patch-seq profiling of mouse locus coeruleus norepinephrine neurons
 AU  - Su, Zhixiao
 AU  - Kosillo, Polina
@@ -11817,6 +11844,54 @@ AU  - Kullander, Klas
 DO  - 10.48324/DANDI.002056/0.261113.1541
 UR  - https://dandiarchive.org/dandiset/002056/0.261113.1541
 AB  - This dataset contains 1-photon calcium imaging (UCLA miniscope, GCaMP6f) and local field potential recordings, both from layer 5 of the primary motor cortex (MOp5). Additionally, it contains DeepLabCut-tracked behavior (per-bodypart tracking data with likelihood values) from mice trained on a prehension task, with timestamps aligned across modalities within each session. It accompanies the study "Increased layer 5 Martinotti cell excitation reduces pyramidal cell population plasticity and improves learned motor execution". Chrna2 Martinotti cells were chemogenetically activated during training in Cre+ animals to examine their role in pyramidal cell tuning, assembly reconfiguration, LFP activity, and consolidation of learned motor skills.
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - 'Theta-paced stimulation of the thalamic nucleus reuniens entrains mPFC-HPC oscillations and facilitates the acquisition of extinction memories' data
+AU  - Mourão, Flávio
+AU  - Maren, Stephen
+DO  - 10.48324/DANDI.002092/0.261119.2120
+UR  - https://dandiarchive.org/dandiset/002092/0.261119.2120
+AB  - This dataset contains electrophysiological recordings from the medial prefrontal cortex (both prelimbic and infralimbic cortices) and hippocampus (dorsal CA1 region) in adult Long-Evans rats (n = 8). The medial prefrontal cortex and hippocampus were implanted with 16-channel multielectrode arrays in all animals. The thalamic nucleus reuniens was injected either with an AAV containing the channelrhodopsin (ChR2, n = 4, 1 male and 3 females) or a blank control virus (mCherry, n = 4, 1 male and 3 females), and implanted with a single fiber optic. Recordings from the cortex (2x8 design electrodes) and hippocampus (4x4 design electrodes) took place during a baseline session and extinction learning session while the nucleus reuniens received theta-paced (8-Hz) opto-stimulation. In the analyses, Channel 1 was used as the reference channel. Channels 2-8 corresponded to the infralimbic cortex, Channels 9-16 corresponded to the prelimbic cortex, and Channels 17-32 corresponded to the hippocampus. For details about recording techniques and sessions, please refer to Tuna et al. (2025): https://doi.org/10.1016/j.brs.2025.11.011.
+KW  - electrophysiology 
+KW  - LFP
+KW  - medial prefrontal cortex
+KW  - prelimbic cortex
+KW  - infralimbic cortex
+KW  - hippocampus
+KW  - extinction
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Dataset of "Synergistic afferent input and cholinergic neuromodulation can lead to ERK activation in rat olfactory bulb vasopressin cells"
+AU  - Reichardt, Nicolas
+AU  - Kindler, Lisa
+AU  - Pino, Esteban
+AU  - Leygnier, Manon
+AU  - Jahan, Israt
+AU  - Schmid, Jonas
+AU  - Lukas, Michael
+AU  - Egger, Veronica
+AU  - Suyama, Hajime
+DO  - 10.48324/DANDI.002093/0.261119.1243
+UR  - https://dandiarchive.org/dandiset/002093/0.261119.1243
+AB  - Abstract
+Social discrimination in rats relies on vasopressin cells (VPCs), neurons intrinsic to the olfactory bulb (OB). Interaction with conspecifics in behaving rats increased the induction of the sensitive neural activity marker pERK in VPCs (pERK+-VPCs) as well as in neurons of the cholinergic arousal system. In acute OB slices, acetylcholine (ACh) switched the generally inhibitory VPC responses to olfactory nerve stimulation to excitation and even spiking, thereby possibly unlocking the vasopressin system. Thus, can coincident cholinergic neuromodulation and afferent input increase pERK induction?   
+Here we investigate ERK activation in acute OB slices from transgenic VP-eGFP rats upon various treatments. Both KCl and NMDA stimulation result in substantial pERK induction across mitral and granule cells and cause VPC spiking, but neither increase pERK+-VPC percentage. ACh alone does not change the pERK+ signal in any of these neurons. Conversely, TTX treatment prevents basal pERK VPC induction, possibly indicating spontaneous VPC activity, which we also observe in whole-cell recordings from a VPC subset. Tetanic olfactory nerve stimulation yields regionalized, column-like ERK activation across bulbar layers. Within these regions, the presence of ACh during tetanic stimulation substantially increases pERK+-VPC numbers, implying that coincident cholinergic neuromodulation and afferent synaptic inputs can cooperate to induce pERK in VPCs. 
+While spiking alone is thus insufficient to activate ERK in VPCs, our results validate pERK induction as a tool to monitor the cholinergic switch to afferent VPC excitation. Moreover, pERK induction in the OB is cell-type specific, implying a corresponding diversity in the respective signaling cascades. 
+KW  - Vasopressin
+KW  - acetylcholine
+KW  - olfactory bulb
+KW  - pERK
+KW  - MAPK
+KW  - neural activity marker
+KW  - vasopressin cell
+KW  - olfactory nerve
+KW  - mitral cell
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
