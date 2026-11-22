@@ -3242,6 +3242,40 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Esr1+ hypothalamic-habenula neurons shape aversive states.
+AU  - Calvigioni, Daniela
+AU  - Fuzik, Janos
+AU  - Le Merre, Pierre
+AU  - Slashcheva, Marina
+AU  - Jung, Felix
+AU  - Ortiz, Cantin
+AU  - Lentini, Antonio
+AU  - Csillag, Veronika
+AU  - Graziano, Marta
+AU  - Nikolakopoulou, Ifigeneia
+AU  - Weglage, Moritz
+AU  - Lazaridis, Iakovos
+AU  - Kim, Hoseok
+AU  - Lenzi, Irene
+AU  - Park, Hyunsoo
+AU  - Reinius, Björn
+AU  - Carlén, Marie
+AU  - Meletis, Konstantinos
+DO  - 10.48324/DANDI.000473/0.261121.1750
+UR  - https://dandiarchive.org/dandiset/000473/0.261121.1750
+AB  - Prefrontal cortex (PFC) high-density extracellular recordings (Neuropixels) in head-fixed mice during an aversive-conditioning task. Neuronal responses to internally generated (i.e. pathway-specific optogenetic activation, see the main article for details) and externally derived (i.e. air puffs) aversive signals have been recorded.
+KW  - Neuropixels
+KW  - Mouse
+KW  - Head-fixed
+KW  - Lateral Hypothalamus
+KW  - Lateral Habenula
+KW  - Prefrontal cortex
+KW  - Aversion
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - State-dependent processing in visual cortex
 AU  - Bereshpolova, Yulia
 DO  - 10.48324/DANDI.000481/0.230417.2148
@@ -11952,6 +11986,16 @@ KW  - neural activity marker
 KW  - vasopressin cell
 KW  - olfactory nerve
 KW  - mitral cell
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Striatal lateral inhibition regulates abnormal movements in a mouse model of levodopa-induced dyskinesia
+AU  - Twedell, Emily
+DO  - 10.48324/DANDI.002095/0.261122.0221
+UR  - https://dandiarchive.org/dandiset/002095/0.261122.0221
+AB  - In this project, we investigated the effects of local versus systemic chemogenetic suppression of dopamine D2 receptor-expressing medium spiny neurons (D2-MSNs) on neuronal activity in the globus pallidus pars externa (GPe). These experiments were designed to assess whether local activation of inhibitory hM4D(Gi) receptors in the striatum alters downstream GPe activity, providing insight into the circuit specificity of chemogenetic manipulations used to study striatal lateral inhibition in a mouse model of Parkinson's disease and levodopa-induced dyskinesia. We recorded extracellular single-unit activity in the GPe of 6-OHDA-lesioned mice expressing hM4D(Gi) in D2-MSNs. We compared the effects of local intrastriatal infusion and systemic administration of clozapine-N-oxide (CNO) on GPe neuronal firing rates. Local striatal CNO administration did not significantly alter GPe firing rates, whereas systemic CNO administration increased GPe firing rates, consistent with disinhibition of the GPe through suppression of D2-MSN projections. Following recordings, extracellular signals were spike sorted (Kilosort) to isolate single units, and neuronal firing rates were analyzed across experimental conditions
 PY  - 2026
 PB  - DANDI Archive
 ER  - 
