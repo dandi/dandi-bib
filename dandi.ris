@@ -81,6 +81,33 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - Physiological Properties and Behavioral Correlates of Hippocampal Granule Cells and Mossy Cells
+AU  - Senzai, Yuta
+AU  - Fernandez-Ruiz, Antonio
+AU  - Buzsáki, György
+DO  - 10.48324/DANDI.000003/0.261122.2143
+UR  - https://dandiarchive.org/dandiset/000003/0.261122.2143
+AB  - Silicon probe recordings from the dentate gyrus and CA3 of 16 freely moving mice (101 sessions), from Senzai and Buzsaki (2017), "Physiological Properties and Behavioral Correlates of Hippocampal Granule Cells and Mossy Cells", Neuron 93, 691-704. Each file is one recording session: the sorted units with the lab's cell types and spike waveforms, the LFP, brain states, dentate spikes, light pulses for optogenetic tagging, the lab's tables of monosynaptic connections and synchronous pairs, and positions and trials on the circular T-maze and in open fields.
+
+Fifteen of the mice are in the paper's Table S1. YutaMouse57 (8 sessions, 465 units) is not part of the paper: it is not in Table S1 and its units are not in the paper's counts. The paper's sixteenth mouse, YM21, recorded with a 32-site linear probe for the depth profile of dentate spikes (Figure 1B), is not in this dandiset.
+KW  - cell types
+KW  - current source density
+KW  - laminar recordings
+KW  - oscillations
+KW  - mossy cells
+KW  - granule cells
+KW  - optogenetics
+KW  - electrophysiology
+KW  - local field potential
+KW  - spikes
+KW  - neural activity
+KW  - spatial navigation
+KW  - theta maze
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - A NWB-based dataset and processing pipeline of human single-neuron activity during a declarative memory task
 AU  - Chandravadia, Nand
 AU  - Liang, Dehua
@@ -1228,6 +1255,27 @@ AU  - Ryu, Stephen I.
 AU  - Shenoy, Krishna V.
 DO  - 10.48324/DANDI.000070/0.260528.0919
 UR  - https://dandiarchive.org/dandiset/000070/0.260528.0919
+AB  - Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd) using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing reaching tasks with right hand.
+KW  - motor control
+KW  - neural dynamics
+KW  - Utah Array
+KW  - population dynamics
+KW  - reaching
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Neural population dynamics during reaching
+AU  - Churchland, Mark
+AU  - Cunningham, John P.
+AU  - Kaufman, Matthew T.
+AU  - Foster, Justin D.
+AU  - Nuyujukian, Paul
+AU  - Ryu, Stephen I.
+AU  - Shenoy, Krishna V.
+DO  - 10.48324/DANDI.000070/0.261122.2046
+UR  - https://dandiarchive.org/dandiset/000070/0.261122.2046
 AB  - Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd) using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing reaching tasks with right hand.
 KW  - motor control
 KW  - neural dynamics
@@ -5205,6 +5253,43 @@ AU  - Shuman, Tristan
 AU  - Cai, Denise J.
 DO  - 10.48324/DANDI.000718/0.260825.1902
 UR  - https://dandiarchive.org/dandiset/000718/0.260825.1902
+AB  - Memories are encoded in neural ensembles during learning and are stabilized by post-learning reactivation. Integrating recent experiences into existing memories ensures that memories contain the most recently available information, but how the brain accomplishes this critical process remains unclear. Here we show that in mice, a strong aversive experience drives offline ensemble reactivation of not only the recent aversive memory but also a neutral memory formed 2 days before, linking fear of the recent aversive memory to the previous neutral memory. Fear specifically links retrospectively, but not prospectively, to neutral memories across days. Consistent with previous studies, we find that the recent aversive memory ensemble is reactivated during the offline period after learning. However, a strong aversive experience also increases co-reactivation of the aversive and neutral memory ensembles during the offline period. Ensemble co-reactivation occurs more during wake than during sleep. Finally, the expression of fear in the neutral context is associated with reactivation of the shared ensemble between the aversive and neutral memories. Collectively, these results demonstrate that offline ensemble co-reactivation is a neural mechanism by which memories are integrated across days.
+KW  - hippocampus
+KW  - learning
+KW  - memory
+KW  - memory-linking
+KW  - aversive
+KW  - ensemble
+KW  - co-activity
+KW  - reactivation
+KW  - offline
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
+T1  - Offline ensemble co-reactivation links memories across days
+AU  - Zaki, Yosif
+AU  - Pennington, Zachary T.
+AU  - Morales-Rodriguez, Denisse
+AU  - Bacon, Madeline E.
+AU  - Ko, BumJin
+AU  - Francisco, Taylor R.
+AU  - LaBanca, Alexa R.
+AU  - Sompolpong, Patlapa
+AU  - Dong, Zhe
+AU  - Lamsifer, Sophia
+AU  - Chen, Hung-Tu
+AU  - Carrillo Segura, Simón
+AU  - Christenson Wick, Zoé
+AU  - Silva, Alcino J.
+AU  - Rajan, Kanaka
+AU  - van der Meer, Matthijs
+AU  - Fenton, André
+AU  - Shuman, Tristan
+AU  - Cai, Denise J.
+DO  - 10.48324/DANDI.000718/0.261122.2159
+UR  - https://dandiarchive.org/dandiset/000718/0.261122.2159
 AB  - Memories are encoded in neural ensembles during learning and are stabilized by post-learning reactivation. Integrating recent experiences into existing memories ensures that memories contain the most recently available information, but how the brain accomplishes this critical process remains unclear. Here we show that in mice, a strong aversive experience drives offline ensemble reactivation of not only the recent aversive memory but also a neutral memory formed 2 days before, linking fear of the recent aversive memory to the previous neutral memory. Fear specifically links retrospectively, but not prospectively, to neutral memories across days. Consistent with previous studies, we find that the recent aversive memory ensemble is reactivated during the offline period after learning. However, a strong aversive experience also increases co-reactivation of the aversive and neutral memory ensembles during the offline period. Ensemble co-reactivation occurs more during wake than during sleep. Finally, the expression of fear in the neutral context is associated with reactivation of the shared ensemble between the aversive and neutral memories. Collectively, these results demonstrate that offline ensemble co-reactivation is a neural mechanism by which memories are integrated across days.
 KW  - hippocampus
 KW  - learning
