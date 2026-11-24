@@ -1031,6 +1031,26 @@ PB  - DANDI Archive
 ER  - 
 
 TY  - DATA
+T1  - AJILE12: Long-term naturalistic human intracranial neural recordings and pose
+AU  - Peterson, Steven M.
+AU  - Singh, Satpreet H.
+AU  - Dichter, Benjamin
+AU  - Scheid, Micheal
+AU  - Rao, Rajesh P. N.
+AU  - Brunton, Bingni W.
+DO  - 10.48324/DANDI.000055/0.261123.1703
+UR  - https://dandiarchive.org/dandiset/000055/0.261123.1703
+AB  - Understanding the neural basis of human movement in naturalistic scenarios is critical for expanding neuroscience research beyond constrained laboratory paradigms. The neural correlates of unstructured, spontaneous movements in completely naturalistic settings have rarely been studied, due in large part to a lack of available data. Here, we present our Annotated Joints in Long-term Electrocorticography for 12 human participants (AJILE12) dataset, the largest human neurobehavioral dataset that is publicly available; the dataset was recorded opportunistically during passive clinical epilepsy monitoring. AJILE12 includes synchronized intracranial neural recordings and upper body pose trajectories across 55 semi-continuous days of naturalistic movements, along with relevant metadata, including thousands of wrist movement events and annotated behavioral states. Neural recordings are available at 500 Hz from at least 64 electrodes per participant, for a total of 1280 hours. Pose trajectories at 9 upper-body keypoints, including wrist, elbow, and shoulder joints, were sampled at 30 frames per second and estimated from 118 million video frames. In adherence with the FAIR data principles, we have shared AJILE12 on The Dandi Archive in the Neurodata Without Borders (NWB) data standard and developed a browser-based dashboard to facilitate data exploration and reuse.
+KW  - ECoG
+KW  - pose estimation
+KW  - naturalistic movement
+KW  - human intracranial
+KW  - long-term recording
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
+TY  - DATA
 T1  - Internally organized mechanisms of the head direction sense
 AU  - Peyrache, Adrien
 AU  - Lacroix, Marie M
