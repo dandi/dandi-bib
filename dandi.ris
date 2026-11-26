@@ -12213,3 +12213,29 @@ PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
+TY  - DATA
+T1  - Disrupting translation in CA1 pyramidal cells blocks novelty-induced increases in population firing rate while preserving newly formed assemblies
+AU  - Yang, Gaokhia
+AU  - Maphis, Nicole M.
+AU  - Jackson, Brandon T.
+AU  - Bacho, Matthew
+AU  - Perrone-Bizzozero, Nora
+AU  - McKenzie, Sam
+DO  - 10.48324/DANDI.002096/0.261125.1917
+UR  - https://dandiarchive.org/dandiset/002096/0.261125.1917
+AB  - Long-term memory requires the synthesis of plasticity-related proteins, but it remains unclear whether experience-dependent changes in hippocampal CA1 coding and spike-timing coordination depend on local synaptic consolidation within CA1 itself. Here we present chronic in vivo extracellular recordings from dorsal hippocampal CA1 of 12 freely behaving transgenic iPKR mice (5 female, 7 male) in which cap-dependent translation can be acutely downregulated in CaMKIIα-expressing pyramidal cells. Mice received AAV5-CaMKIIα-Cre (or AAV5-CaMKIIα-eGFP control virus) into dorsal CA1 (300 nL, AP −2.03, ML ±1.5 from bregma) and were implanted under anesthesia with high-density silicon probes targeting dorsal CA1 (Cambridge NeuroTech multi-shank ASSY 156 P1, 156 F Sharp, 325 D, 625 D, or M1 Precision M-11 linear probes) together with a guide cannula in the lateral ventricle for intracerebroventricular drug delivery. Recordings began after approximately 7 days of post-operative recovery; no recordings were performed under anesthesia.
+Each session followed a fixed paradigm combining pharmacological manipulation with repeated context exposures: 60 min home cage, 30 min in a familiar open arena (Familiar 1), a home-cage interval, a 4-min intracerebroventricular infusion of either asunaprevir (ASV; 2000 nL of 100 nM, the actuator that activates the integrated stress response via the iPKR system) or saline vehicle, 30 min in a novel arena (Novel 1) beginning ~38 min after infusion onset, ~4 h of home-cage rest, and then re-exposure to both the familiar (Familiar 2) and novel (Novel 2) environments, placing the second novel exposure ~5.5 h after the first. Novel arenas differed across sessions. Both saline and ASV sessions are included, with each session’s position in the animal’s infusion sequence annotated. The dataset therefore spans periods of active exploration and intervening sleep and quiet rest, permitting analysis of sharp-wave ripples, NREM/REM/wake state-dependent firing, ripple reactivation of exploration-related co-activity patterns, and the re-expression of neuronal assemblies on return to an environment hours later.
+Released data include wideband extracellular voltage traces, spike times with unit-level quality metrics, cell-type classification into putative pyramidal cells and interneurons and into deep and superficial CA1 pyramidal strata (CellExplorer), scored sleep/wake state intervals, detected sharp-wave ripple events, video-based position tracking during arena exposures, and session metadata including infusion times, drug identity, infusion order, and context-exposure epoch boundaries. All animal procedures were approved by the Institutional Animal Care and Use Committee at the University of New Mexico. Data are shared on the DANDI Archive in the Neurodata Without Borders (NWB) standard in adherence with the FAIR data principles.
+KW  - hippocampus
+KW  - CA1
+KW  - synaptic plasticity
+KW  - replay
+KW  - memory
+KW  - ripples
+KW  - cell assemblies
+KW  - inhibition
+KW  - protein synthesis
+PY  - 2026
+PB  - DANDI Archive
+ER  - 
+
