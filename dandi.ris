@@ -12239,17 +12239,5 @@ PY  - 2026
 PB  - DANDI Archive
 ER  - 
 
-TY  - DATA
-T1  - Non-human primate behavioral and eye-tracking data on learning from gains and losses
-AU  - Taswell, Craig
-DO  - 10.48324/DANDI.002098/0.261126.1721
-UR  - https://dandiarchive.org/dandiset/002098/0.261126.1721
-AB  - This dataset contains behavioral data underlying the following publications: Taswell, C. A., Costa, V. D., Murray, E. A., & Averbeck, B. B. (2018). Ventral striatum’s role in learning from gains and losses. Proceedings of the National Academy of Sciences, 115(52), E12398–E12406. https://doi.org/10.1073/pnas.1809833115 and Taswell, C. A., Janssen, M., Murray, E. A., & Averbeck, B. B. (2023). The motivational role of the ventral striatum and amygdala in learning from gains and losses. Behavioral Neuroscience, 137(4), 268–280. https://doi.org/10.1037/bne0000558. The dataset also includes a small set of previously unpublished behavioral data collected by Craig Taswell. Siyu Wang processed the data and converted them into the Neurodata Without Borders (NWB) format.
-
-Collection protocols: Experimental procedures are described in the Methods sections of Taswell et al. (2018), https://doi.org/10.1073/pnas.1809833115, and Taswell et al. (2023), https://doi.org/10.1037/bne0000558. These publications serve as the collection protocol references.
-
-Ethics approval reported in the associated publications: Both studies report approval by the National Institute of Mental Health Animal Care and Use Committee and compliance with the Guide for the Care and Use of Laboratory Animals. Neither publication reports an approval protocol identifier.
-PY  - 2026
-PB  - DANDI Archive
-ER  - 
+{"errors":[{"status":"429","title":"Your request has been rate limited. See https://support.datacite.org/docs/rate-limit."}]}
 

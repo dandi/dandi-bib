@@ -2646,6 +2646,7 @@
   },
   "002098": {
     "0.261126.1721": "@misc{dandi.002098/0.261126.1721,\n  doi = {10.48324/DANDI.002098/0.261126.1721},\n  url = {https://dandiarchive.org/dandiset/002098/0.261126.1721},\n  author = {Taswell, Craig},\n  title = {Non-human primate behavioral and eye-tracking data on learning from gains and losses},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "null": "@misc{dandi.002098,\n  doi = {10.48324/DANDI.002098/0.261126.1721},\n  url = {https://dandiarchive.org/dandiset/002098/0.261126.1721},\n  author = {Taswell, Craig},\n  title = {Non-human primate behavioral and eye-tracking data on learning from gains and losses},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "null": "@misc{dandi.002098,\n  doi = {10.48324/DANDI.002098/0.261126.1721},\n  url = {https://dandiarchive.org/dandiset/002098/0.261126.1721},\n  author = {Taswell, Craig},\n  title = {Non-human primate behavioral and eye-tracking data on learning from gains and losses},\n  publisher = {DANDI Archive},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
   }
 }
